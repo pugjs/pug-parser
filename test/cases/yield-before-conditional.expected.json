@@ -1,0 +1,82 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Tag",
+      "name": "html",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "name": "body",
+            "selfClosing": false,
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Include",
+                  "path": "yield-before-conditional-head",
+                  "attrs": [],
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "Tag",
+                        "name": "script",
+                        "selfClosing": false,
+                        "block": {
+                          "type": "Block",
+                          "nodes": []
+                        },
+                        "attrs": [
+                          {
+                            "name": "src",
+                            "val": "'/caustic.js'",
+                            "escaped": true
+                          }
+                        ],
+                        "attributeBlocks": [],
+                        "filename": "yield-before-conditional.tokens.json"
+                      },
+                      {
+                        "type": "Tag",
+                        "name": "script",
+                        "selfClosing": false,
+                        "block": {
+                          "type": "Block",
+                          "nodes": []
+                        },
+                        "attrs": [
+                          {
+                            "name": "src",
+                            "val": "'/app.js'",
+                            "escaped": true
+                          }
+                        ],
+                        "attributeBlocks": [],
+                        "filename": "yield-before-conditional.tokens.json"
+                      }
+                    ],
+                    "filename": "yield-before-conditional.tokens.json"
+                  },
+                  "filename": "yield-before-conditional.tokens.json"
+                }
+              ]
+            },
+            "attrs": [],
+            "attributeBlocks": [],
+            "filename": "yield-before-conditional.tokens.json"
+          }
+        ]
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 1,
+      "filename": "yield-before-conditional.tokens.json"
+    }
+  ],
+  "line": 0,
+  "filename": "yield-before-conditional.tokens.json"
+}

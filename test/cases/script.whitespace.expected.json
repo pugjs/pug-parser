@@ -1,0 +1,54 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Tag",
+      "name": "script",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Text",
+            "val": "if (foo) {"
+          },
+          {
+            "type": "NewLine"
+          },
+          {
+            "type": "Text",
+            "val": "  "
+          },
+          {
+            "type": "NewLine"
+          },
+          {
+            "type": "Text",
+            "val": "  bar();"
+          },
+          {
+            "type": "NewLine"
+          },
+          {
+            "type": "Text",
+            "val": ""
+          },
+          {
+            "type": "NewLine"
+          },
+          {
+            "type": "Text",
+            "val": "}"
+          }
+        ]
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 1,
+      "textOnly": true,
+      "filename": "script.whitespace.tokens.json"
+    }
+  ],
+  "line": 0,
+  "filename": "script.whitespace.tokens.json"
+}

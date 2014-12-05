@@ -1,0 +1,63 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Tag",
+      "name": "script",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "name": "div",
+            "selfClosing": false,
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Tag",
+                  "name": "h1",
+                  "selfClosing": false,
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "Text",
+                        "val": "<%= user.title %>"
+                      }
+                    ]
+                  },
+                  "attrs": [],
+                  "attributeBlocks": [],
+                  "filename": "attrs.unescaped.tokens.json"
+                }
+              ]
+            },
+            "attrs": [
+              {
+                "name": "id",
+                "val": "'user-<%= user.id %>'",
+                "escaped": false
+              }
+            ],
+            "attributeBlocks": [],
+            "filename": "attrs.unescaped.tokens.json"
+          }
+        ]
+      },
+      "attrs": [
+        {
+          "name": "type",
+          "val": "'text/x-template'",
+          "escaped": true
+        }
+      ],
+      "attributeBlocks": [],
+      "line": 1,
+      "filename": "attrs.unescaped.tokens.json"
+    }
+  ],
+  "line": 0,
+  "filename": "attrs.unescaped.tokens.json"
+}

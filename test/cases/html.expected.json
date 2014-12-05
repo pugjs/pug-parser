@@ -1,0 +1,55 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Text",
+      "val": "<ul>",
+      "filename": "html.tokens.json",
+      "line": 2
+    },
+    {
+      "type": "Text",
+      "val": "<li>foo</li>",
+      "filename": "html.tokens.json",
+      "line": 3
+    },
+    {
+      "type": "Text",
+      "val": "<li>bar</li>",
+      "filename": "html.tokens.json",
+      "line": 4
+    },
+    {
+      "type": "Text",
+      "val": "<li>baz</li>",
+      "filename": "html.tokens.json",
+      "line": 5
+    },
+    {
+      "type": "Text",
+      "val": "</ul>",
+      "filename": "html.tokens.json",
+      "line": 6
+    },
+    {
+      "type": "Tag",
+      "name": "p",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Text",
+            "val": "You can <em>embed</em> html as well."
+          }
+        ]
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 8,
+      "filename": "html.tokens.json"
+    }
+  ],
+  "line": 0,
+  "filename": "html.tokens.json"
+}

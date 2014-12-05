@@ -1,0 +1,100 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Extends",
+      "path": "auxiliary/layout",
+      "filename": "inheritance.extend.mixins.tokens.json",
+      "line": 2
+    },
+    {
+      "type": "Mixin",
+      "name": "article",
+      "args": "title",
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Code",
+            "val": "if ( title)",
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Tag",
+                  "name": "h1",
+                  "selfClosing": false,
+                  "block": {
+                    "type": "Block",
+                    "nodes": []
+                  },
+                  "attrs": [],
+                  "attributeBlocks": [],
+                  "code": {
+                    "type": "Code",
+                    "val": "title",
+                    "buffer": true,
+                    "escape": true
+                  },
+                  "filename": "inheritance.extend.mixins.tokens.json"
+                }
+              ],
+              "filename": "inheritance.extend.mixins.tokens.json"
+            },
+            "filename": "inheritance.extend.mixins.tokens.json"
+          },
+          {
+            "type": "MixinBlock",
+            "filename": "inheritance.extend.mixins.tokens.json"
+          }
+        ],
+        "filename": "inheritance.extend.mixins.tokens.json"
+      },
+      "call": false,
+      "filename": "inheritance.extend.mixins.tokens.json",
+      "line": 4
+    },
+    {
+      "type": "NamedBlock",
+      "nodes": [
+        {
+          "type": "Mixin",
+          "name": "article",
+          "args": "\"The meaning of life\"",
+          "block": {
+            "type": "Block",
+            "nodes": [
+              {
+                "type": "Tag",
+                "name": "p",
+                "selfClosing": false,
+                "block": {
+                  "type": "Block",
+                  "nodes": [
+                    {
+                      "type": "Text",
+                      "val": "Foo bar baz!"
+                    }
+                  ]
+                },
+                "attrs": [],
+                "attributeBlocks": [],
+                "filename": "inheritance.extend.mixins.tokens.json"
+              }
+            ]
+          },
+          "call": true,
+          "attrs": [],
+          "attributeBlocks": [],
+          "filename": "inheritance.extend.mixins.tokens.json"
+        }
+      ],
+      "line": 9,
+      "filename": "inheritance.extend.mixins.tokens.json",
+      "name": "content",
+      "mode": "replace"
+    }
+  ],
+  "line": 0,
+  "filename": "inheritance.extend.mixins.tokens.json"
+}

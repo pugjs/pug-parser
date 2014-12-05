@@ -1,0 +1,78 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Tag",
+      "name": "ul",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "name": "li",
+            "selfClosing": false,
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Tag",
+                  "name": "div",
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "Tag",
+                        "name": "div",
+                        "block": {
+                          "type": "Block",
+                          "nodes": [
+                            {
+                              "type": "Text",
+                              "val": "baz"
+                            }
+                          ]
+                        },
+                        "attrs": [
+                          {
+                            "name": "id",
+                            "val": "'bar'",
+                            "escaped": false
+                          }
+                        ],
+                        "attributeBlocks": []
+                      }
+                    ]
+                  },
+                  "attrs": [
+                    {
+                      "name": "class",
+                      "val": "'foo'",
+                      "escaped": false
+                    }
+                  ],
+                  "attributeBlocks": []
+                }
+              ]
+            },
+            "attrs": [
+              {
+                "name": "class",
+                "val": "'list-item'",
+                "escaped": false
+              }
+            ],
+            "attributeBlocks": [],
+            "filename": "block-expansion.shorthands.tokens.json"
+          }
+        ]
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 1,
+      "filename": "block-expansion.shorthands.tokens.json"
+    }
+  ],
+  "line": 0,
+  "filename": "block-expansion.shorthands.tokens.json"
+}

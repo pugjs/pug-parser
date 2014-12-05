@@ -1,0 +1,76 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Tag",
+      "name": "head",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "name": "title",
+            "selfClosing": false,
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Block",
+                  "nodes": [],
+                  "yield": true,
+                  "filename": "yield-title-head.tokens.json"
+                }
+              ]
+            },
+            "attrs": [],
+            "attributeBlocks": [],
+            "filename": "yield-title-head.tokens.json"
+          },
+          {
+            "type": "Tag",
+            "name": "script",
+            "selfClosing": false,
+            "block": {
+              "type": "Block",
+              "nodes": []
+            },
+            "attrs": [
+              {
+                "name": "src",
+                "val": "'/jquery.js'",
+                "escaped": true
+              }
+            ],
+            "attributeBlocks": [],
+            "filename": "yield-title-head.tokens.json"
+          },
+          {
+            "type": "Tag",
+            "name": "script",
+            "selfClosing": false,
+            "block": {
+              "type": "Block",
+              "nodes": []
+            },
+            "attrs": [
+              {
+                "name": "src",
+                "val": "'/jquery.ui.js'",
+                "escaped": true
+              }
+            ],
+            "attributeBlocks": [],
+            "filename": "yield-title-head.tokens.json"
+          }
+        ]
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 1,
+      "filename": "yield-title-head.tokens.json"
+    }
+  ],
+  "line": 0,
+  "filename": "yield-title-head.tokens.json"
+}

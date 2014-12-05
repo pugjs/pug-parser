@@ -1,0 +1,45 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Tag",
+      "name": "p",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": []
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 1,
+      "code": {
+        "type": "Code",
+        "val": "'<script>'",
+        "buffer": true,
+        "escape": true
+      },
+      "filename": "code.escape.tokens.json"
+    },
+    {
+      "type": "Tag",
+      "name": "p",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": []
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 2,
+      "code": {
+        "type": "Code",
+        "val": "'<script>'",
+        "buffer": true,
+        "escape": false
+      },
+      "filename": "code.escape.tokens.json"
+    }
+  ],
+  "line": 0,
+  "filename": "code.escape.tokens.json"
+}

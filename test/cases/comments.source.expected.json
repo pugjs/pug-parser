@@ -1,0 +1,71 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "BlockComment",
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Text",
+            "val": "s/s."
+          },
+          {
+            "type": "NewLine"
+          },
+          {
+            "type": "Text",
+            "val": ""
+          }
+        ]
+      },
+      "buffer": false,
+      "line": 1,
+      "filename": "comments.source.tokens.json"
+    },
+    {
+      "type": "Comment",
+      "val": " test/cases/comments.source.jade",
+      "buffer": false,
+      "line": 2,
+      "filename": "comments.source.tokens.json"
+    },
+    {
+      "type": "Text",
+      "val": "",
+      "filename": "comments.source.tokens.json",
+      "line": 3
+    },
+    {
+      "type": "BlockComment",
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Text",
+            "val": "test/cases/comments.source.jade"
+          },
+          {
+            "type": "NewLine"
+          },
+          {
+            "type": "Text",
+            "val": "when"
+          },
+          {
+            "type": "NewLine"
+          },
+          {
+            "type": "Text",
+            "val": "()"
+          }
+        ]
+      },
+      "buffer": false,
+      "line": 4,
+      "filename": "comments.source.tokens.json"
+    }
+  ],
+  "line": 0,
+  "filename": "comments.source.tokens.json"
+}

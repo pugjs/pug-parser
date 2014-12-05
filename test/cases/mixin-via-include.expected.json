@@ -1,0 +1,41 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Comment",
+      "val": " regression test for https://github.com/jadejs/jade/issues/1435",
+      "buffer": false,
+      "line": 1,
+      "filename": "mixin-via-include.tokens.json"
+    },
+    {
+      "type": "Text",
+      "val": "",
+      "filename": "mixin-via-include.tokens.json",
+      "line": 2
+    },
+    {
+      "type": "Include",
+      "path": "../fixtures/mixin-include.jade",
+      "attrs": [],
+      "block": {
+        "type": "Block",
+        "nodes": []
+      },
+      "filename": "mixin-via-include.tokens.json",
+      "line": 3
+    },
+    {
+      "type": "Mixin",
+      "name": "bang",
+      "block": null,
+      "call": true,
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 5,
+      "filename": "mixin-via-include.tokens.json"
+    }
+  ],
+  "line": 0,
+  "filename": "mixin-via-include.tokens.json"
+}

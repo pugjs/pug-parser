@@ -1,0 +1,92 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Include",
+      "path": "auxiliary/mixins",
+      "attrs": [],
+      "block": {
+        "type": "Block",
+        "nodes": []
+      },
+      "filename": "includes.tokens.json",
+      "line": 2
+    },
+    {
+      "type": "Mixin",
+      "name": "foo",
+      "block": null,
+      "call": true,
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 4,
+      "filename": "includes.tokens.json"
+    },
+    {
+      "type": "Tag",
+      "name": "body",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Include",
+            "path": "auxiliary/smile.html",
+            "attrs": [],
+            "block": {
+              "type": "Block",
+              "nodes": []
+            },
+            "filename": "includes.tokens.json"
+          },
+          {
+            "type": "Include",
+            "path": "auxiliary/escapes.html",
+            "attrs": [],
+            "block": {
+              "type": "Block",
+              "nodes": []
+            },
+            "filename": "includes.tokens.json"
+          },
+          {
+            "type": "Tag",
+            "name": "script",
+            "selfClosing": false,
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Include",
+                  "path": "auxiliary/includable.js",
+                  "filter": "js",
+                  "attrs": [],
+                  "block": {
+                    "type": "Block",
+                    "nodes": []
+                  },
+                  "filename": "includes.tokens.json"
+                }
+              ]
+            },
+            "attrs": [
+              {
+                "name": "type",
+                "val": "\"text/javascript\"",
+                "escaped": true
+              }
+            ],
+            "attributeBlocks": [],
+            "filename": "includes.tokens.json"
+          }
+        ]
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 6,
+      "filename": "includes.tokens.json"
+    }
+  ],
+  "line": 0,
+  "filename": "includes.tokens.json"
+}

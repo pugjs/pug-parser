@@ -1,0 +1,202 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Tag",
+      "name": "p",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Block",
+            "nodes": [
+              {
+                "type": "Text",
+                "val": "bing "
+              },
+              {
+                "type": "Tag",
+                "name": "strong",
+                "selfClosing": false,
+                "block": {
+                  "type": "Block",
+                  "nodes": [
+                    {
+                      "type": "Text",
+                      "val": "foo"
+                    }
+                  ]
+                },
+                "attrs": [],
+                "attributeBlocks": []
+              },
+              {
+                "type": "Text",
+                "val": " bong"
+              }
+            ]
+          }
+        ]
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 1,
+      "filename": "inline-tag.tokens.json"
+    },
+    {
+      "type": "Tag",
+      "name": "p",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Text",
+            "val": "bing"
+          },
+          {
+            "type": "NewLine"
+          },
+          {
+            "type": "Tag",
+            "name": "strong",
+            "selfClosing": false,
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Text",
+                  "val": "foo"
+                }
+              ]
+            },
+            "attrs": [],
+            "attributeBlocks": []
+          },
+          {
+            "type": "Text",
+            "val": ""
+          },
+          {
+            "type": "NewLine"
+          },
+          {
+            "type": "Text",
+            "val": "bong"
+          },
+          {
+            "type": "NewLine"
+          },
+          {
+            "type": "Text",
+            "val": ""
+          }
+        ]
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 3,
+      "textOnly": true,
+      "filename": "inline-tag.tokens.json"
+    },
+    {
+      "type": "Tag",
+      "name": "p",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Text",
+            "val": "bing",
+            "filename": "inline-tag.tokens.json"
+          },
+          {
+            "type": "Block",
+            "nodes": [
+              {
+                "type": "Tag",
+                "name": "strong",
+                "selfClosing": false,
+                "block": {
+                  "type": "Block",
+                  "nodes": [
+                    {
+                      "type": "Text",
+                      "val": "foo"
+                    }
+                  ]
+                },
+                "attrs": [],
+                "attributeBlocks": []
+              },
+              {
+                "type": "Text",
+                "val": ""
+              }
+            ],
+            "filename": "inline-tag.tokens.json"
+          },
+          {
+            "type": "Text",
+            "val": "bong",
+            "filename": "inline-tag.tokens.json"
+          }
+        ]
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 4,
+      "filename": "inline-tag.tokens.json"
+    },
+    {
+      "type": "Tag",
+      "name": "p",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Text",
+            "val": "#[strong escaped]"
+          },
+          {
+            "type": "NewLine"
+          },
+          {
+            "type": "Text",
+            "val": "#["
+          },
+          {
+            "type": "Tag",
+            "name": "strong",
+            "selfClosing": false,
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Text",
+                  "val": "escaped"
+                }
+              ]
+            },
+            "attrs": [],
+            "attributeBlocks": []
+          },
+          {
+            "type": "Text",
+            "val": ""
+          }
+        ]
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 9,
+      "textOnly": true,
+      "filename": "inline-tag.tokens.json"
+    }
+  ],
+  "line": 0,
+  "filename": "inline-tag.tokens.json"
+}

@@ -1,0 +1,65 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Code",
+      "val": "var x = 1;",
+      "buffer": false,
+      "escape": false,
+      "line": 1,
+      "filename": "while.tokens.json"
+    },
+    {
+      "type": "Tag",
+      "name": "ul",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Code",
+            "val": "while (x < 10)",
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Code",
+                  "val": "x++;",
+                  "buffer": false,
+                  "escape": false,
+                  "filename": "while.tokens.json"
+                },
+                {
+                  "type": "Tag",
+                  "name": "li",
+                  "selfClosing": false,
+                  "block": {
+                    "type": "Block",
+                    "nodes": []
+                  },
+                  "attrs": [],
+                  "attributeBlocks": [],
+                  "code": {
+                    "type": "Code",
+                    "val": "x",
+                    "buffer": true,
+                    "escape": true
+                  },
+                  "filename": "while.tokens.json"
+                }
+              ],
+              "filename": "while.tokens.json"
+            },
+            "filename": "while.tokens.json"
+          }
+        ]
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 2,
+      "filename": "while.tokens.json"
+    }
+  ],
+  "line": 0,
+  "filename": "while.tokens.json"
+}

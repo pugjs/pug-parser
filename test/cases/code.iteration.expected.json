@@ -1,0 +1,355 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Code",
+      "val": "var items = [1,2,3]",
+      "buffer": false,
+      "escape": false,
+      "line": 2,
+      "filename": "code.iteration.tokens.json"
+    },
+    {
+      "type": "Tag",
+      "name": "ul",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Code",
+            "val": "items.forEach(function(item){",
+            "buffer": false,
+            "escape": false,
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Tag",
+                  "name": "li",
+                  "selfClosing": false,
+                  "block": {
+                    "type": "Block",
+                    "nodes": []
+                  },
+                  "attrs": [],
+                  "attributeBlocks": [],
+                  "code": {
+                    "type": "Code",
+                    "val": "item",
+                    "buffer": true,
+                    "escape": true
+                  },
+                  "filename": "code.iteration.tokens.json"
+                }
+              ],
+              "filename": "code.iteration.tokens.json"
+            },
+            "filename": "code.iteration.tokens.json"
+          },
+          {
+            "type": "Code",
+            "val": "})",
+            "buffer": false,
+            "escape": false,
+            "filename": "code.iteration.tokens.json"
+          }
+        ]
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 4,
+      "filename": "code.iteration.tokens.json"
+    },
+    {
+      "type": "Code",
+      "val": "var items = [1,2,3]",
+      "buffer": false,
+      "escape": false,
+      "line": 9,
+      "filename": "code.iteration.tokens.json"
+    },
+    {
+      "type": "Tag",
+      "name": "ul",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Each",
+            "obj": "items",
+            "val": "item",
+            "key": "i",
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Tag",
+                  "name": "li",
+                  "selfClosing": false,
+                  "block": {
+                    "type": "Block",
+                    "nodes": []
+                  },
+                  "attrs": [
+                    {
+                      "name": "class",
+                      "val": "'item-' + (i) + ''",
+                      "escaped": true
+                    }
+                  ],
+                  "attributeBlocks": [],
+                  "code": {
+                    "type": "Code",
+                    "val": "item",
+                    "buffer": true,
+                    "escape": true
+                  },
+                  "filename": "code.iteration.tokens.json"
+                }
+              ],
+              "filename": "code.iteration.tokens.json"
+            },
+            "line": 12,
+            "filename": "code.iteration.tokens.json"
+          }
+        ]
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 11,
+      "filename": "code.iteration.tokens.json"
+    },
+    {
+      "type": "Tag",
+      "name": "ul",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Each",
+            "obj": "items",
+            "val": "item",
+            "key": "i",
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Tag",
+                  "name": "li",
+                  "selfClosing": false,
+                  "block": {
+                    "type": "Block",
+                    "nodes": []
+                  },
+                  "attrs": [],
+                  "attributeBlocks": [],
+                  "code": {
+                    "type": "Code",
+                    "val": "item",
+                    "buffer": true,
+                    "escape": true
+                  },
+                  "filename": "code.iteration.tokens.json"
+                }
+              ],
+              "filename": "code.iteration.tokens.json"
+            },
+            "line": 16,
+            "filename": "code.iteration.tokens.json"
+          }
+        ]
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 15,
+      "filename": "code.iteration.tokens.json"
+    },
+    {
+      "type": "Tag",
+      "name": "ul",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Each",
+            "obj": "items",
+            "val": "$item",
+            "key": "$index",
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Tag",
+                  "name": "li",
+                  "selfClosing": false,
+                  "block": {
+                    "type": "Block",
+                    "nodes": []
+                  },
+                  "attrs": [],
+                  "attributeBlocks": [],
+                  "code": {
+                    "type": "Code",
+                    "val": "$item",
+                    "buffer": true,
+                    "escape": true
+                  },
+                  "filename": "code.iteration.tokens.json"
+                }
+              ],
+              "filename": "code.iteration.tokens.json"
+            },
+            "line": 20,
+            "filename": "code.iteration.tokens.json"
+          }
+        ]
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 19,
+      "filename": "code.iteration.tokens.json"
+    },
+    {
+      "type": "Code",
+      "val": "var nums = [1, 2, 3]",
+      "buffer": false,
+      "escape": false,
+      "line": 23,
+      "filename": "code.iteration.tokens.json"
+    },
+    {
+      "type": "Code",
+      "val": "var letters = ['a', 'b', 'c']",
+      "buffer": false,
+      "escape": false,
+      "line": 24,
+      "filename": "code.iteration.tokens.json"
+    },
+    {
+      "type": "Tag",
+      "name": "ul",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Each",
+            "obj": "letters",
+            "val": "l",
+            "key": "$index",
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Each",
+                  "obj": "nums",
+                  "val": "n",
+                  "key": "$index",
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "Tag",
+                        "name": "li",
+                        "selfClosing": false,
+                        "block": {
+                          "type": "Block",
+                          "nodes": [
+                            {
+                              "type": "Text",
+                              "val": "#{n}: #{l}"
+                            }
+                          ]
+                        },
+                        "attrs": [],
+                        "attributeBlocks": [],
+                        "filename": "code.iteration.tokens.json"
+                      }
+                    ],
+                    "filename": "code.iteration.tokens.json"
+                  },
+                  "line": 28,
+                  "filename": "code.iteration.tokens.json"
+                }
+              ],
+              "filename": "code.iteration.tokens.json"
+            },
+            "line": 27,
+            "filename": "code.iteration.tokens.json"
+          }
+        ]
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 26,
+      "filename": "code.iteration.tokens.json"
+    },
+    {
+      "type": "Code",
+      "val": "var count = 1",
+      "buffer": false,
+      "escape": false,
+      "line": 31,
+      "filename": "code.iteration.tokens.json"
+    },
+    {
+      "type": "Code",
+      "val": "var counter = function() { return [count++, count++, count++] }",
+      "buffer": false,
+      "escape": false,
+      "line": 32,
+      "filename": "code.iteration.tokens.json"
+    },
+    {
+      "type": "Tag",
+      "name": "ul",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Each",
+            "obj": "counter()",
+            "val": "n",
+            "key": "$index",
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Tag",
+                  "name": "li",
+                  "selfClosing": false,
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "Text",
+                        "val": "#{n}"
+                      }
+                    ]
+                  },
+                  "attrs": [],
+                  "attributeBlocks": [],
+                  "filename": "code.iteration.tokens.json"
+                }
+              ],
+              "filename": "code.iteration.tokens.json"
+            },
+            "line": 34,
+            "filename": "code.iteration.tokens.json"
+          }
+        ]
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 33,
+      "filename": "code.iteration.tokens.json"
+    }
+  ],
+  "line": 0,
+  "filename": "code.iteration.tokens.json"
+}

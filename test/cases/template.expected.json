@@ -1,0 +1,113 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Tag",
+      "name": "script",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "name": "article",
+            "selfClosing": false,
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Tag",
+                  "name": "h2",
+                  "selfClosing": false,
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "Text",
+                        "val": "{{title}}"
+                      }
+                    ]
+                  },
+                  "attrs": [],
+                  "attributeBlocks": [],
+                  "filename": "template.tokens.json"
+                },
+                {
+                  "type": "Tag",
+                  "name": "p",
+                  "selfClosing": false,
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "Text",
+                        "val": "{{description}}"
+                      }
+                    ]
+                  },
+                  "attrs": [],
+                  "attributeBlocks": [],
+                  "filename": "template.tokens.json"
+                }
+              ]
+            },
+            "attrs": [],
+            "attributeBlocks": [],
+            "filename": "template.tokens.json"
+          }
+        ]
+      },
+      "attrs": [
+        {
+          "name": "type",
+          "val": "'text/x-template'",
+          "escaped": true
+        }
+      ],
+      "attributeBlocks": [],
+      "line": 1,
+      "filename": "template.tokens.json"
+    },
+    {
+      "type": "Tag",
+      "name": "script",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Text",
+            "val": "article"
+          },
+          {
+            "type": "NewLine"
+          },
+          {
+            "type": "Text",
+            "val": "  h2 {{title}}"
+          },
+          {
+            "type": "NewLine"
+          },
+          {
+            "type": "Text",
+            "val": "  p {{description}}"
+          }
+        ]
+      },
+      "attrs": [
+        {
+          "name": "type",
+          "val": "'text/x-template'",
+          "escaped": true
+        }
+      ],
+      "attributeBlocks": [],
+      "line": 6,
+      "textOnly": true,
+      "filename": "template.tokens.json"
+    }
+  ],
+  "line": 0,
+  "filename": "template.tokens.json"
+}

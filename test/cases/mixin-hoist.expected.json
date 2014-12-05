@@ -1,0 +1,74 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Mixin",
+      "name": "foo",
+      "args": null,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "name": "h1",
+            "selfClosing": false,
+            "block": {
+              "type": "Block",
+              "nodes": []
+            },
+            "attrs": [],
+            "attributeBlocks": [],
+            "code": {
+              "type": "Code",
+              "val": "title",
+              "buffer": true,
+              "escape": true
+            },
+            "filename": "mixin-hoist.tokens.json"
+          }
+        ],
+        "filename": "mixin-hoist.tokens.json"
+      },
+      "call": false,
+      "filename": "mixin-hoist.tokens.json",
+      "line": 2
+    },
+    {
+      "type": "Tag",
+      "name": "html",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "name": "body",
+            "selfClosing": false,
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Mixin",
+                  "name": "foo",
+                  "args": null,
+                  "block": null,
+                  "call": true,
+                  "filename": "mixin-hoist.tokens.json"
+                }
+              ]
+            },
+            "attrs": [],
+            "attributeBlocks": [],
+            "filename": "mixin-hoist.tokens.json"
+          }
+        ]
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 5,
+      "filename": "mixin-hoist.tokens.json"
+    }
+  ],
+  "line": 0,
+  "filename": "mixin-hoist.tokens.json"
+}

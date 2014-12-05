@@ -1,0 +1,93 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Tag",
+      "name": "pre",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Text",
+            "val": "foo"
+          },
+          {
+            "type": "NewLine"
+          },
+          {
+            "type": "Text",
+            "val": "bar"
+          },
+          {
+            "type": "NewLine"
+          },
+          {
+            "type": "Text",
+            "val": "baz"
+          },
+          {
+            "type": "NewLine"
+          },
+          {
+            "type": "Text",
+            "val": ""
+          }
+        ]
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 1,
+      "textOnly": true,
+      "filename": "pre.tokens.json"
+    },
+    {
+      "type": "Tag",
+      "name": "pre",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "name": "code",
+            "selfClosing": false,
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Text",
+                  "val": "foo"
+                },
+                {
+                  "type": "NewLine"
+                },
+                {
+                  "type": "Text",
+                  "val": "bar"
+                },
+                {
+                  "type": "NewLine"
+                },
+                {
+                  "type": "Text",
+                  "val": "baz"
+                }
+              ]
+            },
+            "attrs": [],
+            "attributeBlocks": [],
+            "textOnly": true,
+            "filename": "pre.tokens.json"
+          }
+        ]
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 2,
+      "filename": "pre.tokens.json"
+    }
+  ],
+  "line": 0,
+  "filename": "pre.tokens.json"
+}

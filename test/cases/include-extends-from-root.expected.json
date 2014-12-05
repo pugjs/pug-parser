@@ -1,0 +1,18 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Include",
+      "path": "/auxiliary/extends-from-root",
+      "attrs": [],
+      "block": {
+        "type": "Block",
+        "nodes": []
+      },
+      "filename": "include-extends-from-root.tokens.json",
+      "line": 1
+    }
+  ],
+  "line": 0,
+  "filename": "include-extends-from-root.tokens.json"
+}

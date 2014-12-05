@@ -1,0 +1,74 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Tag",
+      "name": "head",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "name": "script",
+            "selfClosing": false,
+            "block": {
+              "type": "Block",
+              "nodes": []
+            },
+            "attrs": [
+              {
+                "name": "src",
+                "val": "'/jquery.js'",
+                "escaped": true
+              }
+            ],
+            "attributeBlocks": [],
+            "filename": "yield-before-conditional-head.tokens.json"
+          },
+          {
+            "type": "Block",
+            "nodes": [],
+            "yield": true,
+            "filename": "yield-before-conditional-head.tokens.json"
+          },
+          {
+            "type": "Code",
+            "val": "if ( false)",
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Tag",
+                  "name": "script",
+                  "selfClosing": false,
+                  "block": {
+                    "type": "Block",
+                    "nodes": []
+                  },
+                  "attrs": [
+                    {
+                      "name": "src",
+                      "val": "'/jquery.ui.js'",
+                      "escaped": true
+                    }
+                  ],
+                  "attributeBlocks": [],
+                  "filename": "yield-before-conditional-head.tokens.json"
+                }
+              ],
+              "filename": "yield-before-conditional-head.tokens.json"
+            },
+            "filename": "yield-before-conditional-head.tokens.json"
+          }
+        ]
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 1,
+      "filename": "yield-before-conditional-head.tokens.json"
+    }
+  ],
+  "line": 0,
+  "filename": "yield-before-conditional-head.tokens.json"
+}

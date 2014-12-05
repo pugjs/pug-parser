@@ -1,0 +1,54 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Include",
+      "path": "auxiliary/yield-nested",
+      "attrs": [],
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "name": "p",
+            "selfClosing": false,
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Text",
+                  "val": "some content"
+                }
+              ]
+            },
+            "attrs": [],
+            "attributeBlocks": [],
+            "filename": "include.yield.nested.tokens.json"
+          },
+          {
+            "type": "Tag",
+            "name": "p",
+            "selfClosing": false,
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Text",
+                  "val": "and some more"
+                }
+              ]
+            },
+            "attrs": [],
+            "attributeBlocks": [],
+            "filename": "include.yield.nested.tokens.json"
+          }
+        ],
+        "filename": "include.yield.nested.tokens.json"
+      },
+      "filename": "include.yield.nested.tokens.json",
+      "line": 2
+    }
+  ],
+  "line": 0,
+  "filename": "include.yield.nested.tokens.json"
+}

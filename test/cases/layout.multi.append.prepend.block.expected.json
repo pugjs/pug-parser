@@ -1,0 +1,215 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Extends",
+      "path": "../fixtures/multi-append-prepend-block/redefine",
+      "filename": "layout.multi.append.prepend.block.tokens.json",
+      "line": 1
+    },
+    {
+      "type": "NamedBlock",
+      "nodes": [
+        {
+          "type": "Tag",
+          "name": "p",
+          "selfClosing": false,
+          "block": {
+            "type": "Block",
+            "nodes": [
+              {
+                "type": "Text",
+                "val": "Something appended to content"
+              }
+            ]
+          },
+          "attrs": [
+            {
+              "name": "class",
+              "val": "'first'",
+              "escaped": false
+            },
+            {
+              "name": "class",
+              "val": "'append'",
+              "escaped": false
+            }
+          ],
+          "attributeBlocks": [],
+          "filename": "layout.multi.append.prepend.block.tokens.json"
+        }
+      ],
+      "line": 3,
+      "filename": "layout.multi.append.prepend.block.tokens.json",
+      "name": "content",
+      "mode": "append"
+    },
+    {
+      "type": "NamedBlock",
+      "nodes": [
+        {
+          "type": "Tag",
+          "name": "p",
+          "selfClosing": false,
+          "block": {
+            "type": "Block",
+            "nodes": [
+              {
+                "type": "Text",
+                "val": "Something prepended to content"
+              }
+            ]
+          },
+          "attrs": [
+            {
+              "name": "class",
+              "val": "'first'",
+              "escaped": false
+            },
+            {
+              "name": "class",
+              "val": "'prepend'",
+              "escaped": false
+            }
+          ],
+          "attributeBlocks": [],
+          "filename": "layout.multi.append.prepend.block.tokens.json"
+        }
+      ],
+      "line": 6,
+      "filename": "layout.multi.append.prepend.block.tokens.json",
+      "name": "content",
+      "mode": "prepend"
+    },
+    {
+      "type": "NamedBlock",
+      "nodes": [
+        {
+          "type": "Tag",
+          "name": "p",
+          "selfClosing": false,
+          "block": {
+            "type": "Block",
+            "nodes": [
+              {
+                "type": "Text",
+                "val": "Last append must be most last"
+              }
+            ]
+          },
+          "attrs": [
+            {
+              "name": "class",
+              "val": "'last'",
+              "escaped": false
+            },
+            {
+              "name": "class",
+              "val": "'append'",
+              "escaped": false
+            }
+          ],
+          "attributeBlocks": [],
+          "filename": "layout.multi.append.prepend.block.tokens.json"
+        }
+      ],
+      "line": 9,
+      "filename": "layout.multi.append.prepend.block.tokens.json",
+      "name": "content",
+      "mode": "append"
+    },
+    {
+      "type": "NamedBlock",
+      "nodes": [
+        {
+          "type": "Tag",
+          "name": "p",
+          "selfClosing": false,
+          "block": {
+            "type": "Block",
+            "nodes": [
+              {
+                "type": "Text",
+                "val": "Last prepend must appear at top"
+              }
+            ]
+          },
+          "attrs": [
+            {
+              "name": "class",
+              "val": "'first'",
+              "escaped": false
+            },
+            {
+              "name": "class",
+              "val": "'prepend'",
+              "escaped": false
+            }
+          ],
+          "attributeBlocks": [],
+          "filename": "layout.multi.append.prepend.block.tokens.json"
+        }
+      ],
+      "line": 12,
+      "filename": "layout.multi.append.prepend.block.tokens.json",
+      "name": "content",
+      "mode": "prepend"
+    },
+    {
+      "type": "NamedBlock",
+      "nodes": [
+        {
+          "type": "Tag",
+          "name": "script",
+          "selfClosing": false,
+          "block": {
+            "type": "Block",
+            "nodes": []
+          },
+          "attrs": [
+            {
+              "name": "src",
+              "val": "'jquery.js'",
+              "escaped": true
+            }
+          ],
+          "attributeBlocks": [],
+          "filename": "layout.multi.append.prepend.block.tokens.json"
+        }
+      ],
+      "line": 15,
+      "filename": "layout.multi.append.prepend.block.tokens.json",
+      "name": "head",
+      "mode": "append"
+    },
+    {
+      "type": "NamedBlock",
+      "nodes": [
+        {
+          "type": "Tag",
+          "name": "script",
+          "selfClosing": false,
+          "block": {
+            "type": "Block",
+            "nodes": []
+          },
+          "attrs": [
+            {
+              "name": "src",
+              "val": "'foo.js'",
+              "escaped": true
+            }
+          ],
+          "attributeBlocks": [],
+          "filename": "layout.multi.append.prepend.block.tokens.json"
+        }
+      ],
+      "line": 18,
+      "filename": "layout.multi.append.prepend.block.tokens.json",
+      "name": "head",
+      "mode": "prepend"
+    }
+  ],
+  "line": 0,
+  "filename": "layout.multi.append.prepend.block.tokens.json"
+}

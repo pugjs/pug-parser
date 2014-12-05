@@ -1,0 +1,88 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Tag",
+      "name": "html",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "name": "head",
+            "selfClosing": false,
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Tag",
+                  "name": "style",
+                  "selfClosing": false,
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "Filter",
+                        "name": "stylus",
+                        "block": {
+                          "type": "Block",
+                          "nodes": [
+                            {
+                              "type": "Text",
+                              "val": "body"
+                            },
+                            {
+                              "type": "NewLine"
+                            },
+                            {
+                              "type": "Text",
+                              "val": "  padding: 50px"
+                            }
+                          ]
+                        },
+                        "attrs": [],
+                        "line": 4,
+                        "filename": "filters.stylus.tokens.json"
+                      }
+                    ]
+                  },
+                  "attrs": [
+                    {
+                      "name": "type",
+                      "val": "\"text/css\"",
+                      "escaped": true
+                    }
+                  ],
+                  "attributeBlocks": [],
+                  "filename": "filters.stylus.tokens.json"
+                }
+              ]
+            },
+            "attrs": [],
+            "attributeBlocks": [],
+            "filename": "filters.stylus.tokens.json"
+          },
+          {
+            "type": "Tag",
+            "name": "body",
+            "selfClosing": false,
+            "block": {
+              "type": "Block",
+              "nodes": []
+            },
+            "attrs": [],
+            "attributeBlocks": [],
+            "filename": "filters.stylus.tokens.json"
+          }
+        ]
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 1,
+      "filename": "filters.stylus.tokens.json"
+    }
+  ],
+  "line": 0,
+  "filename": "filters.stylus.tokens.json"
+}

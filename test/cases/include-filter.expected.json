@@ -1,0 +1,105 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Tag",
+      "name": "html",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "name": "body",
+            "selfClosing": false,
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Include",
+                  "path": "some.md",
+                  "filter": "md",
+                  "attrs": [],
+                  "block": {
+                    "type": "Block",
+                    "nodes": []
+                  },
+                  "filename": "include-filter.tokens.json"
+                },
+                {
+                  "type": "Tag",
+                  "name": "script",
+                  "selfClosing": false,
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "Include",
+                        "path": "include-filter-coffee.coffee",
+                        "filter": "coffee",
+                        "attrs": [
+                          {
+                            "name": "minify",
+                            "val": "true",
+                            "escaped": true
+                          }
+                        ],
+                        "block": {
+                          "type": "Block",
+                          "nodes": []
+                        },
+                        "filename": "include-filter.tokens.json"
+                      }
+                    ]
+                  },
+                  "attrs": [],
+                  "attributeBlocks": [],
+                  "filename": "include-filter.tokens.json"
+                },
+                {
+                  "type": "Tag",
+                  "name": "script",
+                  "selfClosing": false,
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "Include",
+                        "path": "include-filter-coffee.coffee",
+                        "filter": "coffee",
+                        "attrs": [
+                          {
+                            "name": "minify",
+                            "val": "false",
+                            "escaped": true
+                          }
+                        ],
+                        "block": {
+                          "type": "Block",
+                          "nodes": []
+                        },
+                        "filename": "include-filter.tokens.json"
+                      }
+                    ]
+                  },
+                  "attrs": [],
+                  "attributeBlocks": [],
+                  "filename": "include-filter.tokens.json"
+                }
+              ]
+            },
+            "attrs": [],
+            "attributeBlocks": [],
+            "filename": "include-filter.tokens.json"
+          }
+        ]
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 1,
+      "filename": "include-filter.tokens.json"
+    }
+  ],
+  "line": 0,
+  "filename": "include-filter.tokens.json"
+}

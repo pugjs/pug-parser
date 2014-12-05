@@ -1,0 +1,261 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Mixin",
+      "name": "article",
+      "args": "name",
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "name": "section",
+            "selfClosing": false,
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Tag",
+                  "name": "h1",
+                  "selfClosing": false,
+                  "block": {
+                    "type": "Block",
+                    "nodes": []
+                  },
+                  "attrs": [],
+                  "attributeBlocks": [],
+                  "code": {
+                    "type": "Code",
+                    "val": "name",
+                    "buffer": true,
+                    "escape": true
+                  },
+                  "filename": "mixin.block-tag-behaviour.tokens.json"
+                },
+                {
+                  "type": "MixinBlock",
+                  "filename": "mixin.block-tag-behaviour.tokens.json"
+                }
+              ]
+            },
+            "attrs": [
+              {
+                "name": "class",
+                "val": "'article'",
+                "escaped": false
+              }
+            ],
+            "attributeBlocks": [],
+            "filename": "mixin.block-tag-behaviour.tokens.json"
+          }
+        ],
+        "filename": "mixin.block-tag-behaviour.tokens.json"
+      },
+      "call": false,
+      "filename": "mixin.block-tag-behaviour.tokens.json",
+      "line": 2
+    },
+    {
+      "type": "Tag",
+      "name": "html",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "name": "body",
+            "selfClosing": false,
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Mixin",
+                  "name": "article",
+                  "args": "'Foo'",
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "Tag",
+                        "name": "p",
+                        "selfClosing": false,
+                        "block": {
+                          "type": "Block",
+                          "nodes": [
+                            {
+                              "type": "Text",
+                              "val": "I'm article foo"
+                            }
+                          ]
+                        },
+                        "attrs": [],
+                        "attributeBlocks": []
+                      }
+                    ]
+                  },
+                  "call": true,
+                  "attrs": [],
+                  "attributeBlocks": [],
+                  "filename": "mixin.block-tag-behaviour.tokens.json"
+                }
+              ]
+            },
+            "attrs": [],
+            "attributeBlocks": [],
+            "filename": "mixin.block-tag-behaviour.tokens.json"
+          }
+        ]
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 7,
+      "filename": "mixin.block-tag-behaviour.tokens.json"
+    },
+    {
+      "type": "Mixin",
+      "name": "article",
+      "args": "name",
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "name": "section",
+            "selfClosing": false,
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Tag",
+                  "name": "h1",
+                  "selfClosing": false,
+                  "block": {
+                    "type": "Block",
+                    "nodes": []
+                  },
+                  "attrs": [],
+                  "attributeBlocks": [],
+                  "code": {
+                    "type": "Code",
+                    "val": "name",
+                    "buffer": true,
+                    "escape": true
+                  },
+                  "filename": "mixin.block-tag-behaviour.tokens.json"
+                },
+                {
+                  "type": "Tag",
+                  "name": "p",
+                  "selfClosing": false,
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "MixinBlock",
+                        "filename": "mixin.block-tag-behaviour.tokens.json"
+                      }
+                    ]
+                  },
+                  "attrs": [],
+                  "attributeBlocks": [],
+                  "filename": "mixin.block-tag-behaviour.tokens.json"
+                }
+              ]
+            },
+            "attrs": [
+              {
+                "name": "class",
+                "val": "'article'",
+                "escaped": false
+              }
+            ],
+            "attributeBlocks": [],
+            "filename": "mixin.block-tag-behaviour.tokens.json"
+          }
+        ],
+        "filename": "mixin.block-tag-behaviour.tokens.json"
+      },
+      "call": false,
+      "filename": "mixin.block-tag-behaviour.tokens.json",
+      "line": 11
+    },
+    {
+      "type": "Tag",
+      "name": "html",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "name": "body",
+            "selfClosing": false,
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Mixin",
+                  "name": "article",
+                  "args": "'Something'",
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "Text",
+                        "val": "I'm a much longer"
+                      },
+                      {
+                        "type": "NewLine"
+                      },
+                      {
+                        "type": "Text",
+                        "val": "text-only article,"
+                      },
+                      {
+                        "type": "NewLine"
+                      },
+                      {
+                        "type": "Text",
+                        "val": "but you can still"
+                      },
+                      {
+                        "type": "NewLine"
+                      },
+                      {
+                        "type": "Text",
+                        "val": "inline html tags"
+                      },
+                      {
+                        "type": "NewLine"
+                      },
+                      {
+                        "type": "Text",
+                        "val": "in me if you want."
+                      }
+                    ]
+                  },
+                  "call": true,
+                  "attrs": [],
+                  "attributeBlocks": [],
+                  "textOnly": true,
+                  "filename": "mixin.block-tag-behaviour.tokens.json"
+                }
+              ]
+            },
+            "attrs": [],
+            "attributeBlocks": [],
+            "filename": "mixin.block-tag-behaviour.tokens.json"
+          }
+        ]
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 17,
+      "filename": "mixin.block-tag-behaviour.tokens.json"
+    }
+  ],
+  "line": 0,
+  "filename": "mixin.block-tag-behaviour.tokens.json"
+}

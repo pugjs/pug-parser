@@ -1,0 +1,90 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Tag",
+      "name": "html",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "name": "head",
+            "selfClosing": false,
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Tag",
+                  "name": "style",
+                  "selfClosing": false,
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "Filter",
+                        "name": "less",
+                        "block": {
+                          "type": "Block",
+                          "nodes": [
+                            {
+                              "type": "Text",
+                              "val": "@pad: 15px;"
+                            },
+                            {
+                              "type": "NewLine"
+                            },
+                            {
+                              "type": "Text",
+                              "val": "body {"
+                            },
+                            {
+                              "type": "NewLine"
+                            },
+                            {
+                              "type": "Text",
+                              "val": "  padding: @pad;"
+                            },
+                            {
+                              "type": "NewLine"
+                            },
+                            {
+                              "type": "Text",
+                              "val": "}"
+                            }
+                          ]
+                        },
+                        "attrs": [],
+                        "line": 4,
+                        "filename": "filters.less.tokens.json"
+                      }
+                    ]
+                  },
+                  "attrs": [
+                    {
+                      "name": "type",
+                      "val": "\"text/css\"",
+                      "escaped": true
+                    }
+                  ],
+                  "attributeBlocks": [],
+                  "filename": "filters.less.tokens.json"
+                }
+              ]
+            },
+            "attrs": [],
+            "attributeBlocks": [],
+            "filename": "filters.less.tokens.json"
+          }
+        ]
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 1,
+      "filename": "filters.less.tokens.json"
+    }
+  ],
+  "line": 0,
+  "filename": "filters.less.tokens.json"
+}

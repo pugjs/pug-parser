@@ -1,0 +1,39 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Extends",
+      "path": "auxiliary/inheritance.extend.mixin.block",
+      "filename": "inheritance.extend.mixins.block.tokens.json",
+      "line": 1
+    },
+    {
+      "type": "NamedBlock",
+      "nodes": [
+        {
+          "type": "Tag",
+          "name": "p",
+          "selfClosing": false,
+          "block": {
+            "type": "Block",
+            "nodes": [
+              {
+                "type": "Text",
+                "val": "Hello World!"
+              }
+            ]
+          },
+          "attrs": [],
+          "attributeBlocks": [],
+          "filename": "inheritance.extend.mixins.block.tokens.json"
+        }
+      ],
+      "line": 3,
+      "filename": "inheritance.extend.mixins.block.tokens.json",
+      "name": "content",
+      "mode": "replace"
+    }
+  ],
+  "line": 0,
+  "filename": "inheritance.extend.mixins.block.tokens.json"
+}

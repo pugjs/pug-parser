@@ -1,0 +1,203 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Comment",
+      "val": " see https://github.com/jadejs/jade/issues/1589",
+      "buffer": false,
+      "line": 1,
+      "filename": "blocks-in-if.tokens.json"
+    },
+    {
+      "type": "Text",
+      "val": "",
+      "filename": "blocks-in-if.tokens.json",
+      "line": 2
+    },
+    {
+      "type": "Code",
+      "val": "var ajax = true",
+      "buffer": false,
+      "escape": false,
+      "line": 3,
+      "filename": "blocks-in-if.tokens.json"
+    },
+    {
+      "type": "Code",
+      "val": "if( ajax )",
+      "buffer": false,
+      "escape": false,
+      "line": 5,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Comment",
+            "val": " return only contents if ajax requests",
+            "buffer": false,
+            "line": 6,
+            "filename": "blocks-in-if.tokens.json"
+          },
+          {
+            "type": "NamedBlock",
+            "nodes": [
+              {
+                "type": "Tag",
+                "name": "p",
+                "selfClosing": false,
+                "block": {
+                  "type": "Block",
+                  "nodes": [
+                    {
+                      "type": "Text",
+                      "val": "ajax contents"
+                    }
+                  ]
+                },
+                "attrs": [],
+                "attributeBlocks": [],
+                "filename": "blocks-in-if.tokens.json"
+              }
+            ],
+            "line": 7,
+            "filename": "blocks-in-if.tokens.json",
+            "name": "contents",
+            "mode": "replace"
+          }
+        ],
+        "filename": "blocks-in-if.tokens.json"
+      },
+      "filename": "blocks-in-if.tokens.json"
+    },
+    {
+      "type": "Code",
+      "val": "else",
+      "buffer": false,
+      "escape": false,
+      "debug": false,
+      "line": 10,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Comment",
+            "val": " return all html",
+            "buffer": false,
+            "line": 11,
+            "filename": "blocks-in-if.tokens.json"
+          },
+          {
+            "type": "Doctype",
+            "val": "html",
+            "line": 12,
+            "filename": "blocks-in-if.tokens.json"
+          },
+          {
+            "type": "Tag",
+            "name": "html",
+            "selfClosing": false,
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Tag",
+                  "name": "head",
+                  "selfClosing": false,
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "Tag",
+                        "name": "meta",
+                        "selfClosing": false,
+                        "block": {
+                          "type": "Block",
+                          "nodes": []
+                        },
+                        "attrs": [
+                          {
+                            "name": "charset",
+                            "val": "'utf8'",
+                            "escaped": true
+                          }
+                        ],
+                        "attributeBlocks": [],
+                        "filename": "blocks-in-if.tokens.json"
+                      },
+                      {
+                        "type": "Tag",
+                        "name": "title",
+                        "selfClosing": false,
+                        "block": {
+                          "type": "Block",
+                          "nodes": [
+                            {
+                              "type": "Text",
+                              "val": "sample"
+                            }
+                          ]
+                        },
+                        "attrs": [],
+                        "attributeBlocks": [],
+                        "filename": "blocks-in-if.tokens.json"
+                      },
+                      {
+                        "type": "Tag",
+                        "name": "body",
+                        "selfClosing": false,
+                        "block": {
+                          "type": "Block",
+                          "nodes": [
+                            {
+                              "type": "NamedBlock",
+                              "nodes": [
+                                {
+                                  "type": "Tag",
+                                  "name": "p",
+                                  "selfClosing": false,
+                                  "block": {
+                                    "type": "Block",
+                                    "nodes": [
+                                      {
+                                        "type": "Text",
+                                        "val": "all contetns"
+                                      }
+                                    ]
+                                  },
+                                  "attrs": [],
+                                  "attributeBlocks": [],
+                                  "filename": "blocks-in-if.tokens.json"
+                                }
+                              ],
+                              "line": 18,
+                              "filename": "blocks-in-if.tokens.json",
+                              "name": "contents",
+                              "mode": "replace"
+                            }
+                          ]
+                        },
+                        "attrs": [],
+                        "attributeBlocks": [],
+                        "filename": "blocks-in-if.tokens.json"
+                      }
+                    ]
+                  },
+                  "attrs": [],
+                  "attributeBlocks": [],
+                  "filename": "blocks-in-if.tokens.json"
+                }
+              ]
+            },
+            "attrs": [],
+            "attributeBlocks": [],
+            "filename": "blocks-in-if.tokens.json"
+          }
+        ],
+        "filename": "blocks-in-if.tokens.json"
+      },
+      "filename": "blocks-in-if.tokens.json"
+    }
+  ],
+  "line": 0,
+  "filename": "blocks-in-if.tokens.json"
+}

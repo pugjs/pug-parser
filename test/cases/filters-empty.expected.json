@@ -1,0 +1,73 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Code",
+      "val": "var users = [{ name: 'tobi', age: 2 }]",
+      "buffer": false,
+      "escape": false,
+      "line": 1,
+      "filename": "filters-empty.tokens.json"
+    },
+    {
+      "type": "Tag",
+      "name": "fb:users",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Each",
+            "obj": "users",
+            "val": "user",
+            "key": "$index",
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Tag",
+                  "name": "fb:user",
+                  "selfClosing": false,
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "Filter",
+                        "name": "cdata",
+                        "block": {
+                          "type": "Block",
+                          "nodes": []
+                        },
+                        "attrs": [],
+                        "line": 6,
+                        "filename": "filters-empty.tokens.json"
+                      }
+                    ]
+                  },
+                  "attrs": [
+                    {
+                      "name": "age",
+                      "val": "user.age",
+                      "escaped": true
+                    }
+                  ],
+                  "attributeBlocks": [],
+                  "filename": "filters-empty.tokens.json"
+                }
+              ],
+              "filename": "filters-empty.tokens.json"
+            },
+            "line": 4,
+            "filename": "filters-empty.tokens.json"
+          }
+        ]
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 3,
+      "filename": "filters-empty.tokens.json"
+    }
+  ],
+  "line": 0,
+  "filename": "filters-empty.tokens.json"
+}

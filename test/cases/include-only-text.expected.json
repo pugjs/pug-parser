@@ -1,0 +1,76 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Tag",
+      "name": "html",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "name": "body",
+            "selfClosing": false,
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Tag",
+                  "name": "p",
+                  "selfClosing": false,
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "Include",
+                        "path": "include-only-text-body",
+                        "attrs": [],
+                        "block": {
+                          "type": "Block",
+                          "nodes": [
+                            {
+                              "type": "Tag",
+                              "name": "em",
+                              "selfClosing": false,
+                              "block": {
+                                "type": "Block",
+                                "nodes": [
+                                  {
+                                    "type": "Text",
+                                    "val": "hello world"
+                                  }
+                                ]
+                              },
+                              "attrs": [],
+                              "attributeBlocks": [],
+                              "filename": "include-only-text.tokens.json"
+                            }
+                          ],
+                          "filename": "include-only-text.tokens.json"
+                        },
+                        "filename": "include-only-text.tokens.json"
+                      }
+                    ]
+                  },
+                  "attrs": [],
+                  "attributeBlocks": [],
+                  "filename": "include-only-text.tokens.json"
+                }
+              ]
+            },
+            "attrs": [],
+            "attributeBlocks": [],
+            "filename": "include-only-text.tokens.json"
+          }
+        ]
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 1,
+      "filename": "include-only-text.tokens.json"
+    }
+  ],
+  "line": 0,
+  "filename": "include-only-text.tokens.json"
+}

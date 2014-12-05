@@ -1,0 +1,26 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Tag",
+      "name": "script",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Text",
+            "val": "var re = /\\d+/;"
+          }
+        ]
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 1,
+      "textOnly": true,
+      "filename": "escape-chars.tokens.json"
+    }
+  ],
+  "line": 0,
+  "filename": "escape-chars.tokens.json"
+}

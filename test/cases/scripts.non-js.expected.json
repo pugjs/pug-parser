@@ -1,0 +1,128 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Tag",
+      "name": "script",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "name": "div",
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Tag",
+                  "name": "h1",
+                  "selfClosing": false,
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "Text",
+                        "val": "<%= user.name %>"
+                      }
+                    ]
+                  },
+                  "attrs": [],
+                  "attributeBlocks": [],
+                  "filename": "scripts.non-js.tokens.json"
+                },
+                {
+                  "type": "Tag",
+                  "name": "p",
+                  "selfClosing": false,
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "Text",
+                        "val": "<%= user.description %>"
+                      }
+                    ]
+                  },
+                  "attrs": [],
+                  "attributeBlocks": [],
+                  "filename": "scripts.non-js.tokens.json"
+                }
+              ]
+            },
+            "attrs": [
+              {
+                "name": "id",
+                "val": "'user'",
+                "escaped": false
+              }
+            ],
+            "attributeBlocks": [],
+            "filename": "scripts.non-js.tokens.json"
+          }
+        ]
+      },
+      "attrs": [
+        {
+          "name": "id",
+          "val": "'user-template'",
+          "escaped": false
+        },
+        {
+          "name": "type",
+          "val": "'text/template'",
+          "escaped": true
+        }
+      ],
+      "attributeBlocks": [],
+      "line": 1,
+      "filename": "scripts.non-js.tokens.json"
+    },
+    {
+      "type": "Tag",
+      "name": "script",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Text",
+            "val": "if (foo) {"
+          },
+          {
+            "type": "NewLine"
+          },
+          {
+            "type": "Text",
+            "val": "  bar();"
+          },
+          {
+            "type": "NewLine"
+          },
+          {
+            "type": "Text",
+            "val": "}"
+          }
+        ]
+      },
+      "attrs": [
+        {
+          "name": "id",
+          "val": "'user-template'",
+          "escaped": false
+        },
+        {
+          "name": "type",
+          "val": "'text/template'",
+          "escaped": true
+        }
+      ],
+      "attributeBlocks": [],
+      "line": 6,
+      "textOnly": true,
+      "filename": "scripts.non-js.tokens.json"
+    }
+  ],
+  "line": 0,
+  "filename": "scripts.non-js.tokens.json"
+}

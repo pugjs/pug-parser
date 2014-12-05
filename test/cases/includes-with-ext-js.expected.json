@@ -1,0 +1,44 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Tag",
+      "name": "pre",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "name": "code",
+            "selfClosing": false,
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Include",
+                  "path": "javascript-new-lines.js",
+                  "attrs": [],
+                  "block": {
+                    "type": "Block",
+                    "nodes": []
+                  },
+                  "filename": "includes-with-ext-js.tokens.json"
+                }
+              ]
+            },
+            "attrs": [],
+            "attributeBlocks": [],
+            "filename": "includes-with-ext-js.tokens.json"
+          }
+        ]
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 1,
+      "filename": "includes-with-ext-js.tokens.json"
+    }
+  ],
+  "line": 0,
+  "filename": "includes-with-ext-js.tokens.json"
+}

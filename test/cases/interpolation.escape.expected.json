@@ -1,0 +1,49 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Code",
+      "val": "var id = 42;",
+      "buffer": false,
+      "escape": false,
+      "line": 2,
+      "filename": "interpolation.escape.tokens.json"
+    },
+    {
+      "type": "Tag",
+      "name": "foo",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Text",
+            "val": "some",
+            "filename": "interpolation.escape.tokens.json"
+          },
+          {
+            "type": "Text",
+            "val": "\\#{text}",
+            "filename": "interpolation.escape.tokens.json"
+          },
+          {
+            "type": "Text",
+            "val": "here",
+            "filename": "interpolation.escape.tokens.json"
+          },
+          {
+            "type": "Text",
+            "val": "My ID #{\"is {\" + id + \"}\"}",
+            "filename": "interpolation.escape.tokens.json"
+          }
+        ]
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 3,
+      "filename": "interpolation.escape.tokens.json"
+    }
+  ],
+  "line": 0,
+  "filename": "interpolation.escape.tokens.json"
+}

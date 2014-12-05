@@ -1,0 +1,58 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Extends",
+      "path": "../fixtures/append-without-block/app-layout",
+      "filename": "layout.append.without-block.tokens.json",
+      "line": 2
+    },
+    {
+      "type": "NamedBlock",
+      "nodes": [
+        {
+          "type": "Tag",
+          "name": "script",
+          "selfClosing": false,
+          "block": {
+            "type": "Block",
+            "nodes": []
+          },
+          "attrs": [
+            {
+              "name": "src",
+              "val": "'foo.js'",
+              "escaped": true
+            }
+          ],
+          "attributeBlocks": [],
+          "filename": "layout.append.without-block.tokens.json"
+        },
+        {
+          "type": "Tag",
+          "name": "script",
+          "selfClosing": false,
+          "block": {
+            "type": "Block",
+            "nodes": []
+          },
+          "attrs": [
+            {
+              "name": "src",
+              "val": "'bar.js'",
+              "escaped": true
+            }
+          ],
+          "attributeBlocks": [],
+          "filename": "layout.append.without-block.tokens.json"
+        }
+      ],
+      "line": 4,
+      "filename": "layout.append.without-block.tokens.json",
+      "name": "head",
+      "mode": "append"
+    }
+  ],
+  "line": 0,
+  "filename": "layout.append.without-block.tokens.json"
+}

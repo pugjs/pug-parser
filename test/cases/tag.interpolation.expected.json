@@ -1,0 +1,278 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Code",
+      "val": "var tag = 'p'",
+      "buffer": false,
+      "escape": false,
+      "line": 2,
+      "filename": "tag.interpolation.tokens.json"
+    },
+    {
+      "type": "Code",
+      "val": "var foo = 'bar'",
+      "buffer": false,
+      "escape": false,
+      "line": 3,
+      "filename": "tag.interpolation.tokens.json"
+    },
+    {
+      "type": "Tag",
+      "name": "tag",
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Text",
+            "val": "value"
+          }
+        ]
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "buffer": true,
+      "line": 5,
+      "filename": "tag.interpolation.tokens.json"
+    },
+    {
+      "type": "Tag",
+      "name": "tag",
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Text",
+            "val": "value"
+          }
+        ]
+      },
+      "attrs": [
+        {
+          "name": "foo",
+          "val": "'bar'",
+          "escaped": true
+        }
+      ],
+      "attributeBlocks": [],
+      "buffer": true,
+      "line": 6,
+      "filename": "tag.interpolation.tokens.json"
+    },
+    {
+      "type": "Tag",
+      "name": "foo ? 'a' : 'li'",
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Text",
+            "val": "here"
+          }
+        ]
+      },
+      "attrs": [
+        {
+          "name": "something",
+          "val": true,
+          "escaped": true
+        }
+      ],
+      "attributeBlocks": [],
+      "buffer": true,
+      "line": 7,
+      "filename": "tag.interpolation.tokens.json"
+    },
+    {
+      "type": "Mixin",
+      "name": "item",
+      "args": "icon",
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "name": "li",
+            "selfClosing": false,
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Code",
+                  "val": "if ( attributes.href)",
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "Tag",
+                        "name": "a",
+                        "selfClosing": false,
+                        "block": {
+                          "type": "Block",
+                          "nodes": [
+                            {
+                              "type": "Tag",
+                              "name": "img",
+                              "selfClosing": false,
+                              "block": {
+                                "type": "Block",
+                                "nodes": []
+                              },
+                              "attrs": [
+                                {
+                                  "name": "class",
+                                  "val": "'icon'",
+                                  "escaped": false
+                                },
+                                {
+                                  "name": "src",
+                                  "val": "icon",
+                                  "escaped": true
+                                }
+                              ],
+                              "attributeBlocks": [],
+                              "filename": "tag.interpolation.tokens.json"
+                            },
+                            {
+                              "type": "MixinBlock",
+                              "filename": "tag.interpolation.tokens.json"
+                            }
+                          ]
+                        },
+                        "attrs": [],
+                        "attributeBlocks": [
+                          "attributes"
+                        ],
+                        "filename": "tag.interpolation.tokens.json"
+                      }
+                    ],
+                    "filename": "tag.interpolation.tokens.json"
+                  },
+                  "filename": "tag.interpolation.tokens.json"
+                },
+                {
+                  "type": "Code",
+                  "val": "else",
+                  "debug": false,
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "Tag",
+                        "name": "span",
+                        "selfClosing": false,
+                        "block": {
+                          "type": "Block",
+                          "nodes": [
+                            {
+                              "type": "Tag",
+                              "name": "img",
+                              "selfClosing": false,
+                              "block": {
+                                "type": "Block",
+                                "nodes": []
+                              },
+                              "attrs": [
+                                {
+                                  "name": "class",
+                                  "val": "'icon'",
+                                  "escaped": false
+                                },
+                                {
+                                  "name": "src",
+                                  "val": "icon",
+                                  "escaped": true
+                                }
+                              ],
+                              "attributeBlocks": [],
+                              "filename": "tag.interpolation.tokens.json"
+                            },
+                            {
+                              "type": "MixinBlock",
+                              "filename": "tag.interpolation.tokens.json"
+                            }
+                          ]
+                        },
+                        "attrs": [],
+                        "attributeBlocks": [
+                          "attributes"
+                        ],
+                        "filename": "tag.interpolation.tokens.json"
+                      }
+                    ],
+                    "filename": "tag.interpolation.tokens.json"
+                  },
+                  "filename": "tag.interpolation.tokens.json"
+                }
+              ]
+            },
+            "attrs": [],
+            "attributeBlocks": [],
+            "filename": "tag.interpolation.tokens.json"
+          }
+        ],
+        "filename": "tag.interpolation.tokens.json"
+      },
+      "call": false,
+      "filename": "tag.interpolation.tokens.json",
+      "line": 9
+    },
+    {
+      "type": "Tag",
+      "name": "ul",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Mixin",
+            "name": "item",
+            "args": "'contact'",
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Text",
+                  "val": "Contact"
+                }
+              ]
+            },
+            "call": true,
+            "attrs": [],
+            "attributeBlocks": [],
+            "filename": "tag.interpolation.tokens.json"
+          },
+          {
+            "type": "Mixin",
+            "name": "item",
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Text",
+                  "val": "Contact"
+                }
+              ]
+            },
+            "call": true,
+            "attrs": [
+              {
+                "name": "href",
+                "val": "'/contact'",
+                "escaped": true
+              }
+            ],
+            "attributeBlocks": [],
+            "filename": "tag.interpolation.tokens.json"
+          }
+        ]
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 20,
+      "filename": "tag.interpolation.tokens.json"
+    }
+  ],
+  "line": 0,
+  "filename": "tag.interpolation.tokens.json"
+}

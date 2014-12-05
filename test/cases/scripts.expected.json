@@ -1,0 +1,103 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Tag",
+      "name": "script",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Text",
+            "val": "if (foo) {"
+          },
+          {
+            "type": "NewLine"
+          },
+          {
+            "type": "Text",
+            "val": "  bar();"
+          },
+          {
+            "type": "NewLine"
+          },
+          {
+            "type": "Text",
+            "val": "}"
+          }
+        ]
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 1,
+      "textOnly": true,
+      "filename": "scripts.tokens.json"
+    },
+    {
+      "type": "Tag",
+      "name": "script",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": []
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 2,
+      "code": {
+        "type": "Code",
+        "val": "'foo()'",
+        "buffer": true,
+        "escape": false
+      },
+      "filename": "scripts.tokens.json"
+    },
+    {
+      "type": "Tag",
+      "name": "script",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Text",
+            "val": "foo()"
+          }
+        ]
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 3,
+      "filename": "scripts.tokens.json"
+    },
+    {
+      "type": "Tag",
+      "name": "script",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": []
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 4,
+      "filename": "scripts.tokens.json"
+    },
+    {
+      "type": "Tag",
+      "name": "div",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": []
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 5,
+      "filename": "scripts.tokens.json"
+    }
+  ],
+  "line": 0,
+  "filename": "scripts.tokens.json"
+}

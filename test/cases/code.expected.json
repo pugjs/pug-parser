@@ -1,0 +1,197 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Tag",
+      "name": "p",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": []
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 1,
+      "code": {
+        "type": "Code",
+        "val": "null",
+        "buffer": true,
+        "escape": true
+      },
+      "filename": "code.tokens.json"
+    },
+    {
+      "type": "Tag",
+      "name": "p",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": []
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 2,
+      "code": {
+        "type": "Code",
+        "val": "undefined",
+        "buffer": true,
+        "escape": true
+      },
+      "filename": "code.tokens.json"
+    },
+    {
+      "type": "Tag",
+      "name": "p",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": []
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 3,
+      "code": {
+        "type": "Code",
+        "val": "''",
+        "buffer": true,
+        "escape": true
+      },
+      "filename": "code.tokens.json"
+    },
+    {
+      "type": "Tag",
+      "name": "p",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": []
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 4,
+      "code": {
+        "type": "Code",
+        "val": "0",
+        "buffer": true,
+        "escape": true
+      },
+      "filename": "code.tokens.json"
+    },
+    {
+      "type": "Tag",
+      "name": "p",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": []
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 5,
+      "code": {
+        "type": "Code",
+        "val": "false",
+        "buffer": true,
+        "escape": true
+      },
+      "filename": "code.tokens.json"
+    },
+    {
+      "type": "Tag",
+      "name": "p",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": []
+      },
+      "attrs": [
+        {
+          "name": "foo",
+          "val": "null",
+          "escaped": true
+        }
+      ],
+      "attributeBlocks": [],
+      "line": 6,
+      "filename": "code.tokens.json"
+    },
+    {
+      "type": "Tag",
+      "name": "p",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": []
+      },
+      "attrs": [
+        {
+          "name": "foo",
+          "val": "undefined",
+          "escaped": true
+        }
+      ],
+      "attributeBlocks": [],
+      "line": 7,
+      "filename": "code.tokens.json"
+    },
+    {
+      "type": "Tag",
+      "name": "p",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": []
+      },
+      "attrs": [
+        {
+          "name": "foo",
+          "val": "''",
+          "escaped": true
+        }
+      ],
+      "attributeBlocks": [],
+      "line": 8,
+      "filename": "code.tokens.json"
+    },
+    {
+      "type": "Tag",
+      "name": "p",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": []
+      },
+      "attrs": [
+        {
+          "name": "foo",
+          "val": "0",
+          "escaped": true
+        }
+      ],
+      "attributeBlocks": [],
+      "line": 9,
+      "filename": "code.tokens.json"
+    },
+    {
+      "type": "Tag",
+      "name": "p",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": []
+      },
+      "attrs": [
+        {
+          "name": "foo",
+          "val": "false",
+          "escaped": true
+        }
+      ],
+      "attributeBlocks": [],
+      "line": 10,
+      "filename": "code.tokens.json"
+    }
+  ],
+  "line": 0,
+  "filename": "code.tokens.json"
+}

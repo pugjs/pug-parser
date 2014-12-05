@@ -1,0 +1,24 @@
+{
+  "name": "jade-parser",
+  "version": "0.0.0",
+  "description": "The jade parser (takes an array of tokens and converts it to an abstract syntax tree)",
+  "keywords": [],
+  "dependencies": {
+    "token-stream": "0.0.1"
+  },
+  "devDependencies": {
+    "get-repo": "^1.0.0",
+    "istanbul": "^0.3.4"
+  },
+  "scripts": {
+    "update-test-cases": "node test/update-test-cases",
+    "test": "node test && npm run coverage",
+    "coverage": "istanbul cover test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jadejs/jade-parser.git"
+  },
+  "author": "ForbesLindesay",
+  "license": "MIT"
+}

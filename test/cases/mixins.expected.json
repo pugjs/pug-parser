@@ -1,0 +1,396 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Mixin",
+      "name": "comment",
+      "args": "title, str",
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "name": "div",
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Tag",
+                  "name": "h2",
+                  "selfClosing": false,
+                  "block": {
+                    "type": "Block",
+                    "nodes": []
+                  },
+                  "attrs": [],
+                  "attributeBlocks": [],
+                  "code": {
+                    "type": "Code",
+                    "val": "title",
+                    "buffer": true,
+                    "escape": true
+                  },
+                  "filename": "mixins.tokens.json"
+                },
+                {
+                  "type": "Tag",
+                  "name": "p",
+                  "selfClosing": false,
+                  "block": {
+                    "type": "Block",
+                    "nodes": []
+                  },
+                  "attrs": [
+                    {
+                      "name": "class",
+                      "val": "'body'",
+                      "escaped": false
+                    }
+                  ],
+                  "attributeBlocks": [],
+                  "code": {
+                    "type": "Code",
+                    "val": "str",
+                    "buffer": true,
+                    "escape": true
+                  },
+                  "filename": "mixins.tokens.json"
+                }
+              ]
+            },
+            "attrs": [
+              {
+                "name": "class",
+                "val": "'comment'",
+                "escaped": false
+              }
+            ],
+            "attributeBlocks": [],
+            "filename": "mixins.tokens.json"
+          }
+        ],
+        "filename": "mixins.tokens.json"
+      },
+      "call": false,
+      "filename": "mixins.tokens.json",
+      "line": 1
+    },
+    {
+      "type": "Mixin",
+      "name": "comment",
+      "args": "title, str",
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "name": "div",
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Tag",
+                  "name": "h2",
+                  "selfClosing": false,
+                  "block": {
+                    "type": "Block",
+                    "nodes": []
+                  },
+                  "attrs": [],
+                  "attributeBlocks": [],
+                  "code": {
+                    "type": "Code",
+                    "val": "title",
+                    "buffer": true,
+                    "escape": true
+                  },
+                  "filename": "mixins.tokens.json"
+                },
+                {
+                  "type": "Tag",
+                  "name": "p",
+                  "selfClosing": false,
+                  "block": {
+                    "type": "Block",
+                    "nodes": []
+                  },
+                  "attrs": [
+                    {
+                      "name": "class",
+                      "val": "'body'",
+                      "escaped": false
+                    }
+                  ],
+                  "attributeBlocks": [],
+                  "code": {
+                    "type": "Code",
+                    "val": "str",
+                    "buffer": true,
+                    "escape": true
+                  },
+                  "filename": "mixins.tokens.json"
+                }
+              ]
+            },
+            "attrs": [
+              {
+                "name": "class",
+                "val": "'comment'",
+                "escaped": false
+              }
+            ],
+            "attributeBlocks": [],
+            "filename": "mixins.tokens.json"
+          }
+        ],
+        "filename": "mixins.tokens.json"
+      },
+      "call": false,
+      "filename": "mixins.tokens.json",
+      "line": 7
+    },
+    {
+      "type": "Tag",
+      "name": "div",
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "name": "h1",
+            "selfClosing": false,
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Text",
+                  "val": "Tobi"
+                }
+              ]
+            },
+            "attrs": [],
+            "attributeBlocks": [],
+            "filename": "mixins.tokens.json"
+          },
+          {
+            "type": "Tag",
+            "name": "div",
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Mixin",
+                  "name": "comment",
+                  "args": "'This',\n            (('is regular, javascript'))",
+                  "block": null,
+                  "call": true,
+                  "attrs": [],
+                  "attributeBlocks": [],
+                  "filename": "mixins.tokens.json"
+                }
+              ]
+            },
+            "attrs": [
+              {
+                "name": "class",
+                "val": "'comments'",
+                "escaped": false
+              }
+            ],
+            "attributeBlocks": [],
+            "filename": "mixins.tokens.json"
+          }
+        ]
+      },
+      "attrs": [
+        {
+          "name": "id",
+          "val": "'user'",
+          "escaped": false
+        }
+      ],
+      "attributeBlocks": [],
+      "line": 12,
+      "filename": "mixins.tokens.json"
+    },
+    {
+      "type": "Mixin",
+      "name": "list",
+      "args": null,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "name": "ul",
+            "selfClosing": false,
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Tag",
+                  "name": "li",
+                  "selfClosing": false,
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "Text",
+                        "val": "foo"
+                      }
+                    ]
+                  },
+                  "attrs": [],
+                  "attributeBlocks": [],
+                  "filename": "mixins.tokens.json"
+                },
+                {
+                  "type": "Tag",
+                  "name": "li",
+                  "selfClosing": false,
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "Text",
+                        "val": "bar"
+                      }
+                    ]
+                  },
+                  "attrs": [],
+                  "attributeBlocks": [],
+                  "filename": "mixins.tokens.json"
+                },
+                {
+                  "type": "Tag",
+                  "name": "li",
+                  "selfClosing": false,
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "Text",
+                        "val": "baz"
+                      }
+                    ]
+                  },
+                  "attrs": [],
+                  "attributeBlocks": [],
+                  "filename": "mixins.tokens.json"
+                }
+              ]
+            },
+            "attrs": [],
+            "attributeBlocks": [],
+            "filename": "mixins.tokens.json"
+          }
+        ],
+        "filename": "mixins.tokens.json"
+      },
+      "call": false,
+      "filename": "mixins.tokens.json",
+      "line": 17
+    },
+    {
+      "type": "Tag",
+      "name": "body",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Mixin",
+            "name": "list",
+            "args": null,
+            "block": null,
+            "call": true,
+            "filename": "mixins.tokens.json"
+          },
+          {
+            "type": "Mixin",
+            "name": "list",
+            "args": "",
+            "block": null,
+            "call": true,
+            "attrs": [],
+            "attributeBlocks": [],
+            "filename": "mixins.tokens.json"
+          },
+          {
+            "type": "Mixin",
+            "name": "list",
+            "args": "",
+            "block": null,
+            "call": true,
+            "attrs": [],
+            "attributeBlocks": [],
+            "filename": "mixins.tokens.json"
+          }
+        ]
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 23,
+      "filename": "mixins.tokens.json"
+    },
+    {
+      "type": "Mixin",
+      "name": "foobar",
+      "args": "str",
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "name": "div",
+            "selfClosing": false,
+            "block": {
+              "type": "Block",
+              "nodes": []
+            },
+            "attrs": [
+              {
+                "name": "id",
+                "val": "'interpolation'",
+                "escaped": false
+              }
+            ],
+            "attributeBlocks": [],
+            "code": {
+              "type": "Code",
+              "val": "str + 'interpolated'",
+              "buffer": true,
+              "escape": true
+            },
+            "filename": "mixins.tokens.json"
+          }
+        ],
+        "filename": "mixins.tokens.json"
+      },
+      "call": false,
+      "filename": "mixins.tokens.json",
+      "line": 28
+    },
+    {
+      "type": "Code",
+      "val": "var suffix = \"bar\"",
+      "buffer": false,
+      "escape": false,
+      "line": 31,
+      "filename": "mixins.tokens.json"
+    },
+    {
+      "type": "Mixin",
+      "name": "#{'foo' + suffix}",
+      "args": "'This is '",
+      "block": null,
+      "call": true,
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 32,
+      "filename": "mixins.tokens.json"
+    }
+  ],
+  "line": 0,
+  "filename": "mixins.tokens.json"
+}

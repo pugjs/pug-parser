@@ -1,0 +1,45 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Tag",
+      "name": "head",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "name": "script",
+            "selfClosing": false,
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Text",
+                  "val": "alert('hello world');"
+                }
+              ]
+            },
+            "attrs": [
+              {
+                "name": "type",
+                "val": "'text/javascript'",
+                "escaped": true
+              }
+            ],
+            "attributeBlocks": [],
+            "textOnly": true,
+            "filename": "include-with-text-head.tokens.json"
+          }
+        ]
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 1,
+      "filename": "include-with-text-head.tokens.json"
+    }
+  ],
+  "line": 0,
+  "filename": "include-with-text-head.tokens.json"
+}

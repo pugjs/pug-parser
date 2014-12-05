@@ -1,0 +1,39 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Extends",
+      "path": "./auxiliary/blocks-in-blocks-layout.jade",
+      "filename": "blocks-in-blocks.tokens.json",
+      "line": 1
+    },
+    {
+      "type": "NamedBlock",
+      "nodes": [
+        {
+          "type": "Tag",
+          "name": "h1",
+          "selfClosing": false,
+          "block": {
+            "type": "Block",
+            "nodes": [
+              {
+                "type": "Text",
+                "val": "Page 2"
+              }
+            ]
+          },
+          "attrs": [],
+          "attributeBlocks": [],
+          "filename": "blocks-in-blocks.tokens.json"
+        }
+      ],
+      "line": 3,
+      "filename": "blocks-in-blocks.tokens.json",
+      "name": "body",
+      "mode": "replace"
+    }
+  ],
+  "line": 0,
+  "filename": "blocks-in-blocks.tokens.json"
+}

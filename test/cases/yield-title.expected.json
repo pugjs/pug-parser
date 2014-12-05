@@ -1,0 +1,51 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Tag",
+      "name": "html",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "name": "body",
+            "selfClosing": false,
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Include",
+                  "path": "yield-title-head",
+                  "attrs": [],
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "Text",
+                        "val": "My Title",
+                        "filename": "yield-title.tokens.json"
+                      }
+                    ],
+                    "filename": "yield-title.tokens.json"
+                  },
+                  "filename": "yield-title.tokens.json"
+                }
+              ]
+            },
+            "attrs": [],
+            "attributeBlocks": [],
+            "filename": "yield-title.tokens.json"
+          }
+        ]
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 1,
+      "filename": "yield-title.tokens.json"
+    }
+  ],
+  "line": 0,
+  "filename": "yield-title.tokens.json"
+}

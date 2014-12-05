@@ -1,0 +1,652 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Mixin",
+      "name": "centered",
+      "args": "title",
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "name": "div",
+            "selfClosing": false,
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Code",
+                  "val": "if (title)",
+                  "buffer": false,
+                  "escape": false,
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "Tag",
+                        "name": "h1",
+                        "selfClosing": false,
+                        "block": {
+                          "type": "Block",
+                          "nodes": []
+                        },
+                        "attrs": [
+                          {
+                            "name": "class",
+                            "val": "attributes.class",
+                            "escaped": true
+                          }
+                        ],
+                        "attributeBlocks": [],
+                        "code": {
+                          "type": "Code",
+                          "val": "title",
+                          "buffer": true,
+                          "escape": true
+                        },
+                        "filename": "mixin.attrs.tokens.json"
+                      }
+                    ],
+                    "filename": "mixin.attrs.tokens.json"
+                  },
+                  "filename": "mixin.attrs.tokens.json"
+                },
+                {
+                  "type": "MixinBlock",
+                  "filename": "mixin.attrs.tokens.json"
+                },
+                {
+                  "type": "Code",
+                  "val": "if (attributes.href)",
+                  "buffer": false,
+                  "escape": false,
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "Tag",
+                        "name": "div",
+                        "block": {
+                          "type": "Block",
+                          "nodes": [
+                            {
+                              "type": "Tag",
+                              "name": "a",
+                              "selfClosing": false,
+                              "block": {
+                                "type": "Block",
+                                "nodes": [
+                                  {
+                                    "type": "Text",
+                                    "val": "Back"
+                                  }
+                                ]
+                              },
+                              "attrs": [
+                                {
+                                  "name": "href",
+                                  "val": "attributes.href",
+                                  "escaped": true
+                                }
+                              ],
+                              "attributeBlocks": [],
+                              "filename": "mixin.attrs.tokens.json"
+                            }
+                          ]
+                        },
+                        "attrs": [
+                          {
+                            "name": "class",
+                            "val": "'footer'",
+                            "escaped": false
+                          }
+                        ],
+                        "attributeBlocks": [],
+                        "filename": "mixin.attrs.tokens.json"
+                      }
+                    ],
+                    "filename": "mixin.attrs.tokens.json"
+                  },
+                  "filename": "mixin.attrs.tokens.json"
+                }
+              ]
+            },
+            "attrs": [
+              {
+                "name": "class",
+                "val": "'centered'",
+                "escaped": false
+              },
+              {
+                "name": "id",
+                "val": "attributes.id",
+                "escaped": true
+              }
+            ],
+            "attributeBlocks": [],
+            "filename": "mixin.attrs.tokens.json"
+          }
+        ],
+        "filename": "mixin.attrs.tokens.json"
+      },
+      "call": false,
+      "filename": "mixin.attrs.tokens.json",
+      "line": 1
+    },
+    {
+      "type": "Mixin",
+      "name": "main",
+      "args": "title",
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "name": "div",
+            "selfClosing": false,
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Mixin",
+                  "name": "centered",
+                  "args": "title",
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "MixinBlock",
+                        "filename": "mixin.attrs.tokens.json"
+                      }
+                    ]
+                  },
+                  "call": true,
+                  "attrs": [
+                    {
+                      "name": "class",
+                      "val": "'highlight'",
+                      "escaped": false
+                    }
+                  ],
+                  "attributeBlocks": [
+                    "attributes"
+                  ],
+                  "filename": "mixin.attrs.tokens.json"
+                }
+              ]
+            },
+            "attrs": [
+              {
+                "name": "class",
+                "val": "'stretch'",
+                "escaped": false
+              }
+            ],
+            "attributeBlocks": [],
+            "filename": "mixin.attrs.tokens.json"
+          }
+        ],
+        "filename": "mixin.attrs.tokens.json"
+      },
+      "call": false,
+      "filename": "mixin.attrs.tokens.json",
+      "line": 10
+    },
+    {
+      "type": "Mixin",
+      "name": "bottom",
+      "args": null,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "name": "div",
+            "selfClosing": false,
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "MixinBlock",
+                  "filename": "mixin.attrs.tokens.json"
+                }
+              ]
+            },
+            "attrs": [
+              {
+                "name": "class",
+                "val": "'bottom'",
+                "escaped": false
+              }
+            ],
+            "attributeBlocks": [
+              "attributes"
+            ],
+            "filename": "mixin.attrs.tokens.json"
+          }
+        ],
+        "filename": "mixin.attrs.tokens.json"
+      },
+      "call": false,
+      "filename": "mixin.attrs.tokens.json",
+      "line": 15
+    },
+    {
+      "type": "Tag",
+      "name": "body",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Mixin",
+            "name": "centered",
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Text",
+                  "val": "Hello World"
+                }
+              ]
+            },
+            "call": true,
+            "attrs": [
+              {
+                "name": "id",
+                "val": "'First'",
+                "escaped": false
+              }
+            ],
+            "attributeBlocks": [],
+            "filename": "mixin.attrs.tokens.json"
+          },
+          {
+            "type": "Mixin",
+            "name": "centered",
+            "args": "'Section 1'",
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Tag",
+                  "name": "p",
+                  "selfClosing": false,
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "Text",
+                        "val": "Some important content."
+                      }
+                    ]
+                  },
+                  "attrs": [],
+                  "attributeBlocks": [],
+                  "filename": "mixin.attrs.tokens.json"
+                }
+              ]
+            },
+            "call": true,
+            "attrs": [
+              {
+                "name": "id",
+                "val": "'Second'",
+                "escaped": false
+              }
+            ],
+            "attributeBlocks": [],
+            "filename": "mixin.attrs.tokens.json"
+          },
+          {
+            "type": "Mixin",
+            "name": "centered",
+            "args": "'Section 2'",
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Tag",
+                  "name": "p",
+                  "selfClosing": false,
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "Text",
+                        "val": "Even more important content."
+                      }
+                    ]
+                  },
+                  "attrs": [],
+                  "attributeBlocks": [],
+                  "filename": "mixin.attrs.tokens.json"
+                }
+              ]
+            },
+            "call": true,
+            "attrs": [
+              {
+                "name": "id",
+                "val": "'Third'",
+                "escaped": false
+              },
+              {
+                "name": "class",
+                "val": "'foo'",
+                "escaped": false
+              },
+              {
+                "name": "href",
+                "val": "'menu.html'",
+                "escaped": true
+              },
+              {
+                "name": "class",
+                "val": "'bar'",
+                "escaped": true
+              }
+            ],
+            "attributeBlocks": [],
+            "filename": "mixin.attrs.tokens.json"
+          },
+          {
+            "type": "Mixin",
+            "name": "main",
+            "args": "'Section 3'",
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Tag",
+                  "name": "p",
+                  "selfClosing": false,
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "Text",
+                        "val": "Last content."
+                      }
+                    ]
+                  },
+                  "attrs": [],
+                  "attributeBlocks": [],
+                  "filename": "mixin.attrs.tokens.json"
+                }
+              ]
+            },
+            "call": true,
+            "attrs": [
+              {
+                "name": "href",
+                "val": "'#'",
+                "escaped": true
+              }
+            ],
+            "attributeBlocks": [],
+            "filename": "mixin.attrs.tokens.json"
+          },
+          {
+            "type": "Mixin",
+            "name": "bottom",
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Tag",
+                  "name": "p",
+                  "selfClosing": false,
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "Text",
+                        "val": "Some final words."
+                      }
+                    ]
+                  },
+                  "attrs": [],
+                  "attributeBlocks": [],
+                  "filename": "mixin.attrs.tokens.json"
+                }
+              ]
+            },
+            "call": true,
+            "attrs": [
+              {
+                "name": "class",
+                "val": "'foo'",
+                "escaped": false
+              },
+              {
+                "name": "class",
+                "val": "'bar'",
+                "escaped": true
+              },
+              {
+                "name": "name",
+                "val": "'end'",
+                "escaped": true
+              },
+              {
+                "name": "id",
+                "val": "'Last'",
+                "escaped": true
+              },
+              {
+                "name": "data-attr",
+                "val": "'baz'",
+                "escaped": true
+              }
+            ],
+            "attributeBlocks": [],
+            "filename": "mixin.attrs.tokens.json"
+          },
+          {
+            "type": "Mixin",
+            "name": "bottom",
+            "block": null,
+            "call": true,
+            "attrs": [
+              {
+                "name": "class",
+                "val": "['class1', 'class2']",
+                "escaped": true
+              }
+            ],
+            "attributeBlocks": [],
+            "filename": "mixin.attrs.tokens.json"
+          }
+        ]
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 19,
+      "filename": "mixin.attrs.tokens.json"
+    },
+    {
+      "type": "Mixin",
+      "name": "foo",
+      "args": null,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "name": "div",
+            "selfClosing": false,
+            "block": {
+              "type": "Block",
+              "nodes": []
+            },
+            "attrs": [
+              {
+                "name": "class",
+                "val": "'thing'",
+                "escaped": false
+              },
+              {
+                "name": "attr1",
+                "val": "'foo'",
+                "escaped": true
+              },
+              {
+                "name": "attr2",
+                "val": "'bar'",
+                "escaped": true
+              }
+            ],
+            "attributeBlocks": [
+              "attributes"
+            ],
+            "filename": "mixin.attrs.tokens.json"
+          }
+        ],
+        "filename": "mixin.attrs.tokens.json"
+      },
+      "call": false,
+      "filename": "mixin.attrs.tokens.json",
+      "line": 31
+    },
+    {
+      "type": "Code",
+      "val": "var val = '<biz>'",
+      "buffer": false,
+      "escape": false,
+      "line": 34,
+      "filename": "mixin.attrs.tokens.json"
+    },
+    {
+      "type": "Code",
+      "val": "var classes = ['foo', 'bar']",
+      "buffer": false,
+      "escape": false,
+      "line": 35,
+      "filename": "mixin.attrs.tokens.json"
+    },
+    {
+      "type": "Mixin",
+      "name": "foo",
+      "block": null,
+      "call": true,
+      "attrs": [
+        {
+          "name": "attr3",
+          "val": "'baz'",
+          "escaped": true
+        },
+        {
+          "name": "data-foo",
+          "val": "val",
+          "escaped": true
+        },
+        {
+          "name": "data-bar",
+          "val": "val",
+          "escaped": false
+        },
+        {
+          "name": "class",
+          "val": "classes",
+          "escaped": true
+        },
+        {
+          "name": "class",
+          "val": "'thunk'",
+          "escaped": false
+        }
+      ],
+      "attributeBlocks": [],
+      "line": 36,
+      "filename": "mixin.attrs.tokens.json"
+    },
+    {
+      "type": "Comment",
+      "val": " Regression test for #1424",
+      "buffer": false,
+      "line": 38,
+      "filename": "mixin.attrs.tokens.json"
+    },
+    {
+      "type": "Mixin",
+      "name": "work_filmstrip_item",
+      "args": "work",
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "name": "div",
+            "selfClosing": false,
+            "block": {
+              "type": "Block",
+              "nodes": []
+            },
+            "attrs": [],
+            "attributeBlocks": [
+              "attributes"
+            ],
+            "code": {
+              "type": "Code",
+              "val": "work",
+              "buffer": true,
+              "escape": true
+            },
+            "filename": "mixin.attrs.tokens.json"
+          }
+        ],
+        "filename": "mixin.attrs.tokens.json"
+      },
+      "call": false,
+      "filename": "mixin.attrs.tokens.json",
+      "line": 39
+    },
+    {
+      "type": "Mixin",
+      "name": "work_filmstrip_item",
+      "args": "'work'",
+      "block": null,
+      "call": true,
+      "attrs": [
+        {
+          "name": "data-profile",
+          "val": "'profile'",
+          "escaped": true
+        },
+        {
+          "name": "data-creator-name",
+          "val": "'name'",
+          "escaped": true
+        }
+      ],
+      "attributeBlocks": [],
+      "line": 41,
+      "filename": "mixin.attrs.tokens.json"
+    },
+    {
+      "type": "Mixin",
+      "name": "foo",
+      "block": null,
+      "call": true,
+      "attrs": [
+        {
+          "name": "attr3",
+          "val": "\"qux\"",
+          "escaped": true
+        },
+        {
+          "name": "class",
+          "val": "\"baz\"",
+          "escaped": true
+        }
+      ],
+      "attributeBlocks": [],
+      "line": 43,
+      "filename": "mixin.attrs.tokens.json"
+    }
+  ],
+  "line": 0,
+  "filename": "mixin.attrs.tokens.json"
+}

@@ -1,0 +1,77 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Mixin",
+      "name": "list",
+      "args": "tag, ...items",
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "name": "tag",
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Each",
+                  "obj": "items",
+                  "val": "item",
+                  "key": "$index",
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "Tag",
+                        "name": "li",
+                        "selfClosing": false,
+                        "block": {
+                          "type": "Block",
+                          "nodes": []
+                        },
+                        "attrs": [],
+                        "attributeBlocks": [],
+                        "code": {
+                          "type": "Code",
+                          "val": "item",
+                          "buffer": true,
+                          "escape": true
+                        },
+                        "filename": "mixins.rest-args.tokens.json"
+                      }
+                    ],
+                    "filename": "mixins.rest-args.tokens.json"
+                  },
+                  "line": 3,
+                  "filename": "mixins.rest-args.tokens.json"
+                }
+              ]
+            },
+            "attrs": [],
+            "attributeBlocks": [],
+            "buffer": true,
+            "filename": "mixins.rest-args.tokens.json"
+          }
+        ],
+        "filename": "mixins.rest-args.tokens.json"
+      },
+      "call": false,
+      "filename": "mixins.rest-args.tokens.json",
+      "line": 1
+    },
+    {
+      "type": "Mixin",
+      "name": "list",
+      "args": "'ul', 1, 2, 3, 4",
+      "block": null,
+      "call": true,
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 6,
+      "filename": "mixins.rest-args.tokens.json"
+    }
+  ],
+  "line": 0,
+  "filename": "mixins.rest-args.tokens.json"
+}

@@ -1,0 +1,211 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Tag",
+      "name": "html",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "name": "body",
+            "selfClosing": false,
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Code",
+                  "val": "var friends = 1",
+                  "buffer": false,
+                  "escape": false,
+                  "filename": "case.tokens.json"
+                },
+                {
+                  "type": "Case",
+                  "expr": "friends",
+                  "line": 4,
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "When",
+                        "expr": "0",
+                        "block": {
+                          "type": "Block",
+                          "nodes": [
+                            {
+                              "type": "Tag",
+                              "name": "p",
+                              "selfClosing": false,
+                              "block": {
+                                "type": "Block",
+                                "nodes": [
+                                  {
+                                    "type": "Text",
+                                    "val": "you have no friends"
+                                  }
+                                ]
+                              },
+                              "attrs": [],
+                              "attributeBlocks": []
+                            }
+                          ]
+                        },
+                        "debug": false
+                      },
+                      {
+                        "type": "When",
+                        "expr": "1",
+                        "block": {
+                          "type": "Block",
+                          "nodes": [
+                            {
+                              "type": "Tag",
+                              "name": "p",
+                              "selfClosing": false,
+                              "block": {
+                                "type": "Block",
+                                "nodes": [
+                                  {
+                                    "type": "Text",
+                                    "val": "you have a friend"
+                                  }
+                                ]
+                              },
+                              "attrs": [],
+                              "attributeBlocks": []
+                            }
+                          ]
+                        },
+                        "debug": false
+                      },
+                      {
+                        "type": "When",
+                        "expr": "default",
+                        "block": {
+                          "type": "Block",
+                          "nodes": [
+                            {
+                              "type": "Tag",
+                              "name": "p",
+                              "selfClosing": false,
+                              "block": {
+                                "type": "Block",
+                                "nodes": [
+                                  {
+                                    "type": "Text",
+                                    "val": "you have #{friends} friends"
+                                  }
+                                ]
+                              },
+                              "attrs": [],
+                              "attributeBlocks": []
+                            }
+                          ]
+                        },
+                        "debug": false
+                      }
+                    ],
+                    "filename": "case.tokens.json"
+                  },
+                  "filename": "case.tokens.json"
+                },
+                {
+                  "type": "Code",
+                  "val": "var friends = 0",
+                  "buffer": false,
+                  "escape": false,
+                  "filename": "case.tokens.json"
+                },
+                {
+                  "type": "Case",
+                  "expr": "friends",
+                  "line": 9,
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "When",
+                        "expr": "0",
+                        "debug": false
+                      },
+                      {
+                        "type": "When",
+                        "expr": "1",
+                        "block": {
+                          "type": "Block",
+                          "nodes": [
+                            {
+                              "type": "Tag",
+                              "name": "p",
+                              "selfClosing": false,
+                              "block": {
+                                "type": "Block",
+                                "nodes": [
+                                  {
+                                    "type": "Text",
+                                    "val": "you have very few friends"
+                                  }
+                                ]
+                              },
+                              "attrs": [],
+                              "attributeBlocks": [],
+                              "filename": "case.tokens.json"
+                            }
+                          ],
+                          "filename": "case.tokens.json"
+                        },
+                        "debug": false
+                      },
+                      {
+                        "type": "When",
+                        "expr": "default",
+                        "block": {
+                          "type": "Block",
+                          "nodes": [
+                            {
+                              "type": "Tag",
+                              "name": "p",
+                              "selfClosing": false,
+                              "block": {
+                                "type": "Block",
+                                "nodes": [
+                                  {
+                                    "type": "Text",
+                                    "val": "you have #{friends} friends"
+                                  }
+                                ]
+                              },
+                              "attrs": [],
+                              "attributeBlocks": [],
+                              "filename": "case.tokens.json"
+                            }
+                          ],
+                          "filename": "case.tokens.json"
+                        },
+                        "debug": false
+                      }
+                    ],
+                    "filename": "case.tokens.json"
+                  },
+                  "filename": "case.tokens.json"
+                }
+              ]
+            },
+            "attrs": [],
+            "attributeBlocks": [],
+            "filename": "case.tokens.json"
+          }
+        ]
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 1,
+      "filename": "case.tokens.json"
+    }
+  ],
+  "line": 0,
+  "filename": "case.tokens.json"
+}
