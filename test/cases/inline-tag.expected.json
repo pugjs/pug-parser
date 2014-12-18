@@ -58,7 +58,8 @@
             "val": "bing"
           },
           {
-            "type": "NewLine"
+            "type": "Text",
+            "val": "\n"
           },
           {
             "type": "Tag",
@@ -82,14 +83,16 @@
             "val": ""
           },
           {
-            "type": "NewLine"
+            "type": "Text",
+            "val": "\n"
           },
           {
             "type": "Text",
             "val": "bong"
           },
           {
-            "type": "NewLine"
+            "type": "Text",
+            "val": "\n"
           },
           {
             "type": "Text",
@@ -168,7 +171,8 @@
             "val": "#[strong escaped]"
           },
           {
-            "type": "NewLine"
+            "type": "Text",
+            "val": "\n"
           },
           {
             "type": "Text",

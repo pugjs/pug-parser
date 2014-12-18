@@ -13,28 +13,32 @@
             "val": "if (foo) {"
           },
           {
-            "type": "NewLine"
+            "type": "Text",
+            "val": "\n"
           },
           {
             "type": "Text",
             "val": "  "
           },
           {
-            "type": "NewLine"
+            "type": "Text",
+            "val": "\n"
           },
           {
             "type": "Text",
             "val": "  bar();"
           },
           {
-            "type": "NewLine"
+            "type": "Text",
+            "val": "\n"
           },
           {
             "type": "Text",
             "val": ""
           },
           {
-            "type": "NewLine"
+            "type": "Text",
+            "val": "\n"
           },
           {
             "type": "Text",

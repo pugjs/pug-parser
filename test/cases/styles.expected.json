@@ -27,14 +27,16 @@
                         "val": "body {"
                       },
                       {
-                        "type": "NewLine"
+                        "type": "Text",
+                        "val": "\n"
                       },
                       {
                         "type": "Text",
                         "val": "  padding: 50px;"
                       },
                       {
-                        "type": "NewLine"
+                        "type": "Text",
+                        "val": "\n"
                       },
                       {
                         "type": "Text",

@@ -13,21 +13,24 @@
             "val": "foo"
           },
           {
-            "type": "NewLine"
+            "type": "Text",
+            "val": "\n"
           },
           {
             "type": "Text",
             "val": "bar"
           },
           {
-            "type": "NewLine"
+            "type": "Text",
+            "val": "\n"
           },
           {
             "type": "Text",
             "val": "baz"
           },
           {
-            "type": "NewLine"
+            "type": "Text",
+            "val": "\n"
           },
           {
             "type": "Text",
@@ -61,14 +64,16 @@
                   "val": "foo"
                 },
                 {
-                  "type": "NewLine"
+                  "type": "Text",
+                  "val": "\n"
                 },
                 {
                   "type": "Text",
                   "val": "bar"
                 },
                 {
-                  "type": "NewLine"
+                  "type": "Text",
+                  "val": "\n"
                 },
                 {
                   "type": "Text",

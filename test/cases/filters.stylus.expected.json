@@ -33,7 +33,8 @@
                               "val": "body"
                             },
                             {
-                              "type": "NewLine"
+                              "type": "Text",
+                              "val": "\n"
                             },
                             {
                               "type": "Text",

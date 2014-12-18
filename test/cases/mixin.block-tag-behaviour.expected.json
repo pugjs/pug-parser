@@ -215,28 +215,32 @@
                         "val": "I'm a much longer"
                       },
                       {
-                        "type": "NewLine"
+                        "type": "Text",
+                        "val": "\n"
                       },
                       {
                         "type": "Text",
                         "val": "text-only article,"
                       },
                       {
-                        "type": "NewLine"
+                        "type": "Text",
+                        "val": "\n"
                       },
                       {
                         "type": "Text",
                         "val": "but you can still"
                       },
                       {
-                        "type": "NewLine"
+                        "type": "Text",
+                        "val": "\n"
                       },
                       {
                         "type": "Text",
                         "val": "inline html tags"
                       },
                       {
-                        "type": "NewLine"
+                        "type": "Text",
+                        "val": "\n"
                       },
                       {
                         "type": "Text",

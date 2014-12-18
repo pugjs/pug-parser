@@ -26,7 +26,8 @@
                         "val": "This is _some_ awesome **markdown**"
                       },
                       {
-                        "type": "NewLine"
+                        "type": "Text",
+                        "val": "\n"
                       },
                       {
                         "type": "Text",

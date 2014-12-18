@@ -3,6 +3,7 @@
   "nodes": [
     {
       "type": "BlockComment",
+      "val": "",
       "block": {
         "type": "Block",
         "nodes": [
@@ -11,7 +12,8 @@
             "val": "s/s."
           },
           {
-            "type": "NewLine"
+            "type": "Text",
+            "val": "\n"
           },
           {
             "type": "Text",
@@ -38,6 +40,7 @@
     },
     {
       "type": "BlockComment",
+      "val": "",
       "block": {
         "type": "Block",
         "nodes": [
@@ -46,14 +49,16 @@
             "val": "test/cases/comments.source.jade"
           },
           {
-            "type": "NewLine"
+            "type": "Text",
+            "val": "\n"
           },
           {
             "type": "Text",
             "val": "when"
           },
           {
-            "type": "NewLine"
+            "type": "Text",
+            "val": "\n"
           },
           {
             "type": "Text",

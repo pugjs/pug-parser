@@ -33,21 +33,24 @@
                               "val": "@pad: 15px;"
                             },
                             {
-                              "type": "NewLine"
+                              "type": "Text",
+                              "val": "\n"
                             },
                             {
                               "type": "Text",
                               "val": "body {"
                             },
                             {
-                              "type": "NewLine"
+                              "type": "Text",
+                              "val": "\n"
                             },
                             {
                               "type": "Text",
                               "val": "  padding: @pad;"
                             },
                             {
-                              "type": "NewLine"
+                              "type": "Text",
+                              "val": "\n"
                             },
                             {
                               "type": "Text",

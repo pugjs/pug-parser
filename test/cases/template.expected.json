@@ -84,14 +84,16 @@
             "val": "article"
           },
           {
-            "type": "NewLine"
+            "type": "Text",
+            "val": "\n"
           },
           {
             "type": "Text",
             "val": "  h2 {{title}}"
           },
           {
-            "type": "NewLine"
+            "type": "Text",
+            "val": "\n"
           },
           {
             "type": "Text",

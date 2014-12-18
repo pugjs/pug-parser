@@ -75,6 +75,7 @@
     },
     {
       "type": "BlockComment",
+      "val": "",
       "block": {
         "type": "Block",
         "nodes": [
@@ -83,14 +84,16 @@
             "val": "ul"
           },
           {
-            "type": "NewLine"
+            "type": "Text",
+            "val": "\n"
           },
           {
             "type": "Text",
             "val": "  li foo"
           },
           {
-            "type": "NewLine"
+            "type": "Text",
+            "val": "\n"
           },
           {
             "type": "Text",
@@ -104,6 +107,7 @@
     },
     {
       "type": "BlockComment",
+      "val": " block",
       "block": {
         "type": "Block",
         "nodes": [
@@ -112,14 +116,16 @@
             "val": "// inline follow"
           },
           {
-            "type": "NewLine"
+            "type": "Text",
+            "val": "\n"
           },
           {
             "type": "Text",
             "val": "li three"
           },
           {
-            "type": "NewLine"
+            "type": "Text",
+            "val": "\n"
           },
           {
             "type": "Text",
@@ -133,6 +139,7 @@
     },
     {
       "type": "BlockComment",
+      "val": " block",
       "block": {
         "type": "Block",
         "nodes": [
@@ -141,21 +148,24 @@
             "val": "// inline followed by tags"
           },
           {
-            "type": "NewLine"
+            "type": "Text",
+            "val": "\n"
           },
           {
             "type": "Text",
             "val": "ul"
           },
           {
-            "type": "NewLine"
+            "type": "Text",
+            "val": "\n"
           },
           {
             "type": "Text",
             "val": "  li four"
           },
           {
-            "type": "NewLine"
+            "type": "Text",
+            "val": "\n"
           },
           {
             "type": "Text",
@@ -169,6 +179,7 @@
     },
     {
       "type": "BlockComment",
+      "val": "if IE lt 9",
       "block": {
         "type": "Block",
         "nodes": [
@@ -177,21 +188,24 @@
             "val": "// inline"
           },
           {
-            "type": "NewLine"
+            "type": "Text",
+            "val": "\n"
           },
           {
             "type": "Text",
             "val": "script(src='/lame.js')"
           },
           {
-            "type": "NewLine"
+            "type": "Text",
+            "val": "\n"
           },
           {
             "type": "Text",
             "val": "// end-inline"
           },
           {
-            "type": "NewLine"
+            "type": "Text",
+            "val": "\n"
           },
           {
             "type": "Text",
