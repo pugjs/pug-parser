@@ -2,6 +2,7 @@
 
 var path = require('path');
 var TokenStream = require('token-stream');
+var inlineTags = require('./lib/inline-tags');
 
 var extname = path.extname;
 
@@ -562,7 +563,8 @@ Parser.prototype = {
       block: {type: 'Block', nodes: []},
       attrs: [],
       attributeBlocks: [],
-      buffer: true // indicates that this is an "interpolated" tag i.e. #{'tag-name'}
+      buffer: true, // indicates that this is an "interpolated" tag i.e. #{'tag-name'}
+      isInline: false
     };
 
     return this.tag(tag);
@@ -580,7 +582,8 @@ Parser.prototype = {
       selfClosing: tok.selfClosing,
       block: {type: 'Block', nodes: []},
       attrs: [],
-      attributeBlocks: []
+      attributeBlocks: [],
+      isInline: inlineTags.indexOf(tok.val) !== -1
     };
 
     return this.tag(tag);

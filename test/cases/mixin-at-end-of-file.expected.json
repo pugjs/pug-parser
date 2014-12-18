@@ -34,6 +34,7 @@
             },
             "attrs": [],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "mixin-at-end-of-file.tokens.json"
           }
         ]

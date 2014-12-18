@@ -38,6 +38,7 @@
         }
       ],
       "attributeBlocks": [],
+      "isInline": true,
       "line": 3,
       "filename": "vars.tokens.json"
     }

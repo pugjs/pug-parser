@@ -33,6 +33,7 @@
         }
       ],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 1,
       "filename": "include.script.tokens.json"
     }

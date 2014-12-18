@@ -23,6 +23,7 @@
             },
             "attrs": [],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "include.yield.nested.tokens.json"
           },
           {
@@ -40,6 +41,7 @@
             },
             "attrs": [],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "include.yield.nested.tokens.json"
           }
         ],

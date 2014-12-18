@@ -36,12 +36,14 @@
             },
             "attrs": [],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "yield-title.tokens.json"
           }
         ]
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 1,
       "filename": "yield-title.tokens.json"
     }

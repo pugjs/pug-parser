@@ -42,12 +42,14 @@
             },
             "attrs": [],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "filters.markdown.tokens.json"
           }
         ]
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 1,
       "filename": "filters.markdown.tokens.json"
     }

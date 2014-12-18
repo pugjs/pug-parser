@@ -52,6 +52,7 @@
                     }
                   ],
                   "attributeBlocks": [],
+                  "isInline": false,
                   "filename": "filters-empty.tokens.json"
                 }
               ],
@@ -64,6 +65,7 @@
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 3,
       "filename": "filters-empty.tokens.json"
     }

@@ -29,6 +29,7 @@
                   },
                   "attrs": [],
                   "attributeBlocks": [],
+                  "isInline": false,
                   "filename": "scripts.non-js.tokens.json"
                 },
                 {
@@ -46,6 +47,7 @@
                   },
                   "attrs": [],
                   "attributeBlocks": [],
+                  "isInline": false,
                   "filename": "scripts.non-js.tokens.json"
                 }
               ]
@@ -58,6 +60,7 @@
               }
             ],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "scripts.non-js.tokens.json"
           }
         ]
@@ -75,6 +78,7 @@
         }
       ],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 1,
       "filename": "scripts.non-js.tokens.json"
     },
@@ -118,6 +122,7 @@
         }
       ],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 6,
       "textOnly": true,
       "filename": "scripts.non-js.tokens.json"

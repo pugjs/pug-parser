@@ -50,6 +50,7 @@
                               },
                               "attrs": [],
                               "attributeBlocks": [],
+                              "isInline": false,
                               "filename": "case-blocks.tokens.json"
                             }
                           ],
@@ -78,6 +79,7 @@
                               },
                               "attrs": [],
                               "attributeBlocks": [],
+                              "isInline": false,
                               "filename": "case-blocks.tokens.json"
                             }
                           ],
@@ -106,6 +108,7 @@
                               },
                               "attrs": [],
                               "attributeBlocks": [],
+                              "isInline": false,
                               "filename": "case-blocks.tokens.json"
                             }
                           ],
@@ -122,12 +125,14 @@
             },
             "attrs": [],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "case-blocks.tokens.json"
           }
         ]
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 1,
       "filename": "case-blocks.tokens.json"
     }

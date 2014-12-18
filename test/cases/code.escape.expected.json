@@ -11,6 +11,7 @@
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 1,
       "code": {
         "type": "Code",
@@ -30,6 +31,7 @@
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 2,
       "code": {
         "type": "Code",

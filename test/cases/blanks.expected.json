@@ -23,6 +23,7 @@
             },
             "attrs": [],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "blanks.tokens.json"
           },
           {
@@ -40,6 +41,7 @@
             },
             "attrs": [],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "blanks.tokens.json"
           },
           {
@@ -57,12 +59,14 @@
             },
             "attrs": [],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "blanks.tokens.json"
           }
         ]
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 3,
       "filename": "blanks.tokens.json"
     }

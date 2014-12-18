@@ -17,6 +17,7 @@
         }
       ],
       "attributeBlocks": [],
+      "isInline": true,
       "line": 1,
       "filename": "classes-empty.tokens.json"
     },
@@ -36,6 +37,7 @@
         }
       ],
       "attributeBlocks": [],
+      "isInline": true,
       "line": 2,
       "filename": "classes-empty.tokens.json"
     },
@@ -55,6 +57,7 @@
         }
       ],
       "attributeBlocks": [],
+      "isInline": true,
       "line": 3,
       "filename": "classes-empty.tokens.json"
     }

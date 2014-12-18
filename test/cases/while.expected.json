@@ -39,6 +39,7 @@
                   },
                   "attrs": [],
                   "attributeBlocks": [],
+                  "isInline": false,
                   "code": {
                     "type": "Code",
                     "val": "x",
@@ -56,6 +57,7 @@
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 2,
       "filename": "while.tokens.json"
     }

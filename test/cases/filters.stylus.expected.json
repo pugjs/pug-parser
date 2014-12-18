@@ -55,12 +55,14 @@
                     }
                   ],
                   "attributeBlocks": [],
+                  "isInline": false,
                   "filename": "filters.stylus.tokens.json"
                 }
               ]
             },
             "attrs": [],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "filters.stylus.tokens.json"
           },
           {
@@ -73,12 +75,14 @@
             },
             "attrs": [],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "filters.stylus.tokens.json"
           }
         ]
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 1,
       "filename": "filters.stylus.tokens.json"
     }

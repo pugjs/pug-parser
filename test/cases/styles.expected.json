@@ -44,6 +44,7 @@
                   },
                   "attrs": [],
                   "attributeBlocks": [],
+                  "isInline": false,
                   "textOnly": true,
                   "filename": "styles.tokens.json"
                 }
@@ -51,6 +52,7 @@
             },
             "attrs": [],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "styles.tokens.json"
           },
           {
@@ -76,6 +78,7 @@
                     }
                   ],
                   "attributeBlocks": [],
+                  "isInline": false,
                   "filename": "styles.tokens.json"
                 },
                 {
@@ -94,6 +97,7 @@
                     }
                   ],
                   "attributeBlocks": [],
+                  "isInline": false,
                   "filename": "styles.tokens.json"
                 },
                 {
@@ -108,6 +112,7 @@
                   "attributeBlocks": [
                     "{style: 'color:red;background:green'}"
                   ],
+                  "isInline": false,
                   "filename": "styles.tokens.json"
                 },
                 {
@@ -122,6 +127,7 @@
                   "attributeBlocks": [
                     "{style: {color: 'red', background: 'green'}}"
                   ],
+                  "isInline": false,
                   "filename": "styles.tokens.json"
                 },
                 {
@@ -143,6 +149,7 @@
                         "attributeBlocks": [
                           "attributes"
                         ],
+                        "isInline": false,
                         "filename": "styles.tokens.json"
                       }
                     ],
@@ -204,6 +211,7 @@
                     }
                   ],
                   "attributeBlocks": [],
+                  "isInline": false,
                   "filename": "styles.tokens.json"
                 },
                 {
@@ -218,6 +226,7 @@
                   "attributeBlocks": [
                     "{style: {color: 'red', background: bg}}"
                   ],
+                  "isInline": false,
                   "filename": "styles.tokens.json"
                 },
                 {
@@ -239,12 +248,14 @@
             },
             "attrs": [],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "styles.tokens.json"
           }
         ]
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 1,
       "filename": "styles.tokens.json"
     }

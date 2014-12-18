@@ -29,6 +29,7 @@
         }
       ],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 2,
       "filename": "regression.784.tokens.json"
     }

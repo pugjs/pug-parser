@@ -22,6 +22,7 @@
         }
       ],
       "attributeBlocks": [],
+      "isInline": true,
       "line": 1,
       "filename": "attrs.tokens.json"
     },
@@ -51,6 +52,7 @@
         }
       ],
       "attributeBlocks": [],
+      "isInline": true,
       "line": 2,
       "filename": "attrs.tokens.json"
     },
@@ -80,6 +82,7 @@
         }
       ],
       "attributeBlocks": [],
+      "isInline": true,
       "line": 3,
       "filename": "attrs.tokens.json"
     },
@@ -104,6 +107,7 @@
         }
       ],
       "attributeBlocks": [],
+      "isInline": true,
       "line": 4,
       "filename": "attrs.tokens.json"
     },
@@ -128,6 +132,7 @@
         }
       ],
       "attributeBlocks": [],
+      "isInline": true,
       "line": 5,
       "filename": "attrs.tokens.json"
     },
@@ -164,6 +169,7 @@
               }
             ],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "attrs.tokens.json"
           },
           {
@@ -192,12 +198,14 @@
               }
             ],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "attrs.tokens.json"
           }
         ]
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 6,
       "filename": "attrs.tokens.json"
     },
@@ -217,6 +225,7 @@
         }
       ],
       "attributeBlocks": [],
+      "isInline": true,
       "line": 9,
       "filename": "attrs.tokens.json"
     },
@@ -236,6 +245,7 @@
         }
       ],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 10,
       "filename": "attrs.tokens.json"
     },
@@ -260,6 +270,7 @@
         }
       ],
       "attributeBlocks": [],
+      "isInline": true,
       "line": 12,
       "filename": "attrs.tokens.json"
     },
@@ -289,6 +300,7 @@
         }
       ],
       "attributeBlocks": [],
+      "isInline": true,
       "line": 13,
       "filename": "attrs.tokens.json"
     },
@@ -318,6 +330,7 @@
         }
       ],
       "attributeBlocks": [],
+      "isInline": true,
       "line": 14,
       "filename": "attrs.tokens.json"
     },
@@ -342,6 +355,7 @@
         }
       ],
       "attributeBlocks": [],
+      "isInline": true,
       "line": 15,
       "filename": "attrs.tokens.json"
     },
@@ -366,6 +380,7 @@
         }
       ],
       "attributeBlocks": [],
+      "isInline": true,
       "line": 16,
       "filename": "attrs.tokens.json"
     },
@@ -402,6 +417,7 @@
               }
             ],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "attrs.tokens.json"
           },
           {
@@ -430,12 +446,14 @@
               }
             ],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "attrs.tokens.json"
           }
         ]
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 17,
       "filename": "attrs.tokens.json"
     },
@@ -455,6 +473,7 @@
         }
       ],
       "attributeBlocks": [],
+      "isInline": true,
       "line": 20,
       "filename": "attrs.tokens.json"
     },
@@ -474,6 +493,7 @@
         }
       ],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 21,
       "filename": "attrs.tokens.json"
     },
@@ -493,6 +513,7 @@
         }
       ],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 22,
       "filename": "attrs.tokens.json"
     },
@@ -516,6 +537,7 @@
       "attributeBlocks": [
         "attrs"
       ],
+      "isInline": false,
       "line": 26,
       "filename": "attrs.tokens.json"
     }

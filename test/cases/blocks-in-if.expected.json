@@ -56,6 +56,7 @@
                 },
                 "attrs": [],
                 "attributeBlocks": [],
+                "isInline": false,
                 "filename": "blocks-in-if.tokens.json"
               }
             ],
@@ -122,6 +123,7 @@
                           }
                         ],
                         "attributeBlocks": [],
+                        "isInline": false,
                         "filename": "blocks-in-if.tokens.json"
                       },
                       {
@@ -139,6 +141,7 @@
                         },
                         "attrs": [],
                         "attributeBlocks": [],
+                        "isInline": false,
                         "filename": "blocks-in-if.tokens.json"
                       },
                       {
@@ -166,6 +169,7 @@
                                   },
                                   "attrs": [],
                                   "attributeBlocks": [],
+                                  "isInline": false,
                                   "filename": "blocks-in-if.tokens.json"
                                 }
                               ],
@@ -178,18 +182,21 @@
                         },
                         "attrs": [],
                         "attributeBlocks": [],
+                        "isInline": false,
                         "filename": "blocks-in-if.tokens.json"
                       }
                     ]
                   },
                   "attrs": [],
                   "attributeBlocks": [],
+                  "isInline": false,
                   "filename": "blocks-in-if.tokens.json"
                 }
               ]
             },
             "attrs": [],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "blocks-in-if.tokens.json"
           }
         ],

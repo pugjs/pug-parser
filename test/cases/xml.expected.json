@@ -23,6 +23,7 @@
         }
       ],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 2,
       "filename": "xml.tokens.json"
     },
@@ -41,6 +42,7 @@
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 3,
       "filename": "xml.tokens.json"
     }

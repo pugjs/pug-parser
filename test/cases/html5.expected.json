@@ -28,6 +28,7 @@
         }
       ],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 2,
       "filename": "html5.tokens.json"
     },
@@ -52,6 +53,7 @@
         }
       ],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 3,
       "filename": "html5.tokens.json"
     },
@@ -76,6 +78,7 @@
         }
       ],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 4,
       "filename": "html5.tokens.json"
     }

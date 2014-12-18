@@ -31,6 +31,7 @@
             "attributeBlocks": [
               "attributes"
             ],
+            "isInline": false,
             "filename": "mixin.merge.tokens.json"
           },
           {
@@ -61,6 +62,7 @@
             "attributeBlocks": [
               "attributes"
             ],
+            "isInline": false,
             "filename": "mixin.merge.tokens.json"
           },
           {
@@ -80,6 +82,7 @@
             "attributeBlocks": [
               "attributes"
             ],
+            "isInline": false,
             "filename": "mixin.merge.tokens.json"
           },
           {
@@ -110,6 +113,7 @@
             "attributeBlocks": [
               "attributes"
             ],
+            "isInline": false,
             "filename": "mixin.merge.tokens.json"
           }
         ],
@@ -255,6 +259,7 @@
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 7,
       "filename": "mixin.merge.tokens.json"
     }

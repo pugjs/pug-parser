@@ -32,6 +32,7 @@
                         },
                         "attrs": [],
                         "attributeBlocks": [],
+                        "isInline": false,
                         "code": {
                           "type": "Code",
                           "val": "item",
@@ -51,6 +52,7 @@
             "attrs": [],
             "attributeBlocks": [],
             "buffer": true,
+            "isInline": false,
             "filename": "mixins.rest-args.tokens.json"
           }
         ],

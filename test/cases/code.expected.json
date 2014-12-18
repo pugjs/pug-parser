@@ -11,6 +11,7 @@
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 1,
       "code": {
         "type": "Code",
@@ -30,6 +31,7 @@
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 2,
       "code": {
         "type": "Code",
@@ -49,6 +51,7 @@
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 3,
       "code": {
         "type": "Code",
@@ -68,6 +71,7 @@
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 4,
       "code": {
         "type": "Code",
@@ -87,6 +91,7 @@
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 5,
       "code": {
         "type": "Code",
@@ -112,6 +117,7 @@
         }
       ],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 6,
       "filename": "code.tokens.json"
     },
@@ -131,6 +137,7 @@
         }
       ],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 7,
       "filename": "code.tokens.json"
     },
@@ -150,6 +157,7 @@
         }
       ],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 8,
       "filename": "code.tokens.json"
     },
@@ -169,6 +177,7 @@
         }
       ],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 9,
       "filename": "code.tokens.json"
     },
@@ -188,6 +197,7 @@
         }
       ],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 10,
       "filename": "code.tokens.json"
     }

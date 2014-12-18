@@ -40,7 +40,8 @@
                             "escaped": false
                           }
                         ],
-                        "attributeBlocks": []
+                        "attributeBlocks": [],
+                        "isInline": false
                       }
                     ]
                   },
@@ -51,7 +52,8 @@
                       "escaped": false
                     }
                   ],
-                  "attributeBlocks": []
+                  "attributeBlocks": [],
+                  "isInline": false
                 }
               ]
             },
@@ -63,12 +65,14 @@
               }
             ],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "block-expansion.shorthands.tokens.json"
           }
         ]
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 1,
       "filename": "block-expansion.shorthands.tokens.json"
     }

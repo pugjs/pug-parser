@@ -32,6 +32,7 @@
       "attrs": [],
       "attributeBlocks": [],
       "buffer": true,
+      "isInline": false,
       "line": 5,
       "filename": "tag.interpolation.tokens.json"
     },
@@ -56,6 +57,7 @@
       ],
       "attributeBlocks": [],
       "buffer": true,
+      "isInline": false,
       "line": 6,
       "filename": "tag.interpolation.tokens.json"
     },
@@ -80,6 +82,7 @@
       ],
       "attributeBlocks": [],
       "buffer": true,
+      "isInline": false,
       "line": 7,
       "filename": "tag.interpolation.tokens.json"
     },
@@ -131,6 +134,7 @@
                                 }
                               ],
                               "attributeBlocks": [],
+                              "isInline": true,
                               "filename": "tag.interpolation.tokens.json"
                             },
                             {
@@ -143,6 +147,7 @@
                         "attributeBlocks": [
                           "attributes"
                         ],
+                        "isInline": true,
                         "filename": "tag.interpolation.tokens.json"
                       }
                     ],
@@ -185,6 +190,7 @@
                                 }
                               ],
                               "attributeBlocks": [],
+                              "isInline": true,
                               "filename": "tag.interpolation.tokens.json"
                             },
                             {
@@ -197,6 +203,7 @@
                         "attributeBlocks": [
                           "attributes"
                         ],
+                        "isInline": true,
                         "filename": "tag.interpolation.tokens.json"
                       }
                     ],
@@ -208,6 +215,7 @@
             },
             "attrs": [],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "tag.interpolation.tokens.json"
           }
         ],
@@ -269,6 +277,7 @@
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 20,
       "filename": "tag.interpolation.tokens.json"
     }

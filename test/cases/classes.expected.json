@@ -17,6 +17,7 @@
         }
       ],
       "attributeBlocks": [],
+      "isInline": true,
       "line": 1,
       "filename": "classes.tokens.json"
     },
@@ -46,6 +47,7 @@
         }
       ],
       "attributeBlocks": [],
+      "isInline": true,
       "line": 5,
       "filename": "classes.tokens.json"
     },
@@ -65,6 +67,7 @@
         }
       ],
       "attributeBlocks": [],
+      "isInline": true,
       "line": 9,
       "filename": "classes.tokens.json"
     },
@@ -84,6 +87,7 @@
         }
       ],
       "attributeBlocks": [],
+      "isInline": true,
       "line": 11,
       "filename": "classes.tokens.json"
     }

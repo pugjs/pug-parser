@@ -25,6 +25,7 @@
           },
           "attrs": [],
           "attributeBlocks": [],
+          "isInline": false,
           "filename": "inheritance.alert-dialog.tokens.json"
         },
         {
@@ -42,6 +43,7 @@
           },
           "attrs": [],
           "attributeBlocks": [],
+          "isInline": false,
           "filename": "inheritance.alert-dialog.tokens.json"
         }
       ],

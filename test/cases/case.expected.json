@@ -49,7 +49,8 @@
                                 ]
                               },
                               "attrs": [],
-                              "attributeBlocks": []
+                              "attributeBlocks": [],
+                              "isInline": false
                             }
                           ]
                         },
@@ -75,7 +76,8 @@
                                 ]
                               },
                               "attrs": [],
-                              "attributeBlocks": []
+                              "attributeBlocks": [],
+                              "isInline": false
                             }
                           ]
                         },
@@ -101,7 +103,8 @@
                                 ]
                               },
                               "attrs": [],
-                              "attributeBlocks": []
+                              "attributeBlocks": [],
+                              "isInline": false
                             }
                           ]
                         },
@@ -152,6 +155,7 @@
                               },
                               "attrs": [],
                               "attributeBlocks": [],
+                              "isInline": false,
                               "filename": "case.tokens.json"
                             }
                           ],
@@ -180,6 +184,7 @@
                               },
                               "attrs": [],
                               "attributeBlocks": [],
+                              "isInline": false,
                               "filename": "case.tokens.json"
                             }
                           ],
@@ -196,12 +201,14 @@
             },
             "attrs": [],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "case.tokens.json"
           }
         ]
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 1,
       "filename": "case.tokens.json"
     }

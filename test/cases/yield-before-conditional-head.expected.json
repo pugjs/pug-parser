@@ -24,6 +24,7 @@
               }
             ],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "yield-before-conditional-head.tokens.json"
           },
           {
@@ -54,6 +55,7 @@
                     }
                   ],
                   "attributeBlocks": [],
+                  "isInline": false,
                   "filename": "yield-before-conditional-head.tokens.json"
                 }
               ],
@@ -65,6 +67,7 @@
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 1,
       "filename": "yield-before-conditional-head.tokens.json"
     }

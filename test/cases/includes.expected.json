@@ -77,12 +77,14 @@
               }
             ],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "includes.tokens.json"
           }
         ]
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 6,
       "filename": "includes.tokens.json"
     }

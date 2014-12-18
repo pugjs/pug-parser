@@ -25,6 +25,7 @@
           },
           "attrs": [],
           "attributeBlocks": [],
+          "isInline": false,
           "filename": "blocks-in-blocks.tokens.json"
         }
       ],

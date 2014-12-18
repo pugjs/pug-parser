@@ -25,6 +25,7 @@
                   },
                   "attrs": [],
                   "attributeBlocks": [],
+                  "isInline": false,
                   "code": {
                     "type": "Code",
                     "val": "name",
@@ -47,6 +48,7 @@
               }
             ],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "mixin.block-tag-behaviour.tokens.json"
           }
         ],
@@ -91,7 +93,8 @@
                           ]
                         },
                         "attrs": [],
-                        "attributeBlocks": []
+                        "attributeBlocks": [],
+                        "isInline": false
                       }
                     ]
                   },
@@ -104,12 +107,14 @@
             },
             "attrs": [],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "mixin.block-tag-behaviour.tokens.json"
           }
         ]
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 7,
       "filename": "mixin.block-tag-behaviour.tokens.json"
     },
@@ -137,6 +142,7 @@
                   },
                   "attrs": [],
                   "attributeBlocks": [],
+                  "isInline": false,
                   "code": {
                     "type": "Code",
                     "val": "name",
@@ -160,6 +166,7 @@
                   },
                   "attrs": [],
                   "attributeBlocks": [],
+                  "isInline": false,
                   "filename": "mixin.block-tag-behaviour.tokens.json"
                 }
               ]
@@ -172,6 +179,7 @@
               }
             ],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "mixin.block-tag-behaviour.tokens.json"
           }
         ],
@@ -246,12 +254,14 @@
             },
             "attrs": [],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "mixin.block-tag-behaviour.tokens.json"
           }
         ]
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 17,
       "filename": "mixin.block-tag-behaviour.tokens.json"
     }

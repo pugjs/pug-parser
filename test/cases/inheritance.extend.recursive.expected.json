@@ -25,6 +25,7 @@
           },
           "attrs": [],
           "attributeBlocks": [],
+          "isInline": false,
           "filename": "inheritance.extend.recursive.tokens.json"
         }
       ],

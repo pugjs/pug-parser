@@ -18,6 +18,7 @@
             },
             "attrs": [],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "tags.self-closing.tokens.json"
           },
           {
@@ -36,6 +37,7 @@
               }
             ],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "tags.self-closing.tokens.json"
           },
           {
@@ -48,6 +50,7 @@
             },
             "attrs": [],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "tags.self-closing.tokens.json"
           },
           {
@@ -66,6 +69,7 @@
               }
             ],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "tags.self-closing.tokens.json"
           },
           {
@@ -83,6 +87,7 @@
             },
             "attrs": [],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "tags.self-closing.tokens.json"
           },
           {
@@ -106,6 +111,7 @@
               }
             ],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "tags.self-closing.tokens.json"
           },
           {
@@ -130,6 +136,7 @@
             },
             "attrs": [],
             "attributeBlocks": [],
+            "isInline": true,
             "filename": "tags.self-closing.tokens.json"
           },
           {
@@ -154,12 +161,14 @@
             },
             "attrs": [],
             "attributeBlocks": [],
+            "isInline": true,
             "filename": "tags.self-closing.tokens.json"
           }
         ]
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 2,
       "filename": "tags.self-closing.tokens.json"
     }

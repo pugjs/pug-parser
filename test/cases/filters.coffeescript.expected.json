@@ -63,6 +63,7 @@
         }
       ],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 1,
       "filename": "filters.coffeescript.tokens.json"
     }

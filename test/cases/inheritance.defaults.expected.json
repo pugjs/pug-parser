@@ -34,6 +34,7 @@
                         }
                       ],
                       "attributeBlocks": [],
+                      "isInline": false,
                       "filename": "inheritance.defaults.tokens.json"
                     },
                     {
@@ -52,6 +53,7 @@
                         }
                       ],
                       "attributeBlocks": [],
+                      "isInline": false,
                       "filename": "inheritance.defaults.tokens.json"
                     },
                     {
@@ -70,6 +72,7 @@
                         }
                       ],
                       "attributeBlocks": [],
+                      "isInline": false,
                       "filename": "inheritance.defaults.tokens.json"
                     }
                   ],
@@ -82,12 +85,14 @@
             },
             "attrs": [],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "inheritance.defaults.tokens.json"
           }
         ]
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 1,
       "filename": "inheritance.defaults.tokens.json"
     }

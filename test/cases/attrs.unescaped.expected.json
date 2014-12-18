@@ -30,6 +30,7 @@
                   },
                   "attrs": [],
                   "attributeBlocks": [],
+                  "isInline": false,
                   "filename": "attrs.unescaped.tokens.json"
                 }
               ]
@@ -42,6 +43,7 @@
               }
             ],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "attrs.unescaped.tokens.json"
           }
         ]
@@ -54,6 +56,7 @@
         }
       ],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 1,
       "filename": "attrs.unescaped.tokens.json"
     }

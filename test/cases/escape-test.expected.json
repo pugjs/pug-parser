@@ -36,12 +36,14 @@
                   },
                   "attrs": [],
                   "attributeBlocks": [],
+                  "isInline": false,
                   "filename": "escape-test.tokens.json"
                 }
               ]
             },
             "attrs": [],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "escape-test.tokens.json"
           },
           {
@@ -74,18 +76,21 @@
                   },
                   "attrs": [],
                   "attributeBlocks": [],
+                  "isInline": false,
                   "filename": "escape-test.tokens.json"
                 }
               ]
             },
             "attrs": [],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "escape-test.tokens.json"
           }
         ]
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 2,
       "filename": "escape-test.tokens.json"
     }

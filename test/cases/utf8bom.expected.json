@@ -16,6 +16,7 @@
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 1,
       "filename": "utf8bom.tokens.json"
     }

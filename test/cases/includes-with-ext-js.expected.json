@@ -29,12 +29,14 @@
             },
             "attrs": [],
             "attributeBlocks": [],
+            "isInline": true,
             "filename": "includes-with-ext-js.tokens.json"
           }
         ]
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 1,
       "filename": "includes-with-ext-js.tokens.json"
     }

@@ -17,6 +17,7 @@
         }
       ],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 1,
       "filename": "escaping-class-attribute.tokens.json"
     },
@@ -36,6 +37,7 @@
         }
       ],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 2,
       "filename": "escaping-class-attribute.tokens.json"
     },
@@ -55,6 +57,7 @@
         }
       ],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 3,
       "filename": "escaping-class-attribute.tokens.json"
     },
@@ -74,6 +77,7 @@
         }
       ],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 4,
       "filename": "escaping-class-attribute.tokens.json"
     },
@@ -93,6 +97,7 @@
         }
       ],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 5,
       "filename": "escaping-class-attribute.tokens.json"
     },
@@ -112,6 +117,7 @@
         }
       ],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 6,
       "filename": "escaping-class-attribute.tokens.json"
     }

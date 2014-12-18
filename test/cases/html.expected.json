@@ -46,6 +46,7 @@
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 8,
       "filename": "html.tokens.json"
     }

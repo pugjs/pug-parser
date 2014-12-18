@@ -26,6 +26,7 @@
             }
           ],
           "attributeBlocks": [],
+          "isInline": false,
           "filename": "layout.append.tokens.json"
         },
         {
@@ -44,6 +45,7 @@
             }
           ],
           "attributeBlocks": [],
+          "isInline": false,
           "filename": "layout.append.tokens.json"
         }
       ],

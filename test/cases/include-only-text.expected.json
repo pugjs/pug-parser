@@ -44,6 +44,7 @@
                               },
                               "attrs": [],
                               "attributeBlocks": [],
+                              "isInline": true,
                               "filename": "include-only-text.tokens.json"
                             }
                           ],
@@ -55,18 +56,21 @@
                   },
                   "attrs": [],
                   "attributeBlocks": [],
+                  "isInline": false,
                   "filename": "include-only-text.tokens.json"
                 }
               ]
             },
             "attrs": [],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "include-only-text.tokens.json"
           }
         ]
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 1,
       "filename": "include-only-text.tokens.json"
     }

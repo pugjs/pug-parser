@@ -33,12 +33,14 @@
               }
             ],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "text-block.tokens.json"
           }
         ]
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 2,
       "filename": "text-block.tokens.json"
     },
@@ -74,12 +76,14 @@
               }
             ],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "text-block.tokens.json"
           }
         ]
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 5,
       "filename": "text-block.tokens.json"
     }

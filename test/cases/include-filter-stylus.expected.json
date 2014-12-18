@@ -29,6 +29,7 @@
         }
       ],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 1,
       "filename": "include-filter-stylus.tokens.json"
     }

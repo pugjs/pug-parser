@@ -69,18 +69,21 @@
                     }
                   ],
                   "attributeBlocks": [],
+                  "isInline": false,
                   "filename": "filters.less.tokens.json"
                 }
               ]
             },
             "attrs": [],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "filters.less.tokens.json"
           }
         ]
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 1,
       "filename": "filters.less.tokens.json"
     }

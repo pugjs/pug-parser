@@ -37,6 +37,7 @@
             },
             "attrs": [],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "comments.tokens.json"
           },
           {
@@ -61,12 +62,14 @@
             },
             "attrs": [],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "comments.tokens.json"
           }
         ]
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 3,
       "filename": "comments.tokens.json"
     },
@@ -215,6 +218,7 @@
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 13,
       "filename": "comments.tokens.json"
     },
@@ -238,6 +242,7 @@
         }
       ],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 15,
       "filename": "comments.tokens.json"
     }

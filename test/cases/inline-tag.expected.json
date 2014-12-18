@@ -29,7 +29,8 @@
                   ]
                 },
                 "attrs": [],
-                "attributeBlocks": []
+                "attributeBlocks": [],
+                "isInline": true
               },
               {
                 "type": "Text",
@@ -41,6 +42,7 @@
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 1,
       "filename": "inline-tag.tokens.json"
     },
@@ -72,7 +74,8 @@
               ]
             },
             "attrs": [],
-            "attributeBlocks": []
+            "attributeBlocks": [],
+            "isInline": true
           },
           {
             "type": "Text",
@@ -96,6 +99,7 @@
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 3,
       "textOnly": true,
       "filename": "inline-tag.tokens.json"
@@ -129,7 +133,8 @@
                   ]
                 },
                 "attrs": [],
-                "attributeBlocks": []
+                "attributeBlocks": [],
+                "isInline": true
               },
               {
                 "type": "Text",
@@ -147,6 +152,7 @@
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 4,
       "filename": "inline-tag.tokens.json"
     },
@@ -182,7 +188,8 @@
               ]
             },
             "attrs": [],
-            "attributeBlocks": []
+            "attributeBlocks": [],
+            "isInline": true
           },
           {
             "type": "Text",
@@ -192,6 +199,7 @@
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 9,
       "textOnly": true,
       "filename": "inline-tag.tokens.json"

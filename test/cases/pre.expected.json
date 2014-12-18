@@ -37,6 +37,7 @@
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 1,
       "textOnly": true,
       "filename": "pre.tokens.json"
@@ -77,6 +78,7 @@
             },
             "attrs": [],
             "attributeBlocks": [],
+            "isInline": true,
             "textOnly": true,
             "filename": "pre.tokens.json"
           }
@@ -84,6 +86,7 @@
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 2,
       "filename": "pre.tokens.json"
     }

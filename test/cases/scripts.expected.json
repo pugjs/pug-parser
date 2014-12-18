@@ -30,6 +30,7 @@
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 1,
       "textOnly": true,
       "filename": "scripts.tokens.json"
@@ -44,6 +45,7 @@
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 2,
       "code": {
         "type": "Code",
@@ -68,6 +70,7 @@
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 3,
       "filename": "scripts.tokens.json"
     },
@@ -81,6 +84,7 @@
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 4,
       "filename": "scripts.tokens.json"
     },
@@ -94,6 +98,7 @@
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 5,
       "filename": "scripts.tokens.json"
     }

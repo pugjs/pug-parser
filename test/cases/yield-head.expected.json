@@ -24,6 +24,7 @@
               }
             ],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "yield-head.tokens.json"
           },
           {
@@ -48,12 +49,14 @@
               }
             ],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "yield-head.tokens.json"
           }
         ]
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 1,
       "filename": "yield-head.tokens.json"
     }

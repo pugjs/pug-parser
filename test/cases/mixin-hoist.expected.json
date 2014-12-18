@@ -18,6 +18,7 @@
             },
             "attrs": [],
             "attributeBlocks": [],
+            "isInline": false,
             "code": {
               "type": "Code",
               "val": "title",
@@ -59,12 +60,14 @@
             },
             "attrs": [],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "mixin-hoist.tokens.json"
           }
         ]
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 5,
       "filename": "mixin-hoist.tokens.json"
     }

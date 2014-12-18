@@ -29,6 +29,7 @@
               }
             ],
             "attributeBlocks": [],
+            "isInline": false,
             "textOnly": true,
             "filename": "include-with-text-head.tokens.json"
           }
@@ -36,6 +37,7 @@
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 1,
       "filename": "include-with-text-head.tokens.json"
     }

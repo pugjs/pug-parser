@@ -30,6 +30,7 @@
                   },
                   "attrs": [],
                   "attributeBlocks": [],
+                  "isInline": false,
                   "code": {
                     "type": "Code",
                     "val": "title",
@@ -79,6 +80,7 @@
                 },
                 "attrs": [],
                 "attributeBlocks": [],
+                "isInline": false,
                 "filename": "inheritance.extend.mixins.tokens.json"
               }
             ]

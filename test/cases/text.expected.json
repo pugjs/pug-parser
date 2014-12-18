@@ -22,6 +22,7 @@
         }
       ],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 1,
       "filename": "text.tokens.json"
     },
@@ -51,6 +52,7 @@
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 3,
       "filename": "text.tokens.json"
     },
@@ -104,6 +106,7 @@
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 8,
       "textOnly": true,
       "filename": "text.tokens.json"
@@ -139,6 +142,7 @@
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 9,
       "filename": "text.tokens.json"
     },
@@ -178,6 +182,7 @@
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 15,
       "textOnly": true,
       "filename": "text.tokens.json"

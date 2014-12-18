@@ -28,6 +28,7 @@
               }
             ],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "mixins-unused.tokens.json"
           }
         ],
@@ -47,6 +48,7 @@
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 3,
       "filename": "mixins-unused.tokens.json"
     }

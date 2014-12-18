@@ -57,6 +57,7 @@
                     }
                   ],
                   "attributeBlocks": [],
+                  "isInline": false,
                   "filename": "filters.cdata.tokens.json"
                 }
               ],
@@ -69,6 +70,7 @@
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 4,
       "filename": "filters.cdata.tokens.json"
     }

@@ -23,6 +23,7 @@
             },
             "attrs": [],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "nesting.tokens.json"
           },
           {
@@ -40,6 +41,7 @@
             },
             "attrs": [],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "nesting.tokens.json"
           },
           {
@@ -71,6 +73,7 @@
                         },
                         "attrs": [],
                         "attributeBlocks": [],
+                        "isInline": false,
                         "filename": "nesting.tokens.json"
                       },
                       {
@@ -88,18 +91,21 @@
                         },
                         "attrs": [],
                         "attributeBlocks": [],
+                        "isInline": false,
                         "filename": "nesting.tokens.json"
                       }
                     ]
                   },
                   "attrs": [],
                   "attributeBlocks": [],
+                  "isInline": false,
                   "filename": "nesting.tokens.json"
                 }
               ]
             },
             "attrs": [],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "nesting.tokens.json"
           },
           {
@@ -117,12 +123,14 @@
             },
             "attrs": [],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "nesting.tokens.json"
           }
         ]
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 1,
       "filename": "nesting.tokens.json"
     }

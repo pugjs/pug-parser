@@ -25,6 +25,7 @@
         }
       ],
       "attributeBlocks": [],
+      "isInline": true,
       "line": 2,
       "filename": "attrs.interpolation.tokens.json"
     },
@@ -44,6 +45,7 @@
         }
       ],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 3,
       "filename": "attrs.interpolation.tokens.json"
     }

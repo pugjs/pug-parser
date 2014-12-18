@@ -39,6 +39,7 @@
                           }
                         ],
                         "attributeBlocks": [],
+                        "isInline": false,
                         "code": {
                           "type": "Code",
                           "val": "title",
@@ -91,6 +92,7 @@
                                 }
                               ],
                               "attributeBlocks": [],
+                              "isInline": true,
                               "filename": "mixin.attrs.tokens.json"
                             }
                           ]
@@ -103,6 +105,7 @@
                           }
                         ],
                         "attributeBlocks": [],
+                        "isInline": false,
                         "filename": "mixin.attrs.tokens.json"
                       }
                     ],
@@ -125,6 +128,7 @@
               }
             ],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "mixin.attrs.tokens.json"
           }
         ],
@@ -184,6 +188,7 @@
               }
             ],
             "attributeBlocks": [],
+            "isInline": false,
             "filename": "mixin.attrs.tokens.json"
           }
         ],
@@ -223,6 +228,7 @@
             "attributeBlocks": [
               "attributes"
             ],
+            "isInline": false,
             "filename": "mixin.attrs.tokens.json"
           }
         ],
@@ -284,6 +290,7 @@
                   },
                   "attrs": [],
                   "attributeBlocks": [],
+                  "isInline": false,
                   "filename": "mixin.attrs.tokens.json"
                 }
               ]
@@ -321,6 +328,7 @@
                   },
                   "attrs": [],
                   "attributeBlocks": [],
+                  "isInline": false,
                   "filename": "mixin.attrs.tokens.json"
                 }
               ]
@@ -373,6 +381,7 @@
                   },
                   "attrs": [],
                   "attributeBlocks": [],
+                  "isInline": false,
                   "filename": "mixin.attrs.tokens.json"
                 }
               ]
@@ -409,6 +418,7 @@
                   },
                   "attrs": [],
                   "attributeBlocks": [],
+                  "isInline": false,
                   "filename": "mixin.attrs.tokens.json"
                 }
               ]
@@ -463,6 +473,7 @@
       },
       "attrs": [],
       "attributeBlocks": [],
+      "isInline": false,
       "line": 19,
       "filename": "mixin.attrs.tokens.json"
     },
@@ -501,6 +512,7 @@
             "attributeBlocks": [
               "attributes"
             ],
+            "isInline": false,
             "filename": "mixin.attrs.tokens.json"
           }
         ],
@@ -588,6 +600,7 @@
             "attributeBlocks": [
               "attributes"
             ],
+            "isInline": false,
             "code": {
               "type": "Code",
               "val": "work",
