@@ -339,7 +339,7 @@ Parser.prototype = {
     var tok = this.expect('comment');
     var block;
     if (block = this.parseTextBlock()) {
-      return {type: 'BlockComment', block: block, buffer: tok.buffer, line: tok.line};
+      return {type: 'BlockComment', val: tok.val, block: block, buffer: tok.buffer, line: tok.line};
     } else {
       return {type: 'Comment', val: tok.val, buffer: tok.buffer, line: tok.line};
     }
@@ -514,7 +514,7 @@ Parser.prototype = {
           block.nodes.push({type: 'Text', val: tok.val});
           break;
         case 'newline':
-          block.nodes.push({type: 'NewLine'});
+          block.nodes.push({type: 'Text', val: '\n'});
           break;
         case 'start-jade-interpolation':
           block.nodes.push(this.parseExpr());
