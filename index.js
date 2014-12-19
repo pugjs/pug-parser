@@ -183,7 +183,7 @@ Parser.prototype = {
         return this.parseComment();
       case 'text':
       case 'start-jade-interpolation':
-        return this.parseText();
+        return this.parseText({block: true});
       case 'each':
         return this.parseEach();
       case 'code':
@@ -210,13 +210,18 @@ Parser.prototype = {
    * Text
    */
 
-  parseText: function(){
+  parseText: function(options){
     var tags = [];
-    while(this.peek().type === 'text' || this.peek().type === 'start-jade-interpolation') {
+    while(this.peek().type === 'text' || this.peek().type === 'start-jade-interpolation' || (options && options.block && this.peek().type === 'newline')) {
       if (this.peek().type === 'text') {
         tags.push({type: 'Text', val: this.advance().val});
-      } else {
+      } else if (this.peek().type === 'newline') {
         this.advance();
+        if (this.peek().type === 'text') {
+          tags.push({type: 'Text', val: '\n'});
+        }
+      } else {
+        this.expect('start-jade-interpolation');
         tags.push(this.parseExpr());
         this.expect('end-jade-interpolation');
       }
