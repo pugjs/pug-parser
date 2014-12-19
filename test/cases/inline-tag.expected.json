@@ -62,6 +62,10 @@
             "val": "\n"
           },
           {
+            "type": "Text",
+            "val": ""
+          },
+          {
             "type": "Tag",
             "name": "strong",
             "selfClosing": false,
@@ -122,6 +126,10 @@
           {
             "type": "Block",
             "nodes": [
+              {
+                "type": "Text",
+                "val": ""
+              },
               {
                 "type": "Tag",
                 "name": "strong",
