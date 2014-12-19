@@ -261,7 +261,6 @@ Parser.prototype = {
         this.advance();
       }
     }
-    console.dir(nodes);
     return nodes;
   },
 
