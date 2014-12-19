@@ -540,7 +540,9 @@ Parser.prototype = {
         name: name,
         args: args,
         block: null,
-        call: true
+        call: true,
+        attrs: [],
+        attributeBlocks: []
       };
     }
   },
