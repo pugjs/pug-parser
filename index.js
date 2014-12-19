@@ -101,6 +101,8 @@ Parser.prototype = {
     while ('eos' != this.peek().type) {
       if ('newline' == this.peek().type) {
         this.advance();
+      } else if ('text-html' == this.peek().type) {
+        block.nodes = block.nodes.concat(this.parseTextHtml());
       } else {
         var next = this.peek();
         var expr = this.parseExpr();
@@ -221,6 +223,46 @@ Parser.prototype = {
     }
     if (tags.length === 1) return tags[0];
     else return {type: 'Block', nodes: tags};
+  },
+  
+  parseTextHtml: function () {
+    var nodes = [];
+    var currentNode = null;
+    while (this.peek().type === 'text-html') {
+      var text = this.advance();
+      if (!currentNode) {
+        currentNode = {
+          type: 'Text',
+          val: text.val,
+          filename: this.filename,
+          line: text.line,
+          isHtml: true
+        };
+        nodes.push(currentNode);
+      } else {
+        currentNode.val += '\n' + text.val;
+      }
+      if (this.peek().type === 'indent') {
+        var block = this.block();
+        block.nodes.forEach(function (node) {
+          if (node.isHtml) {
+            if (!currentNode) {
+              currentNode = node;
+              nodes.push(currentNode);
+            } else {
+              currentNode.val += '\n' + node.val;
+            }
+          } else {
+            currentNode = null;
+            nodes.push(node);
+          }
+        });
+      } else if (this.peek().type === 'newline') {
+        this.advance();
+      }
+    }
+    console.dir(nodes);
+    return nodes;
   },
 
   /**
@@ -540,6 +582,8 @@ Parser.prototype = {
     while ('outdent' != this.peek().type) {
       if ('newline' == this.peek().type) {
         this.advance();
+      } else if ('text-html' == this.peek().type) {
+        block.nodes = block.nodes.concat(this.parseTextHtml());
       } else {
         var expr = this.parseExpr();
         expr.filename = this.filename;

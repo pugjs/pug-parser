@@ -3,33 +3,10 @@
   "nodes": [
     {
       "type": "Text",
-      "val": "<ul>",
+      "val": "<ul>\n<li>foo</li>\n<li>bar</li>\n<li>baz</li>\n</ul>",
       "filename": "html.tokens.json",
-      "line": 2
-    },
-    {
-      "type": "Text",
-      "val": "<li>foo</li>",
-      "filename": "html.tokens.json",
-      "line": 3
-    },
-    {
-      "type": "Text",
-      "val": "<li>bar</li>",
-      "filename": "html.tokens.json",
-      "line": 4
-    },
-    {
-      "type": "Text",
-      "val": "<li>baz</li>",
-      "filename": "html.tokens.json",
-      "line": 5
-    },
-    {
-      "type": "Text",
-      "val": "</ul>",
-      "filename": "html.tokens.json",
-      "line": 6
+      "line": 2,
+      "isHtml": true
     },
     {
       "type": "Tag",
