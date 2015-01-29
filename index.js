@@ -296,6 +296,7 @@ Parser.prototype = {
     this.expect('indent');
     while ('outdent' != this.peek().type) {
       switch (this.peek().type) {
+        case 'comment':
         case 'newline':
           this.advance();
           break;
