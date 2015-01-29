@@ -26,7 +26,7 @@ function parse(tokens, filename) {
 function Parser(tokens, filename){
   this.tokens = new TokenStream(tokens);
   this.filename = filename;
-  this.inMixin = false;
+  this.inMixin = 0;
 };
 
 /**
@@ -522,7 +522,7 @@ Parser.prototype = {
 
     // definition
     if ('indent' == this.peek().type) {
-      this.inMixin = true;
+      this.inMixin++;
       var mixin = {
         type: 'Mixin',
         name: name,
@@ -530,7 +530,7 @@ Parser.prototype = {
         block: this.block(),
         call: false
       };
-      this.inMixin = false;
+      this.inMixin--;
       return mixin;
     // call
     } else {
