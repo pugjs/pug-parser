@@ -317,6 +317,8 @@
             "args": null,
             "block": null,
             "call": true,
+            "attrs": [],
+            "attributeBlocks": [],
             "filename": "mixins.tokens.json"
           },
           {

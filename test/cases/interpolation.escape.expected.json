@@ -17,23 +17,37 @@
         "type": "Block",
         "nodes": [
           {
-            "type": "Text",
-            "val": "some",
-            "filename": "interpolation.escape.tokens.json"
-          },
-          {
-            "type": "Text",
-            "val": "\\#{text}",
-            "filename": "interpolation.escape.tokens.json"
-          },
-          {
-            "type": "Text",
-            "val": "here",
-            "filename": "interpolation.escape.tokens.json"
-          },
-          {
-            "type": "Text",
-            "val": "My ID #{\"is {\" + id + \"}\"}",
+            "type": "Block",
+            "nodes": [
+              {
+                "type": "Text",
+                "val": "some"
+              },
+              {
+                "type": "Text",
+                "val": "\n"
+              },
+              {
+                "type": "Text",
+                "val": "\\#{text}"
+              },
+              {
+                "type": "Text",
+                "val": "\n"
+              },
+              {
+                "type": "Text",
+                "val": "here"
+              },
+              {
+                "type": "Text",
+                "val": "\n"
+              },
+              {
+                "type": "Text",
+                "val": "My ID #{\"is {\" + id + \"}\"}"
+              }
+            ],
             "filename": "interpolation.escape.tokens.json"
           }
         ]

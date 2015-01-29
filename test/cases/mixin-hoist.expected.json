@@ -54,6 +54,8 @@
                   "args": null,
                   "block": null,
                   "call": true,
+                  "attrs": [],
+                  "attributeBlocks": [],
                   "filename": "mixin-hoist.tokens.json"
                 }
               ]

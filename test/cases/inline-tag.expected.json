@@ -119,13 +119,16 @@
         "type": "Block",
         "nodes": [
           {
-            "type": "Text",
-            "val": "bing",
-            "filename": "inline-tag.tokens.json"
-          },
-          {
             "type": "Block",
             "nodes": [
+              {
+                "type": "Text",
+                "val": "bing"
+              },
+              {
+                "type": "Text",
+                "val": "\n"
+              },
               {
                 "type": "Text",
                 "val": ""
@@ -150,13 +153,16 @@
               {
                 "type": "Text",
                 "val": ""
+              },
+              {
+                "type": "Text",
+                "val": "\n"
+              },
+              {
+                "type": "Text",
+                "val": "bong"
               }
             ],
-            "filename": "inline-tag.tokens.json"
-          },
-          {
-            "type": "Text",
-            "val": "bong",
             "filename": "inline-tag.tokens.json"
           }
         ]

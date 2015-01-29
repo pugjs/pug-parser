@@ -34,18 +34,29 @@
         "type": "Block",
         "nodes": [
           {
-            "type": "Text",
-            "val": "foo",
-            "filename": "text.tokens.json"
-          },
-          {
-            "type": "Text",
-            "val": "bar",
-            "filename": "text.tokens.json"
-          },
-          {
-            "type": "Text",
-            "val": "baz",
+            "type": "Block",
+            "nodes": [
+              {
+                "type": "Text",
+                "val": "foo"
+              },
+              {
+                "type": "Text",
+                "val": "\n"
+              },
+              {
+                "type": "Text",
+                "val": "bar"
+              },
+              {
+                "type": "Text",
+                "val": "\n"
+              },
+              {
+                "type": "Text",
+                "val": "baz"
+              }
+            ],
             "filename": "text.tokens.json"
           }
         ]
@@ -124,23 +135,37 @@
         "type": "Block",
         "nodes": [
           {
-            "type": "Text",
-            "val": "foo",
-            "filename": "text.tokens.json"
-          },
-          {
-            "type": "Text",
-            "val": "  bar",
-            "filename": "text.tokens.json"
-          },
-          {
-            "type": "Text",
-            "val": "    baz",
-            "filename": "text.tokens.json"
-          },
-          {
-            "type": "Text",
-            "val": ".",
+            "type": "Block",
+            "nodes": [
+              {
+                "type": "Text",
+                "val": "foo"
+              },
+              {
+                "type": "Text",
+                "val": "\n"
+              },
+              {
+                "type": "Text",
+                "val": "  bar"
+              },
+              {
+                "type": "Text",
+                "val": "\n"
+              },
+              {
+                "type": "Text",
+                "val": "    baz"
+              },
+              {
+                "type": "Text",
+                "val": "\n"
+              },
+              {
+                "type": "Text",
+                "val": "."
+              }
+            ],
             "filename": "text.tokens.json"
           }
         ]
