@@ -229,7 +229,7 @@ Parser.prototype = {
     if (tags.length === 1) return tags[0];
     else return {type: 'Block', nodes: tags};
   },
-  
+
   parseTextHtml: function () {
     var nodes = [];
     var currentNode = null;
@@ -455,7 +455,7 @@ Parser.prototype = {
     node.name = tok.val.trim();
     node.mode = tok.mode;
     node.line = tok.line;
-  
+
     return node;
   },
 
@@ -733,7 +733,7 @@ Parser.prototype = {
 
     // block?
     if (tag.textOnly) {
-      tag.block = this.parseTextBlock() ||{type: 'Block', nodes: []};;
+      tag.block = this.parseTextBlock() || {type: 'Block', nodes: []};
     } else if ('indent' == this.peek().type) {
       var block = this.block();
       for (var i = 0, len = block.nodes.length; i < len; ++i) {
