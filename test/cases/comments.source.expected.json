@@ -9,15 +9,18 @@
         "nodes": [
           {
             "type": "Text",
-            "val": "s/s."
+            "val": "s/s.",
+            "line": 1
           },
           {
             "type": "Text",
-            "val": "\n"
+            "val": "\n",
+            "line": 1
           },
           {
             "type": "Text",
-            "val": ""
+            "val": "",
+            "line": 1
           }
         ]
       },
@@ -35,8 +38,8 @@
     {
       "type": "Text",
       "val": "",
-      "filename": "comments.source.tokens.json",
-      "line": 3
+      "line": 3,
+      "filename": "comments.source.tokens.json"
     },
     {
       "type": "BlockComment",
@@ -46,23 +49,28 @@
         "nodes": [
           {
             "type": "Text",
-            "val": "test/cases/comments.source.jade"
+            "val": "test/cases/comments.source.jade",
+            "line": 4
           },
           {
             "type": "Text",
-            "val": "\n"
+            "val": "\n",
+            "line": 4
           },
           {
             "type": "Text",
-            "val": "when"
+            "val": "when",
+            "line": 4
           },
           {
             "type": "Text",
-            "val": "\n"
+            "val": "\n",
+            "line": 4
           },
           {
             "type": "Text",
-            "val": "()"
+            "val": "()",
+            "line": 4
           }
         ]
       },

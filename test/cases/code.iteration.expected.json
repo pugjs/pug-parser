@@ -21,6 +21,7 @@
             "val": "items.forEach(function(item){",
             "buffer": false,
             "escape": false,
+            "line": 5,
             "block": {
               "type": "Block",
               "nodes": [
@@ -35,15 +36,18 @@
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
+                  "line": 6,
                   "code": {
                     "type": "Code",
                     "val": "item",
                     "buffer": true,
-                    "escape": true
+                    "escape": true,
+                    "line": 6
                   },
                   "filename": "code.iteration.tokens.json"
                 }
               ],
+              "line": 6,
               "filename": "code.iteration.tokens.json"
             },
             "filename": "code.iteration.tokens.json"
@@ -53,6 +57,7 @@
             "val": "})",
             "buffer": false,
             "escape": false,
+            "line": 7,
             "filename": "code.iteration.tokens.json"
           }
         ]
@@ -103,15 +108,18 @@
                   ],
                   "attributeBlocks": [],
                   "isInline": false,
+                  "line": 13,
                   "code": {
                     "type": "Code",
                     "val": "item",
                     "buffer": true,
-                    "escape": true
+                    "escape": true,
+                    "line": 13
                   },
                   "filename": "code.iteration.tokens.json"
                 }
               ],
+              "line": 13,
               "filename": "code.iteration.tokens.json"
             },
             "line": 12,
@@ -151,15 +159,18 @@
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
+                  "line": 17,
                   "code": {
                     "type": "Code",
                     "val": "item",
                     "buffer": true,
-                    "escape": true
+                    "escape": true,
+                    "line": 17
                   },
                   "filename": "code.iteration.tokens.json"
                 }
               ],
+              "line": 17,
               "filename": "code.iteration.tokens.json"
             },
             "line": 16,
@@ -199,15 +210,18 @@
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
+                  "line": 21,
                   "code": {
                     "type": "Code",
                     "val": "$item",
                     "buffer": true,
-                    "escape": true
+                    "escape": true,
+                    "line": 21
                   },
                   "filename": "code.iteration.tokens.json"
                 }
               ],
+              "line": 21,
               "filename": "code.iteration.tokens.json"
             },
             "line": 20,
@@ -269,22 +283,26 @@
                           "nodes": [
                             {
                               "type": "Text",
-                              "val": "#{n}: #{l}"
+                              "val": "#{n}: #{l}",
+                              "line": 29
                             }
                           ]
                         },
                         "attrs": [],
                         "attributeBlocks": [],
                         "isInline": false,
+                        "line": 29,
                         "filename": "code.iteration.tokens.json"
                       }
                     ],
+                    "line": 29,
                     "filename": "code.iteration.tokens.json"
                   },
                   "line": 28,
                   "filename": "code.iteration.tokens.json"
                 }
               ],
+              "line": 28,
               "filename": "code.iteration.tokens.json"
             },
             "line": 27,
@@ -338,16 +356,19 @@
                     "nodes": [
                       {
                         "type": "Text",
-                        "val": "#{n}"
+                        "val": "#{n}",
+                        "line": 35
                       }
                     ]
                   },
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
+                  "line": 35,
                   "filename": "code.iteration.tokens.json"
                 }
               ],
+              "line": 35,
               "filename": "code.iteration.tokens.json"
             },
             "line": 34,

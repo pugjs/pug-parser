@@ -38,18 +38,22 @@
                                 "nodes": [
                                   {
                                     "type": "Text",
-                                    "val": "hello world"
+                                    "val": "hello world",
+                                    "line": 5
                                   }
                                 ]
                               },
                               "attrs": [],
                               "attributeBlocks": [],
                               "isInline": true,
+                              "line": 5,
                               "filename": "include-only-text.tokens.json"
                             }
                           ],
+                          "line": 5,
                           "filename": "include-only-text.tokens.json"
                         },
+                        "line": 4,
                         "filename": "include-only-text.tokens.json"
                       }
                     ]
@@ -57,6 +61,7 @@
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
+                  "line": 3,
                   "filename": "include-only-text.tokens.json"
                 }
               ]
@@ -64,6 +69,7 @@
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 2,
             "filename": "include-only-text.tokens.json"
           }
         ]

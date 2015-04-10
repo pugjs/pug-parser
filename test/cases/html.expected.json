@@ -17,15 +17,16 @@
         "nodes": [
           {
             "type": "Text",
-            "val": "You can <em>embed</em> html as well."
+            "val": "You can <em>embed</em> html as well.",
+            "line": 8
           }
         ]
       },
       "attrs": [],
       "attributeBlocks": [],
       "isInline": false,
-      "line": 8,
-      "filename": "html.tokens.json"
+      "filename": "html.tokens.json",
+      "line": 8
     }
   ],
   "line": 0,

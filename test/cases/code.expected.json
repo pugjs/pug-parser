@@ -17,7 +17,8 @@
         "type": "Code",
         "val": "null",
         "buffer": true,
-        "escape": true
+        "escape": true,
+        "line": 1
       },
       "filename": "code.tokens.json"
     },
@@ -37,7 +38,8 @@
         "type": "Code",
         "val": "undefined",
         "buffer": true,
-        "escape": true
+        "escape": true,
+        "line": 2
       },
       "filename": "code.tokens.json"
     },
@@ -57,7 +59,8 @@
         "type": "Code",
         "val": "''",
         "buffer": true,
-        "escape": true
+        "escape": true,
+        "line": 3
       },
       "filename": "code.tokens.json"
     },
@@ -77,7 +80,8 @@
         "type": "Code",
         "val": "0",
         "buffer": true,
-        "escape": true
+        "escape": true,
+        "line": 4
       },
       "filename": "code.tokens.json"
     },
@@ -97,7 +101,8 @@
         "type": "Code",
         "val": "false",
         "buffer": true,
-        "escape": true
+        "escape": true,
+        "line": 5
       },
       "filename": "code.tokens.json"
     },

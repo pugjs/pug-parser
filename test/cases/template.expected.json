@@ -24,13 +24,15 @@
                     "nodes": [
                       {
                         "type": "Text",
-                        "val": "{{title}}"
+                        "val": "{{title}}",
+                        "line": 3
                       }
                     ]
                   },
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
+                  "line": 3,
                   "filename": "template.tokens.json"
                 },
                 {
@@ -42,13 +44,15 @@
                     "nodes": [
                       {
                         "type": "Text",
-                        "val": "{{description}}"
+                        "val": "{{description}}",
+                        "line": 4
                       }
                     ]
                   },
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
+                  "line": 4,
                   "filename": "template.tokens.json"
                 }
               ]
@@ -56,6 +60,7 @@
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 2,
             "filename": "template.tokens.json"
           }
         ]
@@ -81,23 +86,28 @@
         "nodes": [
           {
             "type": "Text",
-            "val": "article"
+            "val": "article",
+            "line": 6
           },
           {
             "type": "Text",
-            "val": "\n"
+            "val": "\n",
+            "line": 6
           },
           {
             "type": "Text",
-            "val": "  h2 {{title}}"
+            "val": "  h2 {{title}}",
+            "line": 6
           },
           {
             "type": "Text",
-            "val": "\n"
+            "val": "\n",
+            "line": 6
           },
           {
             "type": "Text",
-            "val": "  p {{description}}"
+            "val": "  p {{description}}",
+            "line": 6
           }
         ]
       },

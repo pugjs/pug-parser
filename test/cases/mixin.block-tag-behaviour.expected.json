@@ -26,16 +26,19 @@
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
+                  "line": 4,
                   "code": {
                     "type": "Code",
                     "val": "name",
                     "buffer": true,
-                    "escape": true
+                    "escape": true,
+                    "line": 4
                   },
                   "filename": "mixin.block-tag-behaviour.tokens.json"
                 },
                 {
                   "type": "MixinBlock",
+                  "line": 5,
                   "filename": "mixin.block-tag-behaviour.tokens.json"
                 }
               ]
@@ -49,14 +52,16 @@
             ],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 3,
             "filename": "mixin.block-tag-behaviour.tokens.json"
           }
         ],
+        "line": 3,
         "filename": "mixin.block-tag-behaviour.tokens.json"
       },
       "call": false,
-      "filename": "mixin.block-tag-behaviour.tokens.json",
-      "line": 2
+      "line": 2,
+      "filename": "mixin.block-tag-behaviour.tokens.json"
     },
     {
       "type": "Tag",
@@ -88,19 +93,22 @@
                           "nodes": [
                             {
                               "type": "Text",
-                              "val": "I'm article foo"
+                              "val": "I'm article foo",
+                              "line": 9
                             }
                           ]
                         },
                         "attrs": [],
                         "attributeBlocks": [],
-                        "isInline": false
+                        "isInline": false,
+                        "line": 9
                       }
                     ]
                   },
                   "call": true,
                   "attrs": [],
                   "attributeBlocks": [],
+                  "line": 9,
                   "filename": "mixin.block-tag-behaviour.tokens.json"
                 }
               ]
@@ -108,6 +116,7 @@
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 8,
             "filename": "mixin.block-tag-behaviour.tokens.json"
           }
         ]
@@ -143,11 +152,13 @@
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
+                  "line": 13,
                   "code": {
                     "type": "Code",
                     "val": "name",
                     "buffer": true,
-                    "escape": true
+                    "escape": true,
+                    "line": 13
                   },
                   "filename": "mixin.block-tag-behaviour.tokens.json"
                 },
@@ -160,6 +171,7 @@
                     "nodes": [
                       {
                         "type": "MixinBlock",
+                        "line": 15,
                         "filename": "mixin.block-tag-behaviour.tokens.json"
                       }
                     ]
@@ -167,6 +179,7 @@
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
+                  "line": 14,
                   "filename": "mixin.block-tag-behaviour.tokens.json"
                 }
               ]
@@ -180,14 +193,16 @@
             ],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 12,
             "filename": "mixin.block-tag-behaviour.tokens.json"
           }
         ],
+        "line": 12,
         "filename": "mixin.block-tag-behaviour.tokens.json"
       },
       "call": false,
-      "filename": "mixin.block-tag-behaviour.tokens.json",
-      "line": 11
+      "line": 11,
+      "filename": "mixin.block-tag-behaviour.tokens.json"
     },
     {
       "type": "Tag",
@@ -212,45 +227,55 @@
                     "nodes": [
                       {
                         "type": "Text",
-                        "val": "I'm a much longer"
+                        "val": "I'm a much longer",
+                        "line": 19
                       },
                       {
                         "type": "Text",
-                        "val": "\n"
+                        "val": "\n",
+                        "line": 19
                       },
                       {
                         "type": "Text",
-                        "val": "text-only article,"
+                        "val": "text-only article,",
+                        "line": 19
                       },
                       {
                         "type": "Text",
-                        "val": "\n"
+                        "val": "\n",
+                        "line": 19
                       },
                       {
                         "type": "Text",
-                        "val": "but you can still"
+                        "val": "but you can still",
+                        "line": 19
                       },
                       {
                         "type": "Text",
-                        "val": "\n"
+                        "val": "\n",
+                        "line": 19
                       },
                       {
                         "type": "Text",
-                        "val": "inline html tags"
+                        "val": "inline html tags",
+                        "line": 19
                       },
                       {
                         "type": "Text",
-                        "val": "\n"
+                        "val": "\n",
+                        "line": 19
                       },
                       {
                         "type": "Text",
-                        "val": "in me if you want."
+                        "val": "in me if you want.",
+                        "line": 19
                       }
                     ]
                   },
                   "call": true,
                   "attrs": [],
                   "attributeBlocks": [],
+                  "line": 19,
                   "textOnly": true,
                   "filename": "mixin.block-tag-behaviour.tokens.json"
                 }
@@ -259,6 +284,7 @@
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 18,
             "filename": "mixin.block-tag-behaviour.tokens.json"
           }
         ]

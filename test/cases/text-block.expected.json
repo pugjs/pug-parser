@@ -10,7 +10,8 @@
         "nodes": [
           {
             "type": "Text",
-            "val": "Username:"
+            "val": "Username:",
+            "line": 2
           },
           {
             "type": "Tag",
@@ -34,6 +35,7 @@
             ],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 3,
             "filename": "text-block.tokens.json"
           }
         ]
@@ -53,7 +55,8 @@
         "nodes": [
           {
             "type": "Text",
-            "val": "Password:"
+            "val": "Password:",
+            "line": 5
           },
           {
             "type": "Tag",
@@ -77,6 +80,7 @@
             ],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 6,
             "filename": "text-block.tokens.json"
           }
         ]

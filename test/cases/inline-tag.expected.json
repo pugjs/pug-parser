@@ -13,7 +13,8 @@
             "nodes": [
               {
                 "type": "Text",
-                "val": "bing "
+                "val": "bing ",
+                "line": 1
               },
               {
                 "type": "Tag",
@@ -24,19 +25,23 @@
                   "nodes": [
                     {
                       "type": "Text",
-                      "val": "foo"
+                      "val": "foo",
+                      "line": 1
                     }
                   ]
                 },
                 "attrs": [],
                 "attributeBlocks": [],
-                "isInline": true
+                "isInline": true,
+                "line": 1
               },
               {
                 "type": "Text",
-                "val": " bong"
+                "val": " bong",
+                "line": 1
               }
-            ]
+            ],
+            "line": 1
           }
         ]
       },
@@ -55,15 +60,18 @@
         "nodes": [
           {
             "type": "Text",
-            "val": "bing"
+            "val": "bing",
+            "line": 3
           },
           {
             "type": "Text",
-            "val": "\n"
+            "val": "\n",
+            "line": 3
           },
           {
             "type": "Text",
-            "val": ""
+            "val": "",
+            "line": 3
           },
           {
             "type": "Tag",
@@ -74,33 +82,40 @@
               "nodes": [
                 {
                   "type": "Text",
-                  "val": "foo"
+                  "val": "foo",
+                  "line": 1
                 }
               ]
             },
             "attrs": [],
             "attributeBlocks": [],
-            "isInline": true
+            "isInline": true,
+            "line": 1
           },
           {
             "type": "Text",
-            "val": ""
+            "val": "",
+            "line": 3
           },
           {
             "type": "Text",
-            "val": "\n"
+            "val": "\n",
+            "line": 3
           },
           {
             "type": "Text",
-            "val": "bong"
+            "val": "bong",
+            "line": 3
           },
           {
             "type": "Text",
-            "val": "\n"
+            "val": "\n",
+            "line": 3
           },
           {
             "type": "Text",
-            "val": ""
+            "val": "",
+            "line": 3
           }
         ]
       },
@@ -123,15 +138,18 @@
             "nodes": [
               {
                 "type": "Text",
-                "val": "bing"
+                "val": "bing",
+                "line": 5
               },
               {
                 "type": "Text",
-                "val": "\n"
+                "val": "\n",
+                "line": 6
               },
               {
                 "type": "Text",
-                "val": ""
+                "val": "",
+                "line": 6
               },
               {
                 "type": "Tag",
@@ -142,27 +160,33 @@
                   "nodes": [
                     {
                       "type": "Text",
-                      "val": "foo"
+                      "val": "foo",
+                      "line": 1
                     }
                   ]
                 },
                 "attrs": [],
                 "attributeBlocks": [],
-                "isInline": true
+                "isInline": true,
+                "line": 1
               },
               {
                 "type": "Text",
-                "val": ""
+                "val": "",
+                "line": 6
               },
               {
                 "type": "Text",
-                "val": "\n"
+                "val": "\n",
+                "line": 7
               },
               {
                 "type": "Text",
-                "val": "bong"
+                "val": "bong",
+                "line": 7
               }
             ],
+            "line": 5,
             "filename": "inline-tag.tokens.json"
           }
         ]
@@ -182,15 +206,18 @@
         "nodes": [
           {
             "type": "Text",
-            "val": "#[strong escaped]"
+            "val": "#[strong escaped]",
+            "line": 9
           },
           {
             "type": "Text",
-            "val": "\n"
+            "val": "\n",
+            "line": 9
           },
           {
             "type": "Text",
-            "val": "#["
+            "val": "#[",
+            "line": 9
           },
           {
             "type": "Tag",
@@ -201,17 +228,20 @@
               "nodes": [
                 {
                   "type": "Text",
-                  "val": "escaped"
+                  "val": "escaped",
+                  "line": 1
                 }
               ]
             },
             "attrs": [],
             "attributeBlocks": [],
-            "isInline": true
+            "isInline": true,
+            "line": 1
           },
           {
             "type": "Text",
-            "val": ""
+            "val": "",
+            "line": 9
           }
         ]
       },

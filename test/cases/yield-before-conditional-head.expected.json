@@ -25,17 +25,20 @@
             ],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 2,
             "filename": "yield-before-conditional-head.tokens.json"
           },
           {
             "type": "Block",
             "nodes": [],
+            "line": 3,
             "yield": true,
             "filename": "yield-before-conditional-head.tokens.json"
           },
           {
             "type": "Code",
             "val": "if ( false)",
+            "line": 4,
             "block": {
               "type": "Block",
               "nodes": [
@@ -56,9 +59,11 @@
                   ],
                   "attributeBlocks": [],
                   "isInline": false,
+                  "line": 5,
                   "filename": "yield-before-conditional-head.tokens.json"
                 }
               ],
+              "line": 5,
               "filename": "yield-before-conditional-head.tokens.json"
             },
             "filename": "yield-before-conditional-head.tokens.json"

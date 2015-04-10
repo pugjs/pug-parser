@@ -23,15 +23,18 @@
                     "nodes": [
                       {
                         "type": "Text",
-                        "val": "This is _some_ awesome **markdown**"
+                        "val": "This is _some_ awesome **markdown**",
+                        "line": 3
                       },
                       {
                         "type": "Text",
-                        "val": "\n"
+                        "val": "\n",
+                        "line": 3
                       },
                       {
                         "type": "Text",
-                        "val": "whoop."
+                        "val": "whoop.",
+                        "line": 3
                       }
                     ]
                   },
@@ -44,6 +47,7 @@
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 2,
             "filename": "filters.markdown.tokens.json"
           }
         ]

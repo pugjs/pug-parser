@@ -23,6 +23,7 @@
                     "type": "Block",
                     "nodes": []
                   },
+                  "line": 3,
                   "filename": "includes-with-ext-js.tokens.json"
                 }
               ]
@@ -30,6 +31,7 @@
             "attrs": [],
             "attributeBlocks": [],
             "isInline": true,
+            "line": 2,
             "filename": "includes-with-ext-js.tokens.json"
           }
         ]

@@ -17,13 +17,15 @@
               "nodes": [
                 {
                   "type": "Text",
-                  "val": "a"
+                  "val": "a",
+                  "line": 2
                 }
               ]
             },
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 2,
             "filename": "nesting.tokens.json"
           },
           {
@@ -35,13 +37,15 @@
               "nodes": [
                 {
                   "type": "Text",
-                  "val": "b"
+                  "val": "b",
+                  "line": 3
                 }
               ]
             },
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 3,
             "filename": "nesting.tokens.json"
           },
           {
@@ -67,13 +71,15 @@
                           "nodes": [
                             {
                               "type": "Text",
-                              "val": "c"
+                              "val": "c",
+                              "line": 6
                             }
                           ]
                         },
                         "attrs": [],
                         "attributeBlocks": [],
                         "isInline": false,
+                        "line": 6,
                         "filename": "nesting.tokens.json"
                       },
                       {
@@ -85,13 +91,15 @@
                           "nodes": [
                             {
                               "type": "Text",
-                              "val": "d"
+                              "val": "d",
+                              "line": 7
                             }
                           ]
                         },
                         "attrs": [],
                         "attributeBlocks": [],
                         "isInline": false,
+                        "line": 7,
                         "filename": "nesting.tokens.json"
                       }
                     ]
@@ -99,6 +107,7 @@
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
+                  "line": 5,
                   "filename": "nesting.tokens.json"
                 }
               ]
@@ -106,6 +115,7 @@
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 4,
             "filename": "nesting.tokens.json"
           },
           {
@@ -117,13 +127,15 @@
               "nodes": [
                 {
                   "type": "Text",
-                  "val": "e"
+                  "val": "e",
+                  "line": 8
                 }
               ]
             },
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 8,
             "filename": "nesting.tokens.json"
           }
         ]

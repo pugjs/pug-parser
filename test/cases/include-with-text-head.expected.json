@@ -17,7 +17,8 @@
               "nodes": [
                 {
                   "type": "Text",
-                  "val": "alert('hello world');"
+                  "val": "alert('hello world');",
+                  "line": 2
                 }
               ]
             },
@@ -30,6 +31,7 @@
             ],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 2,
             "textOnly": true,
             "filename": "include-with-text-head.tokens.json"
           }

@@ -17,13 +17,15 @@
               "nodes": [
                 {
                   "type": "Text",
-                  "val": "foo"
+                  "val": "foo",
+                  "line": 4
                 }
               ]
             },
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 4,
             "filename": "blanks.tokens.json"
           },
           {
@@ -35,13 +37,15 @@
               "nodes": [
                 {
                   "type": "Text",
-                  "val": "bar"
+                  "val": "bar",
+                  "line": 6
                 }
               ]
             },
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 6,
             "filename": "blanks.tokens.json"
           },
           {
@@ -53,13 +57,15 @@
               "nodes": [
                 {
                   "type": "Text",
-                  "val": "baz"
+                  "val": "baz",
+                  "line": 8
                 }
               ]
             },
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 8,
             "filename": "blanks.tokens.json"
           }
         ]

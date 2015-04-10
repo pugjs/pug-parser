@@ -19,6 +19,7 @@
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 3,
             "filename": "tags.self-closing.tokens.json"
           },
           {
@@ -38,6 +39,7 @@
             ],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 4,
             "filename": "tags.self-closing.tokens.json"
           },
           {
@@ -51,6 +53,7 @@
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 5,
             "filename": "tags.self-closing.tokens.json"
           },
           {
@@ -70,6 +73,7 @@
             ],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 6,
             "filename": "tags.self-closing.tokens.json"
           },
           {
@@ -81,13 +85,15 @@
               "nodes": [
                 {
                   "type": "Text",
-                  "val": "/"
+                  "val": "/",
+                  "line": 7
                 }
               ]
             },
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 7,
             "filename": "tags.self-closing.tokens.json"
           },
           {
@@ -99,7 +105,8 @@
               "nodes": [
                 {
                   "type": "Text",
-                  "val": "/"
+                  "val": "/",
+                  "line": 8
                 }
               ]
             },
@@ -112,6 +119,7 @@
             ],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 8,
             "filename": "tags.self-closing.tokens.json"
           },
           {
@@ -130,13 +138,15 @@
               "nodes": [
                 {
                   "type": "Text",
-                  "val": " "
+                  "val": " ",
+                  "line": 10
                 }
               ]
             },
             "attrs": [],
             "attributeBlocks": [],
             "isInline": true,
+            "line": 10,
             "filename": "tags.self-closing.tokens.json"
           },
           {
@@ -155,13 +165,15 @@
               "nodes": [
                 {
                   "type": "Text",
-                  "val": "   "
+                  "val": "   ",
+                  "line": 12
                 }
               ]
             },
             "attrs": [],
             "attributeBlocks": [],
             "isInline": true,
+            "line": 12,
             "filename": "tags.self-closing.tokens.json"
           }
         ]

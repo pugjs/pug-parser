@@ -17,13 +17,15 @@
               "nodes": [
                 {
                   "type": "Text",
-                  "val": "some content"
+                  "val": "some content",
+                  "line": 3
                 }
               ]
             },
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 3,
             "filename": "include.yield.nested.tokens.json"
           },
           {
@@ -35,20 +37,23 @@
               "nodes": [
                 {
                   "type": "Text",
-                  "val": "and some more"
+                  "val": "and some more",
+                  "line": 4
                 }
               ]
             },
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 4,
             "filename": "include.yield.nested.tokens.json"
           }
         ],
+        "line": 3,
         "filename": "include.yield.nested.tokens.json"
       },
-      "filename": "include.yield.nested.tokens.json",
-      "line": 2
+      "line": 2,
+      "filename": "include.yield.nested.tokens.json"
     }
   ],
   "line": 0,

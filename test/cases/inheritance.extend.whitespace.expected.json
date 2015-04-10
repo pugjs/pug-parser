@@ -4,8 +4,8 @@
     {
       "type": "Extends",
       "path": "auxiliary/layout",
-      "filename": "inheritance.extend.whitespace.tokens.json",
-      "line": 2
+      "line": 2,
+      "filename": "inheritance.extend.whitespace.tokens.json"
     },
     {
       "type": "NamedBlock",
@@ -27,6 +27,7 @@
           ],
           "attributeBlocks": [],
           "isInline": false,
+          "line": 6,
           "filename": "inheritance.extend.whitespace.tokens.json"
         }
       ],
@@ -47,13 +48,15 @@
             "nodes": [
               {
                 "type": "Text",
-                "val": "Page"
+                "val": "Page",
+                "line": 12
               }
             ]
           },
           "attrs": [],
           "attributeBlocks": [],
           "isInline": false,
+          "line": 12,
           "filename": "inheritance.extend.whitespace.tokens.json"
         },
         {
@@ -65,13 +68,15 @@
             "nodes": [
               {
                 "type": "Text",
-                "val": "Some content"
+                "val": "Some content",
+                "line": 13
               }
             ]
           },
           "attrs": [],
           "attributeBlocks": [],
           "isInline": false,
+          "line": 13,
           "filename": "inheritance.extend.whitespace.tokens.json"
         }
       ],

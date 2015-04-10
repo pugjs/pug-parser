@@ -20,6 +20,7 @@
                   "val": "var friends = 1",
                   "buffer": false,
                   "escape": false,
+                  "line": 3,
                   "filename": "case-blocks.tokens.json"
                 },
                 {
@@ -44,19 +45,23 @@
                                 "nodes": [
                                   {
                                     "type": "Text",
-                                    "val": "you have no friends"
+                                    "val": "you have no friends",
+                                    "line": 6
                                   }
                                 ]
                               },
                               "attrs": [],
                               "attributeBlocks": [],
                               "isInline": false,
+                              "line": 6,
                               "filename": "case-blocks.tokens.json"
                             }
                           ],
+                          "line": 6,
                           "filename": "case-blocks.tokens.json"
                         },
-                        "debug": false
+                        "debug": false,
+                        "line": 5
                       },
                       {
                         "type": "When",
@@ -73,19 +78,23 @@
                                 "nodes": [
                                   {
                                     "type": "Text",
-                                    "val": "you have a friend"
+                                    "val": "you have a friend",
+                                    "line": 8
                                   }
                                 ]
                               },
                               "attrs": [],
                               "attributeBlocks": [],
                               "isInline": false,
+                              "line": 8,
                               "filename": "case-blocks.tokens.json"
                             }
                           ],
+                          "line": 8,
                           "filename": "case-blocks.tokens.json"
                         },
-                        "debug": false
+                        "debug": false,
+                        "line": 7
                       },
                       {
                         "type": "When",
@@ -102,21 +111,26 @@
                                 "nodes": [
                                   {
                                     "type": "Text",
-                                    "val": "you have #{friends} friends"
+                                    "val": "you have #{friends} friends",
+                                    "line": 10
                                   }
                                 ]
                               },
                               "attrs": [],
                               "attributeBlocks": [],
                               "isInline": false,
+                              "line": 10,
                               "filename": "case-blocks.tokens.json"
                             }
                           ],
+                          "line": 10,
                           "filename": "case-blocks.tokens.json"
                         },
-                        "debug": false
+                        "debug": false,
+                        "line": 9
                       }
                     ],
+                    "line": 5,
                     "filename": "case-blocks.tokens.json"
                   },
                   "filename": "case-blocks.tokens.json"
@@ -126,6 +140,7 @@
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 2,
             "filename": "case-blocks.tokens.json"
           }
         ]

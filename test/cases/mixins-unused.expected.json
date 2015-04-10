@@ -16,7 +16,8 @@
               "nodes": [
                 {
                   "type": "Text",
-                  "val": "This isn't something we ever want to output"
+                  "val": "This isn't something we ever want to output",
+                  "line": 2
                 }
               ]
             },
@@ -29,14 +30,16 @@
             ],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 2,
             "filename": "mixins-unused.tokens.json"
           }
         ],
+        "line": 2,
         "filename": "mixins-unused.tokens.json"
       },
       "call": false,
-      "filename": "mixins-unused.tokens.json",
-      "line": 1
+      "line": 1,
+      "filename": "mixins-unused.tokens.json"
     },
     {
       "type": "Tag",

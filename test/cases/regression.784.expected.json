@@ -6,8 +6,8 @@
       "val": "var url = 'http://www.google.com'",
       "buffer": false,
       "escape": false,
-      "line": 1,
-      "filename": "regression.784.tokens.json"
+      "filename": "regression.784.tokens.json",
+      "line": 1
     },
     {
       "type": "Tag",
@@ -17,7 +17,8 @@
         "nodes": [
           {
             "type": "Text",
-            "val": "#{url.replace('http://', '').replace(/^www\\./, '')}"
+            "val": "#{url.replace('http://', '').replace(/^www\\./, '')}",
+            "line": 2
           }
         ]
       },
@@ -30,8 +31,8 @@
       ],
       "attributeBlocks": [],
       "isInline": false,
-      "line": 2,
-      "filename": "regression.784.tokens.json"
+      "filename": "regression.784.tokens.json",
+      "line": 2
     }
   ],
   "line": 0,

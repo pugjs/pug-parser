@@ -10,15 +10,16 @@
         "nodes": [
           {
             "type": "Text",
-            "val": "Something"
+            "val": "Something",
+            "line": 1
           }
         ]
       },
       "attrs": [],
       "attributeBlocks": [],
       "isInline": false,
-      "line": 1,
-      "filename": "namespaces.tokens.json"
+      "filename": "namespaces.tokens.json",
+      "line": 1
     },
     {
       "type": "Tag",
@@ -37,8 +38,8 @@
       ],
       "attributeBlocks": [],
       "isInline": false,
-      "line": 2,
-      "filename": "namespaces.tokens.json"
+      "filename": "namespaces.tokens.json",
+      "line": 2
     }
   ],
   "line": 0,

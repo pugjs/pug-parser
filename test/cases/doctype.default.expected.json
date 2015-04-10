@@ -29,13 +29,15 @@
                     "nodes": [
                       {
                         "type": "Text",
-                        "val": "Title"
+                        "val": "Title",
+                        "line": 4
                       }
                     ]
                   },
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
+                  "line": 4,
                   "filename": "doctype.default.tokens.json"
                 }
               ]
@@ -43,6 +45,7 @@
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 3,
             "filename": "doctype.default.tokens.json"
           }
         ]

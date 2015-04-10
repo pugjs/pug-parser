@@ -19,6 +19,7 @@
           {
             "type": "Code",
             "val": "while (x < 10)",
+            "line": 3,
             "block": {
               "type": "Block",
               "nodes": [
@@ -27,6 +28,7 @@
                   "val": "x++;",
                   "buffer": false,
                   "escape": false,
+                  "line": 4,
                   "filename": "while.tokens.json"
                 },
                 {
@@ -40,15 +42,18 @@
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
+                  "line": 5,
                   "code": {
                     "type": "Code",
                     "val": "x",
                     "buffer": true,
-                    "escape": true
+                    "escape": true,
+                    "line": 5
                   },
                   "filename": "while.tokens.json"
                 }
               ],
+              "line": 4,
               "filename": "while.tokens.json"
             },
             "filename": "while.tokens.json"

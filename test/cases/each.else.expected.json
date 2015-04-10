@@ -35,15 +35,18 @@
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
+                  "line": 6,
                   "code": {
                     "type": "Code",
                     "val": "user.name",
                     "buffer": true,
-                    "escape": true
+                    "escape": true,
+                    "line": 6
                   },
                   "filename": "each.else.tokens.json"
                 }
               ],
+              "line": 6,
               "filename": "each.else.tokens.json"
             },
             "line": 5,
@@ -59,16 +62,19 @@
                     "nodes": [
                       {
                         "type": "Text",
-                        "val": "no users!"
+                        "val": "no users!",
+                        "line": 8
                       }
                     ]
                   },
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
+                  "line": 8,
                   "filename": "each.else.tokens.json"
                 }
               ],
+              "line": 8,
               "filename": "each.else.tokens.json"
             },
             "filename": "each.else.tokens.json"
@@ -122,15 +128,18 @@
                         "attrs": [],
                         "attributeBlocks": [],
                         "isInline": false,
+                        "line": 16,
                         "code": {
                           "type": "Code",
                           "val": "user.name",
                           "buffer": true,
-                          "escape": true
+                          "escape": true,
+                          "line": 16
                         },
                         "filename": "each.else.tokens.json"
                       }
                     ],
+                    "line": 16,
                     "filename": "each.else.tokens.json"
                   },
                   "line": 15,
@@ -146,16 +155,19 @@
                           "nodes": [
                             {
                               "type": "Text",
-                              "val": "no users!"
+                              "val": "no users!",
+                              "line": 18
                             }
                           ]
                         },
                         "attrs": [],
                         "attributeBlocks": [],
                         "isInline": false,
+                        "line": 18,
                         "filename": "each.else.tokens.json"
                       }
                     ],
+                    "line": 18,
                     "filename": "each.else.tokens.json"
                   },
                   "filename": "each.else.tokens.json"
@@ -165,9 +177,11 @@
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 14,
             "filename": "each.else.tokens.json"
           }
         ],
+        "line": 14,
         "filename": "each.else.tokens.json"
       },
       "filename": "each.else.tokens.json"
@@ -204,16 +218,19 @@
                     "nodes": [
                       {
                         "type": "Text",
-                        "val": "#{key}: #{val}"
+                        "val": "#{key}: #{val}",
+                        "line": 24
                       }
                     ]
                   },
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
+                  "line": 24,
                   "filename": "each.else.tokens.json"
                 }
               ],
+              "line": 24,
               "filename": "each.else.tokens.json"
             },
             "line": 23,
@@ -229,16 +246,19 @@
                     "nodes": [
                       {
                         "type": "Text",
-                        "val": "user has no details!"
+                        "val": "user has no details!",
+                        "line": 26
                       }
                     ]
                   },
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
+                  "line": 26,
                   "filename": "each.else.tokens.json"
                 }
               ],
+              "line": 26,
               "filename": "each.else.tokens.json"
             },
             "filename": "each.else.tokens.json"
@@ -283,16 +303,19 @@
                     "nodes": [
                       {
                         "type": "Text",
-                        "val": "#{key}: #{val}"
+                        "val": "#{key}: #{val}",
+                        "line": 32
                       }
                     ]
                   },
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
+                  "line": 32,
                   "filename": "each.else.tokens.json"
                 }
               ],
+              "line": 32,
               "filename": "each.else.tokens.json"
             },
             "line": 31,
@@ -308,16 +331,19 @@
                     "nodes": [
                       {
                         "type": "Text",
-                        "val": "user has no details!"
+                        "val": "user has no details!",
+                        "line": 34
                       }
                     ]
                   },
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
+                  "line": 34,
                   "filename": "each.else.tokens.json"
                 }
               ],
+              "line": 34,
               "filename": "each.else.tokens.json"
             },
             "filename": "each.else.tokens.json"
@@ -354,16 +380,19 @@
                     "nodes": [
                       {
                         "type": "Text",
-                        "val": "#{key}: #{val}"
+                        "val": "#{key}: #{val}",
+                        "line": 38
                       }
                     ]
                   },
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
+                  "line": 38,
                   "filename": "each.else.tokens.json"
                 }
               ],
+              "line": 38,
               "filename": "each.else.tokens.json"
             },
             "line": 37,
@@ -379,16 +408,19 @@
                     "nodes": [
                       {
                         "type": "Text",
-                        "val": "user has no details!"
+                        "val": "user has no details!",
+                        "line": 40
                       }
                     ]
                   },
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
+                  "line": 40,
                   "filename": "each.else.tokens.json"
                 }
               ],
+              "line": 40,
               "filename": "each.else.tokens.json"
             },
             "filename": "each.else.tokens.json"
@@ -441,16 +473,19 @@
                     "nodes": [
                       {
                         "type": "Text",
-                        "val": "#{key}: #{val}"
+                        "val": "#{key}: #{val}",
+                        "line": 47
                       }
                     ]
                   },
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
+                  "line": 47,
                   "filename": "each.else.tokens.json"
                 }
               ],
+              "line": 47,
               "filename": "each.else.tokens.json"
             },
             "line": 46,
@@ -466,16 +501,19 @@
                     "nodes": [
                       {
                         "type": "Text",
-                        "val": "user has no details!"
+                        "val": "user has no details!",
+                        "line": 49
                       }
                     ]
                   },
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
+                  "line": 49,
                   "filename": "each.else.tokens.json"
                 }
               ],
+              "line": 49,
               "filename": "each.else.tokens.json"
             },
             "filename": "each.else.tokens.json"

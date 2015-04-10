@@ -18,6 +18,7 @@
                 {
                   "type": "Block",
                   "nodes": [],
+                  "line": 3,
                   "yield": true,
                   "filename": "yield-title-head.tokens.json"
                 }
@@ -26,6 +27,7 @@
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 2,
             "filename": "yield-title-head.tokens.json"
           },
           {
@@ -45,6 +47,7 @@
             ],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 4,
             "filename": "yield-title-head.tokens.json"
           },
           {
@@ -64,6 +67,7 @@
             ],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 5,
             "filename": "yield-title-head.tokens.json"
           }
         ]

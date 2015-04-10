@@ -9,8 +9,8 @@
         "type": "Block",
         "nodes": []
       },
-      "filename": "mixin-at-end-of-file.tokens.json",
-      "line": 1
+      "line": 1,
+      "filename": "mixin-at-end-of-file.tokens.json"
     },
     {
       "type": "Mixin",
@@ -28,13 +28,15 @@
               "nodes": [
                 {
                   "type": "Text",
-                  "val": "some awesome content"
+                  "val": "some awesome content",
+                  "line": 4
                 }
               ]
             },
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 4,
             "filename": "mixin-at-end-of-file.tokens.json"
           }
         ]

@@ -25,7 +25,8 @@
         "nodes": [
           {
             "type": "Text",
-            "val": "value"
+            "val": "value",
+            "line": 5
           }
         ]
       },
@@ -44,7 +45,8 @@
         "nodes": [
           {
             "type": "Text",
-            "val": "value"
+            "val": "value",
+            "line": 6
           }
         ]
       },
@@ -69,7 +71,8 @@
         "nodes": [
           {
             "type": "Text",
-            "val": "here"
+            "val": "here",
+            "line": 7
           }
         ]
       },
@@ -103,6 +106,7 @@
                 {
                   "type": "Code",
                   "val": "if ( attributes.href)",
+                  "line": 11,
                   "block": {
                     "type": "Block",
                     "nodes": [
@@ -135,10 +139,12 @@
                               ],
                               "attributeBlocks": [],
                               "isInline": true,
+                              "line": 13,
                               "filename": "tag.interpolation.tokens.json"
                             },
                             {
                               "type": "MixinBlock",
+                              "line": 14,
                               "filename": "tag.interpolation.tokens.json"
                             }
                           ]
@@ -148,9 +154,11 @@
                           "attributes"
                         ],
                         "isInline": true,
+                        "line": 12,
                         "filename": "tag.interpolation.tokens.json"
                       }
                     ],
+                    "line": 12,
                     "filename": "tag.interpolation.tokens.json"
                   },
                   "filename": "tag.interpolation.tokens.json"
@@ -158,6 +166,7 @@
                 {
                   "type": "Code",
                   "val": "else",
+                  "line": 15,
                   "debug": false,
                   "block": {
                     "type": "Block",
@@ -191,10 +200,12 @@
                               ],
                               "attributeBlocks": [],
                               "isInline": true,
+                              "line": 17,
                               "filename": "tag.interpolation.tokens.json"
                             },
                             {
                               "type": "MixinBlock",
+                              "line": 18,
                               "filename": "tag.interpolation.tokens.json"
                             }
                           ]
@@ -204,9 +215,11 @@
                           "attributes"
                         ],
                         "isInline": true,
+                        "line": 16,
                         "filename": "tag.interpolation.tokens.json"
                       }
                     ],
+                    "line": 16,
                     "filename": "tag.interpolation.tokens.json"
                   },
                   "filename": "tag.interpolation.tokens.json"
@@ -216,14 +229,16 @@
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 10,
             "filename": "tag.interpolation.tokens.json"
           }
         ],
+        "line": 10,
         "filename": "tag.interpolation.tokens.json"
       },
       "call": false,
-      "filename": "tag.interpolation.tokens.json",
-      "line": 9
+      "line": 9,
+      "filename": "tag.interpolation.tokens.json"
     },
     {
       "type": "Tag",
@@ -241,13 +256,15 @@
               "nodes": [
                 {
                   "type": "Text",
-                  "val": "Contact"
+                  "val": "Contact",
+                  "line": 21
                 }
               ]
             },
             "call": true,
             "attrs": [],
             "attributeBlocks": [],
+            "line": 21,
             "filename": "tag.interpolation.tokens.json"
           },
           {
@@ -258,7 +275,8 @@
               "nodes": [
                 {
                   "type": "Text",
-                  "val": "Contact"
+                  "val": "Contact",
+                  "line": 22
                 }
               ]
             },
@@ -271,6 +289,7 @@
               }
             ],
             "attributeBlocks": [],
+            "line": 22,
             "filename": "tag.interpolation.tokens.json"
           }
         ]

@@ -33,15 +33,18 @@
                         "attrs": [],
                         "attributeBlocks": [],
                         "isInline": false,
+                        "line": 4,
                         "code": {
                           "type": "Code",
                           "val": "item",
                           "buffer": true,
-                          "escape": true
+                          "escape": true,
+                          "line": 4
                         },
                         "filename": "mixins.rest-args.tokens.json"
                       }
                     ],
+                    "line": 4,
                     "filename": "mixins.rest-args.tokens.json"
                   },
                   "line": 3,
@@ -53,14 +56,16 @@
             "attributeBlocks": [],
             "buffer": true,
             "isInline": false,
+            "line": 2,
             "filename": "mixins.rest-args.tokens.json"
           }
         ],
+        "line": 2,
         "filename": "mixins.rest-args.tokens.json"
       },
       "call": false,
-      "filename": "mixins.rest-args.tokens.json",
-      "line": 1
+      "line": 1,
+      "filename": "mixins.rest-args.tokens.json"
     },
     {
       "type": "Mixin",

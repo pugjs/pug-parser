@@ -25,11 +25,14 @@
                       {
                         "type": "Text",
                         "val": "My Title",
+                        "line": 4,
                         "filename": "yield-title.tokens.json"
                       }
                     ],
+                    "line": 4,
                     "filename": "yield-title.tokens.json"
                   },
+                  "line": 3,
                   "filename": "yield-title.tokens.json"
                 }
               ]
@@ -37,6 +40,7 @@
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 2,
             "filename": "yield-title.tokens.json"
           }
         ]

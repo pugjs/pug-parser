@@ -4,8 +4,8 @@
     {
       "type": "Extends",
       "path": "auxiliary/inheritance.extend.mixin.block",
-      "filename": "inheritance.extend.mixins.block.tokens.json",
-      "line": 1
+      "line": 1,
+      "filename": "inheritance.extend.mixins.block.tokens.json"
     },
     {
       "type": "NamedBlock",
@@ -19,13 +19,15 @@
             "nodes": [
               {
                 "type": "Text",
-                "val": "Hello World!"
+                "val": "Hello World!",
+                "line": 4
               }
             ]
           },
           "attrs": [],
           "attributeBlocks": [],
           "isInline": false,
+          "line": 4,
           "filename": "inheritance.extend.mixins.block.tokens.json"
         }
       ],

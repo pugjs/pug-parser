@@ -10,7 +10,8 @@
         "nodes": [
           {
             "type": "Text",
-            "val": "-- (selected) --"
+            "val": "-- (selected) --",
+            "line": 1
           }
         ]
       },
@@ -38,25 +39,31 @@
             "nodes": [
               {
                 "type": "Text",
-                "val": "foo"
+                "val": "foo",
+                "line": 4
               },
               {
                 "type": "Text",
-                "val": "\n"
+                "val": "\n",
+                "line": 5
               },
               {
                 "type": "Text",
-                "val": "bar"
+                "val": "bar",
+                "line": 5
               },
               {
                 "type": "Text",
-                "val": "\n"
+                "val": "\n",
+                "line": 6
               },
               {
                 "type": "Text",
-                "val": "baz"
+                "val": "baz",
+                "line": 6
               }
             ],
+            "line": 4,
             "filename": "text.tokens.json"
           }
         ]
@@ -76,47 +83,58 @@
         "nodes": [
           {
             "type": "Text",
-            "val": "foo"
+            "val": "foo",
+            "line": 8
           },
           {
             "type": "Text",
-            "val": "\n"
+            "val": "\n",
+            "line": 8
           },
           {
             "type": "Text",
-            "val": ""
+            "val": "",
+            "line": 8
           },
           {
             "type": "Text",
-            "val": "\n"
+            "val": "\n",
+            "line": 8
           },
           {
             "type": "Text",
-            "val": ""
+            "val": "",
+            "line": 8
           },
           {
             "type": "Text",
-            "val": "\n"
+            "val": "\n",
+            "line": 8
           },
           {
             "type": "Text",
-            "val": "bar"
+            "val": "bar",
+            "line": 8
           },
           {
             "type": "Text",
-            "val": "\n"
+            "val": "\n",
+            "line": 8
           },
           {
             "type": "Text",
-            "val": "baz"
+            "val": "baz",
+            "line": 8
           },
           {
             "type": "Text",
-            "val": "\n"
+            "val": "\n",
+            "line": 8
           },
           {
             "type": "Text",
-            "val": ""
+            "val": "",
+            "line": 8
           }
         ]
       },
@@ -139,33 +157,41 @@
             "nodes": [
               {
                 "type": "Text",
-                "val": "foo"
+                "val": "foo",
+                "line": 10
               },
               {
                 "type": "Text",
-                "val": "\n"
+                "val": "\n",
+                "line": 11
               },
               {
                 "type": "Text",
-                "val": "  bar"
+                "val": "  bar",
+                "line": 11
               },
               {
                 "type": "Text",
-                "val": "\n"
+                "val": "\n",
+                "line": 12
               },
               {
                 "type": "Text",
-                "val": "    baz"
+                "val": "    baz",
+                "line": 12
               },
               {
                 "type": "Text",
-                "val": "\n"
+                "val": "\n",
+                "line": 13
               },
               {
                 "type": "Text",
-                "val": "."
+                "val": ".",
+                "line": 13
               }
             ],
+            "line": 10,
             "filename": "text.tokens.json"
           }
         ]
@@ -185,31 +211,38 @@
         "nodes": [
           {
             "type": "Text",
-            "val": "foo"
+            "val": "foo",
+            "line": 15
           },
           {
             "type": "Text",
-            "val": "\n"
+            "val": "\n",
+            "line": 15
           },
           {
             "type": "Text",
-            "val": "  bar"
+            "val": "  bar",
+            "line": 15
           },
           {
             "type": "Text",
-            "val": "\n"
+            "val": "\n",
+            "line": 15
           },
           {
             "type": "Text",
-            "val": "    baz"
+            "val": "    baz",
+            "line": 15
           },
           {
             "type": "Text",
-            "val": "\n"
+            "val": "\n",
+            "line": 15
           },
           {
             "type": "Text",
-            "val": "."
+            "val": ".",
+            "line": 15
           }
         ]
       },

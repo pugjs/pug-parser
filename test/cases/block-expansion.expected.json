@@ -24,7 +24,8 @@
                     "nodes": [
                       {
                         "type": "Text",
-                        "val": "foo"
+                        "val": "foo",
+                        "line": 2
                       }
                     ]
                   },
@@ -36,13 +37,15 @@
                     }
                   ],
                   "attributeBlocks": [],
-                  "isInline": true
+                  "isInline": true,
+                  "line": 2
                 }
               ]
             },
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 2,
             "filename": "block-expansion.tokens.json"
           },
           {
@@ -61,7 +64,8 @@
                     "nodes": [
                       {
                         "type": "Text",
-                        "val": "bar"
+                        "val": "bar",
+                        "line": 3
                       }
                     ]
                   },
@@ -73,13 +77,15 @@
                     }
                   ],
                   "attributeBlocks": [],
-                  "isInline": true
+                  "isInline": true,
+                  "line": 3
                 }
               ]
             },
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 3,
             "filename": "block-expansion.tokens.json"
           }
         ]
@@ -99,7 +105,8 @@
         "nodes": [
           {
             "type": "Text",
-            "val": "baz"
+            "val": "baz",
+            "line": 5
           }
         ]
       },

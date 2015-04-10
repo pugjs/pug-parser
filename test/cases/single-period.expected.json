@@ -10,15 +10,16 @@
         "nodes": [
           {
             "type": "Text",
-            "val": "."
+            "val": ".",
+            "line": 1
           }
         ]
       },
       "attrs": [],
       "attributeBlocks": [],
       "isInline": true,
-      "line": 1,
-      "filename": "single-period.tokens.json"
+      "filename": "single-period.tokens.json",
+      "line": 1
     }
   ],
   "line": 0,

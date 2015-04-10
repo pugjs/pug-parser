@@ -31,13 +31,15 @@
               "nodes": [
                 {
                   "type": "Text",
-                  "val": "one"
+                  "val": "one",
+                  "line": 5
                 }
               ]
             },
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 5,
             "filename": "comments.tokens.json"
           },
           {
@@ -56,13 +58,15 @@
               "nodes": [
                 {
                   "type": "Text",
-                  "val": "two"
+                  "val": "two",
+                  "line": 7
                 }
               ]
             },
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 7,
             "filename": "comments.tokens.json"
           }
         ]
@@ -81,23 +85,28 @@
         "nodes": [
           {
             "type": "Text",
-            "val": "ul"
+            "val": "ul",
+            "line": 9
           },
           {
             "type": "Text",
-            "val": "\n"
+            "val": "\n",
+            "line": 9
           },
           {
             "type": "Text",
-            "val": "  li foo"
+            "val": "  li foo",
+            "line": 9
           },
           {
             "type": "Text",
-            "val": "\n"
+            "val": "\n",
+            "line": 9
           },
           {
             "type": "Text",
-            "val": ""
+            "val": "",
+            "line": 9
           }
         ]
       },
@@ -113,23 +122,28 @@
         "nodes": [
           {
             "type": "Text",
-            "val": "// inline follow"
+            "val": "// inline follow",
+            "line": 10
           },
           {
             "type": "Text",
-            "val": "\n"
+            "val": "\n",
+            "line": 10
           },
           {
             "type": "Text",
-            "val": "li three"
+            "val": "li three",
+            "line": 10
           },
           {
             "type": "Text",
-            "val": "\n"
+            "val": "\n",
+            "line": 10
           },
           {
             "type": "Text",
-            "val": ""
+            "val": "",
+            "line": 10
           }
         ]
       },
@@ -145,31 +159,38 @@
         "nodes": [
           {
             "type": "Text",
-            "val": "// inline followed by tags"
+            "val": "// inline followed by tags",
+            "line": 11
           },
           {
             "type": "Text",
-            "val": "\n"
+            "val": "\n",
+            "line": 11
           },
           {
             "type": "Text",
-            "val": "ul"
+            "val": "ul",
+            "line": 11
           },
           {
             "type": "Text",
-            "val": "\n"
+            "val": "\n",
+            "line": 11
           },
           {
             "type": "Text",
-            "val": "  li four"
+            "val": "  li four",
+            "line": 11
           },
           {
             "type": "Text",
-            "val": "\n"
+            "val": "\n",
+            "line": 11
           },
           {
             "type": "Text",
-            "val": ""
+            "val": "",
+            "line": 11
           }
         ]
       },
@@ -185,31 +206,38 @@
         "nodes": [
           {
             "type": "Text",
-            "val": "// inline"
+            "val": "// inline",
+            "line": 12
           },
           {
             "type": "Text",
-            "val": "\n"
+            "val": "\n",
+            "line": 12
           },
           {
             "type": "Text",
-            "val": "script(src='/lame.js')"
+            "val": "script(src='/lame.js')",
+            "line": 12
           },
           {
             "type": "Text",
-            "val": "\n"
+            "val": "\n",
+            "line": 12
           },
           {
             "type": "Text",
-            "val": "// end-inline"
+            "val": "// end-inline",
+            "line": 12
           },
           {
             "type": "Text",
-            "val": "\n"
+            "val": "\n",
+            "line": 12
           },
           {
             "type": "Text",
-            "val": ""
+            "val": "",
+            "line": 12
           }
         ]
       },
@@ -226,7 +254,8 @@
         "nodes": [
           {
             "type": "Text",
-            "val": "five"
+            "val": "five",
+            "line": 13
           }
         ]
       },
@@ -244,7 +273,8 @@
         "nodes": [
           {
             "type": "Text",
-            "val": "// not a comment"
+            "val": "// not a comment",
+            "line": 15
           }
         ]
       },

@@ -4,8 +4,8 @@
     {
       "type": "Extends",
       "path": "auxiliary/layout",
-      "filename": "inheritance.extend.mixins.tokens.json",
-      "line": 2
+      "line": 2,
+      "filename": "inheritance.extend.mixins.tokens.json"
     },
     {
       "type": "Mixin",
@@ -17,6 +17,7 @@
           {
             "type": "Code",
             "val": "if ( title)",
+            "line": 5,
             "block": {
               "type": "Block",
               "nodes": [
@@ -31,29 +32,34 @@
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
+                  "line": 6,
                   "code": {
                     "type": "Code",
                     "val": "title",
                     "buffer": true,
-                    "escape": true
+                    "escape": true,
+                    "line": 6
                   },
                   "filename": "inheritance.extend.mixins.tokens.json"
                 }
               ],
+              "line": 6,
               "filename": "inheritance.extend.mixins.tokens.json"
             },
             "filename": "inheritance.extend.mixins.tokens.json"
           },
           {
             "type": "MixinBlock",
+            "line": 7,
             "filename": "inheritance.extend.mixins.tokens.json"
           }
         ],
+        "line": 5,
         "filename": "inheritance.extend.mixins.tokens.json"
       },
       "call": false,
-      "filename": "inheritance.extend.mixins.tokens.json",
-      "line": 4
+      "line": 4,
+      "filename": "inheritance.extend.mixins.tokens.json"
     },
     {
       "type": "NamedBlock",
@@ -74,13 +80,15 @@
                   "nodes": [
                     {
                       "type": "Text",
-                      "val": "Foo bar baz!"
+                      "val": "Foo bar baz!",
+                      "line": 11
                     }
                   ]
                 },
                 "attrs": [],
                 "attributeBlocks": [],
                 "isInline": false,
+                "line": 11,
                 "filename": "inheritance.extend.mixins.tokens.json"
               }
             ]
@@ -88,6 +96,7 @@
           "call": true,
           "attrs": [],
           "attributeBlocks": [],
+          "line": 10,
           "filename": "inheritance.extend.mixins.tokens.json"
         }
       ],

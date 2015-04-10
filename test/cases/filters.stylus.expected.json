@@ -30,15 +30,18 @@
                           "nodes": [
                             {
                               "type": "Text",
-                              "val": "body"
+                              "val": "body",
+                              "line": 4
                             },
                             {
                               "type": "Text",
-                              "val": "\n"
+                              "val": "\n",
+                              "line": 4
                             },
                             {
                               "type": "Text",
-                              "val": "  padding: 50px"
+                              "val": "  padding: 50px",
+                              "line": 4
                             }
                           ]
                         },
@@ -57,6 +60,7 @@
                   ],
                   "attributeBlocks": [],
                   "isInline": false,
+                  "line": 3,
                   "filename": "filters.stylus.tokens.json"
                 }
               ]
@@ -64,6 +68,7 @@
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 2,
             "filename": "filters.stylus.tokens.json"
           },
           {
@@ -77,6 +82,7 @@
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 5,
             "filename": "filters.stylus.tokens.json"
           }
         ]

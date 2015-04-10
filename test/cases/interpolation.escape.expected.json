@@ -21,33 +21,41 @@
             "nodes": [
               {
                 "type": "Text",
-                "val": "some"
+                "val": "some",
+                "line": 4
               },
               {
                 "type": "Text",
-                "val": "\n"
+                "val": "\n",
+                "line": 5
               },
               {
                 "type": "Text",
-                "val": "\\#{text}"
+                "val": "\\#{text}",
+                "line": 5
               },
               {
                 "type": "Text",
-                "val": "\n"
+                "val": "\n",
+                "line": 6
               },
               {
                 "type": "Text",
-                "val": "here"
+                "val": "here",
+                "line": 6
               },
               {
                 "type": "Text",
-                "val": "\n"
+                "val": "\n",
+                "line": 7
               },
               {
                 "type": "Text",
-                "val": "My ID #{\"is {\" + id + \"}\"}"
+                "val": "My ID #{\"is {\" + id + \"}\"}",
+                "line": 7
               }
             ],
+            "line": 4,
             "filename": "interpolation.escape.tokens.json"
           }
         ]

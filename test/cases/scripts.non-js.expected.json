@@ -23,13 +23,15 @@
                     "nodes": [
                       {
                         "type": "Text",
-                        "val": "<%= user.name %>"
+                        "val": "<%= user.name %>",
+                        "line": 3
                       }
                     ]
                   },
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
+                  "line": 3,
                   "filename": "scripts.non-js.tokens.json"
                 },
                 {
@@ -41,13 +43,15 @@
                     "nodes": [
                       {
                         "type": "Text",
-                        "val": "<%= user.description %>"
+                        "val": "<%= user.description %>",
+                        "line": 4
                       }
                     ]
                   },
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
+                  "line": 4,
                   "filename": "scripts.non-js.tokens.json"
                 }
               ]
@@ -61,6 +65,7 @@
             ],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 2,
             "filename": "scripts.non-js.tokens.json"
           }
         ]
@@ -91,23 +96,28 @@
         "nodes": [
           {
             "type": "Text",
-            "val": "if (foo) {"
+            "val": "if (foo) {",
+            "line": 6
           },
           {
             "type": "Text",
-            "val": "\n"
+            "val": "\n",
+            "line": 6
           },
           {
             "type": "Text",
-            "val": "  bar();"
+            "val": "  bar();",
+            "line": 6
           },
           {
             "type": "Text",
-            "val": "\n"
+            "val": "\n",
+            "line": 6
           },
           {
             "type": "Text",
-            "val": "}"
+            "val": "}",
+            "line": 6
           }
         ]
       },

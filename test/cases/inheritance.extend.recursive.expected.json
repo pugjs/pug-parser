@@ -4,8 +4,8 @@
     {
       "type": "Extends",
       "path": "/auxiliary/inheritance.extend.recursive-parent.jade",
-      "filename": "inheritance.extend.recursive.tokens.json",
-      "line": 1
+      "line": 1,
+      "filename": "inheritance.extend.recursive.tokens.json"
     },
     {
       "type": "NamedBlock",
@@ -19,13 +19,15 @@
             "nodes": [
               {
                 "type": "Text",
-                "val": "child"
+                "val": "child",
+                "line": 4
               }
             ]
           },
           "attrs": [],
           "attributeBlocks": [],
           "isInline": false,
+          "line": 4,
           "filename": "inheritance.extend.recursive.tokens.json"
         }
       ],

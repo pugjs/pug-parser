@@ -4,8 +4,8 @@
     {
       "type": "Extends",
       "path": "../fixtures/prepend/app-layout",
-      "filename": "layout.prepend.tokens.json",
-      "line": 2
+      "line": 2,
+      "filename": "layout.prepend.tokens.json"
     },
     {
       "type": "NamedBlock",
@@ -27,6 +27,7 @@
           ],
           "attributeBlocks": [],
           "isInline": false,
+          "line": 5,
           "filename": "layout.prepend.tokens.json"
         },
         {
@@ -46,6 +47,7 @@
           ],
           "attributeBlocks": [],
           "isInline": false,
+          "line": 6,
           "filename": "layout.prepend.tokens.json"
         }
       ],

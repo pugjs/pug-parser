@@ -30,31 +30,38 @@
                           "nodes": [
                             {
                               "type": "Text",
-                              "val": "@pad: 15px;"
+                              "val": "@pad: 15px;",
+                              "line": 4
                             },
                             {
                               "type": "Text",
-                              "val": "\n"
+                              "val": "\n",
+                              "line": 4
                             },
                             {
                               "type": "Text",
-                              "val": "body {"
+                              "val": "body {",
+                              "line": 4
                             },
                             {
                               "type": "Text",
-                              "val": "\n"
+                              "val": "\n",
+                              "line": 4
                             },
                             {
                               "type": "Text",
-                              "val": "  padding: @pad;"
+                              "val": "  padding: @pad;",
+                              "line": 4
                             },
                             {
                               "type": "Text",
-                              "val": "\n"
+                              "val": "\n",
+                              "line": 4
                             },
                             {
                               "type": "Text",
-                              "val": "}"
+                              "val": "}",
+                              "line": 4
                             }
                           ]
                         },
@@ -73,6 +80,7 @@
                   ],
                   "attributeBlocks": [],
                   "isInline": false,
+                  "line": 3,
                   "filename": "filters.less.tokens.json"
                 }
               ]
@@ -80,6 +88,7 @@
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 2,
             "filename": "filters.less.tokens.json"
           }
         ]

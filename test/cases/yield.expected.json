@@ -39,6 +39,7 @@
                         ],
                         "attributeBlocks": [],
                         "isInline": false,
+                        "line": 4,
                         "filename": "yield.tokens.json"
                       },
                       {
@@ -58,11 +59,14 @@
                         ],
                         "attributeBlocks": [],
                         "isInline": false,
+                        "line": 5,
                         "filename": "yield.tokens.json"
                       }
                     ],
+                    "line": 4,
                     "filename": "yield.tokens.json"
                   },
+                  "line": 3,
                   "filename": "yield.tokens.json"
                 }
               ]
@@ -70,6 +74,7 @@
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 2,
             "filename": "yield.tokens.json"
           }
         ]

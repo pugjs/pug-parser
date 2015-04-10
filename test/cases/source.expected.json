@@ -32,6 +32,7 @@
                   ],
                   "attributeBlocks": [],
                   "isInline": false,
+                  "line": 3,
                   "filename": "source.tokens.json"
                 },
                 {
@@ -51,6 +52,7 @@
                   ],
                   "attributeBlocks": [],
                   "isInline": false,
+                  "line": 4,
                   "filename": "source.tokens.json"
                 }
               ]
@@ -74,6 +76,7 @@
             ],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 2,
             "filename": "source.tokens.json"
           }
         ]

@@ -4,8 +4,8 @@
     {
       "type": "Extends",
       "path": "../fixtures/multi-append-prepend-block/redefine",
-      "filename": "layout.multi.append.prepend.block.tokens.json",
-      "line": 1
+      "line": 1,
+      "filename": "layout.multi.append.prepend.block.tokens.json"
     },
     {
       "type": "NamedBlock",
@@ -19,7 +19,8 @@
             "nodes": [
               {
                 "type": "Text",
-                "val": "Something appended to content"
+                "val": "Something appended to content",
+                "line": 4
               }
             ]
           },
@@ -37,6 +38,7 @@
           ],
           "attributeBlocks": [],
           "isInline": false,
+          "line": 4,
           "filename": "layout.multi.append.prepend.block.tokens.json"
         }
       ],
@@ -57,7 +59,8 @@
             "nodes": [
               {
                 "type": "Text",
-                "val": "Something prepended to content"
+                "val": "Something prepended to content",
+                "line": 7
               }
             ]
           },
@@ -75,6 +78,7 @@
           ],
           "attributeBlocks": [],
           "isInline": false,
+          "line": 7,
           "filename": "layout.multi.append.prepend.block.tokens.json"
         }
       ],
@@ -95,7 +99,8 @@
             "nodes": [
               {
                 "type": "Text",
-                "val": "Last append must be most last"
+                "val": "Last append must be most last",
+                "line": 10
               }
             ]
           },
@@ -113,6 +118,7 @@
           ],
           "attributeBlocks": [],
           "isInline": false,
+          "line": 10,
           "filename": "layout.multi.append.prepend.block.tokens.json"
         }
       ],
@@ -133,7 +139,8 @@
             "nodes": [
               {
                 "type": "Text",
-                "val": "Last prepend must appear at top"
+                "val": "Last prepend must appear at top",
+                "line": 13
               }
             ]
           },
@@ -151,6 +158,7 @@
           ],
           "attributeBlocks": [],
           "isInline": false,
+          "line": 13,
           "filename": "layout.multi.append.prepend.block.tokens.json"
         }
       ],
@@ -179,6 +187,7 @@
           ],
           "attributeBlocks": [],
           "isInline": false,
+          "line": 16,
           "filename": "layout.multi.append.prepend.block.tokens.json"
         }
       ],
@@ -207,6 +216,7 @@
           ],
           "attributeBlocks": [],
           "isInline": false,
+          "line": 19,
           "filename": "layout.multi.append.prepend.block.tokens.json"
         }
       ],

@@ -24,13 +24,15 @@
                     "nodes": [
                       {
                         "type": "Text",
-                        "val": "<%= user.title %>"
+                        "val": "<%= user.title %>",
+                        "line": 3
                       }
                     ]
                   },
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
+                  "line": 3,
                   "filename": "attrs.unescaped.tokens.json"
                 }
               ]
@@ -44,6 +46,7 @@
             ],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 2,
             "filename": "attrs.unescaped.tokens.json"
           }
         ]

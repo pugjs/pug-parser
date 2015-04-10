@@ -24,29 +24,35 @@
                     "nodes": [
                       {
                         "type": "Text",
-                        "val": "body {"
+                        "val": "body {",
+                        "line": 3
                       },
                       {
                         "type": "Text",
-                        "val": "\n"
+                        "val": "\n",
+                        "line": 3
                       },
                       {
                         "type": "Text",
-                        "val": "  padding: 50px;"
+                        "val": "  padding: 50px;",
+                        "line": 3
                       },
                       {
                         "type": "Text",
-                        "val": "\n"
+                        "val": "\n",
+                        "line": 3
                       },
                       {
                         "type": "Text",
-                        "val": "}"
+                        "val": "}",
+                        "line": 3
                       }
                     ]
                   },
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
+                  "line": 3,
                   "textOnly": true,
                   "filename": "styles.tokens.json"
                 }
@@ -55,6 +61,7 @@
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 2,
             "filename": "styles.tokens.json"
           },
           {
@@ -81,6 +88,7 @@
                   ],
                   "attributeBlocks": [],
                   "isInline": false,
+                  "line": 5,
                   "filename": "styles.tokens.json"
                 },
                 {
@@ -100,6 +108,7 @@
                   ],
                   "attributeBlocks": [],
                   "isInline": false,
+                  "line": 6,
                   "filename": "styles.tokens.json"
                 },
                 {
@@ -115,6 +124,7 @@
                     "{style: 'color:red;background:green'}"
                   ],
                   "isInline": false,
+                  "line": 7,
                   "filename": "styles.tokens.json"
                 },
                 {
@@ -130,6 +140,7 @@
                     "{style: {color: 'red', background: 'green'}}"
                   ],
                   "isInline": false,
+                  "line": 8,
                   "filename": "styles.tokens.json"
                 },
                 {
@@ -152,12 +163,15 @@
                           "attributes"
                         ],
                         "isInline": false,
+                        "line": 10,
                         "filename": "styles.tokens.json"
                       }
                     ],
+                    "line": 10,
                     "filename": "styles.tokens.json"
                   },
                   "call": false,
+                  "line": 9,
                   "filename": "styles.tokens.json"
                 },
                 {
@@ -173,6 +187,7 @@
                     }
                   ],
                   "attributeBlocks": [],
+                  "line": 11,
                   "filename": "styles.tokens.json"
                 },
                 {
@@ -188,6 +203,7 @@
                     }
                   ],
                   "attributeBlocks": [],
+                  "line": 12,
                   "filename": "styles.tokens.json"
                 },
                 {
@@ -195,6 +211,7 @@
                   "val": "var bg = 'green';",
                   "buffer": false,
                   "escape": false,
+                  "line": 13,
                   "filename": "styles.tokens.json"
                 },
                 {
@@ -214,6 +231,7 @@
                   ],
                   "attributeBlocks": [],
                   "isInline": false,
+                  "line": 14,
                   "filename": "styles.tokens.json"
                 },
                 {
@@ -229,6 +247,7 @@
                     "{style: {color: 'red', background: bg}}"
                   ],
                   "isInline": false,
+                  "line": 15,
                   "filename": "styles.tokens.json"
                 },
                 {
@@ -244,6 +263,7 @@
                     }
                   ],
                   "attributeBlocks": [],
+                  "line": 16,
                   "filename": "styles.tokens.json"
                 }
               ]
@@ -251,6 +271,7 @@
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 4,
             "filename": "styles.tokens.json"
           }
         ]

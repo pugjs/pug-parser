@@ -4,8 +4,8 @@
     {
       "type": "Extends",
       "path": "auxiliary/layout.include",
-      "filename": "inheritance.extend.include.tokens.json",
-      "line": 2
+      "line": 2,
+      "filename": "inheritance.extend.include.tokens.json"
     },
     {
       "type": "NamedBlock",
@@ -27,6 +27,7 @@
           ],
           "attributeBlocks": [],
           "isInline": false,
+          "line": 5,
           "filename": "inheritance.extend.include.tokens.json"
         }
       ],
@@ -47,13 +48,15 @@
             "nodes": [
               {
                 "type": "Text",
-                "val": "Page"
+                "val": "Page",
+                "line": 8
               }
             ]
           },
           "attrs": [],
           "attributeBlocks": [],
           "isInline": false,
+          "line": 8,
           "filename": "inheritance.extend.include.tokens.json"
         },
         {
@@ -65,13 +68,15 @@
             "nodes": [
               {
                 "type": "Text",
-                "val": "Some content"
+                "val": "Some content",
+                "line": 9
               }
             ]
           },
           "attrs": [],
           "attributeBlocks": [],
           "isInline": false,
+          "line": 9,
           "filename": "inheritance.extend.include.tokens.json"
         }
       ],
@@ -92,13 +97,15 @@
             "nodes": [
               {
                 "type": "Text",
-                "val": "Awesome"
+                "val": "Awesome",
+                "line": 12
               }
             ]
           },
           "attrs": [],
           "attributeBlocks": [],
           "isInline": false,
+          "line": 12,
           "filename": "inheritance.extend.include.tokens.json"
         },
         {
@@ -110,13 +117,15 @@
             "nodes": [
               {
                 "type": "Text",
-                "val": "Now we can extend included blocks!"
+                "val": "Now we can extend included blocks!",
+                "line": 13
               }
             ]
           },
           "attrs": [],
           "attributeBlocks": [],
           "isInline": false,
+          "line": 13,
           "filename": "inheritance.extend.include.tokens.json"
         }
       ],

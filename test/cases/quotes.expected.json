@@ -10,15 +10,16 @@
         "nodes": [
           {
             "type": "Text",
-            "val": "\"foo\""
+            "val": "\"foo\"",
+            "line": 1
           }
         ]
       },
       "attrs": [],
       "attributeBlocks": [],
       "isInline": false,
-      "line": 1,
-      "filename": "quotes.tokens.json"
+      "filename": "quotes.tokens.json",
+      "line": 1
     },
     {
       "type": "Tag",
@@ -29,15 +30,16 @@
         "nodes": [
           {
             "type": "Text",
-            "val": "'foo'"
+            "val": "'foo'",
+            "line": 2
           }
         ]
       },
       "attrs": [],
       "attributeBlocks": [],
       "isInline": false,
-      "line": 2,
-      "filename": "quotes.tokens.json"
+      "filename": "quotes.tokens.json",
+      "line": 2
     }
   ],
   "line": 0,

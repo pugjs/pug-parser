@@ -10,31 +10,38 @@
         "nodes": [
           {
             "type": "Text",
-            "val": "foo"
+            "val": "foo",
+            "line": 1
           },
           {
             "type": "Text",
-            "val": "\n"
+            "val": "\n",
+            "line": 1
           },
           {
             "type": "Text",
-            "val": "bar"
+            "val": "bar",
+            "line": 1
           },
           {
             "type": "Text",
-            "val": "\n"
+            "val": "\n",
+            "line": 1
           },
           {
             "type": "Text",
-            "val": "baz"
+            "val": "baz",
+            "line": 1
           },
           {
             "type": "Text",
-            "val": "\n"
+            "val": "\n",
+            "line": 1
           },
           {
             "type": "Text",
-            "val": ""
+            "val": "",
+            "line": 1
           }
         ]
       },
@@ -61,29 +68,35 @@
               "nodes": [
                 {
                   "type": "Text",
-                  "val": "foo"
+                  "val": "foo",
+                  "line": 3
                 },
                 {
                   "type": "Text",
-                  "val": "\n"
+                  "val": "\n",
+                  "line": 3
                 },
                 {
                   "type": "Text",
-                  "val": "bar"
+                  "val": "bar",
+                  "line": 3
                 },
                 {
                   "type": "Text",
-                  "val": "\n"
+                  "val": "\n",
+                  "line": 3
                 },
                 {
                   "type": "Text",
-                  "val": "baz"
+                  "val": "baz",
+                  "line": 3
                 }
               ]
             },
             "attrs": [],
             "attributeBlocks": [],
             "isInline": true,
+            "line": 3,
             "textOnly": true,
             "filename": "pre.tokens.json"
           }

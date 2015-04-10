@@ -4,8 +4,8 @@
     {
       "type": "Extends",
       "path": "./auxiliary/blocks-in-blocks-layout.jade",
-      "filename": "blocks-in-blocks.tokens.json",
-      "line": 1
+      "line": 1,
+      "filename": "blocks-in-blocks.tokens.json"
     },
     {
       "type": "NamedBlock",
@@ -19,13 +19,15 @@
             "nodes": [
               {
                 "type": "Text",
-                "val": "Page 2"
+                "val": "Page 2",
+                "line": 4
               }
             ]
           },
           "attrs": [],
           "attributeBlocks": [],
           "isInline": false,
+          "line": 4,
           "filename": "blocks-in-blocks.tokens.json"
         }
       ],

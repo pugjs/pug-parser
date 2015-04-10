@@ -25,11 +25,13 @@
             ],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 2,
             "filename": "yield-head.tokens.json"
           },
           {
             "type": "Block",
             "nodes": [],
+            "line": 3,
             "yield": true,
             "filename": "yield-head.tokens.json"
           },
@@ -50,6 +52,7 @@
             ],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 4,
             "filename": "yield-head.tokens.json"
           }
         ]

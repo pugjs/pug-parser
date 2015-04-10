@@ -9,7 +9,8 @@
         "nodes": [
           {
             "type": "Text",
-            "val": "foo bar"
+            "val": "foo bar",
+            "line": 1
           }
         ]
       },

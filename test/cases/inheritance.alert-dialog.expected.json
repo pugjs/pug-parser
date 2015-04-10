@@ -4,8 +4,8 @@
     {
       "type": "Extends",
       "path": "auxiliary/dialog",
-      "filename": "inheritance.alert-dialog.tokens.json",
-      "line": 2
+      "line": 2,
+      "filename": "inheritance.alert-dialog.tokens.json"
     },
     {
       "type": "NamedBlock",
@@ -19,13 +19,15 @@
             "nodes": [
               {
                 "type": "Text",
-                "val": "Alert!"
+                "val": "Alert!",
+                "line": 5
               }
             ]
           },
           "attrs": [],
           "attributeBlocks": [],
           "isInline": false,
+          "line": 5,
           "filename": "inheritance.alert-dialog.tokens.json"
         },
         {
@@ -37,13 +39,15 @@
             "nodes": [
               {
                 "type": "Text",
-                "val": "I'm an alert!"
+                "val": "I'm an alert!",
+                "line": 6
               }
             ]
           },
           "attrs": [],
           "attributeBlocks": [],
           "isInline": false,
+          "line": 6,
           "filename": "inheritance.alert-dialog.tokens.json"
         }
       ],

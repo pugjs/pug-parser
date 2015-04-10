@@ -10,7 +10,8 @@
         "nodes": [
           {
             "type": "Text",
-            "val": "var re = /\\d+/;"
+            "val": "var re = /\\d+/;",
+            "line": 1
           }
         ]
       },

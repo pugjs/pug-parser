@@ -10,7 +10,8 @@
         "nodes": [
           {
             "type": "Text",
-            "val": "contact"
+            "val": "contact",
+            "line": 1
           }
         ]
       },
@@ -35,7 +36,8 @@
         "nodes": [
           {
             "type": "Text",
-            "val": "save"
+            "val": "save",
+            "line": 2
           }
         ]
       },
@@ -152,7 +154,8 @@
               "nodes": [
                 {
                   "type": "Text",
-                  "val": "Foo"
+                  "val": "Foo",
+                  "line": 7
                 }
               ]
             },
@@ -170,6 +173,7 @@
             ],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 7,
             "filename": "attrs.tokens.json"
           },
           {
@@ -181,7 +185,8 @@
               "nodes": [
                 {
                   "type": "Text",
-                  "val": "Bar"
+                  "val": "Bar",
+                  "line": 8
                 }
               ]
             },
@@ -199,6 +204,7 @@
             ],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 8,
             "filename": "attrs.tokens.json"
           }
         ]
@@ -258,7 +264,8 @@
         "nodes": [
           {
             "type": "Text",
-            "val": "contact"
+            "val": "contact",
+            "line": 12
           }
         ]
       },
@@ -283,7 +290,8 @@
         "nodes": [
           {
             "type": "Text",
-            "val": "save"
+            "val": "save",
+            "line": 13
           }
         ]
       },
@@ -400,7 +408,8 @@
               "nodes": [
                 {
                   "type": "Text",
-                  "val": "Foo"
+                  "val": "Foo",
+                  "line": 18
                 }
               ]
             },
@@ -418,6 +427,7 @@
             ],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 18,
             "filename": "attrs.tokens.json"
           },
           {
@@ -429,7 +439,8 @@
               "nodes": [
                 {
                   "type": "Text",
-                  "val": "Bar"
+                  "val": "Bar",
+                  "line": 19
                 }
               ]
             },
@@ -447,6 +458,7 @@
             ],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 19,
             "filename": "attrs.tokens.json"
           }
         ]

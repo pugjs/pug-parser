@@ -17,6 +17,7 @@
               "type": "Block",
               "nodes": []
             },
+            "line": 2,
             "filename": "include-filter-stylus.tokens.json"
           }
         ]

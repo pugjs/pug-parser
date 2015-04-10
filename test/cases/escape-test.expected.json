@@ -30,13 +30,15 @@
                     "nodes": [
                       {
                         "type": "Text",
-                        "val": "escape-test"
+                        "val": "escape-test",
+                        "line": 4
                       }
                     ]
                   },
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
+                  "line": 4,
                   "filename": "escape-test.tokens.json"
                 }
               ]
@@ -44,6 +46,7 @@
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 3,
             "filename": "escape-test.tokens.json"
           },
           {
@@ -65,11 +68,13 @@
                         "val": "var txt = '<param name=\"flashvars\" value=\"a=&quot;value_a&quot;&b=&quot;value_b&quot;&c=3\"/>'",
                         "buffer": false,
                         "escape": false,
+                        "line": 7,
                         "filename": "escape-test.tokens.json"
                       },
                       {
                         "type": "Text",
                         "val": "#{txt}",
+                        "line": 8,
                         "filename": "escape-test.tokens.json"
                       }
                     ]
@@ -77,6 +82,7 @@
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
+                  "line": 6,
                   "filename": "escape-test.tokens.json"
                 }
               ]
@@ -84,6 +90,7 @@
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 5,
             "filename": "escape-test.tokens.json"
           }
         ]

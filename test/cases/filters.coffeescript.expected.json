@@ -16,7 +16,8 @@
               "nodes": [
                 {
                   "type": "Text",
-                  "val": "regexp = /\\n/"
+                  "val": "regexp = /\\n/",
+                  "line": 2
                 }
               ]
             },
@@ -32,15 +33,18 @@
               "nodes": [
                 {
                   "type": "Text",
-                  "val": "math ="
+                  "val": "math =",
+                  "line": 3
                 },
                 {
                   "type": "Text",
-                  "val": "\n"
+                  "val": "\n",
+                  "line": 3
                 },
                 {
                   "type": "Text",
-                  "val": "  square: (value) -> value * value"
+                  "val": "  square: (value) -> value * value",
+                  "line": 3
                 }
               ]
             },

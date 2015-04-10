@@ -32,6 +32,7 @@
                   ],
                   "attributeBlocks": [],
                   "isInline": false,
+                  "line": 3,
                   "filename": "include-with-text.tokens.json"
                 },
                 {
@@ -51,11 +52,14 @@
                   ],
                   "attributeBlocks": [],
                   "isInline": false,
+                  "line": 4,
                   "filename": "include-with-text.tokens.json"
                 }
               ],
+              "line": 3,
               "filename": "include-with-text.tokens.json"
             },
+            "line": 2,
             "filename": "include-with-text.tokens.json"
           }
         ]

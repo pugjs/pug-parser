@@ -17,7 +17,8 @@
         "type": "Code",
         "val": "'<script>'",
         "buffer": true,
-        "escape": true
+        "escape": true,
+        "line": 1
       },
       "filename": "code.escape.tokens.json"
     },
@@ -37,7 +38,8 @@
         "type": "Code",
         "val": "'<script>'",
         "buffer": true,
-        "escape": false
+        "escape": false,
+        "line": 2
       },
       "filename": "code.escape.tokens.json"
     }

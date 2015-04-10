@@ -24,6 +24,7 @@
                     "type": "Block",
                     "nodes": []
                   },
+                  "line": 3,
                   "filename": "include-filter.tokens.json"
                 },
                 {
@@ -48,6 +49,7 @@
                           "type": "Block",
                           "nodes": []
                         },
+                        "line": 5,
                         "filename": "include-filter.tokens.json"
                       }
                     ]
@@ -55,6 +57,7 @@
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
+                  "line": 4,
                   "filename": "include-filter.tokens.json"
                 },
                 {
@@ -79,6 +82,7 @@
                           "type": "Block",
                           "nodes": []
                         },
+                        "line": 7,
                         "filename": "include-filter.tokens.json"
                       }
                     ]
@@ -86,6 +90,7 @@
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
+                  "line": 6,
                   "filename": "include-filter.tokens.json"
                 }
               ]
@@ -93,6 +98,7 @@
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 2,
             "filename": "include-filter.tokens.json"
           }
         ]

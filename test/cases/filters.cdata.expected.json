@@ -39,7 +39,8 @@
                           "nodes": [
                             {
                               "type": "Text",
-                              "val": "#{user.name}"
+                              "val": "#{user.name}",
+                              "line": 7
                             }
                           ]
                         },
@@ -58,9 +59,11 @@
                   ],
                   "attributeBlocks": [],
                   "isInline": false,
+                  "line": 6,
                   "filename": "filters.cdata.tokens.json"
                 }
               ],
+              "line": 6,
               "filename": "filters.cdata.tokens.json"
             },
             "line": 5,

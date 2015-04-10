@@ -20,6 +20,7 @@
                   "val": "if (title)",
                   "buffer": false,
                   "escape": false,
+                  "line": 3,
                   "block": {
                     "type": "Block",
                     "nodes": [
@@ -40,21 +41,25 @@
                         ],
                         "attributeBlocks": [],
                         "isInline": false,
+                        "line": 4,
                         "code": {
                           "type": "Code",
                           "val": "title",
                           "buffer": true,
-                          "escape": true
+                          "escape": true,
+                          "line": 4
                         },
                         "filename": "mixin.attrs.tokens.json"
                       }
                     ],
+                    "line": 4,
                     "filename": "mixin.attrs.tokens.json"
                   },
                   "filename": "mixin.attrs.tokens.json"
                 },
                 {
                   "type": "MixinBlock",
+                  "line": 5,
                   "filename": "mixin.attrs.tokens.json"
                 },
                 {
@@ -62,6 +67,7 @@
                   "val": "if (attributes.href)",
                   "buffer": false,
                   "escape": false,
+                  "line": 6,
                   "block": {
                     "type": "Block",
                     "nodes": [
@@ -80,7 +86,8 @@
                                 "nodes": [
                                   {
                                     "type": "Text",
-                                    "val": "Back"
+                                    "val": "Back",
+                                    "line": 8
                                   }
                                 ]
                               },
@@ -93,6 +100,7 @@
                               ],
                               "attributeBlocks": [],
                               "isInline": true,
+                              "line": 8,
                               "filename": "mixin.attrs.tokens.json"
                             }
                           ]
@@ -106,9 +114,11 @@
                         ],
                         "attributeBlocks": [],
                         "isInline": false,
+                        "line": 7,
                         "filename": "mixin.attrs.tokens.json"
                       }
                     ],
+                    "line": 7,
                     "filename": "mixin.attrs.tokens.json"
                   },
                   "filename": "mixin.attrs.tokens.json"
@@ -129,14 +139,16 @@
             ],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 2,
             "filename": "mixin.attrs.tokens.json"
           }
         ],
+        "line": 2,
         "filename": "mixin.attrs.tokens.json"
       },
       "call": false,
-      "filename": "mixin.attrs.tokens.json",
-      "line": 1
+      "line": 1,
+      "filename": "mixin.attrs.tokens.json"
     },
     {
       "type": "Mixin",
@@ -161,6 +173,7 @@
                     "nodes": [
                       {
                         "type": "MixinBlock",
+                        "line": 13,
                         "filename": "mixin.attrs.tokens.json"
                       }
                     ]
@@ -176,6 +189,7 @@
                   "attributeBlocks": [
                     "attributes"
                   ],
+                  "line": 12,
                   "filename": "mixin.attrs.tokens.json"
                 }
               ]
@@ -189,14 +203,16 @@
             ],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 11,
             "filename": "mixin.attrs.tokens.json"
           }
         ],
+        "line": 11,
         "filename": "mixin.attrs.tokens.json"
       },
       "call": false,
-      "filename": "mixin.attrs.tokens.json",
-      "line": 10
+      "line": 10,
+      "filename": "mixin.attrs.tokens.json"
     },
     {
       "type": "Mixin",
@@ -214,6 +230,7 @@
               "nodes": [
                 {
                   "type": "MixinBlock",
+                  "line": 17,
                   "filename": "mixin.attrs.tokens.json"
                 }
               ]
@@ -229,14 +246,16 @@
               "attributes"
             ],
             "isInline": false,
+            "line": 16,
             "filename": "mixin.attrs.tokens.json"
           }
         ],
+        "line": 16,
         "filename": "mixin.attrs.tokens.json"
       },
       "call": false,
-      "filename": "mixin.attrs.tokens.json",
-      "line": 15
+      "line": 15,
+      "filename": "mixin.attrs.tokens.json"
     },
     {
       "type": "Tag",
@@ -253,7 +272,8 @@
               "nodes": [
                 {
                   "type": "Text",
-                  "val": "Hello World"
+                  "val": "Hello World",
+                  "line": 20
                 }
               ]
             },
@@ -266,6 +286,7 @@
               }
             ],
             "attributeBlocks": [],
+            "line": 20,
             "filename": "mixin.attrs.tokens.json"
           },
           {
@@ -284,13 +305,15 @@
                     "nodes": [
                       {
                         "type": "Text",
-                        "val": "Some important content."
+                        "val": "Some important content.",
+                        "line": 22
                       }
                     ]
                   },
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
+                  "line": 22,
                   "filename": "mixin.attrs.tokens.json"
                 }
               ]
@@ -304,6 +327,7 @@
               }
             ],
             "attributeBlocks": [],
+            "line": 21,
             "filename": "mixin.attrs.tokens.json"
           },
           {
@@ -322,13 +346,15 @@
                     "nodes": [
                       {
                         "type": "Text",
-                        "val": "Even more important content."
+                        "val": "Even more important content.",
+                        "line": 24
                       }
                     ]
                   },
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
+                  "line": 24,
                   "filename": "mixin.attrs.tokens.json"
                 }
               ]
@@ -357,6 +383,7 @@
               }
             ],
             "attributeBlocks": [],
+            "line": 23,
             "filename": "mixin.attrs.tokens.json"
           },
           {
@@ -375,13 +402,15 @@
                     "nodes": [
                       {
                         "type": "Text",
-                        "val": "Last content."
+                        "val": "Last content.",
+                        "line": 26
                       }
                     ]
                   },
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
+                  "line": 26,
                   "filename": "mixin.attrs.tokens.json"
                 }
               ]
@@ -395,6 +424,7 @@
               }
             ],
             "attributeBlocks": [],
+            "line": 25,
             "filename": "mixin.attrs.tokens.json"
           },
           {
@@ -412,13 +442,15 @@
                     "nodes": [
                       {
                         "type": "Text",
-                        "val": "Some final words."
+                        "val": "Some final words.",
+                        "line": 28
                       }
                     ]
                   },
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
+                  "line": 28,
                   "filename": "mixin.attrs.tokens.json"
                 }
               ]
@@ -452,6 +484,7 @@
               }
             ],
             "attributeBlocks": [],
+            "line": 27,
             "filename": "mixin.attrs.tokens.json"
           },
           {
@@ -467,6 +500,7 @@
               }
             ],
             "attributeBlocks": [],
+            "line": 29,
             "filename": "mixin.attrs.tokens.json"
           }
         ]
@@ -513,14 +547,16 @@
               "attributes"
             ],
             "isInline": false,
+            "line": 32,
             "filename": "mixin.attrs.tokens.json"
           }
         ],
+        "line": 32,
         "filename": "mixin.attrs.tokens.json"
       },
       "call": false,
-      "filename": "mixin.attrs.tokens.json",
-      "line": 31
+      "line": 31,
+      "filename": "mixin.attrs.tokens.json"
     },
     {
       "type": "Code",
@@ -601,20 +637,23 @@
               "attributes"
             ],
             "isInline": false,
+            "line": 40,
             "code": {
               "type": "Code",
               "val": "work",
               "buffer": true,
-              "escape": true
+              "escape": true,
+              "line": 40
             },
             "filename": "mixin.attrs.tokens.json"
           }
         ],
+        "line": 40,
         "filename": "mixin.attrs.tokens.json"
       },
       "call": false,
-      "filename": "mixin.attrs.tokens.json",
-      "line": 39
+      "line": 39,
+      "filename": "mixin.attrs.tokens.json"
     },
     {
       "type": "Mixin",

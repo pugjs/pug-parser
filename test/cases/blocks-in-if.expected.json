@@ -11,8 +11,8 @@
     {
       "type": "Text",
       "val": "",
-      "filename": "blocks-in-if.tokens.json",
-      "line": 2
+      "line": 2,
+      "filename": "blocks-in-if.tokens.json"
     },
     {
       "type": "Code",
@@ -50,13 +50,15 @@
                   "nodes": [
                     {
                       "type": "Text",
-                      "val": "ajax contents"
+                      "val": "ajax contents",
+                      "line": 8
                     }
                   ]
                 },
                 "attrs": [],
                 "attributeBlocks": [],
                 "isInline": false,
+                "line": 8,
                 "filename": "blocks-in-if.tokens.json"
               }
             ],
@@ -66,6 +68,7 @@
             "mode": "replace"
           }
         ],
+        "line": 6,
         "filename": "blocks-in-if.tokens.json"
       },
       "filename": "blocks-in-if.tokens.json"
@@ -75,8 +78,8 @@
       "val": "else",
       "buffer": false,
       "escape": false,
-      "debug": false,
       "line": 10,
+      "debug": false,
       "block": {
         "type": "Block",
         "nodes": [
@@ -124,6 +127,7 @@
                         ],
                         "attributeBlocks": [],
                         "isInline": false,
+                        "line": 15,
                         "filename": "blocks-in-if.tokens.json"
                       },
                       {
@@ -135,13 +139,15 @@
                           "nodes": [
                             {
                               "type": "Text",
-                              "val": "sample"
+                              "val": "sample",
+                              "line": 16
                             }
                           ]
                         },
                         "attrs": [],
                         "attributeBlocks": [],
                         "isInline": false,
+                        "line": 16,
                         "filename": "blocks-in-if.tokens.json"
                       },
                       {
@@ -163,13 +169,15 @@
                                     "nodes": [
                                       {
                                         "type": "Text",
-                                        "val": "all contetns"
+                                        "val": "all contetns",
+                                        "line": 19
                                       }
                                     ]
                                   },
                                   "attrs": [],
                                   "attributeBlocks": [],
                                   "isInline": false,
+                                  "line": 19,
                                   "filename": "blocks-in-if.tokens.json"
                                 }
                               ],
@@ -183,6 +191,7 @@
                         "attrs": [],
                         "attributeBlocks": [],
                         "isInline": false,
+                        "line": 17,
                         "filename": "blocks-in-if.tokens.json"
                       }
                     ]
@@ -190,6 +199,7 @@
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
+                  "line": 14,
                   "filename": "blocks-in-if.tokens.json"
                 }
               ]
@@ -197,9 +207,11 @@
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 13,
             "filename": "blocks-in-if.tokens.json"
           }
         ],
+        "line": 11,
         "filename": "blocks-in-if.tokens.json"
       },
       "filename": "blocks-in-if.tokens.json"

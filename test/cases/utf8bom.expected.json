@@ -10,15 +10,16 @@
         "nodes": [
           {
             "type": "Text",
-            "val": "\"foo\""
+            "val": "\"foo\"",
+            "line": 1
           }
         ]
       },
       "attrs": [],
       "attributeBlocks": [],
       "isInline": false,
-      "line": 1,
-      "filename": "utf8bom.tokens.json"
+      "filename": "utf8bom.tokens.json",
+      "line": 1
     }
   ],
   "line": 0,

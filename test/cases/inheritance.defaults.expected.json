@@ -35,6 +35,7 @@
                       ],
                       "attributeBlocks": [],
                       "isInline": false,
+                      "line": 4,
                       "filename": "inheritance.defaults.tokens.json"
                     },
                     {
@@ -54,6 +55,7 @@
                       ],
                       "attributeBlocks": [],
                       "isInline": false,
+                      "line": 5,
                       "filename": "inheritance.defaults.tokens.json"
                     },
                     {
@@ -73,6 +75,7 @@
                       ],
                       "attributeBlocks": [],
                       "isInline": false,
+                      "line": 6,
                       "filename": "inheritance.defaults.tokens.json"
                     }
                   ],
@@ -86,6 +89,7 @@
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
+            "line": 2,
             "filename": "inheritance.defaults.tokens.json"
           }
         ]
