@@ -1,6 +1,6 @@
 {
   "name": "jade-parser",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "The jade parser (takes an array of tokens and converts it to an abstract syntax tree)",
   "keywords": [],
   "dependencies": {
