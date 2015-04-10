@@ -431,7 +431,7 @@ Parser.prototype = {
     var tok = this.expect('extends');
     return {
       type: 'Extends', 
-      file: {type: 'file-reference', path: tok.val.trim(), line: tok.line},
+      file: {type: 'FileReference', path: tok.val.trim(), line: tok.line},
       line: tok.line
     };
   },
@@ -469,7 +469,7 @@ Parser.prototype = {
 
     return {
       type: 'Include',
-      file: {type: 'file-reference', path: tok.val.trim(), line: tok.line},
+      file: {type: 'FileReference', path: tok.val.trim(), line: tok.line},
       filter: tok.filter,
       attrs: tok.attrs ? tok.attrs.attrs : [],
       block: 'indent' == this.peek().type ? this.block() : {type: 'Block', nodes: []},
