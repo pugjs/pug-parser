@@ -3,7 +3,11 @@
   "nodes": [
     {
       "type": "Extends",
-      "path": "../fixtures/multi-append-prepend-block/redefine",
+      "file": {
+        "type": "file-reference",
+        "path": "../fixtures/multi-append-prepend-block/redefine",
+        "line": 1
+      },
       "line": 1,
       "filename": "layout.multi.append.prepend.block.tokens.json"
     },

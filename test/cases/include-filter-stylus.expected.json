@@ -10,7 +10,11 @@
         "nodes": [
           {
             "type": "Include",
-            "path": "some.styl",
+            "file": {
+              "type": "file-reference",
+              "path": "some.styl",
+              "line": 2
+            },
             "filter": "styl",
             "attrs": [],
             "block": {

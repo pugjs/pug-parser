@@ -10,7 +10,11 @@
         "nodes": [
           {
             "type": "Include",
-            "path": "include-with-text-head",
+            "file": {
+              "type": "file-reference",
+              "path": "include-with-text-head",
+              "line": 2
+            },
             "attrs": [],
             "block": {
               "type": "Block",

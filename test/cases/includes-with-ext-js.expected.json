@@ -17,7 +17,11 @@
               "nodes": [
                 {
                   "type": "Include",
-                  "path": "javascript-new-lines.js",
+                  "file": {
+                    "type": "file-reference",
+                    "path": "javascript-new-lines.js",
+                    "line": 3
+                  },
                   "attrs": [],
                   "block": {
                     "type": "Block",

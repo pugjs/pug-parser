@@ -17,7 +17,11 @@
               "nodes": [
                 {
                   "type": "Include",
-                  "path": "yield-head",
+                  "file": {
+                    "type": "file-reference",
+                    "path": "yield-head",
+                    "line": 3
+                  },
                   "attrs": [],
                   "block": {
                     "type": "Block",

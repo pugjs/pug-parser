@@ -3,7 +3,11 @@
   "nodes": [
     {
       "type": "Extends",
-      "path": "../fixtures/append/app-layout",
+      "file": {
+        "type": "file-reference",
+        "path": "../fixtures/append/app-layout",
+        "line": 2
+      },
       "line": 2,
       "filename": "layout.append.tokens.json"
     },

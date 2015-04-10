@@ -3,7 +3,11 @@
   "nodes": [
     {
       "type": "Extends",
-      "path": "auxiliary/layout.include",
+      "file": {
+        "type": "file-reference",
+        "path": "auxiliary/layout.include",
+        "line": 2
+      },
       "line": 2,
       "filename": "inheritance.extend.include.tokens.json"
     },

@@ -3,14 +3,18 @@
   "nodes": [
     {
       "type": "Include",
-      "path": "/auxiliary/extends-from-root",
+      "file": {
+        "type": "file-reference",
+        "path": "/auxiliary/extends-from-root",
+        "line": 1
+      },
       "attrs": [],
       "block": {
         "type": "Block",
         "nodes": []
       },
-      "filename": "include-extends-from-root.tokens.json",
-      "line": 1
+      "line": 1,
+      "filename": "include-extends-from-root.tokens.json"
     }
   ],
   "line": 0,

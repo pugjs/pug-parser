@@ -3,7 +3,11 @@
   "nodes": [
     {
       "type": "Extends",
-      "path": "./auxiliary/blocks-in-blocks-layout.jade",
+      "file": {
+        "type": "file-reference",
+        "path": "./auxiliary/blocks-in-blocks-layout.jade",
+        "line": 1
+      },
       "line": 1,
       "filename": "blocks-in-blocks.tokens.json"
     },

@@ -3,7 +3,11 @@
   "nodes": [
     {
       "type": "Extends",
-      "path": "auxiliary/inheritance.extend.mixin.block",
+      "file": {
+        "type": "file-reference",
+        "path": "auxiliary/inheritance.extend.mixin.block",
+        "line": 1
+      },
       "line": 1,
       "filename": "inheritance.extend.mixins.block.tokens.json"
     },

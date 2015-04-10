@@ -3,7 +3,11 @@
   "nodes": [
     {
       "type": "Extends",
-      "path": "auxiliary/dialog",
+      "file": {
+        "type": "file-reference",
+        "path": "auxiliary/dialog",
+        "line": 2
+      },
       "line": 2,
       "filename": "inheritance.alert-dialog.tokens.json"
     },

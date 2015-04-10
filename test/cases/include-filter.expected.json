@@ -17,7 +17,11 @@
               "nodes": [
                 {
                   "type": "Include",
-                  "path": "some.md",
+                  "file": {
+                    "type": "file-reference",
+                    "path": "some.md",
+                    "line": 3
+                  },
                   "filter": "md",
                   "attrs": [],
                   "block": {
@@ -36,7 +40,11 @@
                     "nodes": [
                       {
                         "type": "Include",
-                        "path": "include-filter-coffee.coffee",
+                        "file": {
+                          "type": "file-reference",
+                          "path": "include-filter-coffee.coffee",
+                          "line": 5
+                        },
                         "filter": "coffee",
                         "attrs": [
                           {
@@ -69,7 +77,11 @@
                     "nodes": [
                       {
                         "type": "Include",
-                        "path": "include-filter-coffee.coffee",
+                        "file": {
+                          "type": "file-reference",
+                          "path": "include-filter-coffee.coffee",
+                          "line": 7
+                        },
                         "filter": "coffee",
                         "attrs": [
                           {

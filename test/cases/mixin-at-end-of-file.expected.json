@@ -3,7 +3,11 @@
   "nodes": [
     {
       "type": "Include",
-      "path": "./auxiliary/mixin-at-end-of-file.jade",
+      "file": {
+        "type": "file-reference",
+        "path": "./auxiliary/mixin-at-end-of-file.jade",
+        "line": 1
+      },
       "attrs": [],
       "block": {
         "type": "Block",

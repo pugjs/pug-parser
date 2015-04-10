@@ -3,7 +3,11 @@
   "nodes": [
     {
       "type": "Extends",
-      "path": "/auxiliary/inheritance.extend.recursive-parent.jade",
+      "file": {
+        "type": "file-reference",
+        "path": "/auxiliary/inheritance.extend.recursive-parent.jade",
+        "line": 1
+      },
       "line": 1,
       "filename": "inheritance.extend.recursive.tokens.json"
     },

@@ -3,7 +3,11 @@
   "nodes": [
     {
       "type": "Include",
-      "path": "auxiliary/mixins",
+      "file": {
+        "type": "file-reference",
+        "path": "auxiliary/mixins",
+        "line": 2
+      },
       "attrs": [],
       "block": {
         "type": "Block",
@@ -31,7 +35,11 @@
         "nodes": [
           {
             "type": "Include",
-            "path": "auxiliary/smile.html",
+            "file": {
+              "type": "file-reference",
+              "path": "auxiliary/smile.html",
+              "line": 7
+            },
             "attrs": [],
             "block": {
               "type": "Block",
@@ -42,7 +50,11 @@
           },
           {
             "type": "Include",
-            "path": "auxiliary/escapes.html",
+            "file": {
+              "type": "file-reference",
+              "path": "auxiliary/escapes.html",
+              "line": 8
+            },
             "attrs": [],
             "block": {
               "type": "Block",
@@ -60,7 +72,11 @@
               "nodes": [
                 {
                   "type": "Include",
-                  "path": "auxiliary/includable.js",
+                  "file": {
+                    "type": "file-reference",
+                    "path": "auxiliary/includable.js",
+                    "line": 10
+                  },
                   "filter": "js",
                   "attrs": [],
                   "block": {

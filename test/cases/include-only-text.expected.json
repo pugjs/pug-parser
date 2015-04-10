@@ -24,7 +24,11 @@
                     "nodes": [
                       {
                         "type": "Include",
-                        "path": "include-only-text-body",
+                        "file": {
+                          "type": "file-reference",
+                          "path": "include-only-text-body",
+                          "line": 4
+                        },
                         "attrs": [],
                         "block": {
                           "type": "Block",

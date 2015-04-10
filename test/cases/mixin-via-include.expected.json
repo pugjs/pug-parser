@@ -11,19 +11,23 @@
     {
       "type": "Text",
       "val": "",
-      "filename": "mixin-via-include.tokens.json",
-      "line": 2
+      "line": 2,
+      "filename": "mixin-via-include.tokens.json"
     },
     {
       "type": "Include",
-      "path": "../fixtures/mixin-include.jade",
+      "file": {
+        "type": "file-reference",
+        "path": "../fixtures/mixin-include.jade",
+        "line": 3
+      },
       "attrs": [],
       "block": {
         "type": "Block",
         "nodes": []
       },
-      "filename": "mixin-via-include.tokens.json",
-      "line": 3
+      "line": 3,
+      "filename": "mixin-via-include.tokens.json"
     },
     {
       "type": "Mixin",

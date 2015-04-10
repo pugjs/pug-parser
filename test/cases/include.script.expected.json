@@ -10,7 +10,11 @@
         "nodes": [
           {
             "type": "Include",
-            "path": "auxiliary/pet",
+            "file": {
+              "type": "file-reference",
+              "path": "auxiliary/pet",
+              "line": 2
+            },
             "attrs": [],
             "block": {
               "type": "Block",

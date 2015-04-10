@@ -3,7 +3,11 @@
   "nodes": [
     {
       "type": "Include",
-      "path": "auxiliary/yield-nested",
+      "file": {
+        "type": "file-reference",
+        "path": "auxiliary/yield-nested",
+        "line": 2
+      },
       "attrs": [],
       "block": {
         "type": "Block",

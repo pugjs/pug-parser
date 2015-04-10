@@ -17,7 +17,11 @@
               "nodes": [
                 {
                   "type": "Include",
-                  "path": "yield-before-conditional-head",
+                  "file": {
+                    "type": "file-reference",
+                    "path": "yield-before-conditional-head",
+                    "line": 3
+                  },
                   "attrs": [],
                   "block": {
                     "type": "Block",
