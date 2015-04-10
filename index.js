@@ -715,6 +715,7 @@ Parser.prototype = {
       case 'outdent':
       case 'eos':
       case 'start-pipeless-text':
+      case 'end-jade-interpolation':
         break;
       default:
         throw new Error('Unexpected token `' + this.peek().type + '` expected `text`, `code`, `:`, `newline` or `eos`')
