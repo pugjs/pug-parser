@@ -11,7 +11,7 @@
           {
             "type": "Include",
             "file": {
-              "type": "file-reference",
+              "type": "FileReference",
               "path": "include-with-text-head",
               "line": 2
             },

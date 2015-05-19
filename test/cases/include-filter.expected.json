@@ -18,7 +18,7 @@
                 {
                   "type": "Include",
                   "file": {
-                    "type": "file-reference",
+                    "type": "FileReference",
                     "path": "some.md",
                     "line": 3
                   },
@@ -41,7 +41,7 @@
                       {
                         "type": "Include",
                         "file": {
-                          "type": "file-reference",
+                          "type": "FileReference",
                           "path": "include-filter-coffee.coffee",
                           "line": 5
                         },
@@ -78,7 +78,7 @@
                       {
                         "type": "Include",
                         "file": {
-                          "type": "file-reference",
+                          "type": "FileReference",
                           "path": "include-filter-coffee.coffee",
                           "line": 7
                         },

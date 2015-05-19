@@ -4,7 +4,7 @@
     {
       "type": "Include",
       "file": {
-        "type": "file-reference",
+        "type": "FileReference",
         "path": "auxiliary/mixins",
         "line": 2
       },
@@ -36,7 +36,7 @@
           {
             "type": "Include",
             "file": {
-              "type": "file-reference",
+              "type": "FileReference",
               "path": "auxiliary/smile.html",
               "line": 7
             },
@@ -51,7 +51,7 @@
           {
             "type": "Include",
             "file": {
-              "type": "file-reference",
+              "type": "FileReference",
               "path": "auxiliary/escapes.html",
               "line": 8
             },
@@ -73,7 +73,7 @@
                 {
                   "type": "Include",
                   "file": {
-                    "type": "file-reference",
+                    "type": "FileReference",
                     "path": "auxiliary/includable.js",
                     "line": 10
                   },

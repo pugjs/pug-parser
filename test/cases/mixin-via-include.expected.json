@@ -17,7 +17,7 @@
     {
       "type": "Include",
       "file": {
-        "type": "file-reference",
+        "type": "FileReference",
         "path": "../fixtures/mixin-include.jade",
         "line": 3
       },

@@ -4,7 +4,7 @@
     {
       "type": "Include",
       "file": {
-        "type": "file-reference",
+        "type": "FileReference",
         "path": "auxiliary/extends-empty-block-1",
         "line": 1
       },
@@ -19,7 +19,7 @@
     {
       "type": "Include",
       "file": {
-        "type": "file-reference",
+        "type": "FileReference",
         "path": "auxiliary/extends-empty-block-2",
         "line": 2
       },

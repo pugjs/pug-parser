@@ -4,7 +4,7 @@
     {
       "type": "Extends",
       "file": {
-        "type": "file-reference",
+        "type": "FileReference",
         "path": "auxiliary/layout.include",
         "line": 2
       },

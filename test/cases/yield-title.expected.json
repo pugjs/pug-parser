@@ -18,7 +18,7 @@
                 {
                   "type": "Include",
                   "file": {
-                    "type": "file-reference",
+                    "type": "FileReference",
                     "path": "yield-title-head",
                     "line": 3
                   },

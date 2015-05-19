@@ -4,7 +4,7 @@
     {
       "type": "Extends",
       "file": {
-        "type": "file-reference",
+        "type": "FileReference",
         "path": "auxiliary/inheritance.extend.mixin.block",
         "line": 1
       },

@@ -4,7 +4,7 @@
     {
       "type": "Include",
       "file": {
-        "type": "file-reference",
+        "type": "FileReference",
         "path": "./auxiliary/mixin-at-end-of-file.jade",
         "line": 1
       },
