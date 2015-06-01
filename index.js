@@ -175,6 +175,8 @@ Parser.prototype = {
         return this.parseEach();
       case 'code':
         return this.parseCode();
+      case 'blockcode':
+        return this.parseBlockCode();
       case 'call':
         return this.parseCall();
       case 'interpolation':
@@ -364,7 +366,41 @@ Parser.prototype = {
 
     return node;
   },
+  
+  /**
+   * block code
+   */
 
+  parseBlockCode: function(){
+    var line = this.expect('blockcode').line;
+    var node;
+    var body = this.peek();
+    var text = '';
+    if (body.type === 'start-pipeless-text') {
+      this.advance();
+      while (this.peek().type !== 'end-pipeless-text') {
+        var tok = this.advance();
+        switch (tok.type) {
+          case 'text':
+            text += tok.val;
+            break;
+          case 'newline':
+            text += '\n';
+            break;
+          default:
+            throw new Error('Unexpected token type: ' + tok.type);
+        }
+      }
+      this.advance();
+    }
+    return {
+      type: 'Code',
+      val: text,
+      buffer: false,
+      escape: false,
+      line: line
+    };
+  },
   /**
    * comment
    */
