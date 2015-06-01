@@ -86,7 +86,8 @@
                 {
                   "type": "Text",
                   "val": "/",
-                  "line": 7
+                  "line": 7,
+                  "filename": "tags.self-closing.tokens.json"
                 }
               ]
             },
@@ -106,7 +107,8 @@
                 {
                   "type": "Text",
                   "val": "/",
-                  "line": 8
+                  "line": 8,
+                  "filename": "tags.self-closing.tokens.json"
                 }
               ]
             },
@@ -139,7 +141,8 @@
                 {
                   "type": "Text",
                   "val": " ",
-                  "line": 10
+                  "line": 10,
+                  "filename": "tags.self-closing.tokens.json"
                 }
               ]
             },
@@ -166,7 +169,8 @@
                 {
                   "type": "Text",
                   "val": "   ",
-                  "line": 12
+                  "line": 12,
+                  "filename": "tags.self-closing.tokens.json"
                 }
               ]
             },

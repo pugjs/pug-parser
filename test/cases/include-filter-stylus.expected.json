@@ -13,7 +13,8 @@
             "file": {
               "type": "FileReference",
               "path": "some.styl",
-              "line": 2
+              "line": 2,
+              "filename": "include-filter-stylus.tokens.json"
             },
             "filter": "styl",
             "attrs": [],

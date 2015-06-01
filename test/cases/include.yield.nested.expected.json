@@ -6,7 +6,8 @@
       "file": {
         "type": "FileReference",
         "path": "auxiliary/yield-nested",
-        "line": 2
+        "line": 2,
+        "filename": "include.yield.nested.tokens.json"
       },
       "attrs": [],
       "block": {
@@ -22,7 +23,8 @@
                 {
                   "type": "Text",
                   "val": "some content",
-                  "line": 3
+                  "line": 3,
+                  "filename": "include.yield.nested.tokens.json"
                 }
               ]
             },
@@ -42,7 +44,8 @@
                 {
                   "type": "Text",
                   "val": "and some more",
-                  "line": 4
+                  "line": 4,
+                  "filename": "include.yield.nested.tokens.json"
                 }
               ]
             },

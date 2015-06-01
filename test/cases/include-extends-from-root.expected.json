@@ -6,7 +6,8 @@
       "file": {
         "type": "FileReference",
         "path": "/auxiliary/extends-from-root",
-        "line": 1
+        "line": 1,
+        "filename": "include-extends-from-root.tokens.json"
       },
       "attrs": [],
       "block": {

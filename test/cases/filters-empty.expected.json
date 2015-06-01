@@ -37,7 +37,8 @@
                         "block": {
                           "type": "Block",
                           "nodes": [],
-                          "line": 6
+                          "line": 6,
+                          "filename": "filters-empty.tokens.json"
                         },
                         "attrs": [],
                         "line": 6,

@@ -6,7 +6,8 @@
       "file": {
         "type": "FileReference",
         "path": "auxiliary/inheritance.extend.mixin.block",
-        "line": 1
+        "line": 1,
+        "filename": "inheritance.extend.mixins.block.tokens.json"
       },
       "line": 1,
       "filename": "inheritance.extend.mixins.block.tokens.json"
@@ -24,7 +25,8 @@
               {
                 "type": "Text",
                 "val": "Hello World!",
-                "line": 4
+                "line": 4,
+                "filename": "inheritance.extend.mixins.block.tokens.json"
               }
             ]
           },

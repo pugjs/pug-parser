@@ -59,8 +59,8 @@
       "attributeBlocks": [],
       "isInline": false,
       "line": 1,
-      "textOnly": true,
-      "filename": "script.whitespace.tokens.json"
+      "filename": "script.whitespace.tokens.json",
+      "textOnly": true
     }
   ],
   "line": 0,

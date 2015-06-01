@@ -11,15 +11,16 @@
           {
             "type": "Text",
             "val": "Something",
-            "line": 1
+            "line": 1,
+            "filename": "namespaces.tokens.json"
           }
         ]
       },
       "attrs": [],
       "attributeBlocks": [],
       "isInline": false,
-      "filename": "namespaces.tokens.json",
-      "line": 1
+      "line": 1,
+      "filename": "namespaces.tokens.json"
     },
     {
       "type": "Tag",
@@ -38,8 +39,8 @@
       ],
       "attributeBlocks": [],
       "isInline": false,
-      "filename": "namespaces.tokens.json",
-      "line": 2
+      "line": 2,
+      "filename": "namespaces.tokens.json"
     }
   ],
   "line": 0,

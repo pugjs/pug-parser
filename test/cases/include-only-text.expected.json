@@ -27,7 +27,8 @@
                         "file": {
                           "type": "FileReference",
                           "path": "include-only-text-body",
-                          "line": 4
+                          "line": 4,
+                          "filename": "include-only-text.tokens.json"
                         },
                         "attrs": [],
                         "block": {
@@ -43,7 +44,8 @@
                                   {
                                     "type": "Text",
                                     "val": "hello world",
-                                    "line": 5
+                                    "line": 5,
+                                    "filename": "include-only-text.tokens.json"
                                   }
                                 ]
                               },

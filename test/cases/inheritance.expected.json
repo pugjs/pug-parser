@@ -6,7 +6,8 @@
       "file": {
         "type": "FileReference",
         "path": "auxiliary/layout",
-        "line": 2
+        "line": 2,
+        "filename": "inheritance.tokens.json"
       },
       "line": 2,
       "filename": "inheritance.tokens.json"
@@ -53,7 +54,8 @@
               {
                 "type": "Text",
                 "val": "Page",
-                "line": 8
+                "line": 8,
+                "filename": "inheritance.tokens.json"
               }
             ]
           },
@@ -73,7 +75,8 @@
               {
                 "type": "Text",
                 "val": "Some content",
-                "line": 9
+                "line": 9,
+                "filename": "inheritance.tokens.json"
               }
             ]
           },

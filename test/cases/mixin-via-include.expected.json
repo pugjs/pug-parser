@@ -19,7 +19,8 @@
       "file": {
         "type": "FileReference",
         "path": "../fixtures/mixin-include.jade",
-        "line": 3
+        "line": 3,
+        "filename": "mixin-via-include.tokens.json"
       },
       "attrs": [],
       "block": {

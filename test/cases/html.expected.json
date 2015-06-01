@@ -18,15 +18,16 @@
           {
             "type": "Text",
             "val": "You can <em>embed</em> html as well.",
-            "line": 8
+            "line": 8,
+            "filename": "html.tokens.json"
           }
         ]
       },
       "attrs": [],
       "attributeBlocks": [],
       "isInline": false,
-      "filename": "html.tokens.json",
-      "line": 8
+      "line": 8,
+      "filename": "html.tokens.json"
     }
   ],
   "line": 0,

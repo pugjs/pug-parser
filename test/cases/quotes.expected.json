@@ -11,15 +11,16 @@
           {
             "type": "Text",
             "val": "\"foo\"",
-            "line": 1
+            "line": 1,
+            "filename": "quotes.tokens.json"
           }
         ]
       },
       "attrs": [],
       "attributeBlocks": [],
       "isInline": false,
-      "filename": "quotes.tokens.json",
-      "line": 1
+      "line": 1,
+      "filename": "quotes.tokens.json"
     },
     {
       "type": "Tag",
@@ -31,15 +32,16 @@
           {
             "type": "Text",
             "val": "'foo'",
-            "line": 2
+            "line": 2,
+            "filename": "quotes.tokens.json"
           }
         ]
       },
       "attrs": [],
       "attributeBlocks": [],
       "isInline": false,
-      "filename": "quotes.tokens.json",
-      "line": 2
+      "line": 2,
+      "filename": "quotes.tokens.json"
     }
   ],
   "line": 0,

@@ -25,7 +25,8 @@
                       {
                         "type": "Text",
                         "val": "<%= user.title %>",
-                        "line": 3
+                        "line": 3,
+                        "filename": "attrs.unescaped.tokens.json"
                       }
                     ]
                   },

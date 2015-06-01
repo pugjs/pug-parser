@@ -20,7 +20,8 @@
                   "file": {
                     "type": "FileReference",
                     "path": "yield-head",
-                    "line": 3
+                    "line": 3,
+                    "filename": "yield.tokens.json"
                   },
                   "attrs": [],
                   "block": {

@@ -6,7 +6,8 @@
       "file": {
         "type": "FileReference",
         "path": "../fixtures/append/app-layout",
-        "line": 2
+        "line": 2,
+        "filename": "layout.append.tokens.json"
       },
       "line": 2,
       "filename": "layout.append.tokens.json"

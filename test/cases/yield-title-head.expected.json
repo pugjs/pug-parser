@@ -19,8 +19,8 @@
                   "type": "Block",
                   "nodes": [],
                   "line": 3,
-                  "yield": true,
-                  "filename": "yield-title-head.tokens.json"
+                  "filename": "yield-title-head.tokens.json",
+                  "yield": true
                 }
               ]
             },

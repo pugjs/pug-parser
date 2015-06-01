@@ -26,7 +26,8 @@
           {
             "type": "Text",
             "val": "value",
-            "line": 5
+            "line": 5,
+            "filename": "tag.interpolation.tokens.json"
           }
         ]
       },
@@ -46,7 +47,8 @@
           {
             "type": "Text",
             "val": "value",
-            "line": 6
+            "line": 6,
+            "filename": "tag.interpolation.tokens.json"
           }
         ]
       },
@@ -72,7 +74,8 @@
           {
             "type": "Text",
             "val": "here",
-            "line": 7
+            "line": 7,
+            "filename": "tag.interpolation.tokens.json"
           }
         ]
       },
@@ -107,6 +110,7 @@
                   "type": "Code",
                   "val": "if ( attributes.href)",
                   "line": 11,
+                  "filename": "tag.interpolation.tokens.json",
                   "block": {
                     "type": "Block",
                     "nodes": [
@@ -160,13 +164,13 @@
                     ],
                     "line": 12,
                     "filename": "tag.interpolation.tokens.json"
-                  },
-                  "filename": "tag.interpolation.tokens.json"
+                  }
                 },
                 {
                   "type": "Code",
                   "val": "else",
                   "line": 15,
+                  "filename": "tag.interpolation.tokens.json",
                   "debug": false,
                   "block": {
                     "type": "Block",
@@ -221,8 +225,7 @@
                     ],
                     "line": 16,
                     "filename": "tag.interpolation.tokens.json"
-                  },
-                  "filename": "tag.interpolation.tokens.json"
+                  }
                 }
               ]
             },
@@ -257,9 +260,12 @@
                 {
                   "type": "Text",
                   "val": "Contact",
-                  "line": 21
+                  "line": 21,
+                  "filename": "tag.interpolation.tokens.json"
                 }
-              ]
+              ],
+              "line": 21,
+              "filename": "tag.interpolation.tokens.json"
             },
             "call": true,
             "attrs": [],
@@ -276,9 +282,12 @@
                 {
                   "type": "Text",
                   "val": "Contact",
-                  "line": 22
+                  "line": 22,
+                  "filename": "tag.interpolation.tokens.json"
                 }
-              ]
+              ],
+              "line": 22,
+              "filename": "tag.interpolation.tokens.json"
             },
             "call": true,
             "attrs": [

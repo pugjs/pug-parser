@@ -11,7 +11,8 @@
           {
             "type": "Text",
             "val": "Username:",
-            "line": 2
+            "line": 2,
+            "filename": "text-block.tokens.json"
           },
           {
             "type": "Tag",
@@ -56,7 +57,8 @@
           {
             "type": "Text",
             "val": "Password:",
-            "line": 5
+            "line": 5,
+            "filename": "text-block.tokens.json"
           },
           {
             "type": "Tag",

@@ -6,7 +6,8 @@
       "file": {
         "type": "FileReference",
         "path": "auxiliary/extends-empty-block-1",
-        "line": 1
+        "line": 1,
+        "filename": "include-extends-of-common-template.tokens.json"
       },
       "attrs": [],
       "block": {
@@ -21,7 +22,8 @@
       "file": {
         "type": "FileReference",
         "path": "auxiliary/extends-empty-block-2",
-        "line": 2
+        "line": 2,
+        "filename": "include-extends-of-common-template.tokens.json"
       },
       "attrs": [],
       "block": {

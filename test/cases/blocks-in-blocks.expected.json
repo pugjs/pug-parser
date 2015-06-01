@@ -6,7 +6,8 @@
       "file": {
         "type": "FileReference",
         "path": "./auxiliary/blocks-in-blocks-layout.jade",
-        "line": 1
+        "line": 1,
+        "filename": "blocks-in-blocks.tokens.json"
       },
       "line": 1,
       "filename": "blocks-in-blocks.tokens.json"
@@ -24,7 +25,8 @@
               {
                 "type": "Text",
                 "val": "Page 2",
-                "line": 4
+                "line": 4,
+                "filename": "blocks-in-blocks.tokens.json"
               }
             ]
           },

@@ -14,7 +14,8 @@
               {
                 "type": "Text",
                 "val": "bing ",
-                "line": 1
+                "line": 1,
+                "filename": "inline-tag.tokens.json"
               },
               {
                 "type": "Tag",
@@ -26,22 +27,26 @@
                     {
                       "type": "Text",
                       "val": "foo",
-                      "line": 1
+                      "line": 1,
+                      "filename": "inline-tag.tokens.json"
                     }
                   ]
                 },
                 "attrs": [],
                 "attributeBlocks": [],
                 "isInline": true,
-                "line": 1
+                "line": 1,
+                "filename": "inline-tag.tokens.json"
               },
               {
                 "type": "Text",
                 "val": " bong",
-                "line": 1
+                "line": 1,
+                "filename": "inline-tag.tokens.json"
               }
             ],
-            "line": 1
+            "line": 1,
+            "filename": "inline-tag.tokens.json"
           }
         ]
       },
@@ -83,14 +88,16 @@
                 {
                   "type": "Text",
                   "val": "foo",
-                  "line": 1
+                  "line": 1,
+                  "filename": "inline-tag.tokens.json"
                 }
               ]
             },
             "attrs": [],
             "attributeBlocks": [],
             "isInline": true,
-            "line": 1
+            "line": 1,
+            "filename": "inline-tag.tokens.json"
           },
           {
             "type": "Text",
@@ -123,8 +130,8 @@
       "attributeBlocks": [],
       "isInline": false,
       "line": 3,
-      "textOnly": true,
-      "filename": "inline-tag.tokens.json"
+      "filename": "inline-tag.tokens.json",
+      "textOnly": true
     },
     {
       "type": "Tag",
@@ -139,17 +146,20 @@
               {
                 "type": "Text",
                 "val": "bing",
-                "line": 9
+                "line": 9,
+                "filename": "inline-tag.tokens.json"
               },
               {
                 "type": "Text",
                 "val": "\n",
-                "line": 10
+                "line": 10,
+                "filename": "inline-tag.tokens.json"
               },
               {
                 "type": "Text",
                 "val": "",
-                "line": 10
+                "line": 10,
+                "filename": "inline-tag.tokens.json"
               },
               {
                 "type": "Tag",
@@ -161,29 +171,34 @@
                     {
                       "type": "Text",
                       "val": "foo",
-                      "line": 1
+                      "line": 1,
+                      "filename": "inline-tag.tokens.json"
                     }
                   ]
                 },
                 "attrs": [],
                 "attributeBlocks": [],
                 "isInline": true,
-                "line": 1
+                "line": 1,
+                "filename": "inline-tag.tokens.json"
               },
               {
                 "type": "Text",
                 "val": "",
-                "line": 10
+                "line": 10,
+                "filename": "inline-tag.tokens.json"
               },
               {
                 "type": "Text",
                 "val": "\n",
-                "line": 11
+                "line": 11,
+                "filename": "inline-tag.tokens.json"
               },
               {
                 "type": "Text",
                 "val": "bong",
-                "line": 11
+                "line": 11,
+                "filename": "inline-tag.tokens.json"
               }
             ],
             "line": 9,
@@ -229,14 +244,16 @@
                 {
                   "type": "Text",
                   "val": "escaped",
-                  "line": 1
+                  "line": 1,
+                  "filename": "inline-tag.tokens.json"
                 }
               ]
             },
             "attrs": [],
             "attributeBlocks": [],
             "isInline": true,
-            "line": 1
+            "line": 1,
+            "filename": "inline-tag.tokens.json"
           },
           {
             "type": "Text",
@@ -249,8 +266,8 @@
       "attributeBlocks": [],
       "isInline": false,
       "line": 13,
-      "textOnly": true,
-      "filename": "inline-tag.tokens.json"
+      "filename": "inline-tag.tokens.json",
+      "textOnly": true
     }
   ],
   "line": 0,

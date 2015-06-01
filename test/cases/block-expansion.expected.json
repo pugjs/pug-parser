@@ -25,7 +25,8 @@
                       {
                         "type": "Text",
                         "val": "foo",
-                        "line": 2
+                        "line": 2,
+                        "filename": "block-expansion.tokens.json"
                       }
                     ]
                   },
@@ -38,7 +39,8 @@
                   ],
                   "attributeBlocks": [],
                   "isInline": true,
-                  "line": 2
+                  "line": 2,
+                  "filename": "block-expansion.tokens.json"
                 }
               ]
             },
@@ -65,7 +67,8 @@
                       {
                         "type": "Text",
                         "val": "bar",
-                        "line": 3
+                        "line": 3,
+                        "filename": "block-expansion.tokens.json"
                       }
                     ]
                   },
@@ -78,7 +81,8 @@
                   ],
                   "attributeBlocks": [],
                   "isInline": true,
-                  "line": 3
+                  "line": 3,
+                  "filename": "block-expansion.tokens.json"
                 }
               ]
             },
@@ -106,7 +110,8 @@
           {
             "type": "Text",
             "val": "baz",
-            "line": 5
+            "line": 5,
+            "filename": "block-expansion.tokens.json"
           }
         ]
       },

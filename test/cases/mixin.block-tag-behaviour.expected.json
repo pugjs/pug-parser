@@ -27,14 +27,15 @@
                   "attributeBlocks": [],
                   "isInline": false,
                   "line": 4,
+                  "filename": "mixin.block-tag-behaviour.tokens.json",
                   "code": {
                     "type": "Code",
                     "val": "name",
                     "buffer": true,
                     "escape": true,
-                    "line": 4
-                  },
-                  "filename": "mixin.block-tag-behaviour.tokens.json"
+                    "line": 4,
+                    "filename": "mixin.block-tag-behaviour.tokens.json"
+                  }
                 },
                 {
                   "type": "MixinBlock",
@@ -94,14 +95,16 @@
                             {
                               "type": "Text",
                               "val": "I'm article foo",
-                              "line": 9
+                              "line": 9,
+                              "filename": "mixin.block-tag-behaviour.tokens.json"
                             }
                           ]
                         },
                         "attrs": [],
                         "attributeBlocks": [],
                         "isInline": false,
-                        "line": 9
+                        "line": 9,
+                        "filename": "mixin.block-tag-behaviour.tokens.json"
                       }
                     ]
                   },
@@ -153,14 +156,15 @@
                   "attributeBlocks": [],
                   "isInline": false,
                   "line": 13,
+                  "filename": "mixin.block-tag-behaviour.tokens.json",
                   "code": {
                     "type": "Code",
                     "val": "name",
                     "buffer": true,
                     "escape": true,
-                    "line": 13
-                  },
-                  "filename": "mixin.block-tag-behaviour.tokens.json"
+                    "line": 13,
+                    "filename": "mixin.block-tag-behaviour.tokens.json"
+                  }
                 },
                 {
                   "type": "Tag",
@@ -276,8 +280,8 @@
                   "attrs": [],
                   "attributeBlocks": [],
                   "line": 19,
-                  "textOnly": true,
-                  "filename": "mixin.block-tag-behaviour.tokens.json"
+                  "filename": "mixin.block-tag-behaviour.tokens.json",
+                  "textOnly": true
                 }
               ]
             },

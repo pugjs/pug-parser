@@ -32,8 +32,8 @@
             "type": "Block",
             "nodes": [],
             "line": 3,
-            "yield": true,
-            "filename": "yield-head.tokens.json"
+            "filename": "yield-head.tokens.json",
+            "yield": true
           },
           {
             "type": "Tag",

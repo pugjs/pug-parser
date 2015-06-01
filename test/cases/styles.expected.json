@@ -53,8 +53,8 @@
                   "attributeBlocks": [],
                   "isInline": false,
                   "line": 3,
-                  "textOnly": true,
-                  "filename": "styles.tokens.json"
+                  "filename": "styles.tokens.json",
+                  "textOnly": true
                 }
               ]
             },

@@ -39,8 +39,8 @@
       "attributeBlocks": [],
       "isInline": false,
       "line": 1,
-      "textOnly": true,
-      "filename": "scripts.tokens.json"
+      "filename": "scripts.tokens.json",
+      "textOnly": true
     },
     {
       "type": "Tag",
@@ -54,14 +54,15 @@
       "attributeBlocks": [],
       "isInline": false,
       "line": 5,
+      "filename": "scripts.tokens.json",
       "code": {
         "type": "Code",
         "val": "'foo()'",
         "buffer": true,
         "escape": false,
-        "line": 5
-      },
-      "filename": "scripts.tokens.json"
+        "line": 5,
+        "filename": "scripts.tokens.json"
+      }
     },
     {
       "type": "Tag",
@@ -73,7 +74,8 @@
           {
             "type": "Text",
             "val": "foo()",
-            "line": 6
+            "line": 6,
+            "filename": "scripts.tokens.json"
           }
         ]
       },

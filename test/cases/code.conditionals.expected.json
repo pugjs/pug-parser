@@ -7,6 +7,7 @@
       "buffer": false,
       "escape": false,
       "line": 2,
+      "filename": "code.conditionals.tokens.json",
       "block": {
         "type": "Block",
         "nodes": [
@@ -20,7 +21,8 @@
                 {
                   "type": "Text",
                   "val": "foo",
-                  "line": 3
+                  "line": 3,
+                  "filename": "code.conditionals.tokens.json"
                 }
               ]
             },
@@ -33,8 +35,7 @@
         ],
         "line": 3,
         "filename": "code.conditionals.tokens.json"
-      },
-      "filename": "code.conditionals.tokens.json"
+      }
     },
     {
       "type": "Code",
@@ -42,6 +43,7 @@
       "buffer": false,
       "escape": false,
       "line": 4,
+      "filename": "code.conditionals.tokens.json",
       "debug": false,
       "block": {
         "type": "Block",
@@ -56,7 +58,8 @@
                 {
                   "type": "Text",
                   "val": "bar",
-                  "line": 5
+                  "line": 5,
+                  "filename": "code.conditionals.tokens.json"
                 }
               ]
             },
@@ -69,8 +72,7 @@
         ],
         "line": 5,
         "filename": "code.conditionals.tokens.json"
-      },
-      "filename": "code.conditionals.tokens.json"
+      }
     },
     {
       "type": "Code",
@@ -78,6 +80,7 @@
       "buffer": false,
       "escape": false,
       "line": 7,
+      "filename": "code.conditionals.tokens.json",
       "block": {
         "type": "Block",
         "nodes": [
@@ -91,7 +94,8 @@
                 {
                   "type": "Text",
                   "val": "foo",
-                  "line": 8
+                  "line": 8,
+                  "filename": "code.conditionals.tokens.json"
                 }
               ]
             },
@@ -104,8 +108,7 @@
         ],
         "line": 8,
         "filename": "code.conditionals.tokens.json"
-      },
-      "filename": "code.conditionals.tokens.json"
+      }
     },
     {
       "type": "Code",
@@ -113,6 +116,7 @@
       "buffer": false,
       "escape": false,
       "line": 9,
+      "filename": "code.conditionals.tokens.json",
       "block": {
         "type": "Block",
         "nodes": [
@@ -126,7 +130,8 @@
                 {
                   "type": "Text",
                   "val": "bar",
-                  "line": 10
+                  "line": 10,
+                  "filename": "code.conditionals.tokens.json"
                 }
               ]
             },
@@ -139,8 +144,7 @@
         ],
         "line": 10,
         "filename": "code.conditionals.tokens.json"
-      },
-      "filename": "code.conditionals.tokens.json"
+      }
     },
     {
       "type": "Code",
@@ -154,6 +158,7 @@
       "type": "Code",
       "val": "if ( true)",
       "line": 13,
+      "filename": "code.conditionals.tokens.json",
       "block": {
         "type": "Block",
         "nodes": [
@@ -167,7 +172,8 @@
                 {
                   "type": "Text",
                   "val": "foo",
-                  "line": 14
+                  "line": 14,
+                  "filename": "code.conditionals.tokens.json"
                 }
               ]
             },
@@ -187,7 +193,8 @@
                 {
                   "type": "Text",
                   "val": "bar",
-                  "line": 15
+                  "line": 15,
+                  "filename": "code.conditionals.tokens.json"
                 }
               ]
             },
@@ -207,7 +214,8 @@
                 {
                   "type": "Text",
                   "val": "baz",
-                  "line": 16
+                  "line": 16,
+                  "filename": "code.conditionals.tokens.json"
                 }
               ]
             },
@@ -220,13 +228,13 @@
         ],
         "line": 14,
         "filename": "code.conditionals.tokens.json"
-      },
-      "filename": "code.conditionals.tokens.json"
+      }
     },
     {
       "type": "Code",
       "val": "else",
       "line": 17,
+      "filename": "code.conditionals.tokens.json",
       "debug": false,
       "block": {
         "type": "Block",
@@ -241,7 +249,8 @@
                 {
                   "type": "Text",
                   "val": "bar",
-                  "line": 18
+                  "line": 18,
+                  "filename": "code.conditionals.tokens.json"
                 }
               ]
             },
@@ -254,13 +263,13 @@
         ],
         "line": 18,
         "filename": "code.conditionals.tokens.json"
-      },
-      "filename": "code.conditionals.tokens.json"
+      }
     },
     {
       "type": "Code",
       "val": "if (!( true))",
       "line": 20,
+      "filename": "code.conditionals.tokens.json",
       "block": {
         "type": "Block",
         "nodes": [
@@ -274,7 +283,8 @@
                 {
                   "type": "Text",
                   "val": "foo",
-                  "line": 21
+                  "line": 21,
+                  "filename": "code.conditionals.tokens.json"
                 }
               ]
             },
@@ -287,13 +297,13 @@
         ],
         "line": 21,
         "filename": "code.conditionals.tokens.json"
-      },
-      "filename": "code.conditionals.tokens.json"
+      }
     },
     {
       "type": "Code",
       "val": "else",
       "line": 22,
+      "filename": "code.conditionals.tokens.json",
       "debug": false,
       "block": {
         "type": "Block",
@@ -308,7 +318,8 @@
                 {
                   "type": "Text",
                   "val": "bar",
-                  "line": 23
+                  "line": 23,
+                  "filename": "code.conditionals.tokens.json"
                 }
               ]
             },
@@ -321,13 +332,13 @@
         ],
         "line": 23,
         "filename": "code.conditionals.tokens.json"
-      },
-      "filename": "code.conditionals.tokens.json"
+      }
     },
     {
       "type": "Code",
       "val": "if ( 'nested')",
       "line": 25,
+      "filename": "code.conditionals.tokens.json",
       "block": {
         "type": "Block",
         "nodes": [
@@ -335,6 +346,7 @@
             "type": "Code",
             "val": "if ( 'works')",
             "line": 26,
+            "filename": "code.conditionals.tokens.json",
             "block": {
               "type": "Block",
               "nodes": [
@@ -348,7 +360,8 @@
                       {
                         "type": "Text",
                         "val": "yay",
-                        "line": 27
+                        "line": 27,
+                        "filename": "code.conditionals.tokens.json"
                       }
                     ]
                   },
@@ -361,14 +374,12 @@
               ],
               "line": 27,
               "filename": "code.conditionals.tokens.json"
-            },
-            "filename": "code.conditionals.tokens.json"
+            }
           }
         ],
         "line": 26,
         "filename": "code.conditionals.tokens.json"
-      },
-      "filename": "code.conditionals.tokens.json"
+      }
     },
     {
       "type": "Comment",
@@ -381,17 +392,19 @@
       "type": "Code",
       "val": "if ( false)",
       "line": 30,
+      "filename": "code.conditionals.tokens.json",
       "block": {
         "type": "Block",
         "nodes": [],
-        "line": 30
-      },
-      "filename": "code.conditionals.tokens.json"
+        "line": 30,
+        "filename": "code.conditionals.tokens.json"
+      }
     },
     {
       "type": "Code",
       "val": "else",
       "line": 31,
+      "filename": "code.conditionals.tokens.json",
       "debug": false,
       "block": {
         "type": "Block",
@@ -418,13 +431,13 @@
         ],
         "line": 32,
         "filename": "code.conditionals.tokens.json"
-      },
-      "filename": "code.conditionals.tokens.json"
+      }
     },
     {
       "type": "Code",
       "val": "if ( true)",
       "line": 33,
+      "filename": "code.conditionals.tokens.json",
       "block": {
         "type": "Block",
         "nodes": [
@@ -450,20 +463,20 @@
         ],
         "line": 34,
         "filename": "code.conditionals.tokens.json"
-      },
-      "filename": "code.conditionals.tokens.json"
+      }
     },
     {
       "type": "Code",
       "val": "else",
       "line": 35,
+      "filename": "code.conditionals.tokens.json",
       "debug": false,
       "block": {
         "type": "Block",
         "nodes": [],
-        "line": 35
-      },
-      "filename": "code.conditionals.tokens.json"
+        "line": 35,
+        "filename": "code.conditionals.tokens.json"
+      }
     },
     {
       "type": "Tag",

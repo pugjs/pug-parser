@@ -49,8 +49,8 @@
       "attributeBlocks": [],
       "isInline": false,
       "line": 1,
-      "textOnly": true,
-      "filename": "pre.tokens.json"
+      "filename": "pre.tokens.json",
+      "textOnly": true
     },
     {
       "type": "Tag",
@@ -97,8 +97,8 @@
             "attributeBlocks": [],
             "isInline": true,
             "line": 7,
-            "textOnly": true,
-            "filename": "pre.tokens.json"
+            "filename": "pre.tokens.json",
+            "textOnly": true
           }
         ]
       },

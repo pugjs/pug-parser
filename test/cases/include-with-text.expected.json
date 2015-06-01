@@ -13,7 +13,8 @@
             "file": {
               "type": "FileReference",
               "path": "include-with-text-head",
-              "line": 2
+              "line": 2,
+              "filename": "include-with-text.tokens.json"
             },
             "attrs": [],
             "block": {

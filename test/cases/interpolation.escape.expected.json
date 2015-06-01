@@ -22,37 +22,44 @@
               {
                 "type": "Text",
                 "val": "some",
-                "line": 4
+                "line": 4,
+                "filename": "interpolation.escape.tokens.json"
               },
               {
                 "type": "Text",
                 "val": "\n",
-                "line": 5
+                "line": 5,
+                "filename": "interpolation.escape.tokens.json"
               },
               {
                 "type": "Text",
                 "val": "\\#{text}",
-                "line": 5
+                "line": 5,
+                "filename": "interpolation.escape.tokens.json"
               },
               {
                 "type": "Text",
                 "val": "\n",
-                "line": 6
+                "line": 6,
+                "filename": "interpolation.escape.tokens.json"
               },
               {
                 "type": "Text",
                 "val": "here",
-                "line": 6
+                "line": 6,
+                "filename": "interpolation.escape.tokens.json"
               },
               {
                 "type": "Text",
                 "val": "\n",
-                "line": 7
+                "line": 7,
+                "filename": "interpolation.escape.tokens.json"
               },
               {
                 "type": "Text",
                 "val": "My ID #{\"is {\" + id + \"}\"}",
-                "line": 7
+                "line": 7,
+                "filename": "interpolation.escape.tokens.json"
               }
             ],
             "line": 4,

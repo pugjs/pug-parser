@@ -32,8 +32,8 @@
             "attributeBlocks": [],
             "isInline": false,
             "line": 2,
-            "textOnly": true,
-            "filename": "include-with-text-head.tokens.json"
+            "filename": "include-with-text-head.tokens.json",
+            "textOnly": true
           }
         ]
       },

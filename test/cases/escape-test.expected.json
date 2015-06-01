@@ -31,7 +31,8 @@
                       {
                         "type": "Text",
                         "val": "escape-test",
-                        "line": 4
+                        "line": 4,
+                        "filename": "escape-test.tokens.json"
                       }
                     ]
                   },

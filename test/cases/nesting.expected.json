@@ -18,7 +18,8 @@
                 {
                   "type": "Text",
                   "val": "a",
-                  "line": 2
+                  "line": 2,
+                  "filename": "nesting.tokens.json"
                 }
               ]
             },
@@ -38,7 +39,8 @@
                 {
                   "type": "Text",
                   "val": "b",
-                  "line": 3
+                  "line": 3,
+                  "filename": "nesting.tokens.json"
                 }
               ]
             },
@@ -72,7 +74,8 @@
                             {
                               "type": "Text",
                               "val": "c",
-                              "line": 6
+                              "line": 6,
+                              "filename": "nesting.tokens.json"
                             }
                           ]
                         },
@@ -92,7 +95,8 @@
                             {
                               "type": "Text",
                               "val": "d",
-                              "line": 7
+                              "line": 7,
+                              "filename": "nesting.tokens.json"
                             }
                           ]
                         },
@@ -128,7 +132,8 @@
                 {
                   "type": "Text",
                   "val": "e",
-                  "line": 8
+                  "line": 8,
+                  "filename": "nesting.tokens.json"
                 }
               ]
             },

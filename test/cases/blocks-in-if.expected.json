@@ -28,6 +28,7 @@
       "buffer": false,
       "escape": false,
       "line": 5,
+      "filename": "blocks-in-if.tokens.json",
       "block": {
         "type": "Block",
         "nodes": [
@@ -51,7 +52,8 @@
                     {
                       "type": "Text",
                       "val": "ajax contents",
-                      "line": 8
+                      "line": 8,
+                      "filename": "blocks-in-if.tokens.json"
                     }
                   ]
                 },
@@ -70,8 +72,7 @@
         ],
         "line": 6,
         "filename": "blocks-in-if.tokens.json"
-      },
-      "filename": "blocks-in-if.tokens.json"
+      }
     },
     {
       "type": "Code",
@@ -79,6 +80,7 @@
       "buffer": false,
       "escape": false,
       "line": 10,
+      "filename": "blocks-in-if.tokens.json",
       "debug": false,
       "block": {
         "type": "Block",
@@ -140,7 +142,8 @@
                             {
                               "type": "Text",
                               "val": "sample",
-                              "line": 16
+                              "line": 16,
+                              "filename": "blocks-in-if.tokens.json"
                             }
                           ]
                         },
@@ -170,7 +173,8 @@
                                       {
                                         "type": "Text",
                                         "val": "all contetns",
-                                        "line": 19
+                                        "line": 19,
+                                        "filename": "blocks-in-if.tokens.json"
                                       }
                                     ]
                                   },
@@ -213,8 +217,7 @@
         ],
         "line": 11,
         "filename": "blocks-in-if.tokens.json"
-      },
-      "filename": "blocks-in-if.tokens.json"
+      }
     }
   ],
   "line": 0,

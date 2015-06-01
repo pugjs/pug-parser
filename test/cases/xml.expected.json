@@ -24,8 +24,8 @@
       ],
       "attributeBlocks": [],
       "isInline": false,
-      "filename": "xml.tokens.json",
-      "line": 2
+      "line": 2,
+      "filename": "xml.tokens.json"
     },
     {
       "type": "Tag",
@@ -37,15 +37,16 @@
           {
             "type": "Text",
             "val": "http://google.com",
-            "line": 3
+            "line": 3,
+            "filename": "xml.tokens.json"
           }
         ]
       },
       "attrs": [],
       "attributeBlocks": [],
       "isInline": false,
-      "filename": "xml.tokens.json",
-      "line": 3
+      "line": 3,
+      "filename": "xml.tokens.json"
     }
   ],
   "line": 0,

@@ -11,7 +11,8 @@
           {
             "type": "Text",
             "val": "contact",
-            "line": 1
+            "line": 1,
+            "filename": "attrs.tokens.json"
           }
         ]
       },
@@ -37,7 +38,8 @@
           {
             "type": "Text",
             "val": "save",
-            "line": 2
+            "line": 2,
+            "filename": "attrs.tokens.json"
           }
         ]
       },
@@ -155,7 +157,8 @@
                 {
                   "type": "Text",
                   "val": "Foo",
-                  "line": 7
+                  "line": 7,
+                  "filename": "attrs.tokens.json"
                 }
               ]
             },
@@ -186,7 +189,8 @@
                 {
                   "type": "Text",
                   "val": "Bar",
-                  "line": 8
+                  "line": 8,
+                  "filename": "attrs.tokens.json"
                 }
               ]
             },
@@ -265,7 +269,8 @@
           {
             "type": "Text",
             "val": "contact",
-            "line": 12
+            "line": 12,
+            "filename": "attrs.tokens.json"
           }
         ]
       },
@@ -291,7 +296,8 @@
           {
             "type": "Text",
             "val": "save",
-            "line": 13
+            "line": 13,
+            "filename": "attrs.tokens.json"
           }
         ]
       },
@@ -409,7 +415,8 @@
                 {
                   "type": "Text",
                   "val": "Foo",
-                  "line": 18
+                  "line": 18,
+                  "filename": "attrs.tokens.json"
                 }
               ]
             },
@@ -440,7 +447,8 @@
                 {
                   "type": "Text",
                   "val": "Bar",
-                  "line": 19
+                  "line": 19,
+                  "filename": "attrs.tokens.json"
                 }
               ]
             },

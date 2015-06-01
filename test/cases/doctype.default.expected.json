@@ -30,7 +30,8 @@
                       {
                         "type": "Text",
                         "val": "Title",
-                        "line": 4
+                        "line": 4,
+                        "filename": "doctype.default.tokens.json"
                       }
                     ]
                   },

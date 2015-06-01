@@ -24,7 +24,8 @@
                       {
                         "type": "Text",
                         "val": "<%= user.name %>",
-                        "line": 3
+                        "line": 3,
+                        "filename": "scripts.non-js.tokens.json"
                       }
                     ]
                   },
@@ -44,7 +45,8 @@
                       {
                         "type": "Text",
                         "val": "<%= user.description %>",
-                        "line": 4
+                        "line": 4,
+                        "filename": "scripts.non-js.tokens.json"
                       }
                     ]
                   },
@@ -136,8 +138,8 @@
       "attributeBlocks": [],
       "isInline": false,
       "line": 6,
-      "textOnly": true,
-      "filename": "scripts.non-js.tokens.json"
+      "filename": "scripts.non-js.tokens.json",
+      "textOnly": true
     }
   ],
   "line": 0,

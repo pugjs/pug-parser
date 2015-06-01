@@ -25,7 +25,8 @@
                       {
                         "type": "Text",
                         "val": "Title",
-                        "line": 3
+                        "line": 3,
+                        "filename": "basic.tokens.json"
                       }
                     ]
                   },

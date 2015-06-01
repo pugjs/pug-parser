@@ -34,14 +34,15 @@
                         "attributeBlocks": [],
                         "isInline": false,
                         "line": 4,
+                        "filename": "mixins.rest-args.tokens.json",
                         "code": {
                           "type": "Code",
                           "val": "item",
                           "buffer": true,
                           "escape": true,
-                          "line": 4
-                        },
-                        "filename": "mixins.rest-args.tokens.json"
+                          "line": 4,
+                          "filename": "mixins.rest-args.tokens.json"
+                        }
                       }
                     ],
                     "line": 4,

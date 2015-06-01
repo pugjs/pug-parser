@@ -6,7 +6,8 @@
       "file": {
         "type": "FileReference",
         "path": "auxiliary/layout",
-        "line": 2
+        "line": 2,
+        "filename": "inheritance.extend.mixins.tokens.json"
       },
       "line": 2,
       "filename": "inheritance.extend.mixins.tokens.json"
@@ -22,6 +23,7 @@
             "type": "Code",
             "val": "if ( title)",
             "line": 5,
+            "filename": "inheritance.extend.mixins.tokens.json",
             "block": {
               "type": "Block",
               "nodes": [
@@ -37,20 +39,20 @@
                   "attributeBlocks": [],
                   "isInline": false,
                   "line": 6,
+                  "filename": "inheritance.extend.mixins.tokens.json",
                   "code": {
                     "type": "Code",
                     "val": "title",
                     "buffer": true,
                     "escape": true,
-                    "line": 6
-                  },
-                  "filename": "inheritance.extend.mixins.tokens.json"
+                    "line": 6,
+                    "filename": "inheritance.extend.mixins.tokens.json"
+                  }
                 }
               ],
               "line": 6,
               "filename": "inheritance.extend.mixins.tokens.json"
-            },
-            "filename": "inheritance.extend.mixins.tokens.json"
+            }
           },
           {
             "type": "MixinBlock",
@@ -85,7 +87,8 @@
                     {
                       "type": "Text",
                       "val": "Foo bar baz!",
-                      "line": 11
+                      "line": 11,
+                      "filename": "inheritance.extend.mixins.tokens.json"
                     }
                   ]
                 },
@@ -95,7 +98,9 @@
                 "line": 11,
                 "filename": "inheritance.extend.mixins.tokens.json"
               }
-            ]
+            ],
+            "line": 10,
+            "filename": "inheritance.extend.mixins.tokens.json"
           },
           "call": true,
           "attrs": [],

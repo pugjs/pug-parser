@@ -20,14 +20,15 @@
             "attributeBlocks": [],
             "isInline": false,
             "line": 3,
+            "filename": "mixin-hoist.tokens.json",
             "code": {
               "type": "Code",
               "val": "title",
               "buffer": true,
               "escape": true,
-              "line": 3
-            },
-            "filename": "mixin-hoist.tokens.json"
+              "line": 3,
+              "filename": "mixin-hoist.tokens.json"
+            }
           }
         ],
         "line": 3,

@@ -6,7 +6,8 @@
       "file": {
         "type": "FileReference",
         "path": "auxiliary/mixins",
-        "line": 2
+        "line": 2,
+        "filename": "includes.tokens.json"
       },
       "attrs": [],
       "block": {
@@ -38,7 +39,8 @@
             "file": {
               "type": "FileReference",
               "path": "auxiliary/smile.html",
-              "line": 7
+              "line": 7,
+              "filename": "includes.tokens.json"
             },
             "attrs": [],
             "block": {
@@ -53,7 +55,8 @@
             "file": {
               "type": "FileReference",
               "path": "auxiliary/escapes.html",
-              "line": 8
+              "line": 8,
+              "filename": "includes.tokens.json"
             },
             "attrs": [],
             "block": {
@@ -75,7 +78,8 @@
                   "file": {
                     "type": "FileReference",
                     "path": "auxiliary/includable.js",
-                    "line": 10
+                    "line": 10,
+                    "filename": "includes.tokens.json"
                   },
                   "filter": "js",
                   "attrs": [],

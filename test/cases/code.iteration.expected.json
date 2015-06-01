@@ -22,6 +22,7 @@
             "buffer": false,
             "escape": false,
             "line": 5,
+            "filename": "code.iteration.tokens.json",
             "block": {
               "type": "Block",
               "nodes": [
@@ -37,20 +38,20 @@
                   "attributeBlocks": [],
                   "isInline": false,
                   "line": 6,
+                  "filename": "code.iteration.tokens.json",
                   "code": {
                     "type": "Code",
                     "val": "item",
                     "buffer": true,
                     "escape": true,
-                    "line": 6
-                  },
-                  "filename": "code.iteration.tokens.json"
+                    "line": 6,
+                    "filename": "code.iteration.tokens.json"
+                  }
                 }
               ],
               "line": 6,
               "filename": "code.iteration.tokens.json"
-            },
-            "filename": "code.iteration.tokens.json"
+            }
           },
           {
             "type": "Code",
@@ -109,14 +110,15 @@
                   "attributeBlocks": [],
                   "isInline": false,
                   "line": 13,
+                  "filename": "code.iteration.tokens.json",
                   "code": {
                     "type": "Code",
                     "val": "item",
                     "buffer": true,
                     "escape": true,
-                    "line": 13
-                  },
-                  "filename": "code.iteration.tokens.json"
+                    "line": 13,
+                    "filename": "code.iteration.tokens.json"
+                  }
                 }
               ],
               "line": 13,
@@ -160,14 +162,15 @@
                   "attributeBlocks": [],
                   "isInline": false,
                   "line": 17,
+                  "filename": "code.iteration.tokens.json",
                   "code": {
                     "type": "Code",
                     "val": "item",
                     "buffer": true,
                     "escape": true,
-                    "line": 17
-                  },
-                  "filename": "code.iteration.tokens.json"
+                    "line": 17,
+                    "filename": "code.iteration.tokens.json"
+                  }
                 }
               ],
               "line": 17,
@@ -211,14 +214,15 @@
                   "attributeBlocks": [],
                   "isInline": false,
                   "line": 21,
+                  "filename": "code.iteration.tokens.json",
                   "code": {
                     "type": "Code",
                     "val": "$item",
                     "buffer": true,
                     "escape": true,
-                    "line": 21
-                  },
-                  "filename": "code.iteration.tokens.json"
+                    "line": 21,
+                    "filename": "code.iteration.tokens.json"
+                  }
                 }
               ],
               "line": 21,
@@ -284,7 +288,8 @@
                             {
                               "type": "Text",
                               "val": "#{n}: #{l}",
-                              "line": 29
+                              "line": 29,
+                              "filename": "code.iteration.tokens.json"
                             }
                           ]
                         },
@@ -357,7 +362,8 @@
                       {
                         "type": "Text",
                         "val": "#{n}",
-                        "line": 35
+                        "line": 35,
+                        "filename": "code.iteration.tokens.json"
                       }
                     ]
                   },

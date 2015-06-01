@@ -20,7 +20,8 @@
                   "file": {
                     "type": "FileReference",
                     "path": "yield-before-conditional-head",
-                    "line": 3
+                    "line": 3,
+                    "filename": "yield-before-conditional.tokens.json"
                   },
                   "attrs": [],
                   "block": {

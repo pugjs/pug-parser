@@ -20,7 +20,8 @@
                   "file": {
                     "type": "FileReference",
                     "path": "some.md",
-                    "line": 3
+                    "line": 3,
+                    "filename": "include-filter.tokens.json"
                   },
                   "filter": "md",
                   "attrs": [],
@@ -43,7 +44,8 @@
                         "file": {
                           "type": "FileReference",
                           "path": "include-filter-coffee.coffee",
-                          "line": 5
+                          "line": 5,
+                          "filename": "include-filter.tokens.json"
                         },
                         "filter": "coffee",
                         "attrs": [
@@ -80,7 +82,8 @@
                         "file": {
                           "type": "FileReference",
                           "path": "include-filter-coffee.coffee",
-                          "line": 7
+                          "line": 7,
+                          "filename": "include-filter.tokens.json"
                         },
                         "filter": "coffee",
                         "attrs": [

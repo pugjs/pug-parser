@@ -32,7 +32,8 @@
                 {
                   "type": "Text",
                   "val": "one",
-                  "line": 5
+                  "line": 5,
+                  "filename": "comments.tokens.json"
                 }
               ]
             },
@@ -59,7 +60,8 @@
                 {
                   "type": "Text",
                   "val": "two",
-                  "line": 7
+                  "line": 7,
+                  "filename": "comments.tokens.json"
                 }
               ]
             },
@@ -255,7 +257,8 @@
           {
             "type": "Text",
             "val": "five",
-            "line": 27
+            "line": 27,
+            "filename": "comments.tokens.json"
           }
         ]
       },
@@ -274,7 +277,8 @@
           {
             "type": "Text",
             "val": "// not a comment",
-            "line": 29
+            "line": 29,
+            "filename": "comments.tokens.json"
           }
         ]
       },

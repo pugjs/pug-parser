@@ -6,7 +6,8 @@
       "file": {
         "type": "FileReference",
         "path": "../fixtures/multi-append-prepend-block/redefine",
-        "line": 1
+        "line": 1,
+        "filename": "layout.multi.append.prepend.block.tokens.json"
       },
       "line": 1,
       "filename": "layout.multi.append.prepend.block.tokens.json"
@@ -24,7 +25,8 @@
               {
                 "type": "Text",
                 "val": "Something appended to content",
-                "line": 4
+                "line": 4,
+                "filename": "layout.multi.append.prepend.block.tokens.json"
               }
             ]
           },
@@ -64,7 +66,8 @@
               {
                 "type": "Text",
                 "val": "Something prepended to content",
-                "line": 7
+                "line": 7,
+                "filename": "layout.multi.append.prepend.block.tokens.json"
               }
             ]
           },
@@ -104,7 +107,8 @@
               {
                 "type": "Text",
                 "val": "Last append must be most last",
-                "line": 10
+                "line": 10,
+                "filename": "layout.multi.append.prepend.block.tokens.json"
               }
             ]
           },
@@ -144,7 +148,8 @@
               {
                 "type": "Text",
                 "val": "Last prepend must appear at top",
-                "line": 13
+                "line": 13,
+                "filename": "layout.multi.append.prepend.block.tokens.json"
               }
             ]
           },

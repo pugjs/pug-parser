@@ -25,7 +25,8 @@
                       {
                         "type": "Text",
                         "val": "{{title}}",
-                        "line": 3
+                        "line": 3,
+                        "filename": "template.tokens.json"
                       }
                     ]
                   },
@@ -45,7 +46,8 @@
                       {
                         "type": "Text",
                         "val": "{{description}}",
-                        "line": 4
+                        "line": 4,
+                        "filename": "template.tokens.json"
                       }
                     ]
                   },
@@ -121,8 +123,8 @@
       "attributeBlocks": [],
       "isInline": false,
       "line": 6,
-      "textOnly": true,
-      "filename": "template.tokens.json"
+      "filename": "template.tokens.json",
+      "textOnly": true
     }
   ],
   "line": 0,

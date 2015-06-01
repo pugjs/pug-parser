@@ -19,8 +19,8 @@
       "attributeBlocks": [],
       "isInline": false,
       "line": 1,
-      "textOnly": true,
-      "filename": "escape-chars.tokens.json"
+      "filename": "escape-chars.tokens.json",
+      "textOnly": true
     }
   ],
   "line": 0,

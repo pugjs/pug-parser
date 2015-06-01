@@ -11,15 +11,16 @@
           {
             "type": "Text",
             "val": "\"foo\"",
-            "line": 1
+            "line": 1,
+            "filename": "utf8bom.tokens.json"
           }
         ]
       },
       "attrs": [],
       "attributeBlocks": [],
       "isInline": false,
-      "filename": "utf8bom.tokens.json",
-      "line": 1
+      "line": 1,
+      "filename": "utf8bom.tokens.json"
     }
   ],
   "line": 0,

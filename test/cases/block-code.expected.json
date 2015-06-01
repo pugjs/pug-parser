@@ -52,14 +52,15 @@
             "attributeBlocks": [],
             "isInline": false,
             "line": 12,
+            "filename": "block-code.tokens.json",
             "code": {
               "type": "Code",
               "val": "string",
               "buffer": true,
               "escape": true,
-              "line": 12
-            },
-            "filename": "block-code.tokens.json"
+              "line": 12,
+              "filename": "block-code.tokens.json"
+            }
           }
         ],
         "line": 7,

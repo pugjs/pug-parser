@@ -18,7 +18,8 @@
                 {
                   "type": "Text",
                   "val": "One",
-                  "line": 2
+                  "line": 2,
+                  "filename": "mixin.merge.tokens.json"
                 }
               ]
             },
@@ -46,7 +47,8 @@
                 {
                   "type": "Text",
                   "val": "Two",
-                  "line": 3
+                  "line": 3,
+                  "filename": "mixin.merge.tokens.json"
                 }
               ]
             },
@@ -79,7 +81,8 @@
                 {
                   "type": "Text",
                   "val": "Three",
-                  "line": 4
+                  "line": 4,
+                  "filename": "mixin.merge.tokens.json"
                 }
               ]
             },
@@ -101,7 +104,8 @@
                 {
                   "type": "Text",
                   "val": "Four",
-                  "line": 5
+                  "line": 5,
+                  "filename": "mixin.merge.tokens.json"
                 }
               ]
             },

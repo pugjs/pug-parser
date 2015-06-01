@@ -30,7 +30,8 @@
                             {
                               "type": "Text",
                               "val": "baz",
-                              "line": 2
+                              "line": 2,
+                              "filename": "block-expansion.shorthands.tokens.json"
                             }
                           ]
                         },
@@ -43,7 +44,8 @@
                         ],
                         "attributeBlocks": [],
                         "isInline": false,
-                        "line": 2
+                        "line": 2,
+                        "filename": "block-expansion.shorthands.tokens.json"
                       }
                     ]
                   },
@@ -56,7 +58,8 @@
                   ],
                   "attributeBlocks": [],
                   "isInline": false,
-                  "line": 2
+                  "line": 2,
+                  "filename": "block-expansion.shorthands.tokens.json"
                 }
               ]
             },

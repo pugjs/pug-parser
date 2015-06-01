@@ -4,21 +4,21 @@
     {
       "type": "Text",
       "val": "The message is \"",
-      "filename": "include-only-text-body.tokens.json",
-      "line": 1
+      "line": 1,
+      "filename": "include-only-text-body.tokens.json"
     },
     {
       "type": "Block",
       "nodes": [],
-      "yield": true,
+      "line": 2,
       "filename": "include-only-text-body.tokens.json",
-      "line": 2
+      "yield": true
     },
     {
       "type": "Text",
       "val": "\"",
-      "filename": "include-only-text-body.tokens.json",
-      "line": 3
+      "line": 3,
+      "filename": "include-only-text-body.tokens.json"
     }
   ],
   "line": 0,

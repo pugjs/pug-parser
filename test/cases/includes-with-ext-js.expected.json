@@ -20,7 +20,8 @@
                   "file": {
                     "type": "FileReference",
                     "path": "javascript-new-lines.js",
-                    "line": 3
+                    "line": 3,
+                    "filename": "includes-with-ext-js.tokens.json"
                   },
                   "attrs": [],
                   "block": {

@@ -14,7 +14,8 @@
               {
                 "type": "Text",
                 "val": "",
-                "line": 1
+                "line": 1,
+                "filename": "intepolated-elements.tokens.json"
               },
               {
                 "type": "Tag",
@@ -26,7 +27,8 @@
                     {
                       "type": "Text",
                       "val": "with inline link",
-                      "line": 1
+                      "line": 1,
+                      "filename": "intepolated-elements.tokens.json"
                     }
                   ]
                 },
@@ -49,15 +51,18 @@
                 ],
                 "attributeBlocks": [],
                 "isInline": true,
-                "line": 1
+                "line": 1,
+                "filename": "intepolated-elements.tokens.json"
               },
               {
                 "type": "Text",
                 "val": "",
-                "line": 1
+                "line": 1,
+                "filename": "intepolated-elements.tokens.json"
               }
             ],
-            "line": 1
+            "line": 1,
+            "filename": "intepolated-elements.tokens.json"
           }
         ]
       },
@@ -80,7 +85,8 @@
               {
                 "type": "Text",
                 "val": "Some text ",
-                "line": 2
+                "line": 2,
+                "filename": "intepolated-elements.tokens.json"
               },
               {
                 "type": "Tag",
@@ -109,15 +115,18 @@
                 ],
                 "attributeBlocks": [],
                 "isInline": true,
-                "line": 1
+                "line": 1,
+                "filename": "intepolated-elements.tokens.json"
               },
               {
                 "type": "Text",
                 "val": "",
-                "line": 2
+                "line": 2,
+                "filename": "intepolated-elements.tokens.json"
               }
             ],
-            "line": 2
+            "line": 2,
+            "filename": "intepolated-elements.tokens.json"
           }
         ]
       },
@@ -140,7 +149,8 @@
               {
                 "type": "Text",
                 "val": "Some text ",
-                "line": 3
+                "line": 3,
+                "filename": "intepolated-elements.tokens.json"
               },
               {
                 "type": "Tag",
@@ -152,7 +162,8 @@
                     {
                       "type": "Text",
                       "val": "with inline link",
-                      "line": 1
+                      "line": 1,
+                      "filename": "intepolated-elements.tokens.json"
                     }
                   ]
                 },
@@ -175,15 +186,18 @@
                 ],
                 "attributeBlocks": [],
                 "isInline": true,
-                "line": 1
+                "line": 1,
+                "filename": "intepolated-elements.tokens.json"
               },
               {
                 "type": "Text",
                 "val": "",
-                "line": 3
+                "line": 3,
+                "filename": "intepolated-elements.tokens.json"
               }
             ],
-            "line": 3
+            "line": 3,
+            "filename": "intepolated-elements.tokens.json"
           }
         ]
       },

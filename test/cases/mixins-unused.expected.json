@@ -17,7 +17,8 @@
                 {
                   "type": "Text",
                   "val": "This isn't something we ever want to output",
-                  "line": 2
+                  "line": 2,
+                  "filename": "mixins-unused.tokens.json"
                 }
               ]
             },

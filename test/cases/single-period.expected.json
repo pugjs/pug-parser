@@ -11,15 +11,16 @@
           {
             "type": "Text",
             "val": ".",
-            "line": 1
+            "line": 1,
+            "filename": "single-period.tokens.json"
           }
         ]
       },
       "attrs": [],
       "attributeBlocks": [],
       "isInline": true,
-      "filename": "single-period.tokens.json",
-      "line": 1
+      "line": 1,
+      "filename": "single-period.tokens.json"
     }
   ],
   "line": 0,

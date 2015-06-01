@@ -18,7 +18,8 @@
                 {
                   "type": "Text",
                   "val": "foo",
-                  "line": 4
+                  "line": 4,
+                  "filename": "blanks.tokens.json"
                 }
               ]
             },
@@ -38,7 +39,8 @@
                 {
                   "type": "Text",
                   "val": "bar",
-                  "line": 6
+                  "line": 6,
+                  "filename": "blanks.tokens.json"
                 }
               ]
             },
@@ -58,7 +60,8 @@
                 {
                   "type": "Text",
                   "val": "baz",
-                  "line": 8
+                  "line": 8,
+                  "filename": "blanks.tokens.json"
                 }
               ]
             },
