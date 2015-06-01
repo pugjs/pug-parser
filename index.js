@@ -41,6 +41,15 @@ Parser.prototype = {
 
   constructor: Parser,
 
+  error: function (message, code, token) {
+    var err = new Error(message + ' on line ' + token.line + ' of ' + token.filename);
+    err.code = 'JADE:' + code;
+    err.msg = message;
+    err.line = token.line;
+    err.filename = this.filename;
+    throw err;
+  },
+
   /**
    * Return the next token object.
    *
@@ -111,7 +120,7 @@ Parser.prototype = {
     if (this.peek().type === type) {
       return this.advance();
     } else {
-      throw new Error('expected "' + type + '", but got "' + this.peek().type + '"');
+      this.error('expected "' + type + '", but got "' + this.peek().type + '"', 'INVALID_TOKEN', this.peek());
     }
   },
 
@@ -198,7 +207,7 @@ Parser.prototype = {
         });
         return this.parseExpr();
       default:
-        throw new Error('unexpected token "' + this.peek().type + '"');
+        this.error('unexpected token "' + this.peek().type + '"', 'INVALID_TOKEN', this.peek());
     }
   },
 
@@ -315,8 +324,8 @@ Parser.prototype = {
           block.nodes.push(this.parseDefault());
           break;
         default:
-          throw new Error('Unexpected token "' + this.peek().type
-                          + '", expected "when", "default" or "newline"');
+          this.error('Unexpected token "' + this.peek().type
+                          + '", expected "when", "default" or "newline"', 'INVALID_TOKEN', this.peek());
       }
     }
     this.expect('outdent');
@@ -388,7 +397,7 @@ Parser.prototype = {
 
     // throw an error if an else does not have an if
     if (tok.isElse && !tok.hasIf) {
-      throw new Error('Unexpected else without if');
+      this.error('Unexpected else without if', 'ELSE_NO_IF', tok);
     }
 
     // handle block
@@ -433,7 +442,7 @@ Parser.prototype = {
             text += '\n';
             break;
           default:
-            throw new Error('Unexpected token type: ' + tok.type);
+            this.error('Unexpected token type: ' + tok.type, 'INVALID_TOKEN', tok);
         }
       }
       this.advance();
@@ -562,7 +571,7 @@ Parser.prototype = {
   parseMixinBlock: function () {
     var tok = this.expect('mixin-block');
     if (!this.inMixin) {
-      throw new Error('Anonymous blocks are not allowed unless they are part of a mixin.');
+      this.error('Anonymous blocks are not allowed unless they are part of a mixin.', 'BLOCK_OUTISDE_MIXIN', tok);
     }
     return {type: 'MixinBlock', line: tok.line, filename: this.filename};
   },
@@ -682,7 +691,7 @@ Parser.prototype = {
           this.expect('end-jade-interpolation');
           break;
         default:
-          throw new Error('Unexpected token type: ' + tok.type);
+          this.error('Unexpected token type: ' + tok.type, 'INVALID_TOKEN', tok);
       }
     }
     this.advance();
@@ -774,7 +783,7 @@ Parser.prototype = {
             var tok = this.advance();
             if (tok.type === 'id') {
               if (attributeNames.indexOf('id') !== -1) {
-                throw new Error('Duplicate attribute "id" is not allowed.');
+                this.error('Duplicate attribute "id" is not allowed.', 'DUPLICATE_ID', tok);
               }
               attributeNames.push('id');
             }
@@ -797,7 +806,7 @@ Parser.prototype = {
             for (var i = 0; i < attrs.length; i++) {
               if (attrs[i].name !== 'class') {
                 if (attributeNames.indexOf(attrs[i].name) !== -1) {
-                  throw new Error('Duplicate attribute "' + attrs[i].name + '" is not allowed.');
+                  this.error('Duplicate attribute "' + attrs[i].name + '" is not allowed.', 'DUPLICATE_ATTRIBUTE', tok);
                 }
                 attributeNames.push(attrs[i].name);
               }
@@ -843,7 +852,7 @@ Parser.prototype = {
       case 'end-jade-interpolation':
         break;
       default:
-        throw new Error('Unexpected token `' + this.peek().type + '` expected `text`, `code`, `:`, `newline` or `eos`')
+        this.error('Unexpected token `' + this.peek().type + '` expected `text`, `code`, `:`, `newline` or `eos`', 'INVALID_TOKEN', this.peek())
     }
 
     // newline*
