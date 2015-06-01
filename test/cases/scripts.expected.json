@@ -11,27 +11,27 @@
           {
             "type": "Text",
             "val": "if (foo) {",
-            "line": 1
+            "line": 2
           },
           {
             "type": "Text",
             "val": "\n",
-            "line": 1
+            "line": 3
           },
           {
             "type": "Text",
             "val": "  bar();",
-            "line": 1
+            "line": 3
           },
           {
             "type": "Text",
             "val": "\n",
-            "line": 1
+            "line": 4
           },
           {
             "type": "Text",
             "val": "}",
-            "line": 1
+            "line": 4
           }
         ]
       },
@@ -53,13 +53,13 @@
       "attrs": [],
       "attributeBlocks": [],
       "isInline": false,
-      "line": 2,
+      "line": 5,
       "code": {
         "type": "Code",
         "val": "'foo()'",
         "buffer": true,
         "escape": false,
-        "line": 2
+        "line": 5
       },
       "filename": "scripts.tokens.json"
     },
@@ -73,14 +73,14 @@
           {
             "type": "Text",
             "val": "foo()",
-            "line": 3
+            "line": 6
           }
         ]
       },
       "attrs": [],
       "attributeBlocks": [],
       "isInline": false,
-      "line": 3,
+      "line": 6,
       "filename": "scripts.tokens.json"
     },
     {
@@ -94,7 +94,7 @@
       "attrs": [],
       "attributeBlocks": [],
       "isInline": false,
-      "line": 4,
+      "line": 7,
       "filename": "scripts.tokens.json"
     },
     {
@@ -108,7 +108,7 @@
       "attrs": [],
       "attributeBlocks": [],
       "isInline": false,
-      "line": 5,
+      "line": 8,
       "filename": "scripts.tokens.json"
     }
   ],

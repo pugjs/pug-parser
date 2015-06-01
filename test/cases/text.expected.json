@@ -84,57 +84,57 @@
           {
             "type": "Text",
             "val": "foo",
-            "line": 8
+            "line": 9
           },
           {
             "type": "Text",
             "val": "\n",
-            "line": 8
+            "line": 10
           },
           {
             "type": "Text",
             "val": "",
-            "line": 8
+            "line": 10
           },
           {
             "type": "Text",
             "val": "\n",
-            "line": 8
+            "line": 11
           },
           {
             "type": "Text",
             "val": "",
-            "line": 8
+            "line": 11
           },
           {
             "type": "Text",
             "val": "\n",
-            "line": 8
+            "line": 12
           },
           {
             "type": "Text",
             "val": "bar",
-            "line": 8
+            "line": 12
           },
           {
             "type": "Text",
             "val": "\n",
-            "line": 8
+            "line": 13
           },
           {
             "type": "Text",
             "val": "baz",
-            "line": 8
+            "line": 13
           },
           {
             "type": "Text",
             "val": "\n",
-            "line": 8
+            "line": 14
           },
           {
             "type": "Text",
             "val": "",
-            "line": 8
+            "line": 14
           }
         ]
       },
@@ -158,40 +158,40 @@
               {
                 "type": "Text",
                 "val": "foo",
-                "line": 10
+                "line": 16
               },
               {
                 "type": "Text",
                 "val": "\n",
-                "line": 11
+                "line": 17
               },
               {
                 "type": "Text",
                 "val": "  bar",
-                "line": 11
+                "line": 17
               },
               {
                 "type": "Text",
                 "val": "\n",
-                "line": 12
+                "line": 18
               },
               {
                 "type": "Text",
                 "val": "    baz",
-                "line": 12
+                "line": 18
               },
               {
                 "type": "Text",
                 "val": "\n",
-                "line": 13
+                "line": 19
               },
               {
                 "type": "Text",
                 "val": ".",
-                "line": 13
+                "line": 19
               }
             ],
-            "line": 10,
+            "line": 16,
             "filename": "text.tokens.json"
           }
         ]
@@ -199,7 +199,7 @@
       "attrs": [],
       "attributeBlocks": [],
       "isInline": false,
-      "line": 9,
+      "line": 15,
       "filename": "text.tokens.json"
     },
     {
@@ -212,44 +212,44 @@
           {
             "type": "Text",
             "val": "foo",
-            "line": 15
+            "line": 22
           },
           {
             "type": "Text",
             "val": "\n",
-            "line": 15
+            "line": 23
           },
           {
             "type": "Text",
             "val": "  bar",
-            "line": 15
+            "line": 23
           },
           {
             "type": "Text",
             "val": "\n",
-            "line": 15
+            "line": 24
           },
           {
             "type": "Text",
             "val": "    baz",
-            "line": 15
+            "line": 24
           },
           {
             "type": "Text",
             "val": "\n",
-            "line": 15
+            "line": 25
           },
           {
             "type": "Text",
             "val": ".",
-            "line": 15
+            "line": 25
           }
         ]
       },
       "attrs": [],
       "attributeBlocks": [],
       "isInline": false,
-      "line": 15,
+      "line": 21,
       "textOnly": true,
       "filename": "text.tokens.json"
     }

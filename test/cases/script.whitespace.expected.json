@@ -11,47 +11,47 @@
           {
             "type": "Text",
             "val": "if (foo) {",
-            "line": 1
+            "line": 2
           },
           {
             "type": "Text",
             "val": "\n",
-            "line": 1
+            "line": 3
           },
           {
             "type": "Text",
             "val": "  ",
-            "line": 1
+            "line": 3
           },
           {
             "type": "Text",
             "val": "\n",
-            "line": 1
+            "line": 4
           },
           {
             "type": "Text",
             "val": "  bar();",
-            "line": 1
+            "line": 4
           },
           {
             "type": "Text",
             "val": "\n",
-            "line": 1
+            "line": 5
           },
           {
             "type": "Text",
             "val": "",
-            "line": 1
+            "line": 5
           },
           {
             "type": "Text",
             "val": "\n",
-            "line": 1
+            "line": 6
           },
           {
             "type": "Text",
             "val": "}",
-            "line": 1
+            "line": 6
           }
         ]
       },

@@ -11,37 +11,37 @@
           {
             "type": "Text",
             "val": "foo",
-            "line": 1
+            "line": 2
           },
           {
             "type": "Text",
             "val": "\n",
-            "line": 1
+            "line": 3
           },
           {
             "type": "Text",
             "val": "bar",
-            "line": 1
+            "line": 3
           },
           {
             "type": "Text",
             "val": "\n",
-            "line": 1
+            "line": 4
           },
           {
             "type": "Text",
             "val": "baz",
-            "line": 1
+            "line": 4
           },
           {
             "type": "Text",
             "val": "\n",
-            "line": 1
+            "line": 5
           },
           {
             "type": "Text",
             "val": "",
-            "line": 1
+            "line": 5
           }
         ]
       },
@@ -69,34 +69,34 @@
                 {
                   "type": "Text",
                   "val": "foo",
-                  "line": 3
+                  "line": 8
                 },
                 {
                   "type": "Text",
                   "val": "\n",
-                  "line": 3
+                  "line": 9
                 },
                 {
                   "type": "Text",
                   "val": "bar",
-                  "line": 3
+                  "line": 9
                 },
                 {
                   "type": "Text",
                   "val": "\n",
-                  "line": 3
+                  "line": 10
                 },
                 {
                   "type": "Text",
                   "val": "baz",
-                  "line": 3
+                  "line": 10
                 }
               ]
             },
             "attrs": [],
             "attributeBlocks": [],
             "isInline": true,
-            "line": 3,
+            "line": 7,
             "textOnly": true,
             "filename": "pre.tokens.json"
           }
@@ -105,7 +105,7 @@
       "attrs": [],
       "attributeBlocks": [],
       "isInline": false,
-      "line": 2,
+      "line": 6,
       "filename": "pre.tokens.json"
     }
   ],

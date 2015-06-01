@@ -61,17 +61,17 @@
           {
             "type": "Text",
             "val": "bing",
-            "line": 3
+            "line": 4
           },
           {
             "type": "Text",
             "val": "\n",
-            "line": 3
+            "line": 5
           },
           {
             "type": "Text",
             "val": "",
-            "line": 3
+            "line": 5
           },
           {
             "type": "Tag",
@@ -95,27 +95,27 @@
           {
             "type": "Text",
             "val": "",
-            "line": 3
+            "line": 5
           },
           {
             "type": "Text",
             "val": "\n",
-            "line": 3
+            "line": 6
           },
           {
             "type": "Text",
             "val": "bong",
-            "line": 3
+            "line": 6
           },
           {
             "type": "Text",
             "val": "\n",
-            "line": 3
+            "line": 7
           },
           {
             "type": "Text",
             "val": "",
-            "line": 3
+            "line": 7
           }
         ]
       },
@@ -139,17 +139,17 @@
               {
                 "type": "Text",
                 "val": "bing",
-                "line": 5
+                "line": 9
               },
               {
                 "type": "Text",
                 "val": "\n",
-                "line": 6
+                "line": 10
               },
               {
                 "type": "Text",
                 "val": "",
-                "line": 6
+                "line": 10
               },
               {
                 "type": "Tag",
@@ -173,20 +173,20 @@
               {
                 "type": "Text",
                 "val": "",
-                "line": 6
+                "line": 10
               },
               {
                 "type": "Text",
                 "val": "\n",
-                "line": 7
+                "line": 11
               },
               {
                 "type": "Text",
                 "val": "bong",
-                "line": 7
+                "line": 11
               }
             ],
-            "line": 5,
+            "line": 9,
             "filename": "inline-tag.tokens.json"
           }
         ]
@@ -194,7 +194,7 @@
       "attrs": [],
       "attributeBlocks": [],
       "isInline": false,
-      "line": 4,
+      "line": 8,
       "filename": "inline-tag.tokens.json"
     },
     {
@@ -207,17 +207,17 @@
           {
             "type": "Text",
             "val": "#[strong escaped]",
-            "line": 9
+            "line": 14
           },
           {
             "type": "Text",
             "val": "\n",
-            "line": 9
+            "line": 15
           },
           {
             "type": "Text",
             "val": "#[",
-            "line": 9
+            "line": 15
           },
           {
             "type": "Tag",
@@ -241,14 +241,14 @@
           {
             "type": "Text",
             "val": "",
-            "line": 9
+            "line": 15
           }
         ]
       },
       "attrs": [],
       "attributeBlocks": [],
       "isInline": false,
-      "line": 9,
+      "line": 13,
       "textOnly": true,
       "filename": "inline-tag.tokens.json"
     }

@@ -97,27 +97,27 @@
           {
             "type": "Text",
             "val": "if (foo) {",
-            "line": 6
+            "line": 7
           },
           {
             "type": "Text",
             "val": "\n",
-            "line": 6
+            "line": 8
           },
           {
             "type": "Text",
             "val": "  bar();",
-            "line": 6
+            "line": 8
           },
           {
             "type": "Text",
             "val": "\n",
-            "line": 6
+            "line": 9
           },
           {
             "type": "Text",
             "val": "}",
-            "line": 6
+            "line": 9
           }
         ]
       },

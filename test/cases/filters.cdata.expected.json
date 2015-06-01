@@ -40,7 +40,7 @@
                             {
                               "type": "Text",
                               "val": "#{user.name}",
-                              "line": 7
+                              "line": 8
                             }
                           ]
                         },

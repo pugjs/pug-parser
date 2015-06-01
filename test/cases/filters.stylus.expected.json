@@ -31,17 +31,17 @@
                             {
                               "type": "Text",
                               "val": "body",
-                              "line": 4
+                              "line": 5
                             },
                             {
                               "type": "Text",
                               "val": "\n",
-                              "line": 4
+                              "line": 6
                             },
                             {
                               "type": "Text",
                               "val": "  padding: 50px",
-                              "line": 4
+                              "line": 6
                             }
                           ]
                         },
@@ -82,7 +82,7 @@
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
-            "line": 5,
+            "line": 7,
             "filename": "filters.stylus.tokens.json"
           }
         ]

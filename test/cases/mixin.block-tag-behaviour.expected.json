@@ -228,47 +228,47 @@
                       {
                         "type": "Text",
                         "val": "I'm a much longer",
-                        "line": 19
+                        "line": 20
                       },
                       {
                         "type": "Text",
                         "val": "\n",
-                        "line": 19
+                        "line": 21
                       },
                       {
                         "type": "Text",
                         "val": "text-only article,",
-                        "line": 19
+                        "line": 21
                       },
                       {
                         "type": "Text",
                         "val": "\n",
-                        "line": 19
+                        "line": 22
                       },
                       {
                         "type": "Text",
                         "val": "but you can still",
-                        "line": 19
+                        "line": 22
                       },
                       {
                         "type": "Text",
                         "val": "\n",
-                        "line": 19
+                        "line": 23
                       },
                       {
                         "type": "Text",
                         "val": "inline html tags",
-                        "line": 19
+                        "line": 23
                       },
                       {
                         "type": "Text",
                         "val": "\n",
-                        "line": 19
+                        "line": 24
                       },
                       {
                         "type": "Text",
                         "val": "in me if you want.",
-                        "line": 19
+                        "line": 24
                       }
                     ]
                   },

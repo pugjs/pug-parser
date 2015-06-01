@@ -11,7 +11,7 @@
           {
             "type": "Text",
             "val": "var re = /\\d+/;",
-            "line": 1
+            "line": 2
           }
         ]
       },

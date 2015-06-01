@@ -10,17 +10,17 @@
           {
             "type": "Text",
             "val": "s/s.",
-            "line": 1
+            "line": 2
           },
           {
             "type": "Text",
             "val": "\n",
-            "line": 1
+            "line": 3
           },
           {
             "type": "Text",
             "val": "",
-            "line": 1
+            "line": 3
           }
         ]
       },
@@ -32,13 +32,13 @@
       "type": "Comment",
       "val": " test/cases/comments.source.jade",
       "buffer": false,
-      "line": 2,
+      "line": 4,
       "filename": "comments.source.tokens.json"
     },
     {
       "type": "Text",
       "val": "",
-      "line": 3,
+      "line": 5,
       "filename": "comments.source.tokens.json"
     },
     {
@@ -50,32 +50,32 @@
           {
             "type": "Text",
             "val": "test/cases/comments.source.jade",
-            "line": 4
+            "line": 7
           },
           {
             "type": "Text",
             "val": "\n",
-            "line": 4
+            "line": 8
           },
           {
             "type": "Text",
             "val": "when",
-            "line": 4
+            "line": 8
           },
           {
             "type": "Text",
             "val": "\n",
-            "line": 4
+            "line": 9
           },
           {
             "type": "Text",
             "val": "()",
-            "line": 4
+            "line": 9
           }
         ]
       },
       "buffer": false,
-      "line": 4,
+      "line": 6,
       "filename": "comments.source.tokens.json"
     }
   ],

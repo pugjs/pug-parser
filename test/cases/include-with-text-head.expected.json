@@ -18,7 +18,7 @@
                 {
                   "type": "Text",
                   "val": "alert('hello world');",
-                  "line": 2
+                  "line": 3
                 }
               ]
             },
