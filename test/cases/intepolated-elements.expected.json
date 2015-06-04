@@ -115,7 +115,7 @@
                 ],
                 "attributeBlocks": [],
                 "isInline": true,
-                "line": 1,
+                "line": 2,
                 "filename": "intepolated-elements.tokens.json"
               },
               {
@@ -162,7 +162,7 @@
                     {
                       "type": "Text",
                       "val": "with inline link",
-                      "line": 1,
+                      "line": 3,
                       "filename": "intepolated-elements.tokens.json"
                     }
                   ]
@@ -186,7 +186,7 @@
                 ],
                 "attributeBlocks": [],
                 "isInline": true,
-                "line": 1,
+                "line": 3,
                 "filename": "intepolated-elements.tokens.json"
               },
               {
