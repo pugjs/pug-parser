@@ -506,9 +506,33 @@ Parser.prototype = {
     var attrs = this.accept('attrs');
     var block;
 
-    block = this.parseTextBlock() || {type: 'Block', nodes: [], line: tok.line, filename: this.filename};
+    if (this.peek().type === 'text') {
+      var textToken = this.advance();
+      block = {
+        type: 'Block',
+        nodes: [
+          {
+            type: 'Text',
+            val: textToken.val,
+            line: textToken.line,
+            filename: this.filename
+          }
+        ],
+        line: textToken.line,
+        filename: this.filename
+      };
+    } else {
+      block = this.parseTextBlock() || {type: 'Block', nodes: [], line: tok.line, filename: this.filename};
+    }
 
-    return {type: 'Filter', name: tok.val, block: block, attrs: attrs ? attrs.attrs : [], line: tok.line, filename: this.filename};
+    return {
+      type: 'Filter',
+      name: tok.val,
+      block: block,
+      attrs: attrs ? attrs.attrs : [],
+      line: tok.line,
+      filename: this.filename
+    };
   },
 
   /**
