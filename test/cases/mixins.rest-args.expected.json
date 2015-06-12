@@ -18,7 +18,6 @@
                   "type": "Each",
                   "obj": "items",
                   "val": "item",
-                  "key": "$index",
                   "block": {
                     "type": "Block",
                     "nodes": [

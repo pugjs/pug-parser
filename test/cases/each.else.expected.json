@@ -20,7 +20,6 @@
             "type": "Each",
             "obj": "users",
             "val": "user",
-            "key": "$index",
             "block": {
               "type": "Block",
               "nodes": [
@@ -116,7 +115,6 @@
                   "type": "Each",
                   "obj": "users",
                   "val": "user",
-                  "key": "$index",
                   "block": {
                     "type": "Block",
                     "nodes": [
