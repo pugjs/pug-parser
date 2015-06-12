@@ -835,7 +835,12 @@ Parser.prototype = {
     // (text | code | ':')?
     switch (this.peek().type) {
       case 'text':
-        tag.block.nodes.push(this.parseText());
+        var text = this.parseText();
+        if (text.type === 'Block') {
+          tag.block.nodes.push.apply(tag.block.nodes, text.nodes);
+        } else {
+          tag.block.nodes.push(text);
+        }
         break;
       case 'code':
         tag.code = this.parseCode();

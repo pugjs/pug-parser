@@ -9,58 +9,51 @@
         "type": "Block",
         "nodes": [
           {
-            "type": "Block",
-            "nodes": [
+            "type": "Text",
+            "val": "",
+            "line": 1,
+            "filename": "intepolated-elements.tokens.json"
+          },
+          {
+            "type": "Tag",
+            "name": "a",
+            "selfClosing": false,
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Text",
+                  "val": "with inline link",
+                  "line": 1,
+                  "filename": "intepolated-elements.tokens.json"
+                }
+              ]
+            },
+            "attrs": [
               {
-                "type": "Text",
-                "val": "",
-                "line": 1,
-                "filename": "intepolated-elements.tokens.json"
+                "name": "class",
+                "val": "'rho'",
+                "escaped": false
               },
               {
-                "type": "Tag",
-                "name": "a",
-                "selfClosing": false,
-                "block": {
-                  "type": "Block",
-                  "nodes": [
-                    {
-                      "type": "Text",
-                      "val": "with inline link",
-                      "line": 1,
-                      "filename": "intepolated-elements.tokens.json"
-                    }
-                  ]
-                },
-                "attrs": [
-                  {
-                    "name": "class",
-                    "val": "'rho'",
-                    "escaped": false
-                  },
-                  {
-                    "name": "href",
-                    "val": "'#'",
-                    "escaped": true
-                  },
-                  {
-                    "name": "class",
-                    "val": "'rho--modifier'",
-                    "escaped": true
-                  }
-                ],
-                "attributeBlocks": [],
-                "isInline": true,
-                "line": 1,
-                "filename": "intepolated-elements.tokens.json"
+                "name": "href",
+                "val": "'#'",
+                "escaped": true
               },
               {
-                "type": "Text",
-                "val": "",
-                "line": 1,
-                "filename": "intepolated-elements.tokens.json"
+                "name": "class",
+                "val": "'rho--modifier'",
+                "escaped": true
               }
             ],
+            "attributeBlocks": [],
+            "isInline": true,
+            "line": 1,
+            "filename": "intepolated-elements.tokens.json"
+          },
+          {
+            "type": "Text",
+            "val": "",
             "line": 1,
             "filename": "intepolated-elements.tokens.json"
           }
@@ -80,51 +73,44 @@
         "type": "Block",
         "nodes": [
           {
-            "type": "Block",
-            "nodes": [
+            "type": "Text",
+            "val": "Some text ",
+            "line": 2,
+            "filename": "intepolated-elements.tokens.json"
+          },
+          {
+            "type": "Tag",
+            "name": "a",
+            "selfClosing": false,
+            "block": {
+              "type": "Block",
+              "nodes": []
+            },
+            "attrs": [
               {
-                "type": "Text",
-                "val": "Some text ",
-                "line": 2,
-                "filename": "intepolated-elements.tokens.json"
+                "name": "class",
+                "val": "'rho'",
+                "escaped": false
               },
               {
-                "type": "Tag",
-                "name": "a",
-                "selfClosing": false,
-                "block": {
-                  "type": "Block",
-                  "nodes": []
-                },
-                "attrs": [
-                  {
-                    "name": "class",
-                    "val": "'rho'",
-                    "escaped": false
-                  },
-                  {
-                    "name": "href",
-                    "val": "'#'",
-                    "escaped": true
-                  },
-                  {
-                    "name": "class",
-                    "val": "'rho--modifier'",
-                    "escaped": true
-                  }
-                ],
-                "attributeBlocks": [],
-                "isInline": true,
-                "line": 2,
-                "filename": "intepolated-elements.tokens.json"
+                "name": "href",
+                "val": "'#'",
+                "escaped": true
               },
               {
-                "type": "Text",
-                "val": "",
-                "line": 2,
-                "filename": "intepolated-elements.tokens.json"
+                "name": "class",
+                "val": "'rho--modifier'",
+                "escaped": true
               }
             ],
+            "attributeBlocks": [],
+            "isInline": true,
+            "line": 2,
+            "filename": "intepolated-elements.tokens.json"
+          },
+          {
+            "type": "Text",
+            "val": "",
             "line": 2,
             "filename": "intepolated-elements.tokens.json"
           }
@@ -144,58 +130,51 @@
         "type": "Block",
         "nodes": [
           {
-            "type": "Block",
-            "nodes": [
+            "type": "Text",
+            "val": "Some text ",
+            "line": 3,
+            "filename": "intepolated-elements.tokens.json"
+          },
+          {
+            "type": "Tag",
+            "name": "a",
+            "selfClosing": false,
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Text",
+                  "val": "with inline link",
+                  "line": 3,
+                  "filename": "intepolated-elements.tokens.json"
+                }
+              ]
+            },
+            "attrs": [
               {
-                "type": "Text",
-                "val": "Some text ",
-                "line": 3,
-                "filename": "intepolated-elements.tokens.json"
+                "name": "class",
+                "val": "'rho'",
+                "escaped": false
               },
               {
-                "type": "Tag",
-                "name": "a",
-                "selfClosing": false,
-                "block": {
-                  "type": "Block",
-                  "nodes": [
-                    {
-                      "type": "Text",
-                      "val": "with inline link",
-                      "line": 3,
-                      "filename": "intepolated-elements.tokens.json"
-                    }
-                  ]
-                },
-                "attrs": [
-                  {
-                    "name": "class",
-                    "val": "'rho'",
-                    "escaped": false
-                  },
-                  {
-                    "name": "href",
-                    "val": "'#'",
-                    "escaped": true
-                  },
-                  {
-                    "name": "class",
-                    "val": "'rho--modifier'",
-                    "escaped": true
-                  }
-                ],
-                "attributeBlocks": [],
-                "isInline": true,
-                "line": 3,
-                "filename": "intepolated-elements.tokens.json"
+                "name": "href",
+                "val": "'#'",
+                "escaped": true
               },
               {
-                "type": "Text",
-                "val": "",
-                "line": 3,
-                "filename": "intepolated-elements.tokens.json"
+                "name": "class",
+                "val": "'rho--modifier'",
+                "escaped": true
               }
             ],
+            "attributeBlocks": [],
+            "isInline": true,
+            "line": 3,
+            "filename": "intepolated-elements.tokens.json"
+          },
+          {
+            "type": "Text",
+            "val": "",
             "line": 3,
             "filename": "intepolated-elements.tokens.json"
           }
