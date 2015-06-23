@@ -201,53 +201,6 @@
       "filename": "comments.tokens.json"
     },
     {
-      "type": "BlockComment",
-      "val": "if IE lt 9",
-      "block": {
-        "type": "Block",
-        "nodes": [
-          {
-            "type": "Text",
-            "val": "// inline",
-            "line": 23
-          },
-          {
-            "type": "Text",
-            "val": "\n",
-            "line": 24
-          },
-          {
-            "type": "Text",
-            "val": "script(src='/lame.js')",
-            "line": 24
-          },
-          {
-            "type": "Text",
-            "val": "\n",
-            "line": 25
-          },
-          {
-            "type": "Text",
-            "val": "// end-inline",
-            "line": 25
-          },
-          {
-            "type": "Text",
-            "val": "\n",
-            "line": 26
-          },
-          {
-            "type": "Text",
-            "val": "",
-            "line": 26
-          }
-        ]
-      },
-      "buffer": true,
-      "line": 22,
-      "filename": "comments.tokens.json"
-    },
-    {
       "type": "Tag",
       "name": "p",
       "selfClosing": false,

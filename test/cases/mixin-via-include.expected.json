@@ -4,7 +4,7 @@
     {
       "type": "Comment",
       "val": " regression test for https://github.com/jadejs/jade/issues/1435",
-      "buffer": false,
+      "buffer": true,
       "line": 1,
       "filename": "mixin-via-include.tokens.json"
     },

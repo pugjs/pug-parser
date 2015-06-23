@@ -2,13 +2,6 @@
   "type": "Block",
   "nodes": [
     {
-      "type": "Comment",
-      "val": " see https://github.com/jadejs/jade/issues/1589",
-      "buffer": false,
-      "line": 1,
-      "filename": "blocks-in-if.tokens.json"
-    },
-    {
       "type": "Text",
       "val": "",
       "line": 2,
@@ -32,13 +25,6 @@
       "block": {
         "type": "Block",
         "nodes": [
-          {
-            "type": "Comment",
-            "val": " return only contents if ajax requests",
-            "buffer": false,
-            "line": 6,
-            "filename": "blocks-in-if.tokens.json"
-          },
           {
             "type": "NamedBlock",
             "nodes": [
@@ -85,13 +71,6 @@
       "block": {
         "type": "Block",
         "nodes": [
-          {
-            "type": "Comment",
-            "val": " return all html",
-            "buffer": false,
-            "line": 11,
-            "filename": "blocks-in-if.tokens.json"
-          },
           {
             "type": "Doctype",
             "val": "html",

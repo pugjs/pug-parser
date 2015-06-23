@@ -632,7 +632,7 @@
     {
       "type": "Comment",
       "val": " Regression test for #1424",
-      "buffer": false,
+      "buffer": true,
       "line": 38,
       "filename": "mixin.attrs.tokens.json"
     },

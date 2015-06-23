@@ -127,7 +127,7 @@
           {
             "type": "Comment",
             "val": " can have a single space after them",
-            "buffer": false,
+            "buffer": true,
             "line": 9,
             "filename": "tags.self-closing.tokens.json"
           },
@@ -155,7 +155,7 @@
           {
             "type": "Comment",
             "val": " can have lots of white space after them",
-            "buffer": false,
+            "buffer": true,
             "line": 11,
             "filename": "tags.self-closing.tokens.json"
           },
