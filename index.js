@@ -100,7 +100,7 @@ Parser.prototype = {
     var tokens = []
 
     while ('eos' != this.peek().type) {
-      if(this.peek().type == 'comment'){
+      if('comment' == this.peek().type){
         var comment = this.parseComment()
         if(comment.buffer){
           tokens.push(comment)
