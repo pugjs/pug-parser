@@ -85,6 +85,39 @@ Parser.prototype = {
   },
 
   /**
+   * Pre-parse the token stream, drop everything we will not be using
+   * to generate code.
+   *
+   * This will pre-collect comments and drop unbuffered comments, 
+   * considering that the comments as a "token" are context-free this 
+   * should have no side-effects.
+   *
+   * @return {Parser} 
+   * @api public
+   */
+
+  preParse: function(){
+    var tokens = []
+
+    while ('eos' != this.peek().type) {
+      if('comment' == this.peek().type){
+        var comment = this.parseComment()
+        if(comment.buffer){
+          tokens.push(comment)
+        }
+      } else {
+        tokens.push(this.advance())
+      }
+    }
+    // push back the eos...
+    tokens.push(this.advance())
+
+    this.tokens = new TokenStream(tokens)
+
+    return this
+  },
+
+  /**
    * Parse input returning a string of js for evaluation.
    *
    * @return {String}
@@ -92,6 +125,9 @@ Parser.prototype = {
    */
 
   parse: function(){
+
+    this.preParse()
+
     var block ={type: 'Block', nodes: [], line: 0, filename: this.filename};
 
     while ('eos' != this.peek().type) {
@@ -100,7 +136,7 @@ Parser.prototype = {
       } else if ('text-html' == this.peek().type) {
         block.nodes = block.nodes.concat(this.parseTextHtml());
       } else {
-        var next = this.peek();
+        //var next = this.peek();
         var expr = this.parseExpr();
         block.nodes.push(expr);
       }
@@ -173,6 +209,11 @@ Parser.prototype = {
         return this.parseDoctype();
       case 'filter':
         return this.parseFilter();
+      // already parsed comments...
+      case 'Comment':
+      case 'BlockComment':
+        return this.advance();
+      // XXX do we still need this???
       case 'comment':
         return this.parseComment();
       case 'text':

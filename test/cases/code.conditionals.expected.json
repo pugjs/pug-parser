@@ -384,7 +384,7 @@
     {
       "type": "Comment",
       "val": " allow empty blocks",
-      "buffer": false,
+      "buffer": true,
       "line": 29,
       "filename": "code.conditionals.tokens.json"
     },
