@@ -522,7 +522,12 @@ Parser.prototype = {
         filename: this.filename
       };
     } else if (this.peek().type === 'filter') {
-      block = this.parseFilter();
+      block = {
+        type: 'Block',
+        nodes: [ this.parseFilter() ],
+        line: tok.line,
+        filename: this.filename
+      };
     } else {
       block = this.parseTextBlock() || {type: 'Block', nodes: [], line: tok.line, filename: this.filename};
     }
