@@ -10,7 +10,7 @@
         "nodes": [
           {
             "type": "Filter",
-            "name": "coffeescript",
+            "name": "coffee-script",
             "block": {
               "type": "Block",
               "nodes": [
@@ -27,7 +27,7 @@
           },
           {
             "type": "Filter",
-            "name": "coffeescript",
+            "name": "coffee-script",
             "block": {
               "type": "Block",
               "nodes": [
