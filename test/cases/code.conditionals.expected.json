@@ -496,6 +496,104 @@
       "isInline": false,
       "line": 36,
       "filename": "code.conditionals.tokens.json"
+    },
+    {
+      "type": "Code",
+      "val": "if ( false)",
+      "line": 38,
+      "filename": "code.conditionals.tokens.json",
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "name": "div",
+            "block": {
+              "type": "Block",
+              "nodes": []
+            },
+            "attrs": [
+              {
+                "name": "class",
+                "val": "'bing'",
+                "escaped": false
+              }
+            ],
+            "attributeBlocks": [],
+            "isInline": false,
+            "line": 39,
+            "filename": "code.conditionals.tokens.json"
+          }
+        ],
+        "line": 39,
+        "filename": "code.conditionals.tokens.json"
+      }
+    },
+    {
+      "type": "Code",
+      "val": "else if ( false)",
+      "line": 40,
+      "filename": "code.conditionals.tokens.json",
+      "debug": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "name": "div",
+            "block": {
+              "type": "Block",
+              "nodes": []
+            },
+            "attrs": [
+              {
+                "name": "class",
+                "val": "'bar'",
+                "escaped": false
+              }
+            ],
+            "attributeBlocks": [],
+            "isInline": false,
+            "line": 41,
+            "filename": "code.conditionals.tokens.json"
+          }
+        ],
+        "line": 41,
+        "filename": "code.conditionals.tokens.json"
+      }
+    },
+    {
+      "type": "Code",
+      "val": "else",
+      "line": 42,
+      "filename": "code.conditionals.tokens.json",
+      "debug": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "name": "div",
+            "block": {
+              "type": "Block",
+              "nodes": []
+            },
+            "attrs": [
+              {
+                "name": "class",
+                "val": "'foo'",
+                "escaped": false
+              }
+            ],
+            "attributeBlocks": [],
+            "isInline": false,
+            "line": 43,
+            "filename": "code.conditionals.tokens.json"
+          }
+        ],
+        "line": 43,
+        "filename": "code.conditionals.tokens.json"
+      }
     }
   ],
   "line": 0,

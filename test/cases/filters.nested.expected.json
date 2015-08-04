@@ -66,6 +66,86 @@
       "isInline": false,
       "line": 1,
       "filename": "filters.nested.tokens.json"
+    },
+    {
+      "type": "Tag",
+      "name": "script",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Filter",
+            "name": "cdata",
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Filter",
+                  "name": "uglify-js",
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "Filter",
+                        "name": "coffee-script",
+                        "block": {
+                          "type": "Block",
+                          "nodes": [
+                            {
+                              "type": "Text",
+                              "val": "(->",
+                              "line": 8
+                            },
+                            {
+                              "type": "Text",
+                              "val": "\n",
+                              "line": 9
+                            },
+                            {
+                              "type": "Text",
+                              "val": "  console.log 'test'",
+                              "line": 9
+                            },
+                            {
+                              "type": "Text",
+                              "val": "\n",
+                              "line": 10
+                            },
+                            {
+                              "type": "Text",
+                              "val": ")()",
+                              "line": 10
+                            }
+                          ]
+                        },
+                        "attrs": [],
+                        "line": 7,
+                        "filename": "filters.nested.tokens.json"
+                      }
+                    ],
+                    "line": 7,
+                    "filename": "filters.nested.tokens.json"
+                  },
+                  "attrs": [],
+                  "line": 7,
+                  "filename": "filters.nested.tokens.json"
+                }
+              ],
+              "line": 7,
+              "filename": "filters.nested.tokens.json"
+            },
+            "attrs": [],
+            "line": 7,
+            "filename": "filters.nested.tokens.json"
+          }
+        ]
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "isInline": false,
+      "line": 6,
+      "filename": "filters.nested.tokens.json"
     }
   ],
   "line": 0,
