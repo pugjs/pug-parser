@@ -88,6 +88,46 @@
       "isInline": false,
       "line": 5,
       "filename": "attrs-data.tokens.json"
+    },
+    {
+      "type": "Tag",
+      "name": "foo",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": []
+      },
+      "attrs": [
+        {
+          "name": "data-ampersand",
+          "val": "{message: \"a quote: &quot; this & that\"}",
+          "escaped": true
+        }
+      ],
+      "attributeBlocks": [],
+      "isInline": false,
+      "line": 6,
+      "filename": "attrs-data.tokens.json"
+    },
+    {
+      "type": "Tag",
+      "name": "foo",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": []
+      },
+      "attrs": [
+        {
+          "name": "data-epoc",
+          "val": "new Date(0)",
+          "escaped": true
+        }
+      ],
+      "attributeBlocks": [],
+      "isInline": false,
+      "line": 7,
+      "filename": "attrs-data.tokens.json"
     }
   ],
   "line": 0,

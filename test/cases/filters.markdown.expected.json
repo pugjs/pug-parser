@@ -17,7 +17,7 @@
               "nodes": [
                 {
                   "type": "Filter",
-                  "name": "markdown",
+                  "name": "marked",
                   "block": {
                     "type": "Block",
                     "nodes": [

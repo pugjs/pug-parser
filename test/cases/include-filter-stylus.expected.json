@@ -16,7 +16,7 @@
               "line": 2,
               "filename": "include-filter-stylus.tokens.json"
             },
-            "filter": "styl",
+            "filter": "stylus",
             "attrs": [],
             "block": {
               "type": "Block",

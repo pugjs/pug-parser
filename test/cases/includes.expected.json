@@ -81,7 +81,7 @@
                     "line": 10,
                     "filename": "includes.tokens.json"
                   },
-                  "filter": "js",
+                  "filter": "verbatim",
                   "attrs": [],
                   "block": {
                     "type": "Block",

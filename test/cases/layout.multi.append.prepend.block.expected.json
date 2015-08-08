@@ -156,7 +156,7 @@
           "attrs": [
             {
               "name": "class",
-              "val": "'first'",
+              "val": "'last'",
               "escaped": false
             },
             {

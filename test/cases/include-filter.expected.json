@@ -23,7 +23,7 @@
                     "line": 3,
                     "filename": "include-filter.tokens.json"
                   },
-                  "filter": "md",
+                  "filter": "marked",
                   "attrs": [],
                   "block": {
                     "type": "Block",
@@ -47,7 +47,7 @@
                           "line": 5,
                           "filename": "include-filter.tokens.json"
                         },
-                        "filter": "coffee",
+                        "filter": "coffee-script",
                         "attrs": [
                           {
                             "name": "minify",
@@ -85,7 +85,7 @@
                           "line": 7,
                           "filename": "include-filter.tokens.json"
                         },
-                        "filter": "coffee",
+                        "filter": "coffee-script",
                         "attrs": [
                           {
                             "name": "minify",

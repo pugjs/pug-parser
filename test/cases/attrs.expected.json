@@ -538,11 +538,31 @@
       "filename": "attrs.tokens.json"
     },
     {
+      "type": "Tag",
+      "name": "foo",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": []
+      },
+      "attrs": [
+        {
+          "name": "date",
+          "val": "new Date(0)",
+          "escaped": true
+        }
+      ],
+      "attributeBlocks": [],
+      "isInline": false,
+      "line": 23,
+      "filename": "attrs.tokens.json"
+    },
+    {
       "type": "Code",
       "val": "var attrs = {foo: 'bar', bar: '<baz>'}",
       "buffer": false,
       "escape": false,
-      "line": 24,
+      "line": 25,
       "filename": "attrs.tokens.json"
     },
     {
@@ -558,7 +578,7 @@
         "attrs"
       ],
       "isInline": false,
-      "line": 26,
+      "line": 27,
       "filename": "attrs.tokens.json"
     }
   ],
