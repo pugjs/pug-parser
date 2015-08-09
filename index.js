@@ -184,6 +184,10 @@ Parser.prototype = {
         return this.parseCode();
       case 'blockcode':
         return this.parseBlockCode();
+      case 'if':
+        return this.parseConditional();
+      case 'while':
+        return this.parseWhile();
       case 'call':
         return this.parseCall();
       case 'interpolation':
@@ -381,7 +385,7 @@ Parser.prototype = {
    * code
    */
 
-  parseCode: function(afterIf){
+  parseCode: function(){
     var tok = this.expect('code');
     var node = {
       type: 'Code',
@@ -393,12 +397,8 @@ Parser.prototype = {
     };
     // todo: why is this here?  It seems like a hacky workaround
     if (node.val.match(/^ *else/)) node.debug = false;
-    var block;
 
-    // throw an error if an else does not have an if
-    if (tok.isElse && !tok.hasIf) {
-      this.error('Unexpected else without if', 'ELSE_NO_IF', tok);
-    }
+    var block;
 
     // handle block
     block = 'indent' == this.peek().type;
@@ -406,21 +406,89 @@ Parser.prototype = {
       node.block = this.block();
     }
 
-    // handle missing block
-    if (tok.requiresBlock && !block) {
-      node.block = {type: 'Block', nodes: [], line: tok.line, filename: this.filename};
+    return node;
+  },
+  parseConditional: function(){
+    var tok = this.expect('if');
+    var node = {
+      type: 'Conditional',
+      test: tok.val,
+      consequent: null,
+      alternate: null,
+      line: tok.line,
+      filename: this.filename
+    };
+
+    // handle block
+    if ('indent' == this.peek().type) {
+      node.consequent = this.block();
+    } else {
+      node.consequent = {
+        type: 'Block',
+        nodes: [],
+        line: tok.line,
+        filename: this.filename
+      };
     }
 
-    // mark presense of if for future elses
-    if (tok.isIf && this.peek().isElse) {
-      this.peek().hasIf = true;
-    } else if (tok.isIf && this.peek().type === 'newline' && this.lookahead(1).isElse) {
-      this.lookahead(1).hasIf = true;
+    var currentNode = node;
+    while (true) {
+      if (this.peek().type === 'newline') {
+        this.expect('newline');
+      } else if (this.peek().type === 'else-if') {
+        tok = this.expect('else-if');
+        currentNode = (
+          currentNode.alternate = {
+            type: 'Conditional',
+            test: tok.val,
+            consequent: null,
+            alternate: null,
+            line: tok.line,
+            filename: this.filename
+          }
+        );
+        if ('indent' == this.peek().type) {
+          currentNode.consequent = this.block();
+        } else {
+          currentNode.consequent = {
+            type: 'Block',
+            nodes: [],
+            line: tok.line,
+            filename: this.filename
+          };
+        }
+      } else if (this.peek().type === 'else') {
+        this.expect('else');
+        if (this.peek().type === 'indent') {
+          currentNode.alternate = this.block();
+        }
+        break;
+      } else {
+        break;
+      }
     }
 
     return node;
   },
-  
+  parseWhile: function(){
+    var tok = this.expect('while');
+    var node = {
+      type: 'While',
+      test: tok.val,
+      line: tok.line,
+      filename: this.filename
+    };
+
+    // handle block
+    if ('indent' == this.peek().type) {
+      node.block = this.block();
+    } else {
+      node.block = {type: 'Block', nodes: [], line: tok.line, filename: this.filename};
+    }
+
+    return node;
+  },
+
   /**
    * block code
    */
@@ -557,7 +625,7 @@ Parser.prototype = {
       line: tok.line,
       filename: this.filename
     };
-    if (this.peek().type == 'code' && this.peek().val == 'else') {
+    if (this.peek().type == 'else') {
       this.advance();
       node.alternative = this.block();
     }

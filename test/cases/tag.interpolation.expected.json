@@ -107,11 +107,9 @@
               "type": "Block",
               "nodes": [
                 {
-                  "type": "Code",
-                  "val": "if ( attributes.href)",
-                  "line": 11,
-                  "filename": "tag.interpolation.tokens.json",
-                  "block": {
+                  "type": "Conditional",
+                  "test": "attributes.href",
+                  "consequent": {
                     "type": "Block",
                     "nodes": [
                       {
@@ -164,15 +162,8 @@
                     ],
                     "line": 12,
                     "filename": "tag.interpolation.tokens.json"
-                  }
-                },
-                {
-                  "type": "Code",
-                  "val": "else",
-                  "line": 15,
-                  "filename": "tag.interpolation.tokens.json",
-                  "debug": false,
-                  "block": {
+                  },
+                  "alternate": {
                     "type": "Block",
                     "nodes": [
                       {
@@ -225,7 +216,9 @@
                     ],
                     "line": 16,
                     "filename": "tag.interpolation.tokens.json"
-                  }
+                  },
+                  "line": 11,
+                  "filename": "tag.interpolation.tokens.json"
                 }
               ]
             },
