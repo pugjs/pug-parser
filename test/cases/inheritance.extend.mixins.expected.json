@@ -20,11 +20,9 @@
         "type": "Block",
         "nodes": [
           {
-            "type": "Code",
-            "val": "if ( title)",
-            "line": 5,
-            "filename": "inheritance.extend.mixins.tokens.json",
-            "block": {
+            "type": "Conditional",
+            "test": "title",
+            "consequent": {
               "type": "Block",
               "nodes": [
                 {
@@ -52,7 +50,10 @@
               ],
               "line": 6,
               "filename": "inheritance.extend.mixins.tokens.json"
-            }
+            },
+            "alternate": null,
+            "line": 5,
+            "filename": "inheritance.extend.mixins.tokens.json"
           },
           {
             "type": "MixinBlock",

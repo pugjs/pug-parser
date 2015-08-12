@@ -17,8 +17,8 @@
         "type": "Block",
         "nodes": [
           {
-            "type": "Code",
-            "val": "while (x < 10)",
+            "type": "While",
+            "test": "x < 10",
             "line": 3,
             "filename": "while.tokens.json",
             "block": {

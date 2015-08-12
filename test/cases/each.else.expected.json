@@ -97,11 +97,9 @@
       "filename": "each.else.tokens.json"
     },
     {
-      "type": "Code",
-      "val": "if ( users)",
-      "line": 13,
-      "filename": "each.else.tokens.json",
-      "block": {
+      "type": "Conditional",
+      "test": "users",
+      "consequent": {
         "type": "Block",
         "nodes": [
           {
@@ -186,7 +184,10 @@
         ],
         "line": 14,
         "filename": "each.else.tokens.json"
-      }
+      },
+      "alternate": null,
+      "line": 13,
+      "filename": "each.else.tokens.json"
     },
     {
       "type": "Code",
@@ -403,8 +404,17 @@
               "filename": "each.else.tokens.json"
             },
             "line": 37,
+            "filename": "each.else.tokens.json"
+          },
+          {
+            "type": "Code",
+            "val": "else",
+            "buffer": false,
+            "escape": false,
+            "line": 39,
             "filename": "each.else.tokens.json",
-            "alternative": {
+            "debug": false,
+            "block": {
               "type": "Block",
               "nodes": [
                 {
