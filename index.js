@@ -625,7 +625,8 @@ Parser.prototype = {
       line: tok.line,
       filename: this.filename
     };
-    if (this.peek().type == 'else') {
+    var next = this.peek();
+    if (next.type == 'else' || next.type == 'code' && !next.buffer && next.val.trim() == 'else') {
       this.advance();
       node.alternative = this.block();
     }
