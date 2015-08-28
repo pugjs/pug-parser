@@ -145,6 +145,7 @@ Parser.prototype = {
    * | filter
    * | comment
    * | text
+   * | dot
    * | each
    * | code
    * | yield
@@ -178,6 +179,8 @@ Parser.prototype = {
       case 'text':
       case 'start-jade-interpolation':
         return this.parseText({block: true});
+      case 'dot':
+        return this.parseDot();
       case 'each':
         return this.parseEach();
       case 'code':
@@ -213,6 +216,11 @@ Parser.prototype = {
       default:
         this.error('unexpected token "' + this.peek().type + '"', 'INVALID_TOKEN', this.peek());
     }
+  },
+
+  parseDot: function() {
+    this.advance();
+    return this.parseTextBlock() || {type: 'Block', nodes: []};
   },
 
   /**
