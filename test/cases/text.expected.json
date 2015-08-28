@@ -181,6 +181,76 @@
       "textOnly": true
     },
     {
+      "type": "Block",
+      "nodes": []
+    },
+    {
+      "type": "Text",
+      "val": "",
+      "line": 20,
+      "filename": "text.tokens.json"
+    },
+    {
+      "type": "Block",
+      "nodes": [
+        {
+          "type": "Text",
+          "val": "foo",
+          "line": 22
+        },
+        {
+          "type": "Text",
+          "val": "\n",
+          "line": 23
+        },
+        {
+          "type": "Text",
+          "val": "",
+          "line": 23
+        },
+        {
+          "type": "Text",
+          "val": "\n",
+          "line": 24
+        },
+        {
+          "type": "Text",
+          "val": "",
+          "line": 24
+        },
+        {
+          "type": "Text",
+          "val": "\n",
+          "line": 25
+        },
+        {
+          "type": "Text",
+          "val": "bar",
+          "line": 25
+        },
+        {
+          "type": "Text",
+          "val": "\n",
+          "line": 26
+        },
+        {
+          "type": "Text",
+          "val": "baz",
+          "line": 26
+        },
+        {
+          "type": "Text",
+          "val": "\n",
+          "line": 27
+        },
+        {
+          "type": "Text",
+          "val": "",
+          "line": 27
+        }
+      ]
+    },
+    {
       "type": "Tag",
       "name": "pre",
       "selfClosing": false,
@@ -193,47 +263,47 @@
               {
                 "type": "Text",
                 "val": "foo",
-                "line": 20,
+                "line": 29,
                 "filename": "text.tokens.json"
               },
               {
                 "type": "Text",
                 "val": "\n",
-                "line": 21,
+                "line": 30,
                 "filename": "text.tokens.json"
               },
               {
                 "type": "Text",
                 "val": "  bar",
-                "line": 21,
+                "line": 30,
                 "filename": "text.tokens.json"
               },
               {
                 "type": "Text",
                 "val": "\n",
-                "line": 22,
+                "line": 31,
                 "filename": "text.tokens.json"
               },
               {
                 "type": "Text",
                 "val": "    baz",
-                "line": 22,
+                "line": 31,
                 "filename": "text.tokens.json"
               },
               {
                 "type": "Text",
                 "val": "\n",
-                "line": 23,
+                "line": 32,
                 "filename": "text.tokens.json"
               },
               {
                 "type": "Text",
                 "val": ".",
-                "line": 23,
+                "line": 32,
                 "filename": "text.tokens.json"
               }
             ],
-            "line": 20,
+            "line": 29,
             "filename": "text.tokens.json"
           }
         ]
@@ -241,7 +311,7 @@
       "attrs": [],
       "attributeBlocks": [],
       "isInline": false,
-      "line": 19,
+      "line": 28,
       "filename": "text.tokens.json"
     },
     {
@@ -254,46 +324,96 @@
           {
             "type": "Text",
             "val": "foo",
-            "line": 26
+            "line": 35
           },
           {
             "type": "Text",
             "val": "\n",
-            "line": 27
+            "line": 36
           },
           {
             "type": "Text",
             "val": "  bar",
-            "line": 27
+            "line": 36
           },
           {
             "type": "Text",
             "val": "\n",
-            "line": 28
+            "line": 37
           },
           {
             "type": "Text",
             "val": "    baz",
-            "line": 28
+            "line": 37
           },
           {
             "type": "Text",
             "val": "\n",
-            "line": 29
+            "line": 38
           },
           {
             "type": "Text",
             "val": ".",
-            "line": 29
+            "line": 38
+          },
+          {
+            "type": "Text",
+            "val": "\n",
+            "line": 39
+          },
+          {
+            "type": "Text",
+            "val": "",
+            "line": 39
           }
         ]
       },
       "attrs": [],
       "attributeBlocks": [],
       "isInline": false,
-      "line": 25,
+      "line": 34,
       "filename": "text.tokens.json",
       "textOnly": true
+    },
+    {
+      "type": "Block",
+      "nodes": [
+        {
+          "type": "Text",
+          "val": "foo",
+          "line": 41
+        },
+        {
+          "type": "Text",
+          "val": "\n",
+          "line": 42
+        },
+        {
+          "type": "Text",
+          "val": "  bar",
+          "line": 42
+        },
+        {
+          "type": "Text",
+          "val": "\n",
+          "line": 43
+        },
+        {
+          "type": "Text",
+          "val": "    baz",
+          "line": 43
+        },
+        {
+          "type": "Text",
+          "val": "\n",
+          "line": 44
+        },
+        {
+          "type": "Text",
+          "val": ".",
+          "line": 44
+        }
+      ]
     }
   ],
   "line": 0,
