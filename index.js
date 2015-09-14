@@ -3,6 +3,7 @@
 var assert = require('assert');
 var path = require('path');
 var TokenStream = require('token-stream');
+var error = require('jade-error');
 var inlineTags = require('./lib/inline-tags');
 
 var extname = path.extname;
@@ -42,12 +43,12 @@ Parser.prototype = {
 
   constructor: Parser,
 
-  error: function (message, code, token) {
-    var err = new Error(message + ' on line ' + token.line + ' of ' + this.filename);
-    err.code = 'JADE:' + code;
-    err.msg = message;
-    err.line = token.line;
-    err.filename = this.filename;
+  error: function (code, message, token) {
+    var err = error(code, message, {
+      line: token.line,
+      column: token.col,
+      filename: this.filename
+    });
     throw err;
   },
 
@@ -121,7 +122,7 @@ Parser.prototype = {
     if (this.peek().type === type) {
       return this.advance();
     } else {
-      this.error('expected "' + type + '", but got "' + this.peek().type + '"', 'INVALID_TOKEN', this.peek());
+      this.error('INVALID_TOKEN', 'expected "' + type + '", but got "' + this.peek().type + '"', this.peek());
     }
   },
 
@@ -229,7 +230,7 @@ Parser.prototype = {
         });
         return this.parseExpr();
       default:
-        this.error('unexpected token "' + this.peek().type + '"', 'INVALID_TOKEN', this.peek());
+        this.error('INVALID_TOKEN', 'unexpected token "' + this.peek().type + '"', this.peek());
     }
   },
 
@@ -372,8 +373,8 @@ Parser.prototype = {
           block.nodes.push(this.parseDefault());
           break;
         default:
-          this.error('Unexpected token "' + this.peek().type
-                          + '", expected "when", "default" or "newline"', 'INVALID_TOKEN', this.peek());
+          this.error('INVALID_TOKEN', 'Unexpected token "' + this.peek().type
+                          + '", expected "when", "default" or "newline"', this.peek());
       }
     }
     this.expect('outdent');
@@ -452,7 +453,7 @@ Parser.prototype = {
     block = 'indent' == this.peek().type;
     if (block) {
       if (tok.buffer) {
-        this.error('Buffered code cannot have a block attached to it', 'BLOCK_IN_BUFFERED_CODE', this.peek());
+        this.error('BLOCK_IN_BUFFERED_CODE', 'Buffered code cannot have a block attached to it', this.peek());
       }
       node.block = this.block();
     }
@@ -547,7 +548,7 @@ Parser.prototype = {
             text += '\n';
             break;
           default:
-            this.error('Unexpected token type: ' + tok.type, 'INVALID_TOKEN', tok);
+            this.error('INVALID_TOKEN', 'Unexpected token type: ' + tok.type, tok);
         }
       }
       this.advance();
@@ -719,7 +720,7 @@ Parser.prototype = {
   parseMixinBlock: function () {
     var tok = this.expect('mixin-block');
     if (!this.inMixin) {
-      this.error('Anonymous blocks are not allowed unless they are part of a mixin.', 'BLOCK_OUTISDE_MIXIN', tok);
+      this.error('BLOCK_OUTISDE_MIXIN', 'Anonymous blocks are not allowed unless they are part of a mixin.', tok);
     }
     return {type: 'MixinBlock', line: tok.line, filename: this.filename};
   },
@@ -759,7 +760,7 @@ Parser.prototype = {
       node.type = 'RawInclude';
       node.filters = filters;
       if (this.peek().type === 'indent') {
-        this.error('Raw inclusion cannot contain a block', 'RAW_INCLUDE_BLOCK', this.peek());
+        this.error('RAW_INCLUDE_BLOCK', 'Raw inclusion cannot contain a block', this.peek());
       }
     }
     return node;
@@ -868,7 +869,7 @@ Parser.prototype = {
           });
           break;
         default:
-          this.error('Unexpected token type: ' + tok.type, 'INVALID_TOKEN', tok);
+          this.error('INVALID_TOKEN', 'Unexpected token type: ' + tok.type, tok);
       }
     }
     this.advance();
@@ -955,7 +956,7 @@ Parser.prototype = {
             var tok = this.advance();
             if (tok.type === 'id') {
               if (attributeNames.indexOf('id') !== -1) {
-                this.error('Duplicate attribute "id" is not allowed.', 'DUPLICATE_ID', tok);
+                this.error('DUPLICATE_ID', 'Duplicate attribute "id" is not allowed.', tok);
               }
               attributeNames.push('id');
             }
@@ -1019,7 +1020,7 @@ Parser.prototype = {
           break;
         }
       default:
-        this.error('Unexpected token `' + this.peek().type + '` expected `text`, `interpolated-code`, `code`, `:`' + (selfClosingAllowed ? ', `slash`' : '') + ', `newline` or `eos`', 'INVALID_TOKEN', this.peek())
+        this.error('INVALID_TOKEN', 'Unexpected token `' + this.peek().type + '` expected `text`, `interpolated-code`, `code`, `:`' + (selfClosingAllowed ? ', `slash`' : '') + ', `newline` or `eos`', this.peek())
     }
 
     // newline*
@@ -1046,7 +1047,7 @@ Parser.prototype = {
     while (tok.type === 'attribute') {
       if (tok.name !== 'class' && attributeNames) {
         if (attributeNames.indexOf(tok.name) !== -1) {
-          this.error('Duplicate attribute "' + tok.name + '" is not allowed.', 'DUPLICATE_ATTRIBUTE', tok);
+          this.error('DUPLICATE_ATTRIBUTE', 'Duplicate attribute "' + tok.name + '" is not allowed.', tok);
         }
         attributeNames.push(tok.name);
       }
