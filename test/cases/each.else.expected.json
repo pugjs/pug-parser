@@ -364,99 +364,11 @@
       "filename": "each.else.tokens.json"
     },
     {
-      "type": "Tag",
-      "name": "ul",
-      "selfClosing": false,
-      "block": {
-        "type": "Block",
-        "nodes": [
-          {
-            "type": "Each",
-            "obj": "user",
-            "val": "prop",
-            "key": "key",
-            "block": {
-              "type": "Block",
-              "nodes": [
-                {
-                  "type": "Tag",
-                  "name": "li",
-                  "selfClosing": false,
-                  "block": {
-                    "type": "Block",
-                    "nodes": [
-                      {
-                        "type": "Text",
-                        "val": "#{key}: #{val}",
-                        "line": 38,
-                        "filename": "each.else.tokens.json"
-                      }
-                    ]
-                  },
-                  "attrs": [],
-                  "attributeBlocks": [],
-                  "isInline": false,
-                  "line": 38,
-                  "filename": "each.else.tokens.json"
-                }
-              ],
-              "line": 38,
-              "filename": "each.else.tokens.json"
-            },
-            "line": 37,
-            "filename": "each.else.tokens.json"
-          },
-          {
-            "type": "Code",
-            "val": "else",
-            "buffer": false,
-            "escape": false,
-            "line": 39,
-            "filename": "each.else.tokens.json",
-            "debug": false,
-            "block": {
-              "type": "Block",
-              "nodes": [
-                {
-                  "type": "Tag",
-                  "name": "li",
-                  "selfClosing": false,
-                  "block": {
-                    "type": "Block",
-                    "nodes": [
-                      {
-                        "type": "Text",
-                        "val": "user has no details!",
-                        "line": 40,
-                        "filename": "each.else.tokens.json"
-                      }
-                    ]
-                  },
-                  "attrs": [],
-                  "attributeBlocks": [],
-                  "isInline": false,
-                  "line": 40,
-                  "filename": "each.else.tokens.json"
-                }
-              ],
-              "line": 40,
-              "filename": "each.else.tokens.json"
-            }
-          }
-        ]
-      },
-      "attrs": [],
-      "attributeBlocks": [],
-      "isInline": false,
-      "line": 36,
-      "filename": "each.else.tokens.json"
-    },
-    {
       "type": "Code",
       "val": "var user = Object.create(null)",
       "buffer": false,
       "escape": false,
-      "line": 42,
+      "line": 36,
       "filename": "each.else.tokens.json"
     },
     {
@@ -464,7 +376,7 @@
       "val": "user.name = 'tobi'",
       "buffer": false,
       "escape": false,
-      "line": 43,
+      "line": 37,
       "filename": "each.else.tokens.json"
     },
     {
@@ -492,7 +404,7 @@
                       {
                         "type": "Text",
                         "val": "#{key}: #{val}",
-                        "line": 47,
+                        "line": 41,
                         "filename": "each.else.tokens.json"
                       }
                     ]
@@ -500,14 +412,14 @@
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
-                  "line": 47,
+                  "line": 41,
                   "filename": "each.else.tokens.json"
                 }
               ],
-              "line": 47,
+              "line": 41,
               "filename": "each.else.tokens.json"
             },
-            "line": 46,
+            "line": 40,
             "filename": "each.else.tokens.json",
             "alternative": {
               "type": "Block",
@@ -522,7 +434,7 @@
                       {
                         "type": "Text",
                         "val": "user has no details!",
-                        "line": 49,
+                        "line": 43,
                         "filename": "each.else.tokens.json"
                       }
                     ]
@@ -530,11 +442,11 @@
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
-                  "line": 49,
+                  "line": 43,
                   "filename": "each.else.tokens.json"
                 }
               ],
-              "line": 49,
+              "line": 43,
               "filename": "each.else.tokens.json"
             }
           }
@@ -543,7 +455,7 @@
       "attrs": [],
       "attributeBlocks": [],
       "isInline": false,
-      "line": 45,
+      "line": 39,
       "filename": "each.else.tokens.json"
     }
   ],
