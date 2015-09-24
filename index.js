@@ -177,6 +177,7 @@ Parser.prototype = {
       case 'comment':
         return this.parseComment();
       case 'text':
+      case 'interpolated-code':
       case 'start-jade-interpolation':
         return this.parseText({block: true});
       case 'dot':
@@ -239,6 +240,18 @@ Parser.prototype = {
             tags.push({
               type: 'Text',
               val: tok.val,
+              line: tok.line,
+              filename: this.filename
+            });
+            break;
+          case 'interpolated-code':
+            var tok = this.advance();
+            tags.push({
+              type: 'Code',
+              val: tok.val,
+              buffer: tok.buffer,
+              escape: tok.escape,
+              isInline: true,
               line: tok.line,
               filename: this.filename
             });
@@ -410,6 +423,7 @@ Parser.prototype = {
       val: tok.val,
       buffer: tok.buffer,
       escape: tok.escape,
+      isInline: false,
       line: tok.line,
       filename: this.filename
     };
@@ -538,6 +552,7 @@ Parser.prototype = {
       val: text,
       buffer: false,
       escape: false,
+      isInline: false,
       line: line,
       filename: this.filename
     };
@@ -952,6 +967,7 @@ Parser.prototype = {
     // (text | code | ':')?
     switch (this.peek().type) {
       case 'text':
+      case 'interpolated-code':
         var text = this.parseText();
         if (text.type === 'Block') {
           tag.block.nodes.push.apply(tag.block.nodes, text.nodes);
@@ -974,7 +990,7 @@ Parser.prototype = {
       case 'end-jade-interpolation':
         break;
       default:
-        this.error('Unexpected token `' + this.peek().type + '` expected `text`, `code`, `:`, `newline` or `eos`', 'INVALID_TOKEN', this.peek())
+        this.error('Unexpected token `' + this.peek().type + '` expected `text`, `interpolated-code`, `code`, `:`, `newline` or `eos`', 'INVALID_TOKEN', this.peek())
     }
 
     // newline*
