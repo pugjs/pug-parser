@@ -230,31 +230,41 @@ Parser.prototype = {
   parseText: function(options){
     var tags = [];
     var lineno = this.peek().line;
-    while(this.peek().type === 'text' || this.peek().type === 'start-jade-interpolation' || (options && options.block && this.peek().type === 'newline')) {
-      if (this.peek().type === 'text') {
-        var tok = this.advance();
-        tags.push({
-          type: 'Text',
-          val: tok.val,
-          line: tok.line,
-          filename: this.filename
-        });
-      } else if (this.peek().type === 'newline') {
-        var tok = this.expect('newline');
-        if (this.peek().type === 'text') {
-          tags.push({
-            type: 'Text',
-            val: '\n',
-            line: tok.line,
-            filename: this.filename
-          });
+    var tokType = this.peek().type;
+    loop:
+      while (true) {
+        switch (tokType) {
+          case 'text':
+            var tok = this.advance();
+            tags.push({
+              type: 'Text',
+              val: tok.val,
+              line: tok.line,
+              filename: this.filename
+            });
+            break;
+          case 'newline':
+            if (!options || !options.block) break loop;
+            var tok = this.advance();
+            if (this.peek().type === 'text') {
+              tags.push({
+                type: 'Text',
+                val: '\n',
+                line: tok.line,
+                filename: this.filename
+              });
+            }
+            break;
+          case 'start-jade-interpolation':
+            this.advance();
+            tags.push(this.parseExpr());
+            this.expect('end-jade-interpolation');
+            break;
+          default:
+            break loop;
         }
-      } else {
-        this.expect('start-jade-interpolation');
-        tags.push(this.parseExpr());
-        this.expect('end-jade-interpolation');
+        tokType = this.peek().type;
       }
-    }
     if (tags.length === 1) return tags[0];
     else return {type: 'Block', nodes: tags, line: lineno, filename: this.filename};
   },
