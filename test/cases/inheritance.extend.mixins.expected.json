@@ -43,6 +43,7 @@
                     "val": "title",
                     "buffer": true,
                     "escape": true,
+                    "isInline": false,
                     "line": 6,
                     "filename": "inheritance.extend.mixins.tokens.json"
                   }

@@ -6,6 +6,7 @@
       "val": "var id = 5",
       "buffer": false,
       "escape": false,
+      "isInline": false,
       "line": 1,
       "filename": "attrs.js.tokens.json"
     },
@@ -14,6 +15,7 @@
       "val": "function answer() { return 42; }",
       "buffer": false,
       "escape": false,
+      "isInline": false,
       "line": 2,
       "filename": "attrs.js.tokens.json"
     },
@@ -284,6 +286,7 @@
       "val": "var bar = null",
       "buffer": false,
       "escape": false,
+      "isInline": false,
       "line": 16,
       "filename": "attrs.js.tokens.json"
     },

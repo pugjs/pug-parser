@@ -6,6 +6,7 @@
       "val": "users = [{ name: 'tobi', age: 2 }]",
       "buffer": false,
       "escape": false,
+      "isInline": false,
       "line": 2,
       "filename": "filters.cdata.tokens.json"
     },

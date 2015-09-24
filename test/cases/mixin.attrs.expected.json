@@ -20,6 +20,7 @@
                   "val": "if (title)",
                   "buffer": false,
                   "escape": false,
+                  "isInline": false,
                   "line": 3,
                   "filename": "mixin.attrs.tokens.json",
                   "block": {
@@ -49,6 +50,7 @@
                           "val": "title",
                           "buffer": true,
                           "escape": true,
+                          "isInline": false,
                           "line": 4,
                           "filename": "mixin.attrs.tokens.json"
                         }
@@ -68,6 +70,7 @@
                   "val": "if (attributes.href)",
                   "buffer": false,
                   "escape": false,
+                  "isInline": false,
                   "line": 6,
                   "filename": "mixin.attrs.tokens.json",
                   "block": {
@@ -582,6 +585,7 @@
       "val": "var val = '<biz>'",
       "buffer": false,
       "escape": false,
+      "isInline": false,
       "line": 34,
       "filename": "mixin.attrs.tokens.json"
     },
@@ -590,6 +594,7 @@
       "val": "var classes = ['foo', 'bar']",
       "buffer": false,
       "escape": false,
+      "isInline": false,
       "line": 35,
       "filename": "mixin.attrs.tokens.json"
     },
@@ -663,6 +668,7 @@
               "val": "work",
               "buffer": true,
               "escape": true,
+              "isInline": false,
               "line": 40,
               "filename": "mixin.attrs.tokens.json"
             }

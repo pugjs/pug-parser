@@ -20,6 +20,7 @@
                   "val": "var csrf_token_from_somewhere = 'hey'",
                   "buffer": false,
                   "escape": false,
+                  "isInline": false,
                   "line": 5,
                   "filename": "mixin.blocks.tokens.json"
                 },
@@ -557,6 +558,7 @@
             "val": "'123'",
             "buffer": true,
             "escape": true,
+            "isInline": false,
             "line": 44,
             "filename": "mixin.blocks.tokens.json"
           }

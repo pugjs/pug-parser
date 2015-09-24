@@ -712,6 +712,7 @@
       "val": "var attrs = {foo: 'bar', bar: '<baz>'}",
       "buffer": false,
       "escape": false,
+      "isInline": false,
       "line": 38,
       "filename": "attrs.tokens.json"
     },

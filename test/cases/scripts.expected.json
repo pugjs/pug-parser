@@ -60,6 +60,7 @@
         "val": "'foo()'",
         "buffer": true,
         "escape": false,
+        "isInline": false,
         "line": 5,
         "filename": "scripts.tokens.json"
       }

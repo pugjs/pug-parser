@@ -32,6 +32,7 @@
                     "val": "title",
                     "buffer": true,
                     "escape": true,
+                    "isInline": false,
                     "line": 3,
                     "filename": "mixins.tokens.json"
                   }
@@ -60,6 +61,7 @@
                     "val": "str",
                     "buffer": true,
                     "escape": true,
+                    "isInline": false,
                     "line": 4,
                     "filename": "mixins.tokens.json"
                   }
@@ -117,6 +119,7 @@
                     "val": "title",
                     "buffer": true,
                     "escape": true,
+                    "isInline": false,
                     "line": 9,
                     "filename": "mixins.tokens.json"
                   }
@@ -145,6 +148,7 @@
                     "val": "str",
                     "buffer": true,
                     "escape": true,
+                    "isInline": false,
                     "line": 10,
                     "filename": "mixins.tokens.json"
                   }
@@ -415,6 +419,7 @@
               "val": "str + 'interpolated'",
               "buffer": true,
               "escape": true,
+              "isInline": false,
               "line": 29,
               "filename": "mixins.tokens.json"
             }
@@ -432,6 +437,7 @@
       "val": "var suffix = \"bar\"",
       "buffer": false,
       "escape": false,
+      "isInline": false,
       "line": 31,
       "filename": "mixins.tokens.json"
     },

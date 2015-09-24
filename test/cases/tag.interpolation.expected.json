@@ -6,6 +6,7 @@
       "val": "var tag = 'p'",
       "buffer": false,
       "escape": false,
+      "isInline": false,
       "line": 2,
       "filename": "tag.interpolation.tokens.json"
     },
@@ -14,6 +15,7 @@
       "val": "var foo = 'bar'",
       "buffer": false,
       "escape": false,
+      "isInline": false,
       "line": 3,
       "filename": "tag.interpolation.tokens.json"
     },

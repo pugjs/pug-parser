@@ -6,6 +6,7 @@
       "val": "var user = { name: 'tobi' }",
       "buffer": false,
       "escape": false,
+      "isInline": false,
       "line": 1,
       "filename": "attrs-data.tokens.json"
     },

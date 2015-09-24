@@ -20,6 +20,7 @@
                   "val": "var friends = 1",
                   "buffer": false,
                   "escape": false,
+                  "isInline": false,
                   "line": 3,
                   "filename": "case.tokens.json"
                 },
@@ -146,6 +147,7 @@
                   "val": "var friends = 0",
                   "buffer": false,
                   "escape": false,
+                  "isInline": false,
                   "line": 8,
                   "filename": "case.tokens.json"
                 },

@@ -20,6 +20,7 @@
                   "val": "var friends = 1",
                   "buffer": false,
                   "escape": false,
+                  "isInline": false,
                   "line": 3,
                   "filename": "case-blocks.tokens.json"
                 },

@@ -6,6 +6,7 @@
       "val": "var url = 'http://www.google.com'",
       "buffer": false,
       "escape": false,
+      "isInline": false,
       "line": 1,
       "filename": "regression.784.tokens.json"
     },

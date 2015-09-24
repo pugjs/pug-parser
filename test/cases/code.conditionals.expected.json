@@ -6,6 +6,7 @@
       "val": "if (true)",
       "buffer": false,
       "escape": false,
+      "isInline": false,
       "line": 2,
       "filename": "code.conditionals.tokens.json",
       "block": {
@@ -42,6 +43,7 @@
       "val": "else",
       "buffer": false,
       "escape": false,
+      "isInline": false,
       "line": 4,
       "filename": "code.conditionals.tokens.json",
       "debug": false,
@@ -79,6 +81,7 @@
       "val": "if (true) {",
       "buffer": false,
       "escape": false,
+      "isInline": false,
       "line": 7,
       "filename": "code.conditionals.tokens.json",
       "block": {
@@ -115,6 +118,7 @@
       "val": "} else {",
       "buffer": false,
       "escape": false,
+      "isInline": false,
       "line": 9,
       "filename": "code.conditionals.tokens.json",
       "block": {
@@ -151,6 +155,7 @@
       "val": "}",
       "buffer": false,
       "escape": false,
+      "isInline": false,
       "line": 11,
       "filename": "code.conditionals.tokens.json"
     },
