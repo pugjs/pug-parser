@@ -69,6 +69,7 @@
                         "val": "var txt = '<param name=\"flashvars\" value=\"a=&quot;value_a&quot;&b=&quot;value_b&quot;&c=3\"/>'",
                         "buffer": false,
                         "escape": false,
+                        "isInline": false,
                         "line": 7,
                         "filename": "escape-test.tokens.json"
                       },

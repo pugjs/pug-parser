@@ -19,6 +19,7 @@
         "val": "'<script>'",
         "buffer": true,
         "escape": true,
+        "isInline": false,
         "line": 1,
         "filename": "code.escape.tokens.json"
       }
@@ -41,6 +42,7 @@
         "val": "'<script>'",
         "buffer": true,
         "escape": false,
+        "isInline": false,
         "line": 2,
         "filename": "code.escape.tokens.json"
       }

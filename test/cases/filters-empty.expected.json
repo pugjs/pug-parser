@@ -6,6 +6,7 @@
       "val": "var users = [{ name: 'tobi', age: 2 }]",
       "buffer": false,
       "escape": false,
+      "isInline": false,
       "line": 1,
       "filename": "filters-empty.tokens.json"
     },

@@ -6,6 +6,7 @@
       "val": "var foo = 'bar'",
       "buffer": false,
       "escape": false,
+      "isInline": false,
       "line": 1,
       "filename": "vars.tokens.json"
     },
@@ -14,6 +15,7 @@
       "val": "var list = [1,2,3]",
       "buffer": false,
       "escape": false,
+      "isInline": false,
       "line": 2,
       "filename": "vars.tokens.json"
     },

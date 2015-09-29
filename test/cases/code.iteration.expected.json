@@ -6,6 +6,7 @@
       "val": "var items = [1,2,3]",
       "buffer": false,
       "escape": false,
+      "isInline": false,
       "line": 2,
       "filename": "code.iteration.tokens.json"
     },
@@ -21,6 +22,7 @@
             "val": "items.forEach(function(item){",
             "buffer": false,
             "escape": false,
+            "isInline": false,
             "line": 5,
             "filename": "code.iteration.tokens.json",
             "block": {
@@ -44,6 +46,7 @@
                     "val": "item",
                     "buffer": true,
                     "escape": true,
+                    "isInline": false,
                     "line": 6,
                     "filename": "code.iteration.tokens.json"
                   }
@@ -58,6 +61,7 @@
             "val": "})",
             "buffer": false,
             "escape": false,
+            "isInline": false,
             "line": 7,
             "filename": "code.iteration.tokens.json"
           }
@@ -74,6 +78,7 @@
       "val": "var items = [1,2,3]",
       "buffer": false,
       "escape": false,
+      "isInline": false,
       "line": 9,
       "filename": "code.iteration.tokens.json"
     },
@@ -116,6 +121,7 @@
                     "val": "item",
                     "buffer": true,
                     "escape": true,
+                    "isInline": false,
                     "line": 13,
                     "filename": "code.iteration.tokens.json"
                   }
@@ -168,6 +174,7 @@
                     "val": "item",
                     "buffer": true,
                     "escape": true,
+                    "isInline": false,
                     "line": 17,
                     "filename": "code.iteration.tokens.json"
                   }
@@ -219,6 +226,7 @@
                     "val": "$item",
                     "buffer": true,
                     "escape": true,
+                    "isInline": false,
                     "line": 21,
                     "filename": "code.iteration.tokens.json"
                   }
@@ -243,6 +251,7 @@
       "val": "var nums = [1, 2, 3]",
       "buffer": false,
       "escape": false,
+      "isInline": false,
       "line": 23,
       "filename": "code.iteration.tokens.json"
     },
@@ -251,6 +260,7 @@
       "val": "var letters = ['a', 'b', 'c']",
       "buffer": false,
       "escape": false,
+      "isInline": false,
       "line": 24,
       "filename": "code.iteration.tokens.json"
     },
@@ -323,6 +333,7 @@
       "val": "var count = 1",
       "buffer": false,
       "escape": false,
+      "isInline": false,
       "line": 31,
       "filename": "code.iteration.tokens.json"
     },
@@ -331,6 +342,7 @@
       "val": "var counter = function() { return [count++, count++, count++] }",
       "buffer": false,
       "escape": false,
+      "isInline": false,
       "line": 32,
       "filename": "code.iteration.tokens.json"
     },

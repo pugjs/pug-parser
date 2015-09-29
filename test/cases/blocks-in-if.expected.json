@@ -19,6 +19,7 @@
       "val": "var ajax = true",
       "buffer": false,
       "escape": false,
+      "isInline": false,
       "line": 3,
       "filename": "blocks-in-if.tokens.json"
     },
@@ -27,6 +28,7 @@
       "val": "if( ajax )",
       "buffer": false,
       "escape": false,
+      "isInline": false,
       "line": 5,
       "filename": "blocks-in-if.tokens.json",
       "block": {
@@ -79,6 +81,7 @@
       "val": "else",
       "buffer": false,
       "escape": false,
+      "isInline": false,
       "line": 10,
       "filename": "blocks-in-if.tokens.json",
       "debug": false,

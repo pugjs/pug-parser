@@ -6,6 +6,7 @@
       "val": "var users = []",
       "buffer": false,
       "escape": false,
+      "isInline": false,
       "line": 2,
       "filename": "each.else.tokens.json"
     },
@@ -41,6 +42,7 @@
                     "val": "user.name",
                     "buffer": true,
                     "escape": true,
+                    "isInline": false,
                     "line": 6,
                     "filename": "each.else.tokens.json"
                   }
@@ -93,6 +95,7 @@
       "val": "var users = [{ name: 'tobi', friends: ['loki'] }, { name: 'loki' }]",
       "buffer": false,
       "escape": false,
+      "isInline": false,
       "line": 11,
       "filename": "each.else.tokens.json"
     },
@@ -134,6 +137,7 @@
                           "val": "user.name",
                           "buffer": true,
                           "escape": true,
+                          "isInline": false,
                           "line": 16,
                           "filename": "each.else.tokens.json"
                         }
@@ -194,6 +198,7 @@
       "val": "var user = { name: 'tobi', age: 10 }",
       "buffer": false,
       "escape": false,
+      "isInline": false,
       "line": 20,
       "filename": "each.else.tokens.json"
     },
@@ -281,6 +286,7 @@
       "val": "var user = {}",
       "buffer": false,
       "escape": false,
+      "isInline": false,
       "line": 28,
       "filename": "each.else.tokens.json"
     },
@@ -368,6 +374,7 @@
       "val": "var user = Object.create(null)",
       "buffer": false,
       "escape": false,
+      "isInline": false,
       "line": 36,
       "filename": "each.else.tokens.json"
     },
@@ -376,6 +383,7 @@
       "val": "user.name = 'tobi'",
       "buffer": false,
       "escape": false,
+      "isInline": false,
       "line": 37,
       "filename": "each.else.tokens.json"
     },

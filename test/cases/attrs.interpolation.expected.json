@@ -6,6 +6,7 @@
       "val": "var id = 5",
       "buffer": false,
       "escape": false,
+      "isInline": false,
       "line": 1,
       "filename": "attrs.interpolation.tokens.json"
     },

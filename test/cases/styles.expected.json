@@ -211,6 +211,7 @@
                   "val": "var bg = 'green';",
                   "buffer": false,
                   "escape": false,
+                  "isInline": false,
                   "line": 16,
                   "filename": "styles.tokens.json"
                 },
