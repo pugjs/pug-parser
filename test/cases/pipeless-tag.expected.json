@@ -1,0 +1,38 @@
+{
+  "type": "Block",
+  "nodes": [
+    {
+      "type": "Tag",
+      "name": "pre",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Text",
+            "val": "  what",
+            "line": 2
+          },
+          {
+            "type": "Text",
+            "val": "\n",
+            "line": 3
+          },
+          {
+            "type": "Text",
+            "val": "is going on",
+            "line": 3
+          }
+        ]
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "isInline": false,
+      "line": 1,
+      "filename": "pipeless-tag.tokens.json",
+      "textOnly": true
+    }
+  ],
+  "line": 0,
+  "filename": "pipeless-tag.tokens.json"
+}
