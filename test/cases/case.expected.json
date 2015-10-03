@@ -117,7 +117,22 @@
                                 "nodes": [
                                   {
                                     "type": "Text",
-                                    "val": "you have #{friends} friends",
+                                    "val": "you have ",
+                                    "line": 7,
+                                    "filename": "case.tokens.json"
+                                  },
+                                  {
+                                    "type": "Code",
+                                    "val": "friends",
+                                    "buffer": true,
+                                    "escape": true,
+                                    "isInline": true,
+                                    "line": 7,
+                                    "filename": "case.tokens.json"
+                                  },
+                                  {
+                                    "type": "Text",
+                                    "val": " friends",
                                     "line": 7,
                                     "filename": "case.tokens.json"
                                   }
@@ -216,7 +231,22 @@
                                 "nodes": [
                                   {
                                     "type": "Text",
-                                    "val": "you have #{friends} friends",
+                                    "val": "you have ",
+                                    "line": 14,
+                                    "filename": "case.tokens.json"
+                                  },
+                                  {
+                                    "type": "Code",
+                                    "val": "friends",
+                                    "buffer": true,
+                                    "escape": true,
+                                    "isInline": true,
+                                    "line": 14,
+                                    "filename": "case.tokens.json"
+                                  },
+                                  {
+                                    "type": "Text",
+                                    "val": " friends",
                                     "line": 14,
                                     "filename": "case.tokens.json"
                                   }

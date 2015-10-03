@@ -108,7 +108,7 @@
                   "attrs": [
                     {
                       "name": "class",
-                      "val": "'item-' + (i) + ''",
+                      "val": "'item-' + i",
                       "escaped": true
                     }
                   ],
@@ -293,8 +293,26 @@
                           "type": "Block",
                           "nodes": [
                             {
+                              "type": "Code",
+                              "val": "n",
+                              "buffer": true,
+                              "escape": true,
+                              "isInline": true,
+                              "line": 29,
+                              "filename": "code.iteration.tokens.json"
+                            },
+                            {
                               "type": "Text",
-                              "val": "#{n}: #{l}",
+                              "val": ": ",
+                              "line": 29,
+                              "filename": "code.iteration.tokens.json"
+                            },
+                            {
+                              "type": "Code",
+                              "val": "l",
+                              "buffer": true,
+                              "escape": true,
+                              "isInline": true,
                               "line": 29,
                               "filename": "code.iteration.tokens.json"
                             }
@@ -368,8 +386,11 @@
                     "type": "Block",
                     "nodes": [
                       {
-                        "type": "Text",
-                        "val": "#{n}",
+                        "type": "Code",
+                        "val": "n",
+                        "buffer": true,
+                        "escape": true,
+                        "isInline": true,
                         "line": 35,
                         "filename": "code.iteration.tokens.json"
                       }

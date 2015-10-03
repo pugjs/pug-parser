@@ -74,8 +74,11 @@
                         "filename": "escape-test.tokens.json"
                       },
                       {
-                        "type": "Text",
-                        "val": "#{txt}",
+                        "type": "Code",
+                        "val": "txt",
+                        "buffer": true,
+                        "escape": true,
+                        "isInline": true,
                         "line": 8,
                         "filename": "escape-test.tokens.json"
                       }

@@ -17,8 +17,11 @@
         "type": "Block",
         "nodes": [
           {
-            "type": "Text",
-            "val": "#{url.replace('http://', '').replace(/^www\\./, '')}",
+            "type": "Code",
+            "val": "url.replace('http://', '').replace(/^www\\./, '')",
+            "buffer": true,
+            "escape": true,
+            "isInline": true,
             "line": 2,
             "filename": "regression.784.tokens.json"
           }

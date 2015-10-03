@@ -225,8 +225,26 @@
                     "type": "Block",
                     "nodes": [
                       {
+                        "type": "Code",
+                        "val": "key",
+                        "buffer": true,
+                        "escape": true,
+                        "isInline": true,
+                        "line": 24,
+                        "filename": "each.else.tokens.json"
+                      },
+                      {
                         "type": "Text",
-                        "val": "#{key}: #{val}",
+                        "val": ": ",
+                        "line": 24,
+                        "filename": "each.else.tokens.json"
+                      },
+                      {
+                        "type": "Code",
+                        "val": "val",
+                        "buffer": true,
+                        "escape": true,
+                        "isInline": true,
                         "line": 24,
                         "filename": "each.else.tokens.json"
                       }
@@ -313,8 +331,26 @@
                     "type": "Block",
                     "nodes": [
                       {
+                        "type": "Code",
+                        "val": "key",
+                        "buffer": true,
+                        "escape": true,
+                        "isInline": true,
+                        "line": 32,
+                        "filename": "each.else.tokens.json"
+                      },
+                      {
                         "type": "Text",
-                        "val": "#{key}: #{val}",
+                        "val": ": ",
+                        "line": 32,
+                        "filename": "each.else.tokens.json"
+                      },
+                      {
+                        "type": "Code",
+                        "val": "val",
+                        "buffer": true,
+                        "escape": true,
+                        "isInline": true,
                         "line": 32,
                         "filename": "each.else.tokens.json"
                       }
@@ -410,8 +446,26 @@
                     "type": "Block",
                     "nodes": [
                       {
+                        "type": "Code",
+                        "val": "key",
+                        "buffer": true,
+                        "escape": true,
+                        "isInline": true,
+                        "line": 41,
+                        "filename": "each.else.tokens.json"
+                      },
+                      {
                         "type": "Text",
-                        "val": "#{key}: #{val}",
+                        "val": ": ",
+                        "line": 41,
+                        "filename": "each.else.tokens.json"
+                      },
+                      {
+                        "type": "Code",
+                        "val": "val",
+                        "buffer": true,
+                        "escape": true,
+                        "isInline": true,
                         "line": 41,
                         "filename": "each.else.tokens.json"
                       }

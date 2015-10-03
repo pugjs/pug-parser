@@ -58,7 +58,16 @@
               },
               {
                 "type": "Text",
-                "val": "My ID #{\"is {\" + id + \"}\"}",
+                "val": "My ID ",
+                "line": 7,
+                "filename": "interpolation.escape.tokens.json"
+              },
+              {
+                "type": "Code",
+                "val": "\"is {\" + id + \"}\"",
+                "buffer": true,
+                "escape": true,
+                "isInline": true,
                 "line": 7,
                 "filename": "interpolation.escape.tokens.json"
               }
