@@ -145,6 +145,7 @@ Parser.prototype = {
    * | filter
    * | comment
    * | text
+   * | text-html
    * | dot
    * | each
    * | code
@@ -180,6 +181,8 @@ Parser.prototype = {
       case 'interpolated-code':
       case 'start-jade-interpolation':
         return this.parseText({block: true});
+      case 'text-html':
+        return this.parseTextHtml();
       case 'dot':
         return this.parseDot();
       case 'each':
