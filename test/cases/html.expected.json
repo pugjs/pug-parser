@@ -28,6 +28,30 @@
       "isInline": false,
       "line": 8,
       "filename": "html.tokens.json"
+    },
+    {
+      "type": "Tag",
+      "name": "p",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": [
+          [
+            {
+              "type": "Text",
+              "val": "<strong>Even</strong> as the body of a block expansion.",
+              "filename": "html.tokens.json",
+              "line": 9,
+              "isHtml": true
+            }
+          ]
+        ]
+      },
+      "attrs": [],
+      "attributeBlocks": [],
+      "isInline": false,
+      "line": 9,
+      "filename": "html.tokens.json"
     }
   ],
   "line": 0,
