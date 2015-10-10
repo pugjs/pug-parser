@@ -102,7 +102,7 @@ Parser.prototype = {
       } else {
         var next = this.peek();
         var expr = this.parseExpr();
-        block.nodes.push(expr);
+        if (expr) block.nodes.push(expr);
       }
     }
 
@@ -224,7 +224,7 @@ Parser.prototype = {
 
   parseDot: function() {
     this.advance();
-    return this.parseTextBlock() || {type: 'Block', nodes: []};
+    return this.parseTextBlock();
   },
 
   /**
