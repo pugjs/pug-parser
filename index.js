@@ -799,7 +799,7 @@ Parser.prototype = {
         type: 'Mixin',
         name: name,
         args: args,
-        block: null,
+        block: {type: 'Block', nodes: [], line: tok.line, filename: this.filename},
         call: true,
         attrs: [],
         attributeBlocks: [],
