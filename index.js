@@ -92,7 +92,7 @@ Parser.prototype = {
    */
 
   parse: function(){
-    var block ={type: 'Block', nodes: [], line: 0, filename: this.filename};
+    var block = this.emptyBlock(0);
 
     while ('eos' != this.peek().type) {
       if ('newline' == this.peek().type) {
@@ -135,6 +135,23 @@ Parser.prototype = {
     if (this.peek().type === type) {
       return this.advance();
     }
+  },
+
+  initBlock: function(line, nodes) {
+    /* istanbul ignore if */
+    if ((line | 0) !== line) throw new Error('`line` is not an integer');
+    /* istanbul ignore if */
+    if (!Array.isArray(nodes)) throw new Error('`nodes` is not an array');
+    return {
+      type: 'Block',
+      nodes: nodes,
+      line: line,
+      filename: this.filename
+    };
+  },
+
+  emptyBlock: function(line) {
+    return this.initBlock(line, []);
   },
 
   /**
@@ -182,7 +199,7 @@ Parser.prototype = {
       case 'start-jade-interpolation':
         return this.parseText({block: true});
       case 'text-html':
-        return { type: 'Block', nodes: this.parseTextHtml() };
+        return this.initBlock(this.peek().line, this.parseTextHtml());
       case 'dot':
         return this.parseDot();
       case 'each':
@@ -282,7 +299,7 @@ Parser.prototype = {
         tokType = this.peek().type;
       }
     if (tags.length === 1) return tags[0];
-    else return {type: 'Block', nodes: tags, line: lineno, filename: this.filename};
+    else return this.initBlock(lineno, tags);
   },
 
   parseTextHtml: function () {
@@ -330,9 +347,9 @@ Parser.prototype = {
    */
 
   parseBlockExpansion: function(){
-    if (':' == this.peek().type) {
-      var tok = this.advance();
-      return {type: 'Block', nodes: [this.parseExpr()], line: tok.line, filename: this.filename};
+    var tok = this.accept(':');
+    if (tok) {
+      return this.initBlock(tok.line, [this.parseExpr()]);
     } else {
       return this.block();
     }
@@ -346,8 +363,7 @@ Parser.prototype = {
     var tok = this.expect('case');
     var node = {type: 'Case', expr: tok.val, line: tok.line, filename: this.filename};
 
-    var block = {type: 'Block', nodes: [], line: tok.line + 1, filename: this.filename};
-    block.filename = this.filename;
+    var block = this.emptyBlock(tok.line + 1);
     this.expect('indent');
     while ('outdent' != this.peek().type) {
       switch (this.peek().type) {
@@ -453,7 +469,7 @@ Parser.prototype = {
     var node = {
       type: 'Conditional',
       test: tok.val,
-      consequent: null,
+      consequent: this.emptyBlock(tok.line),
       alternate: null,
       line: tok.line,
       filename: this.filename
@@ -462,13 +478,6 @@ Parser.prototype = {
     // handle block
     if ('indent' == this.peek().type) {
       node.consequent = this.block();
-    } else {
-      node.consequent = {
-        type: 'Block',
-        nodes: [],
-        line: tok.line,
-        filename: this.filename
-      };
     }
 
     var currentNode = node;
@@ -481,7 +490,7 @@ Parser.prototype = {
           currentNode.alternate = {
             type: 'Conditional',
             test: tok.val,
-            consequent: null,
+            consequent: this.emptyBlock(tok.line),
             alternate: null,
             line: tok.line,
             filename: this.filename
@@ -489,13 +498,6 @@ Parser.prototype = {
         );
         if ('indent' == this.peek().type) {
           currentNode.consequent = this.block();
-        } else {
-          currentNode.consequent = {
-            type: 'Block',
-            nodes: [],
-            line: tok.line,
-            filename: this.filename
-          };
         }
       } else if (this.peek().type === 'else') {
         this.expect('else');
@@ -523,7 +525,7 @@ Parser.prototype = {
     if ('indent' == this.peek().type) {
       node.block = this.block();
     } else {
-      node.block = {type: 'Block', nodes: [], line: tok.line, filename: this.filename};
+      node.block = this.emptyBlock(tok.line);
     }
 
     return node;
@@ -617,28 +619,18 @@ Parser.prototype = {
 
     if (this.peek().type === 'text') {
       var textToken = this.advance();
-      block = {
-        type: 'Block',
-        nodes: [
-          {
-            type: 'Text',
-            val: textToken.val,
-            line: textToken.line,
-            filename: this.filename
-          }
-        ],
-        line: textToken.line,
-        filename: this.filename
-      };
+      block = this.initBlock(textToken.line, [
+        {
+          type: 'Text',
+          val: textToken.val,
+          line: textToken.line,
+          filename: this.filename
+        }
+      ]);
     } else if (this.peek().type === 'filter') {
-      block = {
-        type: 'Block',
-        nodes: [ this.parseFilter() ],
-        line: tok.line,
-        filename: this.filename
-      };
+      block = this.initBlock(tok.line, [this.parseFilter()]);
     } else {
-      block = this.parseTextBlock() || {type: 'Block', nodes: [], line: tok.line, filename: this.filename};
+      block = this.parseTextBlock() || this.emptyBlock(tok.line);
     }
 
     return {
@@ -699,7 +691,7 @@ Parser.prototype = {
   parseBlock: function(){
     var tok = this.expect('block');
 
-    var node = 'indent' == this.peek().type ? this.block() : {type: 'Block', nodes: [], line: tok.line, filename: this.filename};
+    var node = 'indent' == this.peek().type ? this.block() : this.emptyBlock(tok.line);
     node.type = 'NamedBlock';
     node.name = tok.val.trim();
     node.mode = tok.mode;
@@ -733,7 +725,7 @@ Parser.prototype = {
       },
       filter: tok.filter,
       attrs: tok.attrs ? tok.attrs.attrs : [],
-      block: 'indent' == this.peek().type ? this.block() : {type: 'Block', nodes: []},
+      block: 'indent' == this.peek().type ? this.block() : this.emptyBlock(tok.line),
       line: tok.line,
       filename: this.filename
     };
@@ -751,7 +743,7 @@ Parser.prototype = {
       type: 'Mixin',
       name: name,
       args: args,
-      block: {type: 'Block', nodes: [], line: tok.line, filename: this.filename},
+      block: this.emptyBlock(tok.line),
       call: true,
       attrs: [],
       attributeBlocks: [],
@@ -799,7 +791,7 @@ Parser.prototype = {
         type: 'Mixin',
         name: name,
         args: args,
-        block: {type: 'Block', nodes: [], line: tok.line, filename: this.filename},
+        block: this.emptyBlock(tok.line),
         call: true,
         attrs: [],
         attributeBlocks: [],
@@ -814,9 +806,9 @@ Parser.prototype = {
    */
 
   parseTextBlock: function(){
-    var block = {type: 'Block', nodes: []};
-    if (this.peek().type !== 'start-pipeless-text') return;
-    this.advance();
+    var tok = this.accept('start-pipeless-text');
+    if (!tok) return;
+    var block = this.emptyBlock(tok.line);
     while (this.peek().type !== 'end-pipeless-text') {
       var tok = this.advance();
       switch (tok.type) {
@@ -855,12 +847,7 @@ Parser.prototype = {
 
   block: function(){
     var tok = this.expect('indent');
-    var block = {
-      type: 'Block',
-      nodes: [],
-      line: tok.line,
-      filename: this.filename
-    };
+    var block = this.emptyBlock(tok.line);
     while ('outdent' != this.peek().type) {
       if ('newline' == this.peek().type) {
         this.advance();
@@ -885,7 +872,7 @@ Parser.prototype = {
       type: 'Tag',
       name: tok.val,
       selfClosing: tok.selfClosing,
-      block: {type: 'Block', nodes: []},
+      block: this.emptyBlock(tok.line),
       attrs: [],
       attributeBlocks: [],
       buffer: true, // indicates that this is an "interpolated" tag i.e. #{'tag-name'}
@@ -907,7 +894,7 @@ Parser.prototype = {
       type: 'Tag',
       name: tok.val,
       selfClosing: tok.selfClosing,
-      block: {type: 'Block', nodes: []},
+      block: this.emptyBlock(tok.line),
       attrs: [],
       attributeBlocks: [],
       isInline: inlineTags.indexOf(tok.val) !== -1,
@@ -999,7 +986,7 @@ Parser.prototype = {
         break;
       case ':':
         this.advance();
-        tag.block = {type: 'Block', nodes: [this.parseExpr()]};
+        tag.block = this.initBlock(tag.line, [this.parseExpr()]);
         break;
       case 'newline':
       case 'indent':
@@ -1017,7 +1004,7 @@ Parser.prototype = {
 
     // block?
     if (tag.textOnly) {
-      tag.block = this.parseTextBlock() || {type: 'Block', nodes: []};
+      tag.block = this.parseTextBlock() || this.emptyBlock(tag.line);
     } else if ('indent' == this.peek().type) {
       var block = this.block();
       for (var i = 0, len = block.nodes.length; i < len; ++i) {
