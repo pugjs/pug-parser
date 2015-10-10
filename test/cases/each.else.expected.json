@@ -30,22 +30,23 @@
                   "selfClosing": false,
                   "block": {
                     "type": "Block",
-                    "nodes": []
+                    "nodes": [
+                      {
+                        "type": "Code",
+                        "val": "user.name",
+                        "buffer": true,
+                        "escape": true,
+                        "isInline": false,
+                        "line": 6,
+                        "filename": "each.else.tokens.json"
+                      }
+                    ]
                   },
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
                   "line": 6,
-                  "filename": "each.else.tokens.json",
-                  "code": {
-                    "type": "Code",
-                    "val": "user.name",
-                    "buffer": true,
-                    "escape": true,
-                    "isInline": false,
-                    "line": 6,
-                    "filename": "each.else.tokens.json"
-                  }
+                  "filename": "each.else.tokens.json"
                 }
               ],
               "line": 6,
@@ -125,22 +126,23 @@
                         "selfClosing": false,
                         "block": {
                           "type": "Block",
-                          "nodes": []
+                          "nodes": [
+                            {
+                              "type": "Code",
+                              "val": "user.name",
+                              "buffer": true,
+                              "escape": true,
+                              "isInline": false,
+                              "line": 16,
+                              "filename": "each.else.tokens.json"
+                            }
+                          ]
                         },
                         "attrs": [],
                         "attributeBlocks": [],
                         "isInline": false,
                         "line": 16,
-                        "filename": "each.else.tokens.json",
-                        "code": {
-                          "type": "Code",
-                          "val": "user.name",
-                          "buffer": true,
-                          "escape": true,
-                          "isInline": false,
-                          "line": 16,
-                          "filename": "each.else.tokens.json"
-                        }
+                        "filename": "each.else.tokens.json"
                       }
                     ],
                     "line": 16,

@@ -48,22 +48,23 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [
+          {
+            "type": "Code",
+            "val": "'foo()'",
+            "buffer": true,
+            "escape": false,
+            "isInline": false,
+            "line": 5,
+            "filename": "scripts.tokens.json"
+          }
+        ]
       },
       "attrs": [],
       "attributeBlocks": [],
       "isInline": false,
       "line": 5,
-      "filename": "scripts.tokens.json",
-      "code": {
-        "type": "Code",
-        "val": "'foo()'",
-        "buffer": true,
-        "escape": false,
-        "isInline": false,
-        "line": 5,
-        "filename": "scripts.tokens.json"
-      }
+      "filename": "scripts.tokens.json"
     },
     {
       "type": "Tag",

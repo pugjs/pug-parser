@@ -14,7 +14,17 @@
             "selfClosing": false,
             "block": {
               "type": "Block",
-              "nodes": []
+              "nodes": [
+                {
+                  "type": "Code",
+                  "val": "url",
+                  "buffer": true,
+                  "escape": true,
+                  "isInline": false,
+                  "line": 2,
+                  "filename": "interpolated-mixin.tokens.json"
+                }
+              ]
             },
             "attrs": [
               {
@@ -26,16 +36,7 @@
             "attributeBlocks": [],
             "isInline": true,
             "line": 2,
-            "filename": "interpolated-mixin.tokens.json",
-            "code": {
-              "type": "Code",
-              "val": "url",
-              "buffer": true,
-              "escape": true,
-              "isInline": false,
-              "line": 2,
-              "filename": "interpolated-mixin.tokens.json"
-            }
+            "filename": "interpolated-mixin.tokens.json"
           }
         ],
         "line": 2,

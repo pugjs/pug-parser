@@ -7,22 +7,23 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [
+          {
+            "type": "Code",
+            "val": "'<script>'",
+            "buffer": true,
+            "escape": true,
+            "isInline": false,
+            "line": 1,
+            "filename": "code.escape.tokens.json"
+          }
+        ]
       },
       "attrs": [],
       "attributeBlocks": [],
       "isInline": false,
       "line": 1,
-      "filename": "code.escape.tokens.json",
-      "code": {
-        "type": "Code",
-        "val": "'<script>'",
-        "buffer": true,
-        "escape": true,
-        "isInline": false,
-        "line": 1,
-        "filename": "code.escape.tokens.json"
-      }
+      "filename": "code.escape.tokens.json"
     },
     {
       "type": "Tag",
@@ -30,22 +31,23 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [
+          {
+            "type": "Code",
+            "val": "'<script>'",
+            "buffer": true,
+            "escape": false,
+            "isInline": false,
+            "line": 2,
+            "filename": "code.escape.tokens.json"
+          }
+        ]
       },
       "attrs": [],
       "attributeBlocks": [],
       "isInline": false,
       "line": 2,
-      "filename": "code.escape.tokens.json",
-      "code": {
-        "type": "Code",
-        "val": "'<script>'",
-        "buffer": true,
-        "escape": false,
-        "isInline": false,
-        "line": 2,
-        "filename": "code.escape.tokens.json"
-      }
+      "filename": "code.escape.tokens.json"
     }
   ],
   "line": 0,

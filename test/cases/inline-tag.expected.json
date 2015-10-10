@@ -113,22 +113,23 @@
             "selfClosing": false,
             "block": {
               "type": "Block",
-              "nodes": []
+              "nodes": [
+                {
+                  "type": "Code",
+                  "val": "'[foo]'",
+                  "buffer": true,
+                  "escape": true,
+                  "isInline": false,
+                  "line": 6,
+                  "filename": "inline-tag.tokens.json"
+                }
+              ]
             },
             "attrs": [],
             "attributeBlocks": [],
             "isInline": true,
             "line": 6,
-            "filename": "inline-tag.tokens.json",
-            "code": {
-              "type": "Code",
-              "val": "'[foo]'",
-              "buffer": true,
-              "escape": true,
-              "isInline": false,
-              "line": 6,
-              "filename": "inline-tag.tokens.json"
-            }
+            "filename": "inline-tag.tokens.json"
           },
           {
             "type": "Text",
@@ -261,22 +262,23 @@
                 "selfClosing": false,
                 "block": {
                   "type": "Block",
-                  "nodes": []
+                  "nodes": [
+                    {
+                      "type": "Code",
+                      "val": "'[foo]'",
+                      "buffer": true,
+                      "escape": true,
+                      "isInline": false,
+                      "line": 13,
+                      "filename": "inline-tag.tokens.json"
+                    }
+                  ]
                 },
                 "attrs": [],
                 "attributeBlocks": [],
                 "isInline": true,
                 "line": 13,
-                "filename": "inline-tag.tokens.json",
-                "code": {
-                  "type": "Code",
-                  "val": "'[foo]'",
-                  "buffer": true,
-                  "escape": true,
-                  "isInline": false,
-                  "line": 13,
-                  "filename": "inline-tag.tokens.json"
-                }
+                "filename": "inline-tag.tokens.json"
               },
               {
                 "type": "Text",

@@ -125,10 +125,94 @@
             "filename": "tags.self-closing.tokens.json"
           },
           {
+            "type": "Tag",
+            "name": "'foo'",
+            "selfClosing": true,
+            "block": {
+              "type": "Block",
+              "nodes": []
+            },
+            "attrs": [],
+            "attributeBlocks": [],
+            "buffer": true,
+            "isInline": false,
+            "line": 9,
+            "filename": "tags.self-closing.tokens.json"
+          },
+          {
+            "type": "Tag",
+            "name": "'foo'",
+            "selfClosing": true,
+            "block": {
+              "type": "Block",
+              "nodes": []
+            },
+            "attrs": [
+              {
+                "name": "bar",
+                "val": "'baz'",
+                "escaped": true
+              }
+            ],
+            "attributeBlocks": [],
+            "buffer": true,
+            "isInline": false,
+            "line": 10,
+            "filename": "tags.self-closing.tokens.json"
+          },
+          {
+            "type": "Tag",
+            "name": "'foo'",
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Text",
+                  "val": "/",
+                  "line": 11,
+                  "filename": "tags.self-closing.tokens.json"
+                }
+              ]
+            },
+            "attrs": [],
+            "attributeBlocks": [],
+            "buffer": true,
+            "isInline": false,
+            "line": 11,
+            "filename": "tags.self-closing.tokens.json"
+          },
+          {
+            "type": "Tag",
+            "name": "'foo'",
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Text",
+                  "val": "/",
+                  "line": 12,
+                  "filename": "tags.self-closing.tokens.json"
+                }
+              ]
+            },
+            "attrs": [
+              {
+                "name": "bar",
+                "val": "'baz'",
+                "escaped": true
+              }
+            ],
+            "attributeBlocks": [],
+            "buffer": true,
+            "isInline": false,
+            "line": 12,
+            "filename": "tags.self-closing.tokens.json"
+          },
+          {
             "type": "Comment",
             "val": " can have a single space after them",
             "buffer": false,
-            "line": 9,
+            "line": 13,
             "filename": "tags.self-closing.tokens.json"
           },
           {
@@ -141,7 +225,7 @@
                 {
                   "type": "Text",
                   "val": " ",
-                  "line": 10,
+                  "line": 14,
                   "filename": "tags.self-closing.tokens.json"
                 }
               ]
@@ -149,14 +233,14 @@
             "attrs": [],
             "attributeBlocks": [],
             "isInline": true,
-            "line": 10,
+            "line": 14,
             "filename": "tags.self-closing.tokens.json"
           },
           {
             "type": "Comment",
             "val": " can have lots of white space after them",
             "buffer": false,
-            "line": 11,
+            "line": 15,
             "filename": "tags.self-closing.tokens.json"
           },
           {
@@ -169,7 +253,7 @@
                 {
                   "type": "Text",
                   "val": "   ",
-                  "line": 12,
+                  "line": 16,
                   "filename": "tags.self-closing.tokens.json"
                 }
               ]
@@ -177,7 +261,7 @@
             "attrs": [],
             "attributeBlocks": [],
             "isInline": true,
-            "line": 12,
+            "line": 16,
             "filename": "tags.self-closing.tokens.json"
           }
         ]

@@ -31,22 +31,23 @@
                   "selfClosing": false,
                   "block": {
                     "type": "Block",
-                    "nodes": []
+                    "nodes": [
+                      {
+                        "type": "Code",
+                        "val": "title",
+                        "buffer": true,
+                        "escape": true,
+                        "isInline": false,
+                        "line": 6,
+                        "filename": "inheritance.extend.mixins.tokens.json"
+                      }
+                    ]
                   },
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
                   "line": 6,
-                  "filename": "inheritance.extend.mixins.tokens.json",
-                  "code": {
-                    "type": "Code",
-                    "val": "title",
-                    "buffer": true,
-                    "escape": true,
-                    "isInline": false,
-                    "line": 6,
-                    "filename": "inheritance.extend.mixins.tokens.json"
-                  }
+                  "filename": "inheritance.extend.mixins.tokens.json"
                 }
               ],
               "line": 6,

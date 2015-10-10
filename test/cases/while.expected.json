@@ -40,22 +40,23 @@
                   "selfClosing": false,
                   "block": {
                     "type": "Block",
-                    "nodes": []
+                    "nodes": [
+                      {
+                        "type": "Code",
+                        "val": "x",
+                        "buffer": true,
+                        "escape": true,
+                        "isInline": false,
+                        "line": 5,
+                        "filename": "while.tokens.json"
+                      }
+                    ]
                   },
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
                   "line": 5,
-                  "filename": "while.tokens.json",
-                  "code": {
-                    "type": "Code",
-                    "val": "x",
-                    "buffer": true,
-                    "escape": true,
-                    "isInline": false,
-                    "line": 5,
-                    "filename": "while.tokens.json"
-                  }
+                  "filename": "while.tokens.json"
                 }
               ],
               "line": 4,

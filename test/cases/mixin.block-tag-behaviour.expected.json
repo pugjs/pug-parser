@@ -21,22 +21,23 @@
                   "selfClosing": false,
                   "block": {
                     "type": "Block",
-                    "nodes": []
+                    "nodes": [
+                      {
+                        "type": "Code",
+                        "val": "name",
+                        "buffer": true,
+                        "escape": true,
+                        "isInline": false,
+                        "line": 4,
+                        "filename": "mixin.block-tag-behaviour.tokens.json"
+                      }
+                    ]
                   },
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
                   "line": 4,
-                  "filename": "mixin.block-tag-behaviour.tokens.json",
-                  "code": {
-                    "type": "Code",
-                    "val": "name",
-                    "buffer": true,
-                    "escape": true,
-                    "isInline": false,
-                    "line": 4,
-                    "filename": "mixin.block-tag-behaviour.tokens.json"
-                  }
+                  "filename": "mixin.block-tag-behaviour.tokens.json"
                 },
                 {
                   "type": "MixinBlock",
@@ -151,22 +152,23 @@
                   "selfClosing": false,
                   "block": {
                     "type": "Block",
-                    "nodes": []
+                    "nodes": [
+                      {
+                        "type": "Code",
+                        "val": "name",
+                        "buffer": true,
+                        "escape": true,
+                        "isInline": false,
+                        "line": 13,
+                        "filename": "mixin.block-tag-behaviour.tokens.json"
+                      }
+                    ]
                   },
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
                   "line": 13,
-                  "filename": "mixin.block-tag-behaviour.tokens.json",
-                  "code": {
-                    "type": "Code",
-                    "val": "name",
-                    "buffer": true,
-                    "escape": true,
-                    "isInline": false,
-                    "line": 13,
-                    "filename": "mixin.block-tag-behaviour.tokens.json"
-                  }
+                  "filename": "mixin.block-tag-behaviour.tokens.json"
                 },
                 {
                   "type": "Tag",

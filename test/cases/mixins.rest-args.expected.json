@@ -27,22 +27,23 @@
                         "selfClosing": false,
                         "block": {
                           "type": "Block",
-                          "nodes": []
+                          "nodes": [
+                            {
+                              "type": "Code",
+                              "val": "item",
+                              "buffer": true,
+                              "escape": true,
+                              "isInline": false,
+                              "line": 4,
+                              "filename": "mixins.rest-args.tokens.json"
+                            }
+                          ]
                         },
                         "attrs": [],
                         "attributeBlocks": [],
                         "isInline": false,
                         "line": 4,
-                        "filename": "mixins.rest-args.tokens.json",
-                        "code": {
-                          "type": "Code",
-                          "val": "item",
-                          "buffer": true,
-                          "escape": true,
-                          "isInline": false,
-                          "line": 4,
-                          "filename": "mixins.rest-args.tokens.json"
-                        }
+                        "filename": "mixins.rest-args.tokens.json"
                       }
                     ],
                     "line": 4,

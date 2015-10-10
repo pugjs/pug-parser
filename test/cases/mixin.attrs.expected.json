@@ -32,7 +32,17 @@
                         "selfClosing": false,
                         "block": {
                           "type": "Block",
-                          "nodes": []
+                          "nodes": [
+                            {
+                              "type": "Code",
+                              "val": "title",
+                              "buffer": true,
+                              "escape": true,
+                              "isInline": false,
+                              "line": 4,
+                              "filename": "mixin.attrs.tokens.json"
+                            }
+                          ]
                         },
                         "attrs": [
                           {
@@ -44,16 +54,7 @@
                         "attributeBlocks": [],
                         "isInline": false,
                         "line": 4,
-                        "filename": "mixin.attrs.tokens.json",
-                        "code": {
-                          "type": "Code",
-                          "val": "title",
-                          "buffer": true,
-                          "escape": true,
-                          "isInline": false,
-                          "line": 4,
-                          "filename": "mixin.attrs.tokens.json"
-                        }
+                        "filename": "mixin.attrs.tokens.json"
                       }
                     ],
                     "line": 4,
@@ -654,7 +655,17 @@
             "selfClosing": false,
             "block": {
               "type": "Block",
-              "nodes": []
+              "nodes": [
+                {
+                  "type": "Code",
+                  "val": "work",
+                  "buffer": true,
+                  "escape": true,
+                  "isInline": false,
+                  "line": 40,
+                  "filename": "mixin.attrs.tokens.json"
+                }
+              ]
             },
             "attrs": [],
             "attributeBlocks": [
@@ -662,16 +673,7 @@
             ],
             "isInline": false,
             "line": 40,
-            "filename": "mixin.attrs.tokens.json",
-            "code": {
-              "type": "Code",
-              "val": "work",
-              "buffer": true,
-              "escape": true,
-              "isInline": false,
-              "line": 40,
-              "filename": "mixin.attrs.tokens.json"
-            }
+            "filename": "mixin.attrs.tokens.json"
           }
         ],
         "line": 40,

@@ -20,7 +20,35 @@
           },
           {
             "type": "Text",
-            "val": "is going on",
+            "val": "is ",
+            "line": 3
+          },
+          {
+            "type": "Code",
+            "val": "'going'",
+            "buffer": true,
+            "escape": true,
+            "isInline": true,
+            "line": 3,
+            "filename": "pipeless-tag.tokens.json"
+          },
+          {
+            "type": "Text",
+            "val": " ",
+            "line": 3
+          },
+          {
+            "type": "Code",
+            "val": "'on'",
+            "buffer": true,
+            "escape": true,
+            "isInline": true,
+            "line": 3,
+            "filename": "pipeless-tag.tokens.json"
+          },
+          {
+            "type": "Text",
+            "val": "",
             "line": 3
           }
         ]

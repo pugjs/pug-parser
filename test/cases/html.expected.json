@@ -36,15 +36,18 @@
       "block": {
         "type": "Block",
         "nodes": [
-          [
-            {
-              "type": "Text",
-              "val": "<strong>Even</strong> as the body of a block expansion.",
-              "filename": "html.tokens.json",
-              "line": 9,
-              "isHtml": true
-            }
-          ]
+          {
+            "type": "Block",
+            "nodes": [
+              {
+                "type": "Text",
+                "val": "<strong>Even</strong> as the body of a block expansion.",
+                "filename": "html.tokens.json",
+                "line": 9,
+                "isHtml": true
+              }
+            ]
+          }
         ]
       },
       "attrs": [],

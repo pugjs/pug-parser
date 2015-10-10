@@ -20,22 +20,23 @@
                   "selfClosing": false,
                   "block": {
                     "type": "Block",
-                    "nodes": []
+                    "nodes": [
+                      {
+                        "type": "Code",
+                        "val": "title",
+                        "buffer": true,
+                        "escape": true,
+                        "isInline": false,
+                        "line": 3,
+                        "filename": "mixins.tokens.json"
+                      }
+                    ]
                   },
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
                   "line": 3,
-                  "filename": "mixins.tokens.json",
-                  "code": {
-                    "type": "Code",
-                    "val": "title",
-                    "buffer": true,
-                    "escape": true,
-                    "isInline": false,
-                    "line": 3,
-                    "filename": "mixins.tokens.json"
-                  }
+                  "filename": "mixins.tokens.json"
                 },
                 {
                   "type": "Tag",
@@ -43,7 +44,17 @@
                   "selfClosing": false,
                   "block": {
                     "type": "Block",
-                    "nodes": []
+                    "nodes": [
+                      {
+                        "type": "Code",
+                        "val": "str",
+                        "buffer": true,
+                        "escape": true,
+                        "isInline": false,
+                        "line": 4,
+                        "filename": "mixins.tokens.json"
+                      }
+                    ]
                   },
                   "attrs": [
                     {
@@ -55,16 +66,7 @@
                   "attributeBlocks": [],
                   "isInline": false,
                   "line": 4,
-                  "filename": "mixins.tokens.json",
-                  "code": {
-                    "type": "Code",
-                    "val": "str",
-                    "buffer": true,
-                    "escape": true,
-                    "isInline": false,
-                    "line": 4,
-                    "filename": "mixins.tokens.json"
-                  }
+                  "filename": "mixins.tokens.json"
                 }
               ]
             },
@@ -107,22 +109,23 @@
                   "selfClosing": false,
                   "block": {
                     "type": "Block",
-                    "nodes": []
+                    "nodes": [
+                      {
+                        "type": "Code",
+                        "val": "title",
+                        "buffer": true,
+                        "escape": true,
+                        "isInline": false,
+                        "line": 9,
+                        "filename": "mixins.tokens.json"
+                      }
+                    ]
                   },
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
                   "line": 9,
-                  "filename": "mixins.tokens.json",
-                  "code": {
-                    "type": "Code",
-                    "val": "title",
-                    "buffer": true,
-                    "escape": true,
-                    "isInline": false,
-                    "line": 9,
-                    "filename": "mixins.tokens.json"
-                  }
+                  "filename": "mixins.tokens.json"
                 },
                 {
                   "type": "Tag",
@@ -130,7 +133,17 @@
                   "selfClosing": false,
                   "block": {
                     "type": "Block",
-                    "nodes": []
+                    "nodes": [
+                      {
+                        "type": "Code",
+                        "val": "str",
+                        "buffer": true,
+                        "escape": true,
+                        "isInline": false,
+                        "line": 10,
+                        "filename": "mixins.tokens.json"
+                      }
+                    ]
                   },
                   "attrs": [
                     {
@@ -142,16 +155,7 @@
                   "attributeBlocks": [],
                   "isInline": false,
                   "line": 10,
-                  "filename": "mixins.tokens.json",
-                  "code": {
-                    "type": "Code",
-                    "val": "str",
-                    "buffer": true,
-                    "escape": true,
-                    "isInline": false,
-                    "line": 10,
-                    "filename": "mixins.tokens.json"
-                  }
+                  "filename": "mixins.tokens.json"
                 }
               ]
             },
@@ -271,27 +275,6 @@
                       {
                         "type": "Text",
                         "val": "foo",
-                        "line": 19,
-                        "filename": "mixins.tokens.json"
-                      }
-                    ]
-                  },
-                  "attrs": [],
-                  "attributeBlocks": [],
-                  "isInline": false,
-                  "line": 19,
-                  "filename": "mixins.tokens.json"
-                },
-                {
-                  "type": "Tag",
-                  "name": "li",
-                  "selfClosing": false,
-                  "block": {
-                    "type": "Block",
-                    "nodes": [
-                      {
-                        "type": "Text",
-                        "val": "bar",
                         "line": 20,
                         "filename": "mixins.tokens.json"
                       }
@@ -312,7 +295,7 @@
                     "nodes": [
                       {
                         "type": "Text",
-                        "val": "baz",
+                        "val": "bar",
                         "line": 21,
                         "filename": "mixins.tokens.json"
                       }
@@ -323,21 +306,42 @@
                   "isInline": false,
                   "line": 21,
                   "filename": "mixins.tokens.json"
+                },
+                {
+                  "type": "Tag",
+                  "name": "li",
+                  "selfClosing": false,
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "Text",
+                        "val": "baz",
+                        "line": 22,
+                        "filename": "mixins.tokens.json"
+                      }
+                    ]
+                  },
+                  "attrs": [],
+                  "attributeBlocks": [],
+                  "isInline": false,
+                  "line": 22,
+                  "filename": "mixins.tokens.json"
                 }
               ]
             },
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
-            "line": 18,
+            "line": 19,
             "filename": "mixins.tokens.json"
           }
         ],
-        "line": 18,
+        "line": 19,
         "filename": "mixins.tokens.json"
       },
       "call": false,
-      "line": 17,
+      "line": 18,
       "filename": "mixins.tokens.json"
     },
     {
@@ -355,17 +359,6 @@
             "call": true,
             "attrs": [],
             "attributeBlocks": [],
-            "line": 24,
-            "filename": "mixins.tokens.json"
-          },
-          {
-            "type": "Mixin",
-            "name": "list",
-            "args": "",
-            "block": null,
-            "call": true,
-            "attrs": [],
-            "attributeBlocks": [],
             "line": 25,
             "filename": "mixins.tokens.json"
           },
@@ -379,13 +372,24 @@
             "attributeBlocks": [],
             "line": 26,
             "filename": "mixins.tokens.json"
+          },
+          {
+            "type": "Mixin",
+            "name": "list",
+            "args": "",
+            "block": null,
+            "call": true,
+            "attrs": [],
+            "attributeBlocks": [],
+            "line": 27,
+            "filename": "mixins.tokens.json"
           }
         ]
       },
       "attrs": [],
       "attributeBlocks": [],
       "isInline": false,
-      "line": 23,
+      "line": 24,
       "filename": "mixins.tokens.json"
     },
     {
@@ -401,7 +405,17 @@
             "selfClosing": false,
             "block": {
               "type": "Block",
-              "nodes": []
+              "nodes": [
+                {
+                  "type": "Code",
+                  "val": "str + 'interpolated'",
+                  "buffer": true,
+                  "escape": true,
+                  "isInline": false,
+                  "line": 30,
+                  "filename": "mixins.tokens.json"
+                }
+              ]
             },
             "attrs": [
               {
@@ -412,24 +426,15 @@
             ],
             "attributeBlocks": [],
             "isInline": false,
-            "line": 29,
-            "filename": "mixins.tokens.json",
-            "code": {
-              "type": "Code",
-              "val": "str + 'interpolated'",
-              "buffer": true,
-              "escape": true,
-              "isInline": false,
-              "line": 29,
-              "filename": "mixins.tokens.json"
-            }
+            "line": 30,
+            "filename": "mixins.tokens.json"
           }
         ],
-        "line": 29,
+        "line": 30,
         "filename": "mixins.tokens.json"
       },
       "call": false,
-      "line": 28,
+      "line": 29,
       "filename": "mixins.tokens.json"
     },
     {
@@ -438,7 +443,7 @@
       "buffer": false,
       "escape": false,
       "isInline": false,
-      "line": 31,
+      "line": 32,
       "filename": "mixins.tokens.json"
     },
     {
@@ -449,7 +454,7 @@
       "call": true,
       "attrs": [],
       "attributeBlocks": [],
-      "line": 32,
+      "line": 33,
       "filename": "mixins.tokens.json"
     }
   ],

@@ -34,22 +34,23 @@
                   "selfClosing": false,
                   "block": {
                     "type": "Block",
-                    "nodes": []
+                    "nodes": [
+                      {
+                        "type": "Code",
+                        "val": "item",
+                        "buffer": true,
+                        "escape": true,
+                        "isInline": false,
+                        "line": 6,
+                        "filename": "code.iteration.tokens.json"
+                      }
+                    ]
                   },
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
                   "line": 6,
-                  "filename": "code.iteration.tokens.json",
-                  "code": {
-                    "type": "Code",
-                    "val": "item",
-                    "buffer": true,
-                    "escape": true,
-                    "isInline": false,
-                    "line": 6,
-                    "filename": "code.iteration.tokens.json"
-                  }
+                  "filename": "code.iteration.tokens.json"
                 }
               ],
               "line": 6,
@@ -103,7 +104,17 @@
                   "selfClosing": false,
                   "block": {
                     "type": "Block",
-                    "nodes": []
+                    "nodes": [
+                      {
+                        "type": "Code",
+                        "val": "item",
+                        "buffer": true,
+                        "escape": true,
+                        "isInline": false,
+                        "line": 13,
+                        "filename": "code.iteration.tokens.json"
+                      }
+                    ]
                   },
                   "attrs": [
                     {
@@ -115,16 +126,7 @@
                   "attributeBlocks": [],
                   "isInline": false,
                   "line": 13,
-                  "filename": "code.iteration.tokens.json",
-                  "code": {
-                    "type": "Code",
-                    "val": "item",
-                    "buffer": true,
-                    "escape": true,
-                    "isInline": false,
-                    "line": 13,
-                    "filename": "code.iteration.tokens.json"
-                  }
+                  "filename": "code.iteration.tokens.json"
                 }
               ],
               "line": 13,
@@ -162,22 +164,23 @@
                   "selfClosing": false,
                   "block": {
                     "type": "Block",
-                    "nodes": []
+                    "nodes": [
+                      {
+                        "type": "Code",
+                        "val": "item",
+                        "buffer": true,
+                        "escape": true,
+                        "isInline": false,
+                        "line": 17,
+                        "filename": "code.iteration.tokens.json"
+                      }
+                    ]
                   },
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
                   "line": 17,
-                  "filename": "code.iteration.tokens.json",
-                  "code": {
-                    "type": "Code",
-                    "val": "item",
-                    "buffer": true,
-                    "escape": true,
-                    "isInline": false,
-                    "line": 17,
-                    "filename": "code.iteration.tokens.json"
-                  }
+                  "filename": "code.iteration.tokens.json"
                 }
               ],
               "line": 17,
@@ -214,22 +217,23 @@
                   "selfClosing": false,
                   "block": {
                     "type": "Block",
-                    "nodes": []
+                    "nodes": [
+                      {
+                        "type": "Code",
+                        "val": "$item",
+                        "buffer": true,
+                        "escape": true,
+                        "isInline": false,
+                        "line": 21,
+                        "filename": "code.iteration.tokens.json"
+                      }
+                    ]
                   },
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
                   "line": 21,
-                  "filename": "code.iteration.tokens.json",
-                  "code": {
-                    "type": "Code",
-                    "val": "$item",
-                    "buffer": true,
-                    "escape": true,
-                    "isInline": false,
-                    "line": 21,
-                    "filename": "code.iteration.tokens.json"
-                  }
+                  "filename": "code.iteration.tokens.json"
                 }
               ],
               "line": 21,

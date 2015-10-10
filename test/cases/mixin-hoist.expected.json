@@ -14,22 +14,23 @@
             "selfClosing": false,
             "block": {
               "type": "Block",
-              "nodes": []
+              "nodes": [
+                {
+                  "type": "Code",
+                  "val": "title",
+                  "buffer": true,
+                  "escape": true,
+                  "isInline": false,
+                  "line": 3,
+                  "filename": "mixin-hoist.tokens.json"
+                }
+              ]
             },
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
             "line": 3,
-            "filename": "mixin-hoist.tokens.json",
-            "code": {
-              "type": "Code",
-              "val": "title",
-              "buffer": true,
-              "escape": true,
-              "isInline": false,
-              "line": 3,
-              "filename": "mixin-hoist.tokens.json"
-            }
+            "filename": "mixin-hoist.tokens.json"
           }
         ],
         "line": 3,
