@@ -419,7 +419,7 @@ Parser.prototype = {
    * code
    */
 
-  parseCode: function(){
+  parseCode: function(noBlock){
     var tok = this.expect('code');
     var node = {
       type: 'Code',
@@ -432,6 +432,8 @@ Parser.prototype = {
     };
     // todo: why is this here?  It seems like a hacky workaround
     if (node.val.match(/^ *else/)) node.debug = false;
+
+    if (noBlock) return node;
 
     var block;
 
@@ -990,7 +992,7 @@ Parser.prototype = {
         }
         break;
       case 'code':
-        tag.code = this.parseCode();
+        tag.block.nodes.push(this.parseCode(true));
         break;
       case ':':
         this.advance();
