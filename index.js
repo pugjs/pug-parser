@@ -653,7 +653,7 @@ Parser.prototype = {
     };
     if (this.peek().type == 'else') {
       this.advance();
-      node.alternative = this.block();
+      node.alternate = this.block();
     }
     return node;
   },

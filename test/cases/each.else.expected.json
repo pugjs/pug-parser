@@ -56,7 +56,7 @@
             },
             "line": 5,
             "filename": "each.else.tokens.json",
-            "alternative": {
+            "alternate": {
               "type": "Block",
               "nodes": [
                 {
@@ -158,7 +158,7 @@
                   },
                   "line": 15,
                   "filename": "each.else.tokens.json",
-                  "alternative": {
+                  "alternate": {
                     "type": "Block",
                     "nodes": [
                       {
@@ -278,7 +278,7 @@
             },
             "line": 23,
             "filename": "each.else.tokens.json",
-            "alternative": {
+            "alternate": {
               "type": "Block",
               "nodes": [
                 {
@@ -390,7 +390,7 @@
             },
             "line": 31,
             "filename": "each.else.tokens.json",
-            "alternative": {
+            "alternate": {
               "type": "Block",
               "nodes": [
                 {
@@ -511,7 +511,7 @@
             },
             "line": 40,
             "filename": "each.else.tokens.json",
-            "alternative": {
+            "alternate": {
               "type": "Block",
               "nodes": [
                 {
