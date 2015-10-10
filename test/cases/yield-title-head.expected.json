@@ -16,11 +16,9 @@
               "type": "Block",
               "nodes": [
                 {
-                  "type": "Block",
-                  "nodes": [],
+                  "type": "YieldBlock",
                   "line": 3,
-                  "filename": "yield-title-head.tokens.json",
-                  "yield": true
+                  "filename": "yield-title-head.tokens.json"
                 }
               ],
               "line": 2,

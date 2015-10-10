@@ -217,14 +217,7 @@ Parser.prototype = {
       case 'interpolation':
         return this.parseInterpolation();
       case 'yield':
-        var block = {
-          type: 'Block',
-          nodes: [],
-          line: this.expect('yield').line,
-          filename: this.filename
-        };
-        block.yield = true;
-        return block;
+        return this.parseYield();
       case 'id':
       case 'class':
         this.tokens.defer({
@@ -706,6 +699,11 @@ Parser.prototype = {
       this.error('Anonymous blocks are not allowed unless they are part of a mixin.', 'BLOCK_OUTISDE_MIXIN', tok);
     }
     return {type: 'MixinBlock', line: tok.line, filename: this.filename};
+  },
+
+  parseYield: function() {
+    var tok = this.expect('yield');
+    return {type: 'YieldBlock', line: tok.line, filename: this.filename};
   },
 
   /**

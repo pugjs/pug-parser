@@ -31,11 +31,9 @@
             "filename": "yield-head.tokens.json"
           },
           {
-            "type": "Block",
-            "nodes": [],
+            "type": "YieldBlock",
             "line": 3,
-            "filename": "yield-head.tokens.json",
-            "yield": true
+            "filename": "yield-head.tokens.json"
           },
           {
             "type": "Tag",
