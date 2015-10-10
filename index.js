@@ -867,13 +867,12 @@ Parser.prototype = {
   parseInterpolation: function(){
     var tok = this.advance();
     var tag = {
-      type: 'Tag',
-      name: tok.val,
+      type: 'InterpolatedTag',
+      expr: tok.val,
       selfClosing: tok.selfClosing,
       block: this.emptyBlock(tok.line),
       attrs: [],
       attributeBlocks: [],
-      buffer: true, // indicates that this is an "interpolated" tag i.e. #{'tag-name'}
       isInline: false,
       line: tok.line,
       filename: this.filename

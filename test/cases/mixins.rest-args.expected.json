@@ -9,8 +9,8 @@
         "type": "Block",
         "nodes": [
           {
-            "type": "Tag",
-            "name": "tag",
+            "type": "InterpolatedTag",
+            "expr": "tag",
             "block": {
               "type": "Block",
               "nodes": [
@@ -60,7 +60,6 @@
             },
             "attrs": [],
             "attributeBlocks": [],
-            "buffer": true,
             "isInline": false,
             "line": 2,
             "filename": "mixins.rest-args.tokens.json"

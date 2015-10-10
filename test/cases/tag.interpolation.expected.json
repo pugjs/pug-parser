@@ -20,8 +20,8 @@
       "filename": "tag.interpolation.tokens.json"
     },
     {
-      "type": "Tag",
-      "name": "tag",
+      "type": "InterpolatedTag",
+      "expr": "tag",
       "block": {
         "type": "Block",
         "nodes": [
@@ -37,14 +37,13 @@
       },
       "attrs": [],
       "attributeBlocks": [],
-      "buffer": true,
       "isInline": false,
       "line": 5,
       "filename": "tag.interpolation.tokens.json"
     },
     {
-      "type": "Tag",
-      "name": "tag",
+      "type": "InterpolatedTag",
+      "expr": "tag",
       "block": {
         "type": "Block",
         "nodes": [
@@ -66,14 +65,13 @@
         }
       ],
       "attributeBlocks": [],
-      "buffer": true,
       "isInline": false,
       "line": 6,
       "filename": "tag.interpolation.tokens.json"
     },
     {
-      "type": "Tag",
-      "name": "foo ? 'a' : 'li'",
+      "type": "InterpolatedTag",
+      "expr": "foo ? 'a' : 'li'",
       "block": {
         "type": "Block",
         "nodes": [
@@ -95,7 +93,6 @@
         }
       ],
       "attributeBlocks": [],
-      "buffer": true,
       "isInline": false,
       "line": 7,
       "filename": "tag.interpolation.tokens.json"
