@@ -42,7 +42,7 @@ Parser.prototype = {
   constructor: Parser,
 
   error: function (message, code, token) {
-    var err = new Error(message + ' on line ' + token.line + ' of ' + token.filename);
+    var err = new Error(message + ' on line ' + token.line + ' of ' + this.filename);
     err.code = 'JADE:' + code;
     err.msg = message;
     err.line = token.line;
