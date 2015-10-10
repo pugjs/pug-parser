@@ -440,6 +440,9 @@ Parser.prototype = {
     // handle block
     block = 'indent' == this.peek().type;
     if (block) {
+      if (tok.buffer) {
+        this.error('Buffered code cannot have a block attached to it', 'BLOCK_IN_BUFFERED_CODE', this.peek());
+      }
       node.block = this.block();
     }
 
