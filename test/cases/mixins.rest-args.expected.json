@@ -32,7 +32,7 @@
                               "type": "Code",
                               "val": "item",
                               "buffer": true,
-                              "escape": true,
+                              "mustEscape": true,
                               "isInline": true,
                               "line": 4,
                               "filename": "mixins.rest-args.tokens.json"

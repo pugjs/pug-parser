@@ -22,7 +22,7 @@
               {
                 "name": "src",
                 "val": "'/jquery.js'",
-                "escaped": true
+                "mustEscape": true
               }
             ],
             "attributeBlocks": [],
@@ -49,7 +49,7 @@
               {
                 "name": "src",
                 "val": "'/jquery.ui.js'",
-                "escaped": true
+                "mustEscape": true
               }
             ],
             "attributeBlocks": [],

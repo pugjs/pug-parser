@@ -15,7 +15,7 @@
         {
           "name": "class",
           "val": "['foo', 'bar', 'baz']",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],
@@ -37,17 +37,17 @@
         {
           "name": "class",
           "val": "'foo'",
-          "escaped": false
+          "mustEscape": false
         },
         {
           "name": "class",
           "val": "'bar'",
-          "escaped": true
+          "mustEscape": true
         },
         {
           "name": "class",
           "val": "'baz'",
-          "escaped": false
+          "mustEscape": false
         }
       ],
       "attributeBlocks": [],
@@ -69,7 +69,7 @@
         {
           "name": "class",
           "val": "'foo-bar_baz'",
-          "escaped": false
+          "mustEscape": false
         }
       ],
       "attributeBlocks": [],
@@ -91,7 +91,7 @@
         {
           "name": "class",
           "val": "{foo: true, bar: false, baz: true}",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],

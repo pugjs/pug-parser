@@ -5,7 +5,7 @@
       "type": "Code",
       "val": "var items = [1,2,3]",
       "buffer": false,
-      "escape": false,
+      "mustEscape": false,
       "isInline": false,
       "line": 2,
       "filename": "code.iteration.tokens.json"
@@ -21,7 +21,7 @@
             "type": "Code",
             "val": "items.forEach(function(item){",
             "buffer": false,
-            "escape": false,
+            "mustEscape": false,
             "isInline": false,
             "line": 5,
             "filename": "code.iteration.tokens.json",
@@ -39,7 +39,7 @@
                         "type": "Code",
                         "val": "item",
                         "buffer": true,
-                        "escape": true,
+                        "mustEscape": true,
                         "isInline": true,
                         "line": 6,
                         "filename": "code.iteration.tokens.json"
@@ -63,7 +63,7 @@
             "type": "Code",
             "val": "})",
             "buffer": false,
-            "escape": false,
+            "mustEscape": false,
             "isInline": false,
             "line": 7,
             "filename": "code.iteration.tokens.json"
@@ -82,7 +82,7 @@
       "type": "Code",
       "val": "var items = [1,2,3]",
       "buffer": false,
-      "escape": false,
+      "mustEscape": false,
       "isInline": false,
       "line": 9,
       "filename": "code.iteration.tokens.json"
@@ -113,7 +113,7 @@
                         "type": "Code",
                         "val": "item",
                         "buffer": true,
-                        "escape": true,
+                        "mustEscape": true,
                         "isInline": true,
                         "line": 13,
                         "filename": "code.iteration.tokens.json"
@@ -126,7 +126,7 @@
                     {
                       "name": "class",
                       "val": "'item-' + i",
-                      "escaped": true
+                      "mustEscape": true
                     }
                   ],
                   "attributeBlocks": [],
@@ -177,7 +177,7 @@
                         "type": "Code",
                         "val": "item",
                         "buffer": true,
-                        "escape": true,
+                        "mustEscape": true,
                         "isInline": true,
                         "line": 17,
                         "filename": "code.iteration.tokens.json"
@@ -234,7 +234,7 @@
                         "type": "Code",
                         "val": "$item",
                         "buffer": true,
-                        "escape": true,
+                        "mustEscape": true,
                         "isInline": true,
                         "line": 21,
                         "filename": "code.iteration.tokens.json"
@@ -270,7 +270,7 @@
       "type": "Code",
       "val": "var nums = [1, 2, 3]",
       "buffer": false,
-      "escape": false,
+      "mustEscape": false,
       "isInline": false,
       "line": 23,
       "filename": "code.iteration.tokens.json"
@@ -279,7 +279,7 @@
       "type": "Code",
       "val": "var letters = ['a', 'b', 'c']",
       "buffer": false,
-      "escape": false,
+      "mustEscape": false,
       "isInline": false,
       "line": 24,
       "filename": "code.iteration.tokens.json"
@@ -316,7 +316,7 @@
                               "type": "Code",
                               "val": "n",
                               "buffer": true,
-                              "escape": true,
+                              "mustEscape": true,
                               "isInline": true,
                               "line": 29,
                               "filename": "code.iteration.tokens.json"
@@ -331,7 +331,7 @@
                               "type": "Code",
                               "val": "l",
                               "buffer": true,
-                              "escape": true,
+                              "mustEscape": true,
                               "isInline": true,
                               "line": 29,
                               "filename": "code.iteration.tokens.json"
@@ -374,7 +374,7 @@
       "type": "Code",
       "val": "var count = 1",
       "buffer": false,
-      "escape": false,
+      "mustEscape": false,
       "isInline": false,
       "line": 31,
       "filename": "code.iteration.tokens.json"
@@ -383,7 +383,7 @@
       "type": "Code",
       "val": "var counter = function() { return [count++, count++, count++] }",
       "buffer": false,
-      "escape": false,
+      "mustEscape": false,
       "isInline": false,
       "line": 32,
       "filename": "code.iteration.tokens.json"
@@ -413,7 +413,7 @@
                         "type": "Code",
                         "val": "n",
                         "buffer": true,
-                        "escape": true,
+                        "mustEscape": true,
                         "isInline": true,
                         "line": 35,
                         "filename": "code.iteration.tokens.json"

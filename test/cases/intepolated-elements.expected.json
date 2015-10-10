@@ -35,17 +35,17 @@
               {
                 "name": "class",
                 "val": "'rho'",
-                "escaped": false
+                "mustEscape": false
               },
               {
                 "name": "href",
                 "val": "'#'",
-                "escaped": true
+                "mustEscape": true
               },
               {
                 "name": "class",
                 "val": "'rho--modifier'",
-                "escaped": true
+                "mustEscape": true
               }
             ],
             "attributeBlocks": [],
@@ -96,17 +96,17 @@
               {
                 "name": "class",
                 "val": "'rho'",
-                "escaped": false
+                "mustEscape": false
               },
               {
                 "name": "href",
                 "val": "'#'",
-                "escaped": true
+                "mustEscape": true
               },
               {
                 "name": "class",
                 "val": "'rho--modifier'",
-                "escaped": true
+                "mustEscape": true
               }
             ],
             "attributeBlocks": [],
@@ -164,17 +164,17 @@
               {
                 "name": "class",
                 "val": "'rho'",
-                "escaped": false
+                "mustEscape": false
               },
               {
                 "name": "href",
                 "val": "'#'",
-                "escaped": true
+                "mustEscape": true
               },
               {
                 "name": "class",
                 "val": "'rho--modifier'",
-                "escaped": true
+                "mustEscape": true
               }
             ],
             "attributeBlocks": [],

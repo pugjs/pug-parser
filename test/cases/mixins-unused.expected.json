@@ -28,7 +28,7 @@
               {
                 "name": "class",
                 "val": "'wtf'",
-                "escaped": false
+                "mustEscape": false
               }
             ],
             "attributeBlocks": [],

@@ -22,7 +22,7 @@
         {
           "name": "value",
           "val": "''",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],

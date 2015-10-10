@@ -19,7 +19,7 @@
                   "type": "Code",
                   "val": "var csrf_token_from_somewhere = 'hey'",
                   "buffer": false,
-                  "escape": false,
+                  "mustEscape": false,
                   "isInline": false,
                   "line": 5,
                   "filename": "mixin.blocks.tokens.json"
@@ -38,17 +38,17 @@
                     {
                       "name": "type",
                       "val": "'hidden'",
-                      "escaped": true
+                      "mustEscape": true
                     },
                     {
                       "name": "name",
                       "val": "'_csrf'",
-                      "escaped": true
+                      "mustEscape": true
                     },
                     {
                       "name": "value",
                       "val": "csrf_token_from_somewhere",
-                      "escaped": true
+                      "mustEscape": true
                     }
                   ],
                   "attributeBlocks": [],
@@ -69,12 +69,12 @@
               {
                 "name": "method",
                 "val": "method",
-                "escaped": true
+                "mustEscape": true
               },
               {
                 "name": "action",
                 "val": "action",
-                "escaped": true
+                "mustEscape": true
               }
             ],
             "attributeBlocks": [],
@@ -125,17 +125,17 @@
                           {
                             "name": "type",
                             "val": "'text'",
-                            "escaped": true
+                            "mustEscape": true
                           },
                           {
                             "name": "name",
                             "val": "'query'",
-                            "escaped": true
+                            "mustEscape": true
                           },
                           {
                             "name": "placeholder",
                             "val": "'Search'",
-                            "escaped": true
+                            "mustEscape": true
                           }
                         ],
                         "attributeBlocks": [],
@@ -157,12 +157,12 @@
                           {
                             "name": "type",
                             "val": "'submit'",
-                            "escaped": true
+                            "mustEscape": true
                           },
                           {
                             "name": "value",
                             "val": "'Search'",
-                            "escaped": true
+                            "mustEscape": true
                           }
                         ],
                         "attributeBlocks": [],
@@ -235,17 +235,17 @@
                           {
                             "name": "type",
                             "val": "'text'",
-                            "escaped": true
+                            "mustEscape": true
                           },
                           {
                             "name": "name",
                             "val": "'query'",
-                            "escaped": true
+                            "mustEscape": true
                           },
                           {
                             "name": "placeholder",
                             "val": "'Search'",
-                            "escaped": true
+                            "mustEscape": true
                           }
                         ],
                         "attributeBlocks": [],
@@ -267,12 +267,12 @@
                           {
                             "name": "type",
                             "val": "'submit'",
-                            "escaped": true
+                            "mustEscape": true
                           },
                           {
                             "name": "value",
                             "val": "'Search'",
-                            "escaped": true
+                            "mustEscape": true
                           }
                         ],
                         "attributeBlocks": [],
@@ -381,7 +381,7 @@
               {
                 "name": "id",
                 "val": "'bar'",
-                "escaped": false
+                "mustEscape": false
               }
             ],
             "attributeBlocks": [],
@@ -439,7 +439,7 @@
               {
                 "name": "id",
                 "val": "'foo'",
-                "escaped": false
+                "mustEscape": false
               }
             ],
             "attributeBlocks": [],
@@ -566,7 +566,7 @@
               {
                 "name": "id",
                 "val": "'baz'",
-                "escaped": false
+                "mustEscape": false
               }
             ],
             "attributeBlocks": [],
@@ -593,7 +593,7 @@
             "type": "Code",
             "val": "'123'",
             "buffer": true,
-            "escape": true,
+            "mustEscape": true,
             "isInline": true,
             "line": 44,
             "filename": "mixin.blocks.tokens.json"

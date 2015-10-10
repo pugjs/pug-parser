@@ -19,7 +19,7 @@
                   "type": "Code",
                   "val": "title",
                   "buffer": true,
-                  "escape": true,
+                  "mustEscape": true,
                   "isInline": true,
                   "line": 3,
                   "filename": "mixin-hoist.tokens.json"

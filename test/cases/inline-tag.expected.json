@@ -124,7 +124,7 @@
                   "type": "Code",
                   "val": "'[foo]'",
                   "buffer": true,
-                  "escape": true,
+                  "mustEscape": true,
                   "isInline": true,
                   "line": 6,
                   "filename": "inline-tag.tokens.json"
@@ -158,7 +158,7 @@
             "type": "Code",
             "val": "var foo = 'foo]'",
             "buffer": false,
-            "escape": false,
+            "mustEscape": false,
             "isInline": false,
             "line": 7,
             "filename": "inline-tag.tokens.json"
@@ -279,7 +279,7 @@
                       "type": "Code",
                       "val": "'[foo]'",
                       "buffer": true,
-                      "escape": true,
+                      "mustEscape": true,
                       "isInline": true,
                       "line": 13,
                       "filename": "inline-tag.tokens.json"
@@ -316,7 +316,7 @@
                 "type": "Code",
                 "val": "var foo = 'foo]'",
                 "buffer": false,
-                "escape": false,
+                "mustEscape": false,
                 "isInline": false,
                 "line": 14,
                 "filename": "inline-tag.tokens.json"

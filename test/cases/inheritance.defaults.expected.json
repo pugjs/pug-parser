@@ -32,7 +32,7 @@
                         {
                           "name": "src",
                           "val": "'jquery.js'",
-                          "escaped": true
+                          "mustEscape": true
                         }
                       ],
                       "attributeBlocks": [],
@@ -54,7 +54,7 @@
                         {
                           "name": "src",
                           "val": "'keymaster.js'",
-                          "escaped": true
+                          "mustEscape": true
                         }
                       ],
                       "attributeBlocks": [],
@@ -76,7 +76,7 @@
                         {
                           "name": "src",
                           "val": "'caustic.js'",
-                          "escaped": true
+                          "mustEscape": true
                         }
                       ],
                       "attributeBlocks": [],

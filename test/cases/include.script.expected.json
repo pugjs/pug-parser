@@ -34,12 +34,12 @@
         {
           "name": "id",
           "val": "'pet-template'",
-          "escaped": false
+          "mustEscape": false
         },
         {
           "name": "type",
           "val": "'text/x-template'",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],

@@ -29,7 +29,7 @@
               {
                 "name": "class",
                 "val": "'bar'",
-                "escaped": false
+                "mustEscape": false
               }
             ],
             "attributeBlocks": [
@@ -60,12 +60,12 @@
               {
                 "name": "class",
                 "val": "'baz'",
-                "escaped": false
+                "mustEscape": false
               },
               {
                 "name": "class",
                 "val": "'quux'",
-                "escaped": false
+                "mustEscape": false
               }
             ],
             "attributeBlocks": [
@@ -121,12 +121,12 @@
               {
                 "name": "class",
                 "val": "'bar'",
-                "escaped": false
+                "mustEscape": false
               },
               {
                 "name": "class",
                 "val": "\"baz\"",
-                "escaped": true
+                "mustEscape": true
               }
             ],
             "attributeBlocks": [
@@ -160,7 +160,7 @@
               {
                 "name": "class",
                 "val": "'hello'",
-                "escaped": false
+                "mustEscape": false
               }
             ],
             "attributeBlocks": [],
@@ -176,7 +176,7 @@
               {
                 "name": "id",
                 "val": "'world'",
-                "escaped": false
+                "mustEscape": false
               }
             ],
             "attributeBlocks": [],
@@ -192,12 +192,12 @@
               {
                 "name": "class",
                 "val": "'hello'",
-                "escaped": false
+                "mustEscape": false
               },
               {
                 "name": "id",
                 "val": "'world'",
-                "escaped": false
+                "mustEscape": false
               }
             ],
             "attributeBlocks": [],
@@ -213,12 +213,12 @@
               {
                 "name": "class",
                 "val": "'hello'",
-                "escaped": false
+                "mustEscape": false
               },
               {
                 "name": "class",
                 "val": "'world'",
-                "escaped": false
+                "mustEscape": false
               }
             ],
             "attributeBlocks": [],
@@ -234,7 +234,7 @@
               {
                 "name": "class",
                 "val": "\"hello\"",
-                "escaped": true
+                "mustEscape": true
               }
             ],
             "attributeBlocks": [],
@@ -250,12 +250,12 @@
               {
                 "name": "class",
                 "val": "'hello'",
-                "escaped": false
+                "mustEscape": false
               },
               {
                 "name": "class",
                 "val": "\"world\"",
-                "escaped": true
+                "mustEscape": true
               }
             ],
             "attributeBlocks": [],

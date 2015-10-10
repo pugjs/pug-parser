@@ -41,7 +41,7 @@
                           {
                             "name": "src",
                             "val": "'/caustic.js'",
-                            "escaped": true
+                            "mustEscape": true
                           }
                         ],
                         "attributeBlocks": [],
@@ -63,7 +63,7 @@
                           {
                             "name": "src",
                             "val": "'/app.js'",
-                            "escaped": true
+                            "mustEscape": true
                           }
                         ],
                         "attributeBlocks": [],

@@ -19,7 +19,7 @@
                   "type": "Code",
                   "val": "var friends = 1",
                   "buffer": false,
-                  "escape": false,
+                  "mustEscape": false,
                   "isInline": false,
                   "line": 3,
                   "filename": "case.tokens.json"
@@ -129,7 +129,7 @@
                                     "type": "Code",
                                     "val": "friends",
                                     "buffer": true,
-                                    "escape": true,
+                                    "mustEscape": true,
                                     "isInline": true,
                                     "line": 7,
                                     "filename": "case.tokens.json"
@@ -167,7 +167,7 @@
                   "type": "Code",
                   "val": "var friends = 0",
                   "buffer": false,
-                  "escape": false,
+                  "mustEscape": false,
                   "isInline": false,
                   "line": 8,
                   "filename": "case.tokens.json"
@@ -247,7 +247,7 @@
                                     "type": "Code",
                                     "val": "friends",
                                     "buffer": true,
-                                    "escape": true,
+                                    "mustEscape": true,
                                     "isInline": true,
                                     "line": 14,
                                     "filename": "case.tokens.json"

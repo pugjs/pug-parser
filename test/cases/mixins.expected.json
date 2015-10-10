@@ -25,7 +25,7 @@
                         "type": "Code",
                         "val": "title",
                         "buffer": true,
-                        "escape": true,
+                        "mustEscape": true,
                         "isInline": true,
                         "line": 3,
                         "filename": "mixins.tokens.json"
@@ -51,7 +51,7 @@
                         "type": "Code",
                         "val": "str",
                         "buffer": true,
-                        "escape": true,
+                        "mustEscape": true,
                         "isInline": true,
                         "line": 4,
                         "filename": "mixins.tokens.json"
@@ -64,7 +64,7 @@
                     {
                       "name": "class",
                       "val": "'body'",
-                      "escaped": false
+                      "mustEscape": false
                     }
                   ],
                   "attributeBlocks": [],
@@ -80,7 +80,7 @@
               {
                 "name": "class",
                 "val": "'comment'",
-                "escaped": false
+                "mustEscape": false
               }
             ],
             "attributeBlocks": [],
@@ -120,7 +120,7 @@
                         "type": "Code",
                         "val": "title",
                         "buffer": true,
-                        "escape": true,
+                        "mustEscape": true,
                         "isInline": true,
                         "line": 9,
                         "filename": "mixins.tokens.json"
@@ -146,7 +146,7 @@
                         "type": "Code",
                         "val": "str",
                         "buffer": true,
-                        "escape": true,
+                        "mustEscape": true,
                         "isInline": true,
                         "line": 10,
                         "filename": "mixins.tokens.json"
@@ -159,7 +159,7 @@
                     {
                       "name": "class",
                       "val": "'body'",
-                      "escaped": false
+                      "mustEscape": false
                     }
                   ],
                   "attributeBlocks": [],
@@ -175,7 +175,7 @@
               {
                 "name": "class",
                 "val": "'comment'",
-                "escaped": false
+                "mustEscape": false
               }
             ],
             "attributeBlocks": [],
@@ -245,7 +245,7 @@
               {
                 "name": "class",
                 "val": "'comments'",
-                "escaped": false
+                "mustEscape": false
               }
             ],
             "attributeBlocks": [],
@@ -261,7 +261,7 @@
         {
           "name": "id",
           "val": "'user'",
-          "escaped": false
+          "mustEscape": false
         }
       ],
       "attributeBlocks": [],
@@ -443,7 +443,7 @@
                   "type": "Code",
                   "val": "str + 'interpolated'",
                   "buffer": true,
-                  "escape": true,
+                  "mustEscape": true,
                   "isInline": true,
                   "line": 30,
                   "filename": "mixins.tokens.json"
@@ -456,7 +456,7 @@
               {
                 "name": "id",
                 "val": "'interpolation'",
-                "escaped": false
+                "mustEscape": false
               }
             ],
             "attributeBlocks": [],
@@ -476,7 +476,7 @@
       "type": "Code",
       "val": "var suffix = \"bar\"",
       "buffer": false,
-      "escape": false,
+      "mustEscape": false,
       "isInline": false,
       "line": 32,
       "filename": "mixins.tokens.json"

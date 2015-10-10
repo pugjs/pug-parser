@@ -68,7 +68,7 @@
               {
                 "name": "id",
                 "val": "'user'",
-                "escaped": false
+                "mustEscape": false
               }
             ],
             "attributeBlocks": [],
@@ -84,12 +84,12 @@
         {
           "name": "id",
           "val": "'user-template'",
-          "escaped": false
+          "mustEscape": false
         },
         {
           "name": "type",
           "val": "'text/template'",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],
@@ -137,12 +137,12 @@
         {
           "name": "id",
           "val": "'user-template'",
-          "escaped": false
+          "mustEscape": false
         },
         {
           "name": "type",
           "val": "'text/template'",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],

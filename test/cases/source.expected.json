@@ -29,7 +29,7 @@
                     {
                       "name": "src",
                       "val": "'foo'",
-                      "escaped": true
+                      "mustEscape": true
                     }
                   ],
                   "attributeBlocks": [],
@@ -51,7 +51,7 @@
                     {
                       "name": "src",
                       "val": "'bar'",
-                      "escaped": true
+                      "mustEscape": true
                     }
                   ],
                   "attributeBlocks": [],
@@ -67,17 +67,17 @@
               {
                 "name": "preload",
                 "val": "'auto'",
-                "escaped": true
+                "mustEscape": true
               },
               {
                 "name": "autobuffer",
                 "val": true,
-                "escaped": false
+                "mustEscape": false
               },
               {
                 "name": "controls",
                 "val": true,
-                "escaped": false
+                "mustEscape": false
               }
             ],
             "attributeBlocks": [],

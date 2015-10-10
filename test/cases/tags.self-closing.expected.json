@@ -38,7 +38,7 @@
               {
                 "name": "bar",
                 "val": "'baz'",
-                "escaped": true
+                "mustEscape": true
               }
             ],
             "attributeBlocks": [],
@@ -76,7 +76,7 @@
               {
                 "name": "bar",
                 "val": "'baz'",
-                "escaped": true
+                "mustEscape": true
               }
             ],
             "attributeBlocks": [],
@@ -128,7 +128,7 @@
               {
                 "name": "bar",
                 "val": "'baz'",
-                "escaped": true
+                "mustEscape": true
               }
             ],
             "attributeBlocks": [],
@@ -166,7 +166,7 @@
               {
                 "name": "bar",
                 "val": "'baz'",
-                "escaped": true
+                "mustEscape": true
               }
             ],
             "attributeBlocks": [],
@@ -216,7 +216,7 @@
               {
                 "name": "bar",
                 "val": "'baz'",
-                "escaped": true
+                "mustEscape": true
               }
             ],
             "attributeBlocks": [],

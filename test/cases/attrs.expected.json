@@ -22,7 +22,7 @@
         {
           "name": "href",
           "val": "'/contact'",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],
@@ -51,12 +51,12 @@
         {
           "name": "href",
           "val": "'/save'",
-          "escaped": true
+          "mustEscape": true
         },
         {
           "name": "class",
           "val": "'button'",
-          "escaped": false
+          "mustEscape": false
         }
       ],
       "attributeBlocks": [],
@@ -78,17 +78,17 @@
         {
           "name": "foo",
           "val": true,
-          "escaped": true
+          "mustEscape": true
         },
         {
           "name": "bar",
           "val": true,
-          "escaped": false
+          "mustEscape": false
         },
         {
           "name": "baz",
           "val": true,
-          "escaped": false
+          "mustEscape": false
         }
       ],
       "attributeBlocks": [],
@@ -110,12 +110,12 @@
         {
           "name": "foo",
           "val": "'foo, bar, baz'",
-          "escaped": true
+          "mustEscape": true
         },
         {
           "name": "bar",
           "val": "1",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],
@@ -137,12 +137,12 @@
         {
           "name": "foo",
           "val": "'((foo))'",
-          "escaped": true
+          "mustEscape": true
         },
         {
           "name": "bar",
           "val": "(1) ? 1 : 0",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],
@@ -178,12 +178,12 @@
               {
                 "name": "value",
                 "val": "'foo'",
-                "escaped": true
+                "mustEscape": true
               },
               {
                 "name": "selected",
                 "val": true,
-                "escaped": false
+                "mustEscape": false
               }
             ],
             "attributeBlocks": [],
@@ -212,12 +212,12 @@
               {
                 "name": "selected",
                 "val": true,
-                "escaped": true
+                "mustEscape": true
               },
               {
                 "name": "value",
                 "val": "'bar'",
-                "escaped": true
+                "mustEscape": true
               }
             ],
             "attributeBlocks": [],
@@ -249,7 +249,7 @@
         {
           "name": "foo",
           "val": "\"class:\"",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],
@@ -271,7 +271,7 @@
         {
           "name": "pattern",
           "val": "'\\\\S+'",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],
@@ -300,7 +300,7 @@
         {
           "name": "href",
           "val": "'/contact'",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],
@@ -329,12 +329,12 @@
         {
           "name": "href",
           "val": "'/save'",
-          "escaped": true
+          "mustEscape": true
         },
         {
           "name": "class",
           "val": "'button'",
-          "escaped": false
+          "mustEscape": false
         }
       ],
       "attributeBlocks": [],
@@ -356,17 +356,17 @@
         {
           "name": "foo",
           "val": true,
-          "escaped": true
+          "mustEscape": true
         },
         {
           "name": "bar",
           "val": true,
-          "escaped": false
+          "mustEscape": false
         },
         {
           "name": "baz",
           "val": true,
-          "escaped": false
+          "mustEscape": false
         }
       ],
       "attributeBlocks": [],
@@ -388,12 +388,12 @@
         {
           "name": "foo",
           "val": "'foo, bar, baz'",
-          "escaped": true
+          "mustEscape": true
         },
         {
           "name": "bar",
           "val": "1",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],
@@ -415,12 +415,12 @@
         {
           "name": "foo",
           "val": "'((foo))'",
-          "escaped": true
+          "mustEscape": true
         },
         {
           "name": "bar",
           "val": "(1) ? 1 : 0",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],
@@ -456,12 +456,12 @@
               {
                 "name": "value",
                 "val": "'foo'",
-                "escaped": true
+                "mustEscape": true
               },
               {
                 "name": "selected",
                 "val": true,
-                "escaped": false
+                "mustEscape": false
               }
             ],
             "attributeBlocks": [],
@@ -490,12 +490,12 @@
               {
                 "name": "selected",
                 "val": true,
-                "escaped": true
+                "mustEscape": true
               },
               {
                 "name": "value",
                 "val": "'bar'",
-                "escaped": true
+                "mustEscape": true
               }
             ],
             "attributeBlocks": [],
@@ -527,7 +527,7 @@
         {
           "name": "foo",
           "val": "\"class:\"",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],
@@ -549,7 +549,7 @@
         {
           "name": "pattern",
           "val": "'\\\\S+'",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],
@@ -571,7 +571,7 @@
         {
           "name": "terse",
           "val": "\"true\"",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],
@@ -593,7 +593,7 @@
         {
           "name": "date",
           "val": "new Date(0)",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],
@@ -615,12 +615,12 @@
         {
           "name": "abc",
           "val": true,
-          "escaped": true
+          "mustEscape": true
         },
         {
           "name": "def",
           "val": true,
-          "escaped": false
+          "mustEscape": false
         }
       ],
       "attributeBlocks": [],
@@ -642,12 +642,12 @@
         {
           "name": "abc",
           "val": true,
-          "escaped": true
+          "mustEscape": true
         },
         {
           "name": "def",
           "val": true,
-          "escaped": false
+          "mustEscape": false
         }
       ],
       "attributeBlocks": [],
@@ -669,12 +669,12 @@
         {
           "name": "abc",
           "val": true,
-          "escaped": true
+          "mustEscape": true
         },
         {
           "name": "def",
           "val": true,
-          "escaped": false
+          "mustEscape": false
         }
       ],
       "attributeBlocks": [],
@@ -696,12 +696,12 @@
         {
           "name": "abc",
           "val": true,
-          "escaped": true
+          "mustEscape": true
         },
         {
           "name": "def",
           "val": true,
-          "escaped": false
+          "mustEscape": false
         }
       ],
       "attributeBlocks": [],
@@ -723,12 +723,12 @@
         {
           "name": "abc",
           "val": true,
-          "escaped": true
+          "mustEscape": true
         },
         {
           "name": "def",
           "val": true,
-          "escaped": false
+          "mustEscape": false
         }
       ],
       "attributeBlocks": [],
@@ -750,12 +750,12 @@
         {
           "name": "abc",
           "val": true,
-          "escaped": true
+          "mustEscape": true
         },
         {
           "name": "def",
           "val": true,
-          "escaped": false
+          "mustEscape": false
         }
       ],
       "attributeBlocks": [],
@@ -767,7 +767,7 @@
       "type": "Code",
       "val": "var attrs = {foo: 'bar', bar: '<baz>'}",
       "buffer": false,
-      "escape": false,
+      "mustEscape": false,
       "isInline": false,
       "line": 38,
       "filename": "attrs.tokens.json"

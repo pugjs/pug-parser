@@ -15,7 +15,7 @@
         {
           "name": "class",
           "val": "''",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],
@@ -37,7 +37,7 @@
         {
           "name": "class",
           "val": "null",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],
@@ -59,7 +59,7 @@
         {
           "name": "class",
           "val": "undefined",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],

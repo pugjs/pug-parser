@@ -27,7 +27,7 @@
             "type": "Code",
             "val": "'going'",
             "buffer": true,
-            "escape": true,
+            "mustEscape": true,
             "isInline": true,
             "line": 3,
             "filename": "pipeless-tag.tokens.json"
@@ -41,7 +41,7 @@
             "type": "Code",
             "val": "'on'",
             "buffer": true,
-            "escape": true,
+            "mustEscape": true,
             "isInline": true,
             "line": 3,
             "filename": "pipeless-tag.tokens.json"

@@ -5,7 +5,7 @@
       "type": "Code",
       "val": "var x = 1;",
       "buffer": false,
-      "escape": false,
+      "mustEscape": false,
       "isInline": false,
       "line": 1,
       "filename": "while.tokens.json"
@@ -29,7 +29,7 @@
                   "type": "Code",
                   "val": "x++;",
                   "buffer": false,
-                  "escape": false,
+                  "mustEscape": false,
                   "isInline": false,
                   "line": 4,
                   "filename": "while.tokens.json"
@@ -45,7 +45,7 @@
                         "type": "Code",
                         "val": "x",
                         "buffer": true,
-                        "escape": true,
+                        "mustEscape": true,
                         "isInline": true,
                         "line": 5,
                         "filename": "while.tokens.json"

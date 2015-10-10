@@ -15,7 +15,7 @@
         {
           "name": "attr",
           "val": "\"<%= bar %>\"",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],
@@ -37,7 +37,7 @@
         {
           "name": "class",
           "val": "\"<%= bar %>\"",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],
@@ -59,7 +59,7 @@
         {
           "name": "attr",
           "val": "\"<%= bar %>\"",
-          "escaped": false
+          "mustEscape": false
         }
       ],
       "attributeBlocks": [],
@@ -81,7 +81,7 @@
         {
           "name": "class",
           "val": "\"<%= bar %>\"",
-          "escaped": false
+          "mustEscape": false
         }
       ],
       "attributeBlocks": [],
@@ -103,7 +103,7 @@
         {
           "name": "class",
           "val": "\"<%= bar %> lol rofl\"",
-          "escaped": false
+          "mustEscape": false
         }
       ],
       "attributeBlocks": [],
@@ -125,7 +125,7 @@
         {
           "name": "class",
           "val": "\"<%= bar %> lol rofl <%= lmao %>\"",
-          "escaped": false
+          "mustEscape": false
         }
       ],
       "attributeBlocks": [],

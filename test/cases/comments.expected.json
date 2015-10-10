@@ -304,7 +304,7 @@
         {
           "name": "class",
           "val": "'foo'",
-          "escaped": false
+          "mustEscape": false
         }
       ],
       "attributeBlocks": [],

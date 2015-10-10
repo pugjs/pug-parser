@@ -41,7 +41,7 @@
                           {
                             "name": "id",
                             "val": "'bar'",
-                            "escaped": false
+                            "mustEscape": false
                           }
                         ],
                         "attributeBlocks": [],
@@ -57,7 +57,7 @@
                     {
                       "name": "class",
                       "val": "'foo'",
-                      "escaped": false
+                      "mustEscape": false
                     }
                   ],
                   "attributeBlocks": [],
@@ -73,7 +73,7 @@
               {
                 "name": "class",
                 "val": "'list-item'",
-                "escaped": false
+                "mustEscape": false
               }
             ],
             "attributeBlocks": [],

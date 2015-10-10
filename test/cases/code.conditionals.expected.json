@@ -5,7 +5,7 @@
       "type": "Code",
       "val": "if (true)",
       "buffer": false,
-      "escape": false,
+      "mustEscape": false,
       "isInline": false,
       "line": 2,
       "filename": "code.conditionals.tokens.json",
@@ -44,7 +44,7 @@
       "type": "Code",
       "val": "else",
       "buffer": false,
-      "escape": false,
+      "mustEscape": false,
       "isInline": false,
       "line": 4,
       "filename": "code.conditionals.tokens.json",
@@ -84,7 +84,7 @@
       "type": "Code",
       "val": "if (true) {",
       "buffer": false,
-      "escape": false,
+      "mustEscape": false,
       "isInline": false,
       "line": 7,
       "filename": "code.conditionals.tokens.json",
@@ -123,7 +123,7 @@
       "type": "Code",
       "val": "} else {",
       "buffer": false,
-      "escape": false,
+      "mustEscape": false,
       "isInline": false,
       "line": 9,
       "filename": "code.conditionals.tokens.json",
@@ -162,7 +162,7 @@
       "type": "Code",
       "val": "}",
       "buffer": false,
-      "escape": false,
+      "mustEscape": false,
       "isInline": false,
       "line": 11,
       "filename": "code.conditionals.tokens.json"
@@ -428,7 +428,7 @@
               {
                 "name": "class",
                 "val": "'bar'",
-                "escaped": false
+                "mustEscape": false
               }
             ],
             "attributeBlocks": [],
@@ -462,7 +462,7 @@
               {
                 "name": "class",
                 "val": "'bar'",
-                "escaped": false
+                "mustEscape": false
               }
             ],
             "attributeBlocks": [],
@@ -491,7 +491,7 @@
         {
           "name": "class",
           "val": "'bing'",
-          "escaped": false
+          "mustEscape": false
         }
       ],
       "attributeBlocks": [],
@@ -518,7 +518,7 @@
               {
                 "name": "class",
                 "val": "'bing'",
-                "escaped": false
+                "mustEscape": false
               }
             ],
             "attributeBlocks": [],
@@ -549,7 +549,7 @@
                 {
                   "name": "class",
                   "val": "'bar'",
-                  "escaped": false
+                  "mustEscape": false
                 }
               ],
               "attributeBlocks": [],
@@ -577,7 +577,7 @@
                 {
                   "name": "class",
                   "val": "'foo'",
-                  "escaped": false
+                  "mustEscape": false
                 }
               ],
               "attributeBlocks": [],

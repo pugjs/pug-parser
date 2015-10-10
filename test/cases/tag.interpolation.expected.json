@@ -5,7 +5,7 @@
       "type": "Code",
       "val": "var tag = 'p'",
       "buffer": false,
-      "escape": false,
+      "mustEscape": false,
       "isInline": false,
       "line": 2,
       "filename": "tag.interpolation.tokens.json"
@@ -14,7 +14,7 @@
       "type": "Code",
       "val": "var foo = 'bar'",
       "buffer": false,
-      "escape": false,
+      "mustEscape": false,
       "isInline": false,
       "line": 3,
       "filename": "tag.interpolation.tokens.json"
@@ -61,7 +61,7 @@
         {
           "name": "foo",
           "val": "'bar'",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],
@@ -89,7 +89,7 @@
         {
           "name": "something",
           "val": true,
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],
@@ -138,12 +138,12 @@
                                 {
                                   "name": "class",
                                   "val": "'icon'",
-                                  "escaped": false
+                                  "mustEscape": false
                                 },
                                 {
                                   "name": "src",
                                   "val": "icon",
-                                  "escaped": true
+                                  "mustEscape": true
                                 }
                               ],
                               "attributeBlocks": [],
@@ -196,12 +196,12 @@
                                 {
                                   "name": "class",
                                   "val": "'icon'",
-                                  "escaped": false
+                                  "mustEscape": false
                                 },
                                 {
                                   "name": "src",
                                   "val": "icon",
-                                  "escaped": true
+                                  "mustEscape": true
                                 }
                               ],
                               "attributeBlocks": [],
@@ -302,7 +302,7 @@
               {
                 "name": "href",
                 "val": "'/contact'",
-                "escaped": true
+                "mustEscape": true
               }
             ],
             "attributeBlocks": [],

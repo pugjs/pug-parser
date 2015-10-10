@@ -19,7 +19,7 @@
                   "type": "Code",
                   "val": "url",
                   "buffer": true,
-                  "escape": true,
+                  "mustEscape": true,
                   "isInline": true,
                   "line": 2,
                   "filename": "interpolated-mixin.tokens.json"
@@ -32,7 +32,7 @@
               {
                 "name": "href",
                 "val": "url",
-                "escaped": true
+                "mustEscape": true
               }
             ],
             "attributeBlocks": [],
