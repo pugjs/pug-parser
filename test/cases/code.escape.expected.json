@@ -17,7 +17,9 @@
             "line": 1,
             "filename": "code.escape.tokens.json"
           }
-        ]
+        ],
+        "line": 1,
+        "filename": "code.escape.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],
@@ -41,7 +43,9 @@
             "line": 2,
             "filename": "code.escape.tokens.json"
           }
-        ]
+        ],
+        "line": 2,
+        "filename": "code.escape.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],

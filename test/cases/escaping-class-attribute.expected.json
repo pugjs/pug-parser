@@ -7,7 +7,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 1,
+        "filename": "escaping-class-attribute.tokens.json"
       },
       "attrs": [
         {
@@ -27,7 +29,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 2,
+        "filename": "escaping-class-attribute.tokens.json"
       },
       "attrs": [
         {
@@ -47,7 +51,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 3,
+        "filename": "escaping-class-attribute.tokens.json"
       },
       "attrs": [
         {
@@ -67,7 +73,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 4,
+        "filename": "escaping-class-attribute.tokens.json"
       },
       "attrs": [
         {
@@ -87,7 +95,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 5,
+        "filename": "escaping-class-attribute.tokens.json"
       },
       "attrs": [
         {
@@ -107,7 +117,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 6,
+        "filename": "escaping-class-attribute.tokens.json"
       },
       "attrs": [
         {

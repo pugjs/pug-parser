@@ -28,7 +28,9 @@
                         "line": 3,
                         "filename": "attrs.unescaped.tokens.json"
                       }
-                    ]
+                    ],
+                    "line": 3,
+                    "filename": "attrs.unescaped.tokens.json"
                   },
                   "attrs": [],
                   "attributeBlocks": [],
@@ -36,7 +38,9 @@
                   "line": 3,
                   "filename": "attrs.unescaped.tokens.json"
                 }
-              ]
+              ],
+              "line": 2,
+              "filename": "attrs.unescaped.tokens.json"
             },
             "attrs": [
               {
@@ -50,7 +54,9 @@
             "line": 2,
             "filename": "attrs.unescaped.tokens.json"
           }
-        ]
+        ],
+        "line": 1,
+        "filename": "attrs.unescaped.tokens.json"
       },
       "attrs": [
         {

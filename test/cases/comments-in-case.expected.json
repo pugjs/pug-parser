@@ -57,7 +57,9 @@
                                     "line": 8,
                                     "filename": "comments-in-case.tokens.json"
                                   }
-                                ]
+                                ],
+                                "line": 8,
+                                "filename": "comments-in-case.tokens.json"
                               },
                               "attrs": [],
                               "attributeBlocks": [],
@@ -92,7 +94,9 @@
                                     "line": 10,
                                     "filename": "comments-in-case.tokens.json"
                                   }
-                                ]
+                                ],
+                                "line": 10,
+                                "filename": "comments-in-case.tokens.json"
                               },
                               "attrs": [],
                               "attributeBlocks": [],
@@ -113,7 +117,9 @@
                     "filename": "comments-in-case.tokens.json"
                   }
                 }
-              ]
+              ],
+              "line": 3,
+              "filename": "comments-in-case.tokens.json"
             },
             "attrs": [],
             "attributeBlocks": [],
@@ -121,7 +127,9 @@
             "line": 3,
             "filename": "comments-in-case.tokens.json"
           }
-        ]
+        ],
+        "line": 2,
+        "filename": "comments-in-case.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],

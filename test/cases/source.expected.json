@@ -21,7 +21,9 @@
                   "selfClosing": false,
                   "block": {
                     "type": "Block",
-                    "nodes": []
+                    "nodes": [],
+                    "line": 3,
+                    "filename": "source.tokens.json"
                   },
                   "attrs": [
                     {
@@ -41,7 +43,9 @@
                   "selfClosing": false,
                   "block": {
                     "type": "Block",
-                    "nodes": []
+                    "nodes": [],
+                    "line": 4,
+                    "filename": "source.tokens.json"
                   },
                   "attrs": [
                     {
@@ -55,7 +59,9 @@
                   "line": 4,
                   "filename": "source.tokens.json"
                 }
-              ]
+              ],
+              "line": 2,
+              "filename": "source.tokens.json"
             },
             "attrs": [
               {
@@ -79,7 +85,9 @@
             "line": 2,
             "filename": "source.tokens.json"
           }
-        ]
+        ],
+        "line": 1,
+        "filename": "source.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],

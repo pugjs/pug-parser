@@ -33,7 +33,9 @@
                         "selfClosing": false,
                         "block": {
                           "type": "Block",
-                          "nodes": []
+                          "nodes": [],
+                          "line": 4,
+                          "filename": "yield-before-conditional.tokens.json"
                         },
                         "attrs": [
                           {
@@ -53,7 +55,9 @@
                         "selfClosing": false,
                         "block": {
                           "type": "Block",
-                          "nodes": []
+                          "nodes": [],
+                          "line": 5,
+                          "filename": "yield-before-conditional.tokens.json"
                         },
                         "attrs": [
                           {
@@ -74,7 +78,9 @@
                   "line": 3,
                   "filename": "yield-before-conditional.tokens.json"
                 }
-              ]
+              ],
+              "line": 2,
+              "filename": "yield-before-conditional.tokens.json"
             },
             "attrs": [],
             "attributeBlocks": [],
@@ -82,7 +88,9 @@
             "line": 2,
             "filename": "yield-before-conditional.tokens.json"
           }
-        ]
+        ],
+        "line": 1,
+        "filename": "yield-before-conditional.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],

@@ -27,7 +27,9 @@
                   "line": 1,
                   "filename": "inline-tag.tokens.json"
                 }
-              ]
+              ],
+              "line": 1,
+              "filename": "inline-tag.tokens.json"
             },
             "attrs": [],
             "attributeBlocks": [],
@@ -41,7 +43,9 @@
             "line": 1,
             "filename": "inline-tag.tokens.json"
           }
-        ]
+        ],
+        "line": 1,
+        "filename": "inline-tag.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],
@@ -84,7 +88,9 @@
                   "line": 5,
                   "filename": "inline-tag.tokens.json"
                 }
-              ]
+              ],
+              "line": 5,
+              "filename": "inline-tag.tokens.json"
             },
             "attrs": [],
             "attributeBlocks": [],
@@ -123,7 +129,9 @@
                   "line": 6,
                   "filename": "inline-tag.tokens.json"
                 }
-              ]
+              ],
+              "line": 6,
+              "filename": "inline-tag.tokens.json"
             },
             "attrs": [],
             "attributeBlocks": [],
@@ -180,7 +188,9 @@
             "val": "",
             "line": 9
           }
-        ]
+        ],
+        "line": 3,
+        "filename": "inline-tag.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],
@@ -230,7 +240,9 @@
                       "line": 12,
                       "filename": "inline-tag.tokens.json"
                     }
-                  ]
+                  ],
+                  "line": 12,
+                  "filename": "inline-tag.tokens.json"
                 },
                 "attrs": [],
                 "attributeBlocks": [],
@@ -272,7 +284,9 @@
                       "line": 13,
                       "filename": "inline-tag.tokens.json"
                     }
-                  ]
+                  ],
+                  "line": 13,
+                  "filename": "inline-tag.tokens.json"
                 },
                 "attrs": [],
                 "attributeBlocks": [],
@@ -329,7 +343,9 @@
             "line": 11,
             "filename": "inline-tag.tokens.json"
           }
-        ]
+        ],
+        "line": 10,
+        "filename": "inline-tag.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],
@@ -372,7 +388,9 @@
                   "line": 19,
                   "filename": "inline-tag.tokens.json"
                 }
-              ]
+              ],
+              "line": 19,
+              "filename": "inline-tag.tokens.json"
             },
             "attrs": [],
             "attributeBlocks": [],
@@ -385,7 +403,9 @@
             "val": "",
             "line": 19
           }
-        ]
+        ],
+        "line": 17,
+        "filename": "inline-tag.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],

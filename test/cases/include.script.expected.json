@@ -19,12 +19,16 @@
             "attrs": [],
             "block": {
               "type": "Block",
-              "nodes": []
+              "nodes": [],
+              "line": 2,
+              "filename": "include.script.tokens.json"
             },
             "line": 2,
             "filename": "include.script.tokens.json"
           }
-        ]
+        ],
+        "line": 1,
+        "filename": "include.script.tokens.json"
       },
       "attrs": [
         {

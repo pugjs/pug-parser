@@ -14,7 +14,9 @@
             "line": 1,
             "filename": "utf8bom.tokens.json"
           }
-        ]
+        ],
+        "line": 1,
+        "filename": "utf8bom.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],

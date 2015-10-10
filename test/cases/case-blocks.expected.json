@@ -51,7 +51,9 @@
                                     "line": 6,
                                     "filename": "case-blocks.tokens.json"
                                   }
-                                ]
+                                ],
+                                "line": 6,
+                                "filename": "case-blocks.tokens.json"
                               },
                               "attrs": [],
                               "attributeBlocks": [],
@@ -86,7 +88,9 @@
                                     "line": 8,
                                     "filename": "case-blocks.tokens.json"
                                   }
-                                ]
+                                ],
+                                "line": 8,
+                                "filename": "case-blocks.tokens.json"
                               },
                               "attrs": [],
                               "attributeBlocks": [],
@@ -136,7 +140,9 @@
                                     "line": 10,
                                     "filename": "case-blocks.tokens.json"
                                   }
-                                ]
+                                ],
+                                "line": 10,
+                                "filename": "case-blocks.tokens.json"
                               },
                               "attrs": [],
                               "attributeBlocks": [],
@@ -157,7 +163,9 @@
                     "filename": "case-blocks.tokens.json"
                   }
                 }
-              ]
+              ],
+              "line": 2,
+              "filename": "case-blocks.tokens.json"
             },
             "attrs": [],
             "attributeBlocks": [],
@@ -165,7 +173,9 @@
             "line": 2,
             "filename": "case-blocks.tokens.json"
           }
-        ]
+        ],
+        "line": 1,
+        "filename": "case-blocks.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],

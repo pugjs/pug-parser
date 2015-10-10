@@ -21,7 +21,9 @@
                   "line": 2,
                   "filename": "mixin.merge.tokens.json"
                 }
-              ]
+              ],
+              "line": 2,
+              "filename": "mixin.merge.tokens.json"
             },
             "attrs": [
               {
@@ -50,7 +52,9 @@
                   "line": 3,
                   "filename": "mixin.merge.tokens.json"
                 }
-              ]
+              ],
+              "line": 3,
+              "filename": "mixin.merge.tokens.json"
             },
             "attrs": [
               {
@@ -84,7 +88,9 @@
                   "line": 4,
                   "filename": "mixin.merge.tokens.json"
                 }
-              ]
+              ],
+              "line": 4,
+              "filename": "mixin.merge.tokens.json"
             },
             "attrs": [],
             "attributeBlocks": [
@@ -107,7 +113,9 @@
                   "line": 5,
                   "filename": "mixin.merge.tokens.json"
                 }
-              ]
+              ],
+              "line": 5,
+              "filename": "mixin.merge.tokens.json"
             },
             "attrs": [
               {
@@ -276,7 +284,9 @@
             "line": 15,
             "filename": "mixin.merge.tokens.json"
           }
-        ]
+        ],
+        "line": 7,
+        "filename": "mixin.merge.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],

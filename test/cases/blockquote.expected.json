@@ -21,7 +21,9 @@
                   "line": 3,
                   "filename": "blockquote.tokens.json"
                 }
-              ]
+              ],
+              "line": 2,
+              "filename": "blockquote.tokens.json"
             },
             "attrs": [],
             "attributeBlocks": [],
@@ -42,7 +44,9 @@
                   "line": 4,
                   "filename": "blockquote.tokens.json"
                 }
-              ]
+              ],
+              "line": 4,
+              "filename": "blockquote.tokens.json"
             },
             "attrs": [],
             "attributeBlocks": [],
@@ -50,7 +54,9 @@
             "line": 4,
             "filename": "blockquote.tokens.json"
           }
-        ]
+        ],
+        "line": 1,
+        "filename": "blockquote.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],

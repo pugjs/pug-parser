@@ -27,7 +27,9 @@
                         "line": 3,
                         "filename": "scripts.non-js.tokens.json"
                       }
-                    ]
+                    ],
+                    "line": 3,
+                    "filename": "scripts.non-js.tokens.json"
                   },
                   "attrs": [],
                   "attributeBlocks": [],
@@ -48,7 +50,9 @@
                         "line": 4,
                         "filename": "scripts.non-js.tokens.json"
                       }
-                    ]
+                    ],
+                    "line": 4,
+                    "filename": "scripts.non-js.tokens.json"
                   },
                   "attrs": [],
                   "attributeBlocks": [],
@@ -56,7 +60,9 @@
                   "line": 4,
                   "filename": "scripts.non-js.tokens.json"
                 }
-              ]
+              ],
+              "line": 2,
+              "filename": "scripts.non-js.tokens.json"
             },
             "attrs": [
               {
@@ -70,7 +76,9 @@
             "line": 2,
             "filename": "scripts.non-js.tokens.json"
           }
-        ]
+        ],
+        "line": 1,
+        "filename": "scripts.non-js.tokens.json"
       },
       "attrs": [
         {
@@ -121,7 +129,9 @@
             "val": "}",
             "line": 9
           }
-        ]
+        ],
+        "line": 6,
+        "filename": "scripts.non-js.tokens.json"
       },
       "attrs": [
         {

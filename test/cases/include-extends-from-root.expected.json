@@ -12,7 +12,9 @@
       "attrs": [],
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 1,
+        "filename": "include-extends-from-root.tokens.json"
       },
       "line": 1,
       "filename": "include-extends-from-root.tokens.json"

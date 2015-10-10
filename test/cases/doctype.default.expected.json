@@ -33,7 +33,9 @@
                         "line": 4,
                         "filename": "doctype.default.tokens.json"
                       }
-                    ]
+                    ],
+                    "line": 4,
+                    "filename": "doctype.default.tokens.json"
                   },
                   "attrs": [],
                   "attributeBlocks": [],
@@ -41,7 +43,9 @@
                   "line": 4,
                   "filename": "doctype.default.tokens.json"
                 }
-              ]
+              ],
+              "line": 3,
+              "filename": "doctype.default.tokens.json"
             },
             "attrs": [],
             "attributeBlocks": [],
@@ -49,7 +53,9 @@
             "line": 3,
             "filename": "doctype.default.tokens.json"
           }
-        ]
+        ],
+        "line": 2,
+        "filename": "doctype.default.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],

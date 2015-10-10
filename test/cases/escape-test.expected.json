@@ -34,7 +34,9 @@
                         "line": 4,
                         "filename": "escape-test.tokens.json"
                       }
-                    ]
+                    ],
+                    "line": 4,
+                    "filename": "escape-test.tokens.json"
                   },
                   "attrs": [],
                   "attributeBlocks": [],
@@ -42,7 +44,9 @@
                   "line": 4,
                   "filename": "escape-test.tokens.json"
                 }
-              ]
+              ],
+              "line": 3,
+              "filename": "escape-test.tokens.json"
             },
             "attrs": [],
             "attributeBlocks": [],
@@ -82,7 +86,9 @@
                         "line": 8,
                         "filename": "escape-test.tokens.json"
                       }
-                    ]
+                    ],
+                    "line": 6,
+                    "filename": "escape-test.tokens.json"
                   },
                   "attrs": [],
                   "attributeBlocks": [],
@@ -90,7 +96,9 @@
                   "line": 6,
                   "filename": "escape-test.tokens.json"
                 }
-              ]
+              ],
+              "line": 5,
+              "filename": "escape-test.tokens.json"
             },
             "attrs": [],
             "attributeBlocks": [],
@@ -98,7 +106,9 @@
             "line": 5,
             "filename": "escape-test.tokens.json"
           }
-        ]
+        ],
+        "line": 2,
+        "filename": "escape-test.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],

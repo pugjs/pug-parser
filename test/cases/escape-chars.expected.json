@@ -13,7 +13,9 @@
             "val": "var re = /\\d+/;",
             "line": 2
           }
-        ]
+        ],
+        "line": 1,
+        "filename": "escape-chars.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],

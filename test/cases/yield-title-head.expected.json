@@ -22,7 +22,9 @@
                   "filename": "yield-title-head.tokens.json",
                   "yield": true
                 }
-              ]
+              ],
+              "line": 2,
+              "filename": "yield-title-head.tokens.json"
             },
             "attrs": [],
             "attributeBlocks": [],
@@ -36,7 +38,9 @@
             "selfClosing": false,
             "block": {
               "type": "Block",
-              "nodes": []
+              "nodes": [],
+              "line": 4,
+              "filename": "yield-title-head.tokens.json"
             },
             "attrs": [
               {
@@ -56,7 +60,9 @@
             "selfClosing": false,
             "block": {
               "type": "Block",
-              "nodes": []
+              "nodes": [],
+              "line": 5,
+              "filename": "yield-title-head.tokens.json"
             },
             "attrs": [
               {
@@ -70,7 +76,9 @@
             "line": 5,
             "filename": "yield-title-head.tokens.json"
           }
-        ]
+        ],
+        "line": 1,
+        "filename": "yield-title-head.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],

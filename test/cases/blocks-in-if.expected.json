@@ -57,7 +57,9 @@
                       "line": 8,
                       "filename": "blocks-in-if.tokens.json"
                     }
-                  ]
+                  ],
+                  "line": 8,
+                  "filename": "blocks-in-if.tokens.json"
                 },
                 "attrs": [],
                 "attributeBlocks": [],
@@ -121,7 +123,9 @@
                         "selfClosing": false,
                         "block": {
                           "type": "Block",
-                          "nodes": []
+                          "nodes": [],
+                          "line": 15,
+                          "filename": "blocks-in-if.tokens.json"
                         },
                         "attrs": [
                           {
@@ -148,7 +152,9 @@
                               "line": 16,
                               "filename": "blocks-in-if.tokens.json"
                             }
-                          ]
+                          ],
+                          "line": 16,
+                          "filename": "blocks-in-if.tokens.json"
                         },
                         "attrs": [],
                         "attributeBlocks": [],
@@ -179,7 +185,9 @@
                                         "line": 19,
                                         "filename": "blocks-in-if.tokens.json"
                                       }
-                                    ]
+                                    ],
+                                    "line": 19,
+                                    "filename": "blocks-in-if.tokens.json"
                                   },
                                   "attrs": [],
                                   "attributeBlocks": [],
@@ -193,7 +201,9 @@
                               "name": "contents",
                               "mode": "replace"
                             }
-                          ]
+                          ],
+                          "line": 17,
+                          "filename": "blocks-in-if.tokens.json"
                         },
                         "attrs": [],
                         "attributeBlocks": [],
@@ -201,7 +211,9 @@
                         "line": 17,
                         "filename": "blocks-in-if.tokens.json"
                       }
-                    ]
+                    ],
+                    "line": 14,
+                    "filename": "blocks-in-if.tokens.json"
                   },
                   "attrs": [],
                   "attributeBlocks": [],
@@ -209,7 +221,9 @@
                   "line": 14,
                   "filename": "blocks-in-if.tokens.json"
                 }
-              ]
+              ],
+              "line": 13,
+              "filename": "blocks-in-if.tokens.json"
             },
             "attrs": [],
             "attributeBlocks": [],

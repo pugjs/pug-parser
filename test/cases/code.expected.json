@@ -17,7 +17,9 @@
             "line": 1,
             "filename": "code.tokens.json"
           }
-        ]
+        ],
+        "line": 1,
+        "filename": "code.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],
@@ -41,7 +43,9 @@
             "line": 2,
             "filename": "code.tokens.json"
           }
-        ]
+        ],
+        "line": 2,
+        "filename": "code.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],
@@ -65,7 +69,9 @@
             "line": 3,
             "filename": "code.tokens.json"
           }
-        ]
+        ],
+        "line": 3,
+        "filename": "code.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],
@@ -89,7 +95,9 @@
             "line": 4,
             "filename": "code.tokens.json"
           }
-        ]
+        ],
+        "line": 4,
+        "filename": "code.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],
@@ -113,7 +121,9 @@
             "line": 5,
             "filename": "code.tokens.json"
           }
-        ]
+        ],
+        "line": 5,
+        "filename": "code.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],
@@ -127,7 +137,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 6,
+        "filename": "code.tokens.json"
       },
       "attrs": [
         {
@@ -147,7 +159,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 7,
+        "filename": "code.tokens.json"
       },
       "attrs": [
         {
@@ -167,7 +181,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 8,
+        "filename": "code.tokens.json"
       },
       "attrs": [
         {
@@ -187,7 +203,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 9,
+        "filename": "code.tokens.json"
       },
       "attrs": [
         {
@@ -207,7 +225,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 10,
+        "filename": "code.tokens.json"
       },
       "attrs": [
         {

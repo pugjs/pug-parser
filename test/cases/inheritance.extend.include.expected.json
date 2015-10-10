@@ -21,7 +21,9 @@
           "selfClosing": false,
           "block": {
             "type": "Block",
-            "nodes": []
+            "nodes": [],
+            "line": 5,
+            "filename": "inheritance.extend.include.tokens.json"
           },
           "attrs": [
             {
@@ -57,7 +59,9 @@
                 "line": 8,
                 "filename": "inheritance.extend.include.tokens.json"
               }
-            ]
+            ],
+            "line": 8,
+            "filename": "inheritance.extend.include.tokens.json"
           },
           "attrs": [],
           "attributeBlocks": [],
@@ -78,7 +82,9 @@
                 "line": 9,
                 "filename": "inheritance.extend.include.tokens.json"
               }
-            ]
+            ],
+            "line": 9,
+            "filename": "inheritance.extend.include.tokens.json"
           },
           "attrs": [],
           "attributeBlocks": [],
@@ -108,7 +114,9 @@
                 "line": 12,
                 "filename": "inheritance.extend.include.tokens.json"
               }
-            ]
+            ],
+            "line": 12,
+            "filename": "inheritance.extend.include.tokens.json"
           },
           "attrs": [],
           "attributeBlocks": [],
@@ -129,7 +137,9 @@
                 "line": 13,
                 "filename": "inheritance.extend.include.tokens.json"
               }
-            ]
+            ],
+            "line": 13,
+            "filename": "inheritance.extend.include.tokens.json"
           },
           "attrs": [],
           "attributeBlocks": [],

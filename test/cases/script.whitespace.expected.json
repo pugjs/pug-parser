@@ -53,7 +53,9 @@
             "val": "}",
             "line": 6
           }
-        ]
+        ],
+        "line": 1,
+        "filename": "script.whitespace.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],

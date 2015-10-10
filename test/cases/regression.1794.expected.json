@@ -26,7 +26,9 @@
           "attrs": [],
           "block": {
             "type": "Block",
-            "nodes": []
+            "nodes": [],
+            "line": 4,
+            "filename": "regression.1794.tokens.json"
           },
           "line": 4,
           "filename": "regression.1794.tokens.json"

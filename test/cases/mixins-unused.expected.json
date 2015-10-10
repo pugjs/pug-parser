@@ -20,7 +20,9 @@
                   "line": 2,
                   "filename": "mixins-unused.tokens.json"
                 }
-              ]
+              ],
+              "line": 2,
+              "filename": "mixins-unused.tokens.json"
             },
             "attrs": [
               {
@@ -48,7 +50,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 3,
+        "filename": "mixins-unused.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],

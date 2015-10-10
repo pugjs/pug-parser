@@ -28,7 +28,9 @@
                         "line": 3,
                         "filename": "template.tokens.json"
                       }
-                    ]
+                    ],
+                    "line": 3,
+                    "filename": "template.tokens.json"
                   },
                   "attrs": [],
                   "attributeBlocks": [],
@@ -49,7 +51,9 @@
                         "line": 4,
                         "filename": "template.tokens.json"
                       }
-                    ]
+                    ],
+                    "line": 4,
+                    "filename": "template.tokens.json"
                   },
                   "attrs": [],
                   "attributeBlocks": [],
@@ -57,7 +61,9 @@
                   "line": 4,
                   "filename": "template.tokens.json"
                 }
-              ]
+              ],
+              "line": 2,
+              "filename": "template.tokens.json"
             },
             "attrs": [],
             "attributeBlocks": [],
@@ -65,7 +71,9 @@
             "line": 2,
             "filename": "template.tokens.json"
           }
-        ]
+        ],
+        "line": 1,
+        "filename": "template.tokens.json"
       },
       "attrs": [
         {
@@ -111,7 +119,9 @@
             "val": "  p {{description}}",
             "line": 9
           }
-        ]
+        ],
+        "line": 6,
+        "filename": "template.tokens.json"
       },
       "attrs": [
         {

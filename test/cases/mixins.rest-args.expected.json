@@ -37,7 +37,9 @@
                               "line": 4,
                               "filename": "mixins.rest-args.tokens.json"
                             }
-                          ]
+                          ],
+                          "line": 4,
+                          "filename": "mixins.rest-args.tokens.json"
                         },
                         "attrs": [],
                         "attributeBlocks": [],
@@ -52,7 +54,9 @@
                   "line": 3,
                   "filename": "mixins.rest-args.tokens.json"
                 }
-              ]
+              ],
+              "line": 2,
+              "filename": "mixins.rest-args.tokens.json"
             },
             "attrs": [],
             "attributeBlocks": [],

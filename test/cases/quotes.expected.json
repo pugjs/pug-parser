@@ -14,7 +14,9 @@
             "line": 1,
             "filename": "quotes.tokens.json"
           }
-        ]
+        ],
+        "line": 1,
+        "filename": "quotes.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],
@@ -35,7 +37,9 @@
             "line": 2,
             "filename": "quotes.tokens.json"
           }
-        ]
+        ],
+        "line": 2,
+        "filename": "quotes.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],

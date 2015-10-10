@@ -50,7 +50,9 @@
                         "line": 5,
                         "filename": "while.tokens.json"
                       }
-                    ]
+                    ],
+                    "line": 5,
+                    "filename": "while.tokens.json"
                   },
                   "attrs": [],
                   "attributeBlocks": [],
@@ -63,7 +65,9 @@
               "filename": "while.tokens.json"
             }
           }
-        ]
+        ],
+        "line": 2,
+        "filename": "while.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],

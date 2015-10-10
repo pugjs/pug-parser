@@ -14,7 +14,9 @@
             "line": 1,
             "filename": "text.tokens.json"
           }
-        ]
+        ],
+        "line": 1,
+        "filename": "text.tokens.json"
       },
       "attrs": [
         {
@@ -34,7 +36,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 3,
+        "filename": "text.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],
@@ -48,7 +52,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 5,
+        "filename": "text.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],
@@ -101,7 +107,9 @@
             "line": 8,
             "filename": "text.tokens.json"
           }
-        ]
+        ],
+        "line": 7,
+        "filename": "text.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],
@@ -171,7 +179,9 @@
             "val": "",
             "line": 18
           }
-        ]
+        ],
+        "line": 12,
+        "filename": "text.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],
@@ -244,7 +254,9 @@
           "val": "",
           "line": 27
         }
-      ]
+      ],
+      "line": 21,
+      "filename": "text.tokens.json"
     },
     {
       "type": "Tag",
@@ -302,7 +314,9 @@
             "line": 29,
             "filename": "text.tokens.json"
           }
-        ]
+        ],
+        "line": 28,
+        "filename": "text.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],
@@ -362,7 +376,9 @@
             "val": "",
             "line": 39
           }
-        ]
+        ],
+        "line": 34,
+        "filename": "text.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],
@@ -409,7 +425,9 @@
           "val": ".",
           "line": 44
         }
-      ]
+      ],
+      "line": 40,
+      "filename": "text.tokens.json"
     }
   ],
   "line": 0,

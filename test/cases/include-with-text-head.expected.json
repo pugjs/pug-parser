@@ -20,7 +20,9 @@
                   "val": "alert('hello world');",
                   "line": 3
                 }
-              ]
+              ],
+              "line": 2,
+              "filename": "include-with-text-head.tokens.json"
             },
             "attrs": [
               {
@@ -35,7 +37,9 @@
             "filename": "include-with-text-head.tokens.json",
             "textOnly": true
           }
-        ]
+        ],
+        "line": 1,
+        "filename": "include-with-text-head.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],

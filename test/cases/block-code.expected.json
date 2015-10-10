@@ -58,7 +58,9 @@
                   "line": 12,
                   "filename": "block-code.tokens.json"
                 }
-              ]
+              ],
+              "line": 12,
+              "filename": "block-code.tokens.json"
             },
             "attrs": [],
             "attributeBlocks": [],

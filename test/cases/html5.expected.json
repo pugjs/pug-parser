@@ -13,7 +13,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 2,
+        "filename": "html5.tokens.json"
       },
       "attrs": [
         {
@@ -38,7 +40,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 3,
+        "filename": "html5.tokens.json"
       },
       "attrs": [
         {
@@ -63,7 +67,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 4,
+        "filename": "html5.tokens.json"
       },
       "attrs": [
         {

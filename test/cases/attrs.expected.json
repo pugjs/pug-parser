@@ -14,7 +14,9 @@
             "line": 1,
             "filename": "attrs.tokens.json"
           }
-        ]
+        ],
+        "line": 1,
+        "filename": "attrs.tokens.json"
       },
       "attrs": [
         {
@@ -41,7 +43,9 @@
             "line": 2,
             "filename": "attrs.tokens.json"
           }
-        ]
+        ],
+        "line": 2,
+        "filename": "attrs.tokens.json"
       },
       "attrs": [
         {
@@ -66,7 +70,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 3,
+        "filename": "attrs.tokens.json"
       },
       "attrs": [
         {
@@ -96,7 +102,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 4,
+        "filename": "attrs.tokens.json"
       },
       "attrs": [
         {
@@ -121,7 +129,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 5,
+        "filename": "attrs.tokens.json"
       },
       "attrs": [
         {
@@ -160,7 +170,9 @@
                   "line": 7,
                   "filename": "attrs.tokens.json"
                 }
-              ]
+              ],
+              "line": 7,
+              "filename": "attrs.tokens.json"
             },
             "attrs": [
               {
@@ -192,7 +204,9 @@
                   "line": 8,
                   "filename": "attrs.tokens.json"
                 }
-              ]
+              ],
+              "line": 8,
+              "filename": "attrs.tokens.json"
             },
             "attrs": [
               {
@@ -211,7 +225,9 @@
             "line": 8,
             "filename": "attrs.tokens.json"
           }
-        ]
+        ],
+        "line": 6,
+        "filename": "attrs.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],
@@ -225,7 +241,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 9,
+        "filename": "attrs.tokens.json"
       },
       "attrs": [
         {
@@ -245,7 +263,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 10,
+        "filename": "attrs.tokens.json"
       },
       "attrs": [
         {
@@ -272,7 +292,9 @@
             "line": 12,
             "filename": "attrs.tokens.json"
           }
-        ]
+        ],
+        "line": 12,
+        "filename": "attrs.tokens.json"
       },
       "attrs": [
         {
@@ -299,7 +321,9 @@
             "line": 13,
             "filename": "attrs.tokens.json"
           }
-        ]
+        ],
+        "line": 13,
+        "filename": "attrs.tokens.json"
       },
       "attrs": [
         {
@@ -324,7 +348,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 14,
+        "filename": "attrs.tokens.json"
       },
       "attrs": [
         {
@@ -354,7 +380,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 15,
+        "filename": "attrs.tokens.json"
       },
       "attrs": [
         {
@@ -379,7 +407,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 16,
+        "filename": "attrs.tokens.json"
       },
       "attrs": [
         {
@@ -418,7 +448,9 @@
                   "line": 18,
                   "filename": "attrs.tokens.json"
                 }
-              ]
+              ],
+              "line": 18,
+              "filename": "attrs.tokens.json"
             },
             "attrs": [
               {
@@ -450,7 +482,9 @@
                   "line": 19,
                   "filename": "attrs.tokens.json"
                 }
-              ]
+              ],
+              "line": 19,
+              "filename": "attrs.tokens.json"
             },
             "attrs": [
               {
@@ -469,7 +503,9 @@
             "line": 19,
             "filename": "attrs.tokens.json"
           }
-        ]
+        ],
+        "line": 17,
+        "filename": "attrs.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],
@@ -483,7 +519,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 20,
+        "filename": "attrs.tokens.json"
       },
       "attrs": [
         {
@@ -503,7 +541,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 21,
+        "filename": "attrs.tokens.json"
       },
       "attrs": [
         {
@@ -523,7 +563,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 22,
+        "filename": "attrs.tokens.json"
       },
       "attrs": [
         {
@@ -543,7 +585,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 23,
+        "filename": "attrs.tokens.json"
       },
       "attrs": [
         {
@@ -563,7 +607,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 25,
+        "filename": "attrs.tokens.json"
       },
       "attrs": [
         {
@@ -588,7 +634,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 27,
+        "filename": "attrs.tokens.json"
       },
       "attrs": [
         {
@@ -613,7 +661,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 29,
+        "filename": "attrs.tokens.json"
       },
       "attrs": [
         {
@@ -638,7 +688,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 31,
+        "filename": "attrs.tokens.json"
       },
       "attrs": [
         {
@@ -663,7 +715,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 33,
+        "filename": "attrs.tokens.json"
       },
       "attrs": [
         {
@@ -688,7 +742,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 35,
+        "filename": "attrs.tokens.json"
       },
       "attrs": [
         {
@@ -722,7 +778,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 40,
+        "filename": "attrs.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [

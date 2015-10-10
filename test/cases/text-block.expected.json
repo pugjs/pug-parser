@@ -20,7 +20,9 @@
             "selfClosing": false,
             "block": {
               "type": "Block",
-              "nodes": []
+              "nodes": [],
+              "line": 3,
+              "filename": "text-block.tokens.json"
             },
             "attrs": [
               {
@@ -39,7 +41,9 @@
             "line": 3,
             "filename": "text-block.tokens.json"
           }
-        ]
+        ],
+        "line": 2,
+        "filename": "text-block.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],
@@ -66,7 +70,9 @@
             "selfClosing": false,
             "block": {
               "type": "Block",
-              "nodes": []
+              "nodes": [],
+              "line": 6,
+              "filename": "text-block.tokens.json"
             },
             "attrs": [
               {
@@ -85,7 +91,9 @@
             "line": 6,
             "filename": "text-block.tokens.json"
           }
-        ]
+        ],
+        "line": 5,
+        "filename": "text-block.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],

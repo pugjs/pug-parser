@@ -12,7 +12,9 @@
             "val": "foo bar",
             "line": 2
           }
-        ]
+        ],
+        "line": 1,
+        "filename": "custom-filter.tokens.json"
       },
       "attrs": [
         {

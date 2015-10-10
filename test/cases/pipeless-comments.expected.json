@@ -32,7 +32,9 @@
             "val": ".hey",
             "line": 4
           }
-        ]
+        ],
+        "line": 1,
+        "filename": "pipeless-comments.tokens.json"
       },
       "buffer": true,
       "line": 1,
