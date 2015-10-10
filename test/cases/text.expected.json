@@ -181,10 +181,6 @@
       "textOnly": true
     },
     {
-      "type": "Block",
-      "nodes": []
-    },
-    {
       "type": "Text",
       "val": "",
       "line": 20,
