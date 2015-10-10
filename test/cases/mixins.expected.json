@@ -355,7 +355,12 @@
             "type": "Mixin",
             "name": "list",
             "args": null,
-            "block": null,
+            "block": {
+              "type": "Block",
+              "nodes": [],
+              "line": 25,
+              "filename": "mixins.tokens.json"
+            },
             "call": true,
             "attrs": [],
             "attributeBlocks": [],
