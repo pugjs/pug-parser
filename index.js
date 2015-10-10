@@ -182,7 +182,7 @@ Parser.prototype = {
       case 'start-jade-interpolation':
         return this.parseText({block: true});
       case 'text-html':
-        return this.parseTextHtml();
+        return { type: 'Block', nodes: this.parseTextHtml() };
       case 'dot':
         return this.parseDot();
       case 'each':
