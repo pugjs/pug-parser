@@ -263,7 +263,7 @@ Parser.prototype = {
               type: 'Code',
               val: tok.val,
               buffer: tok.buffer,
-              escape: tok.escape,
+              mustEscape: tok.escape,
               isInline: true,
               line: tok.line,
               filename: this.filename
@@ -434,7 +434,7 @@ Parser.prototype = {
       type: 'Code',
       val: tok.val,
       buffer: tok.buffer,
-      escape: tok.escape,
+      mustEscape: tok.escape,
       isInline: !!noBlock,
       line: tok.line,
       filename: this.filename
@@ -554,7 +554,7 @@ Parser.prototype = {
       type: 'Code',
       val: text,
       buffer: false,
-      escape: false,
+      mustEscape: false,
       isInline: false,
       line: line,
       filename: this.filename
@@ -825,7 +825,7 @@ Parser.prototype = {
             type: 'Code',
             val: tok.val,
             buffer: tok.buffer,
-            escape: tok.escape,
+            mustEscape: tok.escape,
             isInline: true,
             line: tok.line,
             filename: this.filename
@@ -925,7 +925,7 @@ Parser.prototype = {
             tag.attrs.push({
               name: tok.type,
               val: "'" + tok.val + "'",
-              escaped: false
+              mustEscape: false
             });
             continue;
           case 'attrs':
@@ -948,7 +948,7 @@ Parser.prototype = {
               tag.attrs.push({
                 name: attrs[i].name,
                 val: attrs[i].val,
-                escaped: attrs[i].escaped
+                mustEscape: attrs[i].escaped
               });
             }
             continue;
