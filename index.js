@@ -825,6 +825,17 @@ Parser.prototype = {
           block.nodes.push(this.parseExpr());
           this.expect('end-jade-interpolation');
           break;
+        case 'interpolated-code':
+          block.nodes.push({
+            type: 'Code',
+            val: tok.val,
+            buffer: tok.buffer,
+            escape: tok.escape,
+            isInline: true,
+            line: tok.line,
+            filename: this.filename
+          });
+          break;
         default:
           this.error('Unexpected token type: ' + tok.type, 'INVALID_TOKEN', tok);
       }
