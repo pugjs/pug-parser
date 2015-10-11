@@ -826,6 +826,16 @@ Parser.prototype = {
         case 'newline':
           block.nodes.push({type: 'Text', val: '\n', line: tok.line});
           break;
+        case 'interpolated-code':
+          block.nodes.push({
+            type: 'Code',
+            val: tok.val,
+            buffer: tok.buffer,
+            escape: tok.escape,
+            isInline: true,
+            line: tok.line,
+          });
+          break;
         case 'start-jade-interpolation':
           block.nodes.push(this.parseExpr());
           this.expect('end-jade-interpolation');

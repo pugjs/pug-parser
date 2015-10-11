@@ -29,8 +29,7 @@
             "buffer": true,
             "escape": true,
             "isInline": true,
-            "line": 3,
-            "filename": "pipeless-tag.tokens.json"
+            "line": 3
           },
           {
             "type": "Text",
