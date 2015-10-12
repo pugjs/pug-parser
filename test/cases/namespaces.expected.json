@@ -14,7 +14,9 @@
             "line": 1,
             "filename": "namespaces.tokens.json"
           }
-        ]
+        ],
+        "line": 1,
+        "filename": "namespaces.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],
@@ -28,7 +30,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 2,
+        "filename": "namespaces.tokens.json"
       },
       "attrs": [
         {

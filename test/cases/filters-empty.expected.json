@@ -44,7 +44,9 @@
                         "line": 6,
                         "filename": "filters-empty.tokens.json"
                       }
-                    ]
+                    ],
+                    "line": 5,
+                    "filename": "filters-empty.tokens.json"
                   },
                   "attrs": [
                     {
@@ -65,7 +67,9 @@
             "line": 4,
             "filename": "filters-empty.tokens.json"
           }
-        ]
+        ],
+        "line": 3,
+        "filename": "filters-empty.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],

@@ -31,7 +31,9 @@
             "line": 5,
             "filename": "tag.interpolation.tokens.json"
           }
-        ]
+        ],
+        "line": 5,
+        "filename": "tag.interpolation.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],
@@ -52,7 +54,9 @@
             "line": 6,
             "filename": "tag.interpolation.tokens.json"
           }
-        ]
+        ],
+        "line": 6,
+        "filename": "tag.interpolation.tokens.json"
       },
       "attrs": [
         {
@@ -79,7 +83,9 @@
             "line": 7,
             "filename": "tag.interpolation.tokens.json"
           }
-        ]
+        ],
+        "line": 7,
+        "filename": "tag.interpolation.tokens.json"
       },
       "attrs": [
         {
@@ -127,7 +133,9 @@
                               "selfClosing": false,
                               "block": {
                                 "type": "Block",
-                                "nodes": []
+                                "nodes": [],
+                                "line": 13,
+                                "filename": "tag.interpolation.tokens.json"
                               },
                               "attrs": [
                                 {
@@ -151,7 +159,9 @@
                               "line": 14,
                               "filename": "tag.interpolation.tokens.json"
                             }
-                          ]
+                          ],
+                          "line": 12,
+                          "filename": "tag.interpolation.tokens.json"
                         },
                         "attrs": [],
                         "attributeBlocks": [
@@ -181,7 +191,9 @@
                               "selfClosing": false,
                               "block": {
                                 "type": "Block",
-                                "nodes": []
+                                "nodes": [],
+                                "line": 17,
+                                "filename": "tag.interpolation.tokens.json"
                               },
                               "attrs": [
                                 {
@@ -205,7 +217,9 @@
                               "line": 18,
                               "filename": "tag.interpolation.tokens.json"
                             }
-                          ]
+                          ],
+                          "line": 16,
+                          "filename": "tag.interpolation.tokens.json"
                         },
                         "attrs": [],
                         "attributeBlocks": [
@@ -222,7 +236,9 @@
                   "line": 11,
                   "filename": "tag.interpolation.tokens.json"
                 }
-              ]
+              ],
+              "line": 10,
+              "filename": "tag.interpolation.tokens.json"
             },
             "attrs": [],
             "attributeBlocks": [],
@@ -296,7 +312,9 @@
             "line": 22,
             "filename": "tag.interpolation.tokens.json"
           }
-        ]
+        ],
+        "line": 20,
+        "filename": "tag.interpolation.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],

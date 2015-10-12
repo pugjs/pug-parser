@@ -21,7 +21,9 @@
           "selfClosing": false,
           "block": {
             "type": "Block",
-            "nodes": []
+            "nodes": [],
+            "line": 5,
+            "filename": "layout.append.without-block.tokens.json"
           },
           "attrs": [
             {
@@ -41,7 +43,9 @@
           "selfClosing": false,
           "block": {
             "type": "Block",
-            "nodes": []
+            "nodes": [],
+            "line": 6,
+            "filename": "layout.append.without-block.tokens.json"
           },
           "attrs": [
             {

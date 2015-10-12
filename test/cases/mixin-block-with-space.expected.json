@@ -20,7 +20,9 @@
                   "line": 3,
                   "filename": "mixin-block-with-space.tokens.json"
                 }
-              ]
+              ],
+              "line": 2,
+              "filename": "mixin-block-with-space.tokens.json"
             },
             "attrs": [],
             "attributeBlocks": [],

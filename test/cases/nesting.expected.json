@@ -21,7 +21,9 @@
                   "line": 2,
                   "filename": "nesting.tokens.json"
                 }
-              ]
+              ],
+              "line": 2,
+              "filename": "nesting.tokens.json"
             },
             "attrs": [],
             "attributeBlocks": [],
@@ -42,7 +44,9 @@
                   "line": 3,
                   "filename": "nesting.tokens.json"
                 }
-              ]
+              ],
+              "line": 3,
+              "filename": "nesting.tokens.json"
             },
             "attrs": [],
             "attributeBlocks": [],
@@ -77,7 +81,9 @@
                               "line": 6,
                               "filename": "nesting.tokens.json"
                             }
-                          ]
+                          ],
+                          "line": 6,
+                          "filename": "nesting.tokens.json"
                         },
                         "attrs": [],
                         "attributeBlocks": [],
@@ -98,7 +104,9 @@
                               "line": 7,
                               "filename": "nesting.tokens.json"
                             }
-                          ]
+                          ],
+                          "line": 7,
+                          "filename": "nesting.tokens.json"
                         },
                         "attrs": [],
                         "attributeBlocks": [],
@@ -106,7 +114,9 @@
                         "line": 7,
                         "filename": "nesting.tokens.json"
                       }
-                    ]
+                    ],
+                    "line": 5,
+                    "filename": "nesting.tokens.json"
                   },
                   "attrs": [],
                   "attributeBlocks": [],
@@ -114,7 +124,9 @@
                   "line": 5,
                   "filename": "nesting.tokens.json"
                 }
-              ]
+              ],
+              "line": 4,
+              "filename": "nesting.tokens.json"
             },
             "attrs": [],
             "attributeBlocks": [],
@@ -135,7 +147,9 @@
                   "line": 8,
                   "filename": "nesting.tokens.json"
                 }
-              ]
+              ],
+              "line": 8,
+              "filename": "nesting.tokens.json"
             },
             "attrs": [],
             "attributeBlocks": [],
@@ -143,7 +157,9 @@
             "line": 8,
             "filename": "nesting.tokens.json"
           }
-        ]
+        ],
+        "line": 1,
+        "filename": "nesting.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],

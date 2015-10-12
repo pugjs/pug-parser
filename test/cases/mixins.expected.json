@@ -30,7 +30,9 @@
                         "line": 3,
                         "filename": "mixins.tokens.json"
                       }
-                    ]
+                    ],
+                    "line": 3,
+                    "filename": "mixins.tokens.json"
                   },
                   "attrs": [],
                   "attributeBlocks": [],
@@ -54,7 +56,9 @@
                         "line": 4,
                         "filename": "mixins.tokens.json"
                       }
-                    ]
+                    ],
+                    "line": 4,
+                    "filename": "mixins.tokens.json"
                   },
                   "attrs": [
                     {
@@ -68,7 +72,9 @@
                   "line": 4,
                   "filename": "mixins.tokens.json"
                 }
-              ]
+              ],
+              "line": 2,
+              "filename": "mixins.tokens.json"
             },
             "attrs": [
               {
@@ -119,7 +125,9 @@
                         "line": 9,
                         "filename": "mixins.tokens.json"
                       }
-                    ]
+                    ],
+                    "line": 9,
+                    "filename": "mixins.tokens.json"
                   },
                   "attrs": [],
                   "attributeBlocks": [],
@@ -143,7 +151,9 @@
                         "line": 10,
                         "filename": "mixins.tokens.json"
                       }
-                    ]
+                    ],
+                    "line": 10,
+                    "filename": "mixins.tokens.json"
                   },
                   "attrs": [
                     {
@@ -157,7 +167,9 @@
                   "line": 10,
                   "filename": "mixins.tokens.json"
                 }
-              ]
+              ],
+              "line": 8,
+              "filename": "mixins.tokens.json"
             },
             "attrs": [
               {
@@ -198,7 +210,9 @@
                   "line": 13,
                   "filename": "mixins.tokens.json"
                 }
-              ]
+              ],
+              "line": 13,
+              "filename": "mixins.tokens.json"
             },
             "attrs": [],
             "attributeBlocks": [],
@@ -223,7 +237,9 @@
                   "line": 15,
                   "filename": "mixins.tokens.json"
                 }
-              ]
+              ],
+              "line": 14,
+              "filename": "mixins.tokens.json"
             },
             "attrs": [
               {
@@ -237,7 +253,9 @@
             "line": 14,
             "filename": "mixins.tokens.json"
           }
-        ]
+        ],
+        "line": 12,
+        "filename": "mixins.tokens.json"
       },
       "attrs": [
         {
@@ -278,7 +296,9 @@
                         "line": 20,
                         "filename": "mixins.tokens.json"
                       }
-                    ]
+                    ],
+                    "line": 20,
+                    "filename": "mixins.tokens.json"
                   },
                   "attrs": [],
                   "attributeBlocks": [],
@@ -299,7 +319,9 @@
                         "line": 21,
                         "filename": "mixins.tokens.json"
                       }
-                    ]
+                    ],
+                    "line": 21,
+                    "filename": "mixins.tokens.json"
                   },
                   "attrs": [],
                   "attributeBlocks": [],
@@ -320,7 +342,9 @@
                         "line": 22,
                         "filename": "mixins.tokens.json"
                       }
-                    ]
+                    ],
+                    "line": 22,
+                    "filename": "mixins.tokens.json"
                   },
                   "attrs": [],
                   "attributeBlocks": [],
@@ -328,7 +352,9 @@
                   "line": 22,
                   "filename": "mixins.tokens.json"
                 }
-              ]
+              ],
+              "line": 19,
+              "filename": "mixins.tokens.json"
             },
             "attrs": [],
             "attributeBlocks": [],
@@ -355,7 +381,12 @@
             "type": "Mixin",
             "name": "list",
             "args": null,
-            "block": null,
+            "block": {
+              "type": "Block",
+              "nodes": [],
+              "line": 25,
+              "filename": "mixins.tokens.json"
+            },
             "call": true,
             "attrs": [],
             "attributeBlocks": [],
@@ -384,7 +415,9 @@
             "line": 27,
             "filename": "mixins.tokens.json"
           }
-        ]
+        ],
+        "line": 24,
+        "filename": "mixins.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],
@@ -415,7 +448,9 @@
                   "line": 30,
                   "filename": "mixins.tokens.json"
                 }
-              ]
+              ],
+              "line": 30,
+              "filename": "mixins.tokens.json"
             },
             "attrs": [
               {

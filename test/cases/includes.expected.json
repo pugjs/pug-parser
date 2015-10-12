@@ -12,7 +12,9 @@
       "attrs": [],
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 2,
+        "filename": "includes.tokens.json"
       },
       "line": 2,
       "filename": "includes.tokens.json"
@@ -45,7 +47,9 @@
             "attrs": [],
             "block": {
               "type": "Block",
-              "nodes": []
+              "nodes": [],
+              "line": 7,
+              "filename": "includes.tokens.json"
             },
             "line": 7,
             "filename": "includes.tokens.json"
@@ -61,7 +65,9 @@
             "attrs": [],
             "block": {
               "type": "Block",
-              "nodes": []
+              "nodes": [],
+              "line": 8,
+              "filename": "includes.tokens.json"
             },
             "line": 8,
             "filename": "includes.tokens.json"
@@ -85,12 +91,16 @@
                   "attrs": [],
                   "block": {
                     "type": "Block",
-                    "nodes": []
+                    "nodes": [],
+                    "line": 10,
+                    "filename": "includes.tokens.json"
                   },
                   "line": 10,
                   "filename": "includes.tokens.json"
                 }
-              ]
+              ],
+              "line": 9,
+              "filename": "includes.tokens.json"
             },
             "attrs": [
               {
@@ -104,7 +114,9 @@
             "line": 9,
             "filename": "includes.tokens.json"
           }
-        ]
+        ],
+        "line": 6,
+        "filename": "includes.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],

@@ -25,7 +25,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 3,
+        "filename": "vars.tokens.json"
       },
       "attrs": [
         {

@@ -21,7 +21,9 @@
                   "line": 4,
                   "filename": "blanks.tokens.json"
                 }
-              ]
+              ],
+              "line": 4,
+              "filename": "blanks.tokens.json"
             },
             "attrs": [],
             "attributeBlocks": [],
@@ -42,7 +44,9 @@
                   "line": 6,
                   "filename": "blanks.tokens.json"
                 }
-              ]
+              ],
+              "line": 6,
+              "filename": "blanks.tokens.json"
             },
             "attrs": [],
             "attributeBlocks": [],
@@ -63,7 +67,9 @@
                   "line": 8,
                   "filename": "blanks.tokens.json"
                 }
-              ]
+              ],
+              "line": 8,
+              "filename": "blanks.tokens.json"
             },
             "attrs": [],
             "attributeBlocks": [],
@@ -71,7 +77,9 @@
             "line": 8,
             "filename": "blanks.tokens.json"
           }
-        ]
+        ],
+        "line": 3,
+        "filename": "blanks.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],

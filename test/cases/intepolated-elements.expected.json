@@ -27,7 +27,9 @@
                   "line": 1,
                   "filename": "intepolated-elements.tokens.json"
                 }
-              ]
+              ],
+              "line": 1,
+              "filename": "intepolated-elements.tokens.json"
             },
             "attrs": [
               {
@@ -57,7 +59,9 @@
             "line": 1,
             "filename": "intepolated-elements.tokens.json"
           }
-        ]
+        ],
+        "line": 1,
+        "filename": "intepolated-elements.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],
@@ -84,7 +88,9 @@
             "selfClosing": false,
             "block": {
               "type": "Block",
-              "nodes": []
+              "nodes": [],
+              "line": 2,
+              "filename": "intepolated-elements.tokens.json"
             },
             "attrs": [
               {
@@ -114,7 +120,9 @@
             "line": 2,
             "filename": "intepolated-elements.tokens.json"
           }
-        ]
+        ],
+        "line": 2,
+        "filename": "intepolated-elements.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],
@@ -148,7 +156,9 @@
                   "line": 3,
                   "filename": "intepolated-elements.tokens.json"
                 }
-              ]
+              ],
+              "line": 3,
+              "filename": "intepolated-elements.tokens.json"
             },
             "attrs": [
               {
@@ -178,7 +188,9 @@
             "line": 3,
             "filename": "intepolated-elements.tokens.json"
           }
-        ]
+        ],
+        "line": 3,
+        "filename": "intepolated-elements.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],

@@ -16,7 +16,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 2,
+        "filename": "attrs-data.tokens.json"
       },
       "attrs": [
         {
@@ -36,7 +38,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 3,
+        "filename": "attrs-data.tokens.json"
       },
       "attrs": [
         {
@@ -56,7 +60,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 4,
+        "filename": "attrs-data.tokens.json"
       },
       "attrs": [
         {
@@ -76,7 +82,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 5,
+        "filename": "attrs-data.tokens.json"
       },
       "attrs": [
         {
@@ -96,7 +104,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 6,
+        "filename": "attrs-data.tokens.json"
       },
       "attrs": [
         {
@@ -116,7 +126,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 7,
+        "filename": "attrs-data.tokens.json"
       },
       "attrs": [
         {

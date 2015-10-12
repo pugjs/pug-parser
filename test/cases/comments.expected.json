@@ -35,7 +35,9 @@
                   "line": 5,
                   "filename": "comments.tokens.json"
                 }
-              ]
+              ],
+              "line": 5,
+              "filename": "comments.tokens.json"
             },
             "attrs": [],
             "attributeBlocks": [],
@@ -63,7 +65,9 @@
                   "line": 7,
                   "filename": "comments.tokens.json"
                 }
-              ]
+              ],
+              "line": 7,
+              "filename": "comments.tokens.json"
             },
             "attrs": [],
             "attributeBlocks": [],
@@ -71,7 +75,9 @@
             "line": 7,
             "filename": "comments.tokens.json"
           }
-        ]
+        ],
+        "line": 3,
+        "filename": "comments.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],
@@ -110,7 +116,9 @@
             "val": "",
             "line": 12
           }
-        ]
+        ],
+        "line": 9,
+        "filename": "comments.tokens.json"
       },
       "buffer": true,
       "line": 9,
@@ -147,7 +155,9 @@
             "val": "",
             "line": 16
           }
-        ]
+        ],
+        "line": 13,
+        "filename": "comments.tokens.json"
       },
       "buffer": true,
       "line": 13,
@@ -194,7 +204,9 @@
             "val": "",
             "line": 21
           }
-        ]
+        ],
+        "line": 17,
+        "filename": "comments.tokens.json"
       },
       "buffer": true,
       "line": 17,
@@ -241,7 +253,9 @@
             "val": "",
             "line": 26
           }
-        ]
+        ],
+        "line": 22,
+        "filename": "comments.tokens.json"
       },
       "buffer": true,
       "line": 22,
@@ -260,7 +274,9 @@
             "line": 27,
             "filename": "comments.tokens.json"
           }
-        ]
+        ],
+        "line": 27,
+        "filename": "comments.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],
@@ -280,7 +296,9 @@
             "line": 29,
             "filename": "comments.tokens.json"
           }
-        ]
+        ],
+        "line": 29,
+        "filename": "comments.tokens.json"
       },
       "attrs": [
         {

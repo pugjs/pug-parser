@@ -27,7 +27,9 @@
                   "attrs": [],
                   "block": {
                     "type": "Block",
-                    "nodes": []
+                    "nodes": [],
+                    "line": 3,
+                    "filename": "include-filter.tokens.json"
                   },
                   "line": 3,
                   "filename": "include-filter.tokens.json"
@@ -57,12 +59,16 @@
                         ],
                         "block": {
                           "type": "Block",
-                          "nodes": []
+                          "nodes": [],
+                          "line": 5,
+                          "filename": "include-filter.tokens.json"
                         },
                         "line": 5,
                         "filename": "include-filter.tokens.json"
                       }
-                    ]
+                    ],
+                    "line": 4,
+                    "filename": "include-filter.tokens.json"
                   },
                   "attrs": [],
                   "attributeBlocks": [],
@@ -95,12 +101,16 @@
                         ],
                         "block": {
                           "type": "Block",
-                          "nodes": []
+                          "nodes": [],
+                          "line": 7,
+                          "filename": "include-filter.tokens.json"
                         },
                         "line": 7,
                         "filename": "include-filter.tokens.json"
                       }
-                    ]
+                    ],
+                    "line": 6,
+                    "filename": "include-filter.tokens.json"
                   },
                   "attrs": [],
                   "attributeBlocks": [],
@@ -108,7 +118,9 @@
                   "line": 6,
                   "filename": "include-filter.tokens.json"
                 }
-              ]
+              ],
+              "line": 2,
+              "filename": "include-filter.tokens.json"
             },
             "attrs": [],
             "attributeBlocks": [],
@@ -116,7 +128,9 @@
             "line": 2,
             "filename": "include-filter.tokens.json"
           }
-        ]
+        ],
+        "line": 1,
+        "filename": "include-filter.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],

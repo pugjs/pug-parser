@@ -25,7 +25,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 3,
+        "filename": "attrs.js.tokens.json"
       },
       "attrs": [
         {
@@ -50,7 +52,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 4,
+        "filename": "attrs.js.tokens.json"
       },
       "attrs": [
         {
@@ -75,7 +79,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 5,
+        "filename": "attrs.js.tokens.json"
       },
       "attrs": [
         {
@@ -100,7 +106,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 6,
+        "filename": "attrs.js.tokens.json"
       },
       "attrs": [
         {
@@ -120,7 +128,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 7,
+        "filename": "attrs.js.tokens.json"
       },
       "attrs": [
         {
@@ -145,7 +155,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 9,
+        "filename": "attrs.js.tokens.json"
       },
       "attrs": [
         {
@@ -170,7 +182,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 10,
+        "filename": "attrs.js.tokens.json"
       },
       "attrs": [
         {
@@ -195,7 +209,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 11,
+        "filename": "attrs.js.tokens.json"
       },
       "attrs": [
         {
@@ -220,7 +236,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 12,
+        "filename": "attrs.js.tokens.json"
       },
       "attrs": [
         {
@@ -240,7 +258,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 13,
+        "filename": "attrs.js.tokens.json"
       },
       "attrs": [
         {
@@ -265,7 +285,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 15,
+        "filename": "attrs.js.tokens.json"
       },
       "attrs": [
         {
@@ -296,7 +318,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 17,
+        "filename": "attrs.js.tokens.json"
       },
       "attrs": [
         {

@@ -21,7 +21,9 @@
           "selfClosing": false,
           "block": {
             "type": "Block",
-            "nodes": []
+            "nodes": [],
+            "line": 6,
+            "filename": "inheritance.extend.whitespace.tokens.json"
           },
           "attrs": [
             {
@@ -57,7 +59,9 @@
                 "line": 12,
                 "filename": "inheritance.extend.whitespace.tokens.json"
               }
-            ]
+            ],
+            "line": 12,
+            "filename": "inheritance.extend.whitespace.tokens.json"
           },
           "attrs": [],
           "attributeBlocks": [],
@@ -78,7 +82,9 @@
                 "line": 13,
                 "filename": "inheritance.extend.whitespace.tokens.json"
               }
-            ]
+            ],
+            "line": 13,
+            "filename": "inheritance.extend.whitespace.tokens.json"
           },
           "attrs": [],
           "attributeBlocks": [],

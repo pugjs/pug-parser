@@ -40,7 +40,9 @@
             "line": 1,
             "filename": "filters.inline.tokens.json"
           }
-        ]
+        ],
+        "line": 1,
+        "filename": "filters.inline.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],

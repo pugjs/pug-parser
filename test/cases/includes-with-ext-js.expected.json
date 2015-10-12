@@ -26,12 +26,16 @@
                   "attrs": [],
                   "block": {
                     "type": "Block",
-                    "nodes": []
+                    "nodes": [],
+                    "line": 3,
+                    "filename": "includes-with-ext-js.tokens.json"
                   },
                   "line": 3,
                   "filename": "includes-with-ext-js.tokens.json"
                 }
-              ]
+              ],
+              "line": 2,
+              "filename": "includes-with-ext-js.tokens.json"
             },
             "attrs": [],
             "attributeBlocks": [],
@@ -39,7 +43,9 @@
             "line": 2,
             "filename": "includes-with-ext-js.tokens.json"
           }
-        ]
+        ],
+        "line": 1,
+        "filename": "includes-with-ext-js.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],

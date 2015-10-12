@@ -51,7 +51,9 @@
             "val": "",
             "line": 3
           }
-        ]
+        ],
+        "line": 1,
+        "filename": "pipeless-tag.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],

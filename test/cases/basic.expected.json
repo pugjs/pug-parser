@@ -28,7 +28,9 @@
                         "line": 3,
                         "filename": "basic.tokens.json"
                       }
-                    ]
+                    ],
+                    "line": 3,
+                    "filename": "basic.tokens.json"
                   },
                   "attrs": [],
                   "attributeBlocks": [],
@@ -36,7 +38,9 @@
                   "line": 3,
                   "filename": "basic.tokens.json"
                 }
-              ]
+              ],
+              "line": 2,
+              "filename": "basic.tokens.json"
             },
             "attrs": [],
             "attributeBlocks": [],
@@ -44,7 +48,9 @@
             "line": 2,
             "filename": "basic.tokens.json"
           }
-        ]
+        ],
+        "line": 1,
+        "filename": "basic.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],

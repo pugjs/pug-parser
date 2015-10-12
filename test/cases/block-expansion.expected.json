@@ -28,7 +28,9 @@
                         "line": 2,
                         "filename": "block-expansion.tokens.json"
                       }
-                    ]
+                    ],
+                    "line": 2,
+                    "filename": "block-expansion.tokens.json"
                   },
                   "attrs": [
                     {
@@ -42,7 +44,9 @@
                   "line": 2,
                   "filename": "block-expansion.tokens.json"
                 }
-              ]
+              ],
+              "line": 2,
+              "filename": "block-expansion.tokens.json"
             },
             "attrs": [],
             "attributeBlocks": [],
@@ -70,7 +74,9 @@
                         "line": 3,
                         "filename": "block-expansion.tokens.json"
                       }
-                    ]
+                    ],
+                    "line": 3,
+                    "filename": "block-expansion.tokens.json"
                   },
                   "attrs": [
                     {
@@ -84,7 +90,9 @@
                   "line": 3,
                   "filename": "block-expansion.tokens.json"
                 }
-              ]
+              ],
+              "line": 3,
+              "filename": "block-expansion.tokens.json"
             },
             "attrs": [],
             "attributeBlocks": [],
@@ -92,7 +100,9 @@
             "line": 3,
             "filename": "block-expansion.tokens.json"
           }
-        ]
+        ],
+        "line": 1,
+        "filename": "block-expansion.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],
@@ -113,7 +123,9 @@
             "line": 5,
             "filename": "block-expansion.tokens.json"
           }
-        ]
+        ],
+        "line": 5,
+        "filename": "block-expansion.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],

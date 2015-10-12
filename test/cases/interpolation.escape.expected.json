@@ -75,7 +75,9 @@
             "line": 4,
             "filename": "interpolation.escape.tokens.json"
           }
-        ]
+        ],
+        "line": 3,
+        "filename": "interpolation.escape.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],

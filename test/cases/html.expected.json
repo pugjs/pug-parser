@@ -21,7 +21,9 @@
             "line": 8,
             "filename": "html.tokens.json"
           }
-        ]
+        ],
+        "line": 8,
+        "filename": "html.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],
@@ -46,9 +48,13 @@
                 "line": 9,
                 "isHtml": true
               }
-            ]
+            ],
+            "line": 9,
+            "filename": "html.tokens.json"
           }
-        ]
+        ],
+        "line": 9,
+        "filename": "html.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],

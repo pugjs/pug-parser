@@ -26,7 +26,9 @@
                   "selfClosing": false,
                   "block": {
                     "type": "Block",
-                    "nodes": []
+                    "nodes": [],
+                    "line": 3,
+                    "filename": "include-with-text.tokens.json"
                   },
                   "attrs": [
                     {
@@ -46,7 +48,9 @@
                   "selfClosing": false,
                   "block": {
                     "type": "Block",
-                    "nodes": []
+                    "nodes": [],
+                    "line": 4,
+                    "filename": "include-with-text.tokens.json"
                   },
                   "attrs": [
                     {
@@ -67,7 +71,9 @@
             "line": 2,
             "filename": "include-with-text.tokens.json"
           }
-        ]
+        ],
+        "line": 1,
+        "filename": "include-with-text.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],

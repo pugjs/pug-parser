@@ -24,7 +24,9 @@
                   "line": 3,
                   "filename": "mixin-hoist.tokens.json"
                 }
-              ]
+              ],
+              "line": 3,
+              "filename": "mixin-hoist.tokens.json"
             },
             "attrs": [],
             "attributeBlocks": [],
@@ -58,14 +60,21 @@
                   "type": "Mixin",
                   "name": "foo",
                   "args": null,
-                  "block": null,
+                  "block": {
+                    "type": "Block",
+                    "nodes": [],
+                    "line": 7,
+                    "filename": "mixin-hoist.tokens.json"
+                  },
                   "call": true,
                   "attrs": [],
                   "attributeBlocks": [],
                   "line": 7,
                   "filename": "mixin-hoist.tokens.json"
                 }
-              ]
+              ],
+              "line": 6,
+              "filename": "mixin-hoist.tokens.json"
             },
             "attrs": [],
             "attributeBlocks": [],
@@ -73,7 +82,9 @@
             "line": 6,
             "filename": "mixin-hoist.tokens.json"
           }
-        ]
+        ],
+        "line": 5,
+        "filename": "mixin-hoist.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],

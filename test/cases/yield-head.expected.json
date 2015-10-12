@@ -14,7 +14,9 @@
             "selfClosing": false,
             "block": {
               "type": "Block",
-              "nodes": []
+              "nodes": [],
+              "line": 2,
+              "filename": "yield-head.tokens.json"
             },
             "attrs": [
               {
@@ -41,7 +43,9 @@
             "selfClosing": false,
             "block": {
               "type": "Block",
-              "nodes": []
+              "nodes": [],
+              "line": 4,
+              "filename": "yield-head.tokens.json"
             },
             "attrs": [
               {
@@ -55,7 +59,9 @@
             "line": 4,
             "filename": "yield-head.tokens.json"
           }
-        ]
+        ],
+        "line": 1,
+        "filename": "yield-head.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],

@@ -45,7 +45,9 @@
                         "val": "})()",
                         "line": 5
                       }
-                    ]
+                    ],
+                    "line": 2,
+                    "filename": "filters.nested.tokens.json"
                   },
                   "attrs": [],
                   "line": 2,
@@ -59,7 +61,9 @@
             "line": 2,
             "filename": "filters.nested.tokens.json"
           }
-        ]
+        ],
+        "line": 1,
+        "filename": "filters.nested.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],
@@ -117,7 +121,9 @@
                               "val": ")()",
                               "line": 10
                             }
-                          ]
+                          ],
+                          "line": 7,
+                          "filename": "filters.nested.tokens.json"
                         },
                         "attrs": [],
                         "line": 7,
@@ -139,7 +145,9 @@
             "line": 7,
             "filename": "filters.nested.tokens.json"
           }
-        ]
+        ],
+        "line": 6,
+        "filename": "filters.nested.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],

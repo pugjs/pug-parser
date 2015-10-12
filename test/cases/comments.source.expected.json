@@ -22,7 +22,9 @@
             "val": "",
             "line": 3
           }
-        ]
+        ],
+        "line": 1,
+        "filename": "comments.source.tokens.json"
       },
       "buffer": false,
       "line": 1,
@@ -72,7 +74,9 @@
             "val": "()",
             "line": 9
           }
-        ]
+        ],
+        "line": 6,
+        "filename": "comments.source.tokens.json"
       },
       "buffer": false,
       "line": 6,

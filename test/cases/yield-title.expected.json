@@ -40,7 +40,9 @@
                   "line": 3,
                   "filename": "yield-title.tokens.json"
                 }
-              ]
+              ],
+              "line": 2,
+              "filename": "yield-title.tokens.json"
             },
             "attrs": [],
             "attributeBlocks": [],
@@ -48,7 +50,9 @@
             "line": 2,
             "filename": "yield-title.tokens.json"
           }
-        ]
+        ],
+        "line": 1,
+        "filename": "yield-title.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],

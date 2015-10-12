@@ -51,7 +51,9 @@
                                     "line": 5,
                                     "filename": "case.tokens.json"
                                   }
-                                ]
+                                ],
+                                "line": 5,
+                                "filename": "case.tokens.json"
                               },
                               "attrs": [],
                               "attributeBlocks": [],
@@ -86,7 +88,9 @@
                                     "line": 6,
                                     "filename": "case.tokens.json"
                                   }
-                                ]
+                                ],
+                                "line": 6,
+                                "filename": "case.tokens.json"
                               },
                               "attrs": [],
                               "attributeBlocks": [],
@@ -136,7 +140,9 @@
                                     "line": 7,
                                     "filename": "case.tokens.json"
                                   }
-                                ]
+                                ],
+                                "line": 7,
+                                "filename": "case.tokens.json"
                               },
                               "attrs": [],
                               "attributeBlocks": [],
@@ -200,7 +206,9 @@
                                     "line": 12,
                                     "filename": "case.tokens.json"
                                   }
-                                ]
+                                ],
+                                "line": 12,
+                                "filename": "case.tokens.json"
                               },
                               "attrs": [],
                               "attributeBlocks": [],
@@ -250,7 +258,9 @@
                                     "line": 14,
                                     "filename": "case.tokens.json"
                                   }
-                                ]
+                                ],
+                                "line": 14,
+                                "filename": "case.tokens.json"
                               },
                               "attrs": [],
                               "attributeBlocks": [],
@@ -271,7 +281,9 @@
                     "filename": "case.tokens.json"
                   }
                 }
-              ]
+              ],
+              "line": 2,
+              "filename": "case.tokens.json"
             },
             "attrs": [],
             "attributeBlocks": [],
@@ -279,7 +291,9 @@
             "line": 2,
             "filename": "case.tokens.json"
           }
-        ]
+        ],
+        "line": 1,
+        "filename": "case.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],

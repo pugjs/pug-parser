@@ -13,7 +13,9 @@
       "selfClosing": true,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 2,
+        "filename": "xml.tokens.json"
       },
       "attrs": [
         {
@@ -40,7 +42,9 @@
             "line": 3,
             "filename": "xml.tokens.json"
           }
-        ]
+        ],
+        "line": 3,
+        "filename": "xml.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],

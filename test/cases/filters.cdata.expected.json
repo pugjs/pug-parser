@@ -42,13 +42,17 @@
                               "val": "#{user.name}",
                               "line": 8
                             }
-                          ]
+                          ],
+                          "line": 7,
+                          "filename": "filters.cdata.tokens.json"
                         },
                         "attrs": [],
                         "line": 7,
                         "filename": "filters.cdata.tokens.json"
                       }
-                    ]
+                    ],
+                    "line": 6,
+                    "filename": "filters.cdata.tokens.json"
                   },
                   "attrs": [
                     {
@@ -69,7 +73,9 @@
             "line": 5,
             "filename": "filters.cdata.tokens.json"
           }
-        ]
+        ],
+        "line": 4,
+        "filename": "filters.cdata.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],

@@ -33,7 +33,9 @@
                               "line": 2,
                               "filename": "block-expansion.shorthands.tokens.json"
                             }
-                          ]
+                          ],
+                          "line": 2,
+                          "filename": "block-expansion.shorthands.tokens.json"
                         },
                         "attrs": [
                           {
@@ -47,7 +49,9 @@
                         "line": 2,
                         "filename": "block-expansion.shorthands.tokens.json"
                       }
-                    ]
+                    ],
+                    "line": 2,
+                    "filename": "block-expansion.shorthands.tokens.json"
                   },
                   "attrs": [
                     {
@@ -61,7 +65,9 @@
                   "line": 2,
                   "filename": "block-expansion.shorthands.tokens.json"
                 }
-              ]
+              ],
+              "line": 2,
+              "filename": "block-expansion.shorthands.tokens.json"
             },
             "attrs": [
               {
@@ -75,7 +81,9 @@
             "line": 2,
             "filename": "block-expansion.shorthands.tokens.json"
           }
-        ]
+        ],
+        "line": 1,
+        "filename": "block-expansion.shorthands.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],

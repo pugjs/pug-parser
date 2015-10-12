@@ -21,7 +21,9 @@
           "selfClosing": false,
           "block": {
             "type": "Block",
-            "nodes": []
+            "nodes": [],
+            "line": 5,
+            "filename": "inheritance.tokens.json"
           },
           "attrs": [
             {
@@ -57,7 +59,9 @@
                 "line": 8,
                 "filename": "inheritance.tokens.json"
               }
-            ]
+            ],
+            "line": 8,
+            "filename": "inheritance.tokens.json"
           },
           "attrs": [],
           "attributeBlocks": [],
@@ -78,7 +82,9 @@
                 "line": 9,
                 "filename": "inheritance.tokens.json"
               }
-            ]
+            ],
+            "line": 9,
+            "filename": "inheritance.tokens.json"
           },
           "attrs": [],
           "attributeBlocks": [],

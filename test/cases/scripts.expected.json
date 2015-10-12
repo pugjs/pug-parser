@@ -33,7 +33,9 @@
             "val": "}",
             "line": 4
           }
-        ]
+        ],
+        "line": 1,
+        "filename": "scripts.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],
@@ -58,7 +60,9 @@
             "line": 5,
             "filename": "scripts.tokens.json"
           }
-        ]
+        ],
+        "line": 5,
+        "filename": "scripts.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],
@@ -79,7 +83,9 @@
             "line": 6,
             "filename": "scripts.tokens.json"
           }
-        ]
+        ],
+        "line": 6,
+        "filename": "scripts.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],
@@ -93,7 +99,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 7,
+        "filename": "scripts.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],
@@ -107,7 +115,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 8,
+        "filename": "scripts.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],

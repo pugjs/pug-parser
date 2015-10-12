@@ -14,7 +14,9 @@
             "selfClosing": false,
             "block": {
               "type": "Block",
-              "nodes": []
+              "nodes": [],
+              "line": 3,
+              "filename": "tags.self-closing.tokens.json"
             },
             "attrs": [],
             "attributeBlocks": [],
@@ -28,7 +30,9 @@
             "selfClosing": false,
             "block": {
               "type": "Block",
-              "nodes": []
+              "nodes": [],
+              "line": 4,
+              "filename": "tags.self-closing.tokens.json"
             },
             "attrs": [
               {
@@ -48,7 +52,9 @@
             "selfClosing": true,
             "block": {
               "type": "Block",
-              "nodes": []
+              "nodes": [],
+              "line": 5,
+              "filename": "tags.self-closing.tokens.json"
             },
             "attrs": [],
             "attributeBlocks": [],
@@ -62,7 +68,9 @@
             "selfClosing": true,
             "block": {
               "type": "Block",
-              "nodes": []
+              "nodes": [],
+              "line": 6,
+              "filename": "tags.self-closing.tokens.json"
             },
             "attrs": [
               {
@@ -89,7 +97,9 @@
                   "line": 7,
                   "filename": "tags.self-closing.tokens.json"
                 }
-              ]
+              ],
+              "line": 7,
+              "filename": "tags.self-closing.tokens.json"
             },
             "attrs": [],
             "attributeBlocks": [],
@@ -110,7 +120,9 @@
                   "line": 8,
                   "filename": "tags.self-closing.tokens.json"
                 }
-              ]
+              ],
+              "line": 8,
+              "filename": "tags.self-closing.tokens.json"
             },
             "attrs": [
               {
@@ -130,7 +142,9 @@
             "selfClosing": true,
             "block": {
               "type": "Block",
-              "nodes": []
+              "nodes": [],
+              "line": 9,
+              "filename": "tags.self-closing.tokens.json"
             },
             "attrs": [],
             "attributeBlocks": [],
@@ -145,7 +159,9 @@
             "selfClosing": true,
             "block": {
               "type": "Block",
-              "nodes": []
+              "nodes": [],
+              "line": 10,
+              "filename": "tags.self-closing.tokens.json"
             },
             "attrs": [
               {
@@ -172,7 +188,9 @@
                   "line": 11,
                   "filename": "tags.self-closing.tokens.json"
                 }
-              ]
+              ],
+              "line": 11,
+              "filename": "tags.self-closing.tokens.json"
             },
             "attrs": [],
             "attributeBlocks": [],
@@ -193,7 +211,9 @@
                   "line": 12,
                   "filename": "tags.self-closing.tokens.json"
                 }
-              ]
+              ],
+              "line": 12,
+              "filename": "tags.self-closing.tokens.json"
             },
             "attrs": [
               {
@@ -228,7 +248,9 @@
                   "line": 14,
                   "filename": "tags.self-closing.tokens.json"
                 }
-              ]
+              ],
+              "line": 14,
+              "filename": "tags.self-closing.tokens.json"
             },
             "attrs": [],
             "attributeBlocks": [],
@@ -256,7 +278,9 @@
                   "line": 16,
                   "filename": "tags.self-closing.tokens.json"
                 }
-              ]
+              ],
+              "line": 16,
+              "filename": "tags.self-closing.tokens.json"
             },
             "attrs": [],
             "attributeBlocks": [],
@@ -264,7 +288,9 @@
             "line": 16,
             "filename": "tags.self-closing.tokens.json"
           }
-        ]
+        ],
+        "line": 2,
+        "filename": "tags.self-closing.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],

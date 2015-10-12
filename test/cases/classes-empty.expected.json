@@ -7,7 +7,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 1,
+        "filename": "classes-empty.tokens.json"
       },
       "attrs": [
         {
@@ -27,7 +29,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 2,
+        "filename": "classes-empty.tokens.json"
       },
       "attrs": [
         {
@@ -47,7 +51,9 @@
       "selfClosing": false,
       "block": {
         "type": "Block",
-        "nodes": []
+        "nodes": [],
+        "line": 3,
+        "filename": "classes-empty.tokens.json"
       },
       "attrs": [
         {

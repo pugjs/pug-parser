@@ -43,7 +43,9 @@
             "val": "",
             "line": 5
           }
-        ]
+        ],
+        "line": 1,
+        "filename": "pre.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],
@@ -91,7 +93,9 @@
                   "val": "baz",
                   "line": 10
                 }
-              ]
+              ],
+              "line": 7,
+              "filename": "pre.tokens.json"
             },
             "attrs": [],
             "attributeBlocks": [],
@@ -100,7 +104,9 @@
             "filename": "pre.tokens.json",
             "textOnly": true
           }
-        ]
+        ],
+        "line": 6,
+        "filename": "pre.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],
