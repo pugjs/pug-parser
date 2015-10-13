@@ -191,12 +191,6 @@
       "textOnly": true
     },
     {
-      "type": "Text",
-      "val": "",
-      "line": 20,
-      "filename": "text.tokens.json"
-    },
-    {
       "type": "Block",
       "nodes": [
         {

@@ -9,12 +9,6 @@
       "filename": "mixin-via-include.tokens.json"
     },
     {
-      "type": "Text",
-      "val": "",
-      "line": 2,
-      "filename": "mixin-via-include.tokens.json"
-    },
-    {
       "type": "Include",
       "file": {
         "type": "FileReference",

@@ -38,12 +38,6 @@
       "filename": "comments.source.tokens.json"
     },
     {
-      "type": "Text",
-      "val": "",
-      "line": 5,
-      "filename": "comments.source.tokens.json"
-    },
-    {
       "type": "BlockComment",
       "val": "",
       "block": {

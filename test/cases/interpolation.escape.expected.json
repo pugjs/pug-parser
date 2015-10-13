@@ -34,7 +34,7 @@
               },
               {
                 "type": "Text",
-                "val": "\\#{text}",
+                "val": "#{text}",
                 "line": 5,
                 "filename": "interpolation.escape.tokens.json"
               },
