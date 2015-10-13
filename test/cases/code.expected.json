@@ -13,7 +13,7 @@
             "val": "null",
             "buffer": true,
             "escape": true,
-            "isInline": false,
+            "isInline": true,
             "line": 1,
             "filename": "code.tokens.json"
           }
@@ -39,7 +39,7 @@
             "val": "undefined",
             "buffer": true,
             "escape": true,
-            "isInline": false,
+            "isInline": true,
             "line": 2,
             "filename": "code.tokens.json"
           }
@@ -65,7 +65,7 @@
             "val": "''",
             "buffer": true,
             "escape": true,
-            "isInline": false,
+            "isInline": true,
             "line": 3,
             "filename": "code.tokens.json"
           }
@@ -91,7 +91,7 @@
             "val": "0",
             "buffer": true,
             "escape": true,
-            "isInline": false,
+            "isInline": true,
             "line": 4,
             "filename": "code.tokens.json"
           }
@@ -117,7 +117,7 @@
             "val": "false",
             "buffer": true,
             "escape": true,
-            "isInline": false,
+            "isInline": true,
             "line": 5,
             "filename": "code.tokens.json"
           }

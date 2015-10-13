@@ -20,7 +20,7 @@
                   "val": "title",
                   "buffer": true,
                   "escape": true,
-                  "isInline": false,
+                  "isInline": true,
                   "line": 3,
                   "filename": "mixin-hoist.tokens.json"
                 }

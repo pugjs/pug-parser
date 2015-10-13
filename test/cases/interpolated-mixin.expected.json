@@ -20,7 +20,7 @@
                   "val": "url",
                   "buffer": true,
                   "escape": true,
-                  "isInline": false,
+                  "isInline": true,
                   "line": 2,
                   "filename": "interpolated-mixin.tokens.json"
                 }

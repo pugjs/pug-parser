@@ -27,7 +27,7 @@
                         "val": "name",
                         "buffer": true,
                         "escape": true,
-                        "isInline": false,
+                        "isInline": true,
                         "line": 4,
                         "filename": "mixin.block-tag-behaviour.tokens.json"
                       }
@@ -170,7 +170,7 @@
                         "val": "name",
                         "buffer": true,
                         "escape": true,
-                        "isInline": false,
+                        "isInline": true,
                         "line": 13,
                         "filename": "mixin.block-tag-behaviour.tokens.json"
                       }

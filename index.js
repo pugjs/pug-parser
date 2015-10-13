@@ -442,7 +442,7 @@ Parser.prototype = {
       val: tok.val,
       buffer: tok.buffer,
       escape: tok.escape,
-      isInline: false,
+      isInline: !!noBlock,
       line: tok.line,
       filename: this.filename
     };

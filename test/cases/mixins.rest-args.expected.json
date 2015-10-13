@@ -33,7 +33,7 @@
                               "val": "item",
                               "buffer": true,
                               "escape": true,
-                              "isInline": false,
+                              "isInline": true,
                               "line": 4,
                               "filename": "mixins.rest-args.tokens.json"
                             }

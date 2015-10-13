@@ -54,7 +54,7 @@
                   "val": "string",
                   "buffer": true,
                   "escape": true,
-                  "isInline": false,
+                  "isInline": true,
                   "line": 12,
                   "filename": "block-code.tokens.json"
                 }

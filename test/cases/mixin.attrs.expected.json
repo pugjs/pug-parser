@@ -38,7 +38,7 @@
                               "val": "title",
                               "buffer": true,
                               "escape": true,
-                              "isInline": false,
+                              "isInline": true,
                               "line": 4,
                               "filename": "mixin.attrs.tokens.json"
                             }
@@ -685,7 +685,7 @@
                   "val": "work",
                   "buffer": true,
                   "escape": true,
-                  "isInline": false,
+                  "isInline": true,
                   "line": 40,
                   "filename": "mixin.attrs.tokens.json"
                 }

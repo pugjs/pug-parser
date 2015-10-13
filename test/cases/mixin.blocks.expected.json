@@ -594,7 +594,7 @@
             "val": "'123'",
             "buffer": true,
             "escape": true,
-            "isInline": false,
+            "isInline": true,
             "line": 44,
             "filename": "mixin.blocks.tokens.json"
           }

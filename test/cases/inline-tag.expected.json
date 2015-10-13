@@ -125,7 +125,7 @@
                   "val": "'[foo]'",
                   "buffer": true,
                   "escape": true,
-                  "isInline": false,
+                  "isInline": true,
                   "line": 6,
                   "filename": "inline-tag.tokens.json"
                 }
@@ -280,7 +280,7 @@
                       "val": "'[foo]'",
                       "buffer": true,
                       "escape": true,
-                      "isInline": false,
+                      "isInline": true,
                       "line": 13,
                       "filename": "inline-tag.tokens.json"
                     }

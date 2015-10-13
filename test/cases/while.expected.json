@@ -46,7 +46,7 @@
                         "val": "x",
                         "buffer": true,
                         "escape": true,
-                        "isInline": false,
+                        "isInline": true,
                         "line": 5,
                         "filename": "while.tokens.json"
                       }
