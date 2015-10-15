@@ -12,19 +12,18 @@
             "type": "Include",
             "file": {
               "type": "FileReference",
-              "path": "auxiliary/pet",
               "line": 2,
-              "filename": "include.script.tokens.json"
+              "filename": "include.script.tokens.json",
+              "path": "auxiliary/pet"
             },
-            "attrs": [],
+            "line": 2,
+            "filename": "include.script.tokens.json",
             "block": {
               "type": "Block",
               "nodes": [],
               "line": 2,
               "filename": "include.script.tokens.json"
-            },
-            "line": 2,
-            "filename": "include.script.tokens.json"
+            }
           }
         ],
         "line": 1,

@@ -19,11 +19,12 @@
                   "type": "Include",
                   "file": {
                     "type": "FileReference",
-                    "path": "yield-head",
                     "line": 3,
-                    "filename": "yield.tokens.json"
+                    "filename": "yield.tokens.json",
+                    "path": "yield-head"
                   },
-                  "attrs": [],
+                  "line": 3,
+                  "filename": "yield.tokens.json",
                   "block": {
                     "type": "Block",
                     "nodes": [
@@ -74,9 +75,7 @@
                     ],
                     "line": 4,
                     "filename": "yield.tokens.json"
-                  },
-                  "line": 3,
-                  "filename": "yield.tokens.json"
+                  }
                 }
               ],
               "line": 2,

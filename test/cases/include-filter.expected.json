@@ -16,21 +16,33 @@
               "type": "Block",
               "nodes": [
                 {
-                  "type": "Include",
-                  "file": {
-                    "type": "FileReference",
-                    "path": "some.md",
-                    "line": 3,
-                    "filename": "include-filter.tokens.json"
-                  },
-                  "filter": "marked",
-                  "attrs": [],
+                  "type": "Filter",
+                  "name": "marked",
                   "block": {
                     "type": "Block",
-                    "nodes": [],
+                    "nodes": [
+                      {
+                        "type": "Include",
+                        "file": {
+                          "type": "FileReference",
+                          "line": 3,
+                          "filename": "include-filter.tokens.json",
+                          "path": "some.md"
+                        },
+                        "line": 3,
+                        "filename": "include-filter.tokens.json",
+                        "block": {
+                          "type": "Block",
+                          "nodes": [],
+                          "line": 3,
+                          "filename": "include-filter.tokens.json"
+                        }
+                      }
+                    ],
                     "line": 3,
                     "filename": "include-filter.tokens.json"
                   },
+                  "attrs": [],
                   "line": 3,
                   "filename": "include-filter.tokens.json"
                 },
@@ -42,27 +54,39 @@
                     "type": "Block",
                     "nodes": [
                       {
-                        "type": "Include",
-                        "file": {
-                          "type": "FileReference",
-                          "path": "include-filter-coffee.coffee",
+                        "type": "Filter",
+                        "name": "coffee-script",
+                        "block": {
+                          "type": "Block",
+                          "nodes": [
+                            {
+                              "type": "Include",
+                              "file": {
+                                "type": "FileReference",
+                                "line": 5,
+                                "filename": "include-filter.tokens.json",
+                                "path": "include-filter-coffee.coffee"
+                              },
+                              "line": 5,
+                              "filename": "include-filter.tokens.json",
+                              "block": {
+                                "type": "Block",
+                                "nodes": [],
+                                "line": 5,
+                                "filename": "include-filter.tokens.json"
+                              }
+                            }
+                          ],
                           "line": 5,
                           "filename": "include-filter.tokens.json"
                         },
-                        "filter": "coffee-script",
                         "attrs": [
                           {
                             "name": "minify",
                             "val": "true",
-                            "escaped": true
+                            "mustEscape": true
                           }
                         ],
-                        "block": {
-                          "type": "Block",
-                          "nodes": [],
-                          "line": 5,
-                          "filename": "include-filter.tokens.json"
-                        },
                         "line": 5,
                         "filename": "include-filter.tokens.json"
                       }
@@ -84,27 +108,39 @@
                     "type": "Block",
                     "nodes": [
                       {
-                        "type": "Include",
-                        "file": {
-                          "type": "FileReference",
-                          "path": "include-filter-coffee.coffee",
+                        "type": "Filter",
+                        "name": "coffee-script",
+                        "block": {
+                          "type": "Block",
+                          "nodes": [
+                            {
+                              "type": "Include",
+                              "file": {
+                                "type": "FileReference",
+                                "line": 7,
+                                "filename": "include-filter.tokens.json",
+                                "path": "include-filter-coffee.coffee"
+                              },
+                              "line": 7,
+                              "filename": "include-filter.tokens.json",
+                              "block": {
+                                "type": "Block",
+                                "nodes": [],
+                                "line": 7,
+                                "filename": "include-filter.tokens.json"
+                              }
+                            }
+                          ],
                           "line": 7,
                           "filename": "include-filter.tokens.json"
                         },
-                        "filter": "coffee-script",
                         "attrs": [
                           {
                             "name": "minify",
                             "val": "false",
-                            "escaped": true
+                            "mustEscape": true
                           }
                         ],
-                        "block": {
-                          "type": "Block",
-                          "nodes": [],
-                          "line": 7,
-                          "filename": "include-filter.tokens.json"
-                        },
                         "line": 7,
                         "filename": "include-filter.tokens.json"
                       }

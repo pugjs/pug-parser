@@ -5,37 +5,35 @@
       "type": "Include",
       "file": {
         "type": "FileReference",
-        "path": "auxiliary/extends-empty-block-1",
         "line": 1,
-        "filename": "include-extends-of-common-template.tokens.json"
+        "filename": "include-extends-of-common-template.tokens.json",
+        "path": "auxiliary/extends-empty-block-1"
       },
-      "attrs": [],
+      "line": 1,
+      "filename": "include-extends-of-common-template.tokens.json",
       "block": {
         "type": "Block",
         "nodes": [],
         "line": 1,
         "filename": "include-extends-of-common-template.tokens.json"
-      },
-      "line": 1,
-      "filename": "include-extends-of-common-template.tokens.json"
+      }
     },
     {
       "type": "Include",
       "file": {
         "type": "FileReference",
-        "path": "auxiliary/extends-empty-block-2",
         "line": 2,
-        "filename": "include-extends-of-common-template.tokens.json"
+        "filename": "include-extends-of-common-template.tokens.json",
+        "path": "auxiliary/extends-empty-block-2"
       },
-      "attrs": [],
+      "line": 2,
+      "filename": "include-extends-of-common-template.tokens.json",
       "block": {
         "type": "Block",
         "nodes": [],
         "line": 2,
         "filename": "include-extends-of-common-template.tokens.json"
-      },
-      "line": 2,
-      "filename": "include-extends-of-common-template.tokens.json"
+      }
     }
   ],
   "line": 0,

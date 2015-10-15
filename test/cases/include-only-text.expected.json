@@ -26,11 +26,12 @@
                         "type": "Include",
                         "file": {
                           "type": "FileReference",
-                          "path": "include-only-text-body",
                           "line": 4,
-                          "filename": "include-only-text.tokens.json"
+                          "filename": "include-only-text.tokens.json",
+                          "path": "include-only-text-body"
                         },
-                        "attrs": [],
+                        "line": 4,
+                        "filename": "include-only-text.tokens.json",
                         "block": {
                           "type": "Block",
                           "nodes": [
@@ -60,9 +61,7 @@
                           ],
                           "line": 5,
                           "filename": "include-only-text.tokens.json"
-                        },
-                        "line": 4,
-                        "filename": "include-only-text.tokens.json"
+                        }
                       }
                     ],
                     "line": 3,

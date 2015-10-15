@@ -5,19 +5,18 @@
       "type": "Include",
       "file": {
         "type": "FileReference",
-        "path": "auxiliary/mixins",
         "line": 2,
-        "filename": "includes.tokens.json"
+        "filename": "includes.tokens.json",
+        "path": "auxiliary/mixins"
       },
-      "attrs": [],
+      "line": 2,
+      "filename": "includes.tokens.json",
       "block": {
         "type": "Block",
         "nodes": [],
         "line": 2,
         "filename": "includes.tokens.json"
-      },
-      "line": 2,
-      "filename": "includes.tokens.json"
+      }
     },
     {
       "type": "Mixin",
@@ -40,37 +39,35 @@
             "type": "Include",
             "file": {
               "type": "FileReference",
-              "path": "auxiliary/smile.html",
               "line": 7,
-              "filename": "includes.tokens.json"
+              "filename": "includes.tokens.json",
+              "path": "auxiliary/smile.html"
             },
-            "attrs": [],
+            "line": 7,
+            "filename": "includes.tokens.json",
             "block": {
               "type": "Block",
               "nodes": [],
               "line": 7,
               "filename": "includes.tokens.json"
-            },
-            "line": 7,
-            "filename": "includes.tokens.json"
+            }
           },
           {
             "type": "Include",
             "file": {
               "type": "FileReference",
-              "path": "auxiliary/escapes.html",
               "line": 8,
-              "filename": "includes.tokens.json"
+              "filename": "includes.tokens.json",
+              "path": "auxiliary/escapes.html"
             },
-            "attrs": [],
+            "line": 8,
+            "filename": "includes.tokens.json",
             "block": {
               "type": "Block",
               "nodes": [],
               "line": 8,
               "filename": "includes.tokens.json"
-            },
-            "line": 8,
-            "filename": "includes.tokens.json"
+            }
           },
           {
             "type": "Tag",
@@ -80,21 +77,33 @@
               "type": "Block",
               "nodes": [
                 {
-                  "type": "Include",
-                  "file": {
-                    "type": "FileReference",
-                    "path": "auxiliary/includable.js",
-                    "line": 10,
-                    "filename": "includes.tokens.json"
-                  },
-                  "filter": "verbatim",
-                  "attrs": [],
+                  "type": "Filter",
+                  "name": "verbatim",
                   "block": {
                     "type": "Block",
-                    "nodes": [],
+                    "nodes": [
+                      {
+                        "type": "Include",
+                        "file": {
+                          "type": "FileReference",
+                          "line": 10,
+                          "filename": "includes.tokens.json",
+                          "path": "auxiliary/includable.js"
+                        },
+                        "line": 10,
+                        "filename": "includes.tokens.json",
+                        "block": {
+                          "type": "Block",
+                          "nodes": [],
+                          "line": 10,
+                          "filename": "includes.tokens.json"
+                        }
+                      }
+                    ],
                     "line": 10,
                     "filename": "includes.tokens.json"
                   },
+                  "attrs": [],
                   "line": 10,
                   "filename": "includes.tokens.json"
                 }

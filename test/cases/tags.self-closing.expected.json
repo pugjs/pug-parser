@@ -177,6 +177,7 @@
           {
             "type": "InterpolatedTag",
             "expr": "'foo'",
+            "selfClosing": false,
             "block": {
               "type": "Block",
               "nodes": [
@@ -199,6 +200,7 @@
           {
             "type": "InterpolatedTag",
             "expr": "'foo'",
+            "selfClosing": false,
             "block": {
               "type": "Block",
               "nodes": [

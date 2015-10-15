@@ -5,19 +5,18 @@
       "type": "Include",
       "file": {
         "type": "FileReference",
-        "path": "./auxiliary/mixin-at-end-of-file.jade",
         "line": 1,
-        "filename": "mixin-at-end-of-file.tokens.json"
+        "filename": "mixin-at-end-of-file.tokens.json",
+        "path": "./auxiliary/mixin-at-end-of-file.jade"
       },
-      "attrs": [],
+      "line": 1,
+      "filename": "mixin-at-end-of-file.tokens.json",
       "block": {
         "type": "Block",
         "nodes": [],
         "line": 1,
         "filename": "mixin-at-end-of-file.tokens.json"
-      },
-      "line": 1,
-      "filename": "mixin-at-end-of-file.tokens.json"
+      }
     },
     {
       "type": "Mixin",

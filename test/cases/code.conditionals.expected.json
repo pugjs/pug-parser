@@ -418,6 +418,7 @@
           {
             "type": "Tag",
             "name": "div",
+            "selfClosing": false,
             "block": {
               "type": "Block",
               "nodes": [],
@@ -452,6 +453,7 @@
           {
             "type": "Tag",
             "name": "div",
+            "selfClosing": false,
             "block": {
               "type": "Block",
               "nodes": [],
@@ -481,6 +483,7 @@
     {
       "type": "Tag",
       "name": "div",
+      "selfClosing": false,
       "block": {
         "type": "Block",
         "nodes": [],
@@ -508,6 +511,7 @@
           {
             "type": "Tag",
             "name": "div",
+            "selfClosing": false,
             "block": {
               "type": "Block",
               "nodes": [],
@@ -539,6 +543,7 @@
             {
               "type": "Tag",
               "name": "div",
+              "selfClosing": false,
               "block": {
                 "type": "Block",
                 "nodes": [],
@@ -567,6 +572,7 @@
             {
               "type": "Tag",
               "name": "div",
+              "selfClosing": false,
               "block": {
                 "type": "Block",
                 "nodes": [],

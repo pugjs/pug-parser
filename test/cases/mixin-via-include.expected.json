@@ -12,19 +12,18 @@
       "type": "Include",
       "file": {
         "type": "FileReference",
-        "path": "../fixtures/mixin-include.jade",
         "line": 3,
-        "filename": "mixin-via-include.tokens.json"
+        "filename": "mixin-via-include.tokens.json",
+        "path": "../fixtures/mixin-include.jade"
       },
-      "attrs": [],
+      "line": 3,
+      "filename": "mixin-via-include.tokens.json",
       "block": {
         "type": "Block",
         "nodes": [],
         "line": 3,
         "filename": "mixin-via-include.tokens.json"
-      },
-      "line": 3,
-      "filename": "mixin-via-include.tokens.json"
+      }
     },
     {
       "type": "Mixin",

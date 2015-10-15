@@ -56,7 +56,7 @@
               {
                 "name": "minify",
                 "val": "true",
-                "escaped": true
+                "mustEscape": true
               }
             ],
             "line": 4,
