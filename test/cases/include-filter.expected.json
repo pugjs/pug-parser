@@ -16,35 +16,24 @@
               "type": "Block",
               "nodes": [
                 {
-                  "type": "Filter",
-                  "name": "marked",
-                  "block": {
-                    "type": "Block",
-                    "nodes": [
-                      {
-                        "type": "Include",
-                        "file": {
-                          "type": "FileReference",
-                          "line": 3,
-                          "filename": "include-filter.tokens.json",
-                          "path": "some.md"
-                        },
-                        "line": 3,
-                        "filename": "include-filter.tokens.json",
-                        "block": {
-                          "type": "Block",
-                          "nodes": [],
-                          "line": 3,
-                          "filename": "include-filter.tokens.json"
-                        }
-                      }
-                    ],
+                  "type": "RawInclude",
+                  "file": {
+                    "type": "FileReference",
                     "line": 3,
-                    "filename": "include-filter.tokens.json"
+                    "filename": "include-filter.tokens.json",
+                    "path": "some.md"
                   },
-                  "attrs": [],
                   "line": 3,
-                  "filename": "include-filter.tokens.json"
+                  "filename": "include-filter.tokens.json",
+                  "filters": [
+                    {
+                      "type": "IncludeFilter",
+                      "name": "marked",
+                      "attrs": [],
+                      "line": 3,
+                      "filename": "include-filter.tokens.json"
+                    }
+                  ]
                 },
                 {
                   "type": "Tag",
@@ -54,41 +43,30 @@
                     "type": "Block",
                     "nodes": [
                       {
-                        "type": "Filter",
-                        "name": "coffee-script",
-                        "block": {
-                          "type": "Block",
-                          "nodes": [
-                            {
-                              "type": "Include",
-                              "file": {
-                                "type": "FileReference",
-                                "line": 5,
-                                "filename": "include-filter.tokens.json",
-                                "path": "include-filter-coffee.coffee"
-                              },
-                              "line": 5,
-                              "filename": "include-filter.tokens.json",
-                              "block": {
-                                "type": "Block",
-                                "nodes": [],
-                                "line": 5,
-                                "filename": "include-filter.tokens.json"
-                              }
-                            }
-                          ],
+                        "type": "RawInclude",
+                        "file": {
+                          "type": "FileReference",
                           "line": 5,
-                          "filename": "include-filter.tokens.json"
+                          "filename": "include-filter.tokens.json",
+                          "path": "include-filter-coffee.coffee"
                         },
-                        "attrs": [
-                          {
-                            "name": "minify",
-                            "val": "true",
-                            "mustEscape": true
-                          }
-                        ],
                         "line": 5,
-                        "filename": "include-filter.tokens.json"
+                        "filename": "include-filter.tokens.json",
+                        "filters": [
+                          {
+                            "type": "IncludeFilter",
+                            "name": "coffee-script",
+                            "attrs": [
+                              {
+                                "name": "minify",
+                                "val": "true",
+                                "mustEscape": true
+                              }
+                            ],
+                            "line": 5,
+                            "filename": "include-filter.tokens.json"
+                          }
+                        ]
                       }
                     ],
                     "line": 4,
@@ -108,41 +86,30 @@
                     "type": "Block",
                     "nodes": [
                       {
-                        "type": "Filter",
-                        "name": "coffee-script",
-                        "block": {
-                          "type": "Block",
-                          "nodes": [
-                            {
-                              "type": "Include",
-                              "file": {
-                                "type": "FileReference",
-                                "line": 7,
-                                "filename": "include-filter.tokens.json",
-                                "path": "include-filter-coffee.coffee"
-                              },
-                              "line": 7,
-                              "filename": "include-filter.tokens.json",
-                              "block": {
-                                "type": "Block",
-                                "nodes": [],
-                                "line": 7,
-                                "filename": "include-filter.tokens.json"
-                              }
-                            }
-                          ],
+                        "type": "RawInclude",
+                        "file": {
+                          "type": "FileReference",
                           "line": 7,
-                          "filename": "include-filter.tokens.json"
+                          "filename": "include-filter.tokens.json",
+                          "path": "include-filter-coffee.coffee"
                         },
-                        "attrs": [
-                          {
-                            "name": "minify",
-                            "val": "false",
-                            "mustEscape": true
-                          }
-                        ],
                         "line": 7,
-                        "filename": "include-filter.tokens.json"
+                        "filename": "include-filter.tokens.json",
+                        "filters": [
+                          {
+                            "type": "IncludeFilter",
+                            "name": "coffee-script",
+                            "attrs": [
+                              {
+                                "name": "minify",
+                                "val": "false",
+                                "mustEscape": true
+                              }
+                            ],
+                            "line": 7,
+                            "filename": "include-filter.tokens.json"
+                          }
+                        ]
                       }
                     ],
                     "line": 6,

@@ -16,7 +16,7 @@
               "type": "Block",
               "nodes": [
                 {
-                  "type": "Include",
+                  "type": "RawInclude",
                   "file": {
                     "type": "FileReference",
                     "line": 3,
@@ -25,19 +25,7 @@
                   },
                   "line": 3,
                   "filename": "yield-title.tokens.json",
-                  "block": {
-                    "type": "Block",
-                    "nodes": [
-                      {
-                        "type": "Text",
-                        "val": "My Title",
-                        "line": 4,
-                        "filename": "yield-title.tokens.json"
-                      }
-                    ],
-                    "line": 4,
-                    "filename": "yield-title.tokens.json"
-                  }
+                  "filters": []
                 }
               ],
               "line": 2,

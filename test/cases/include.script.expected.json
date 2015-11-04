@@ -9,7 +9,7 @@
         "type": "Block",
         "nodes": [
           {
-            "type": "Include",
+            "type": "RawInclude",
             "file": {
               "type": "FileReference",
               "line": 2,
@@ -18,12 +18,7 @@
             },
             "line": 2,
             "filename": "include.script.tokens.json",
-            "block": {
-              "type": "Block",
-              "nodes": [],
-              "line": 2,
-              "filename": "include.script.tokens.json"
-            }
+            "filters": []
           }
         ],
         "line": 1,

@@ -9,7 +9,7 @@
         "type": "Block",
         "nodes": [
           {
-            "type": "Include",
+            "type": "RawInclude",
             "file": {
               "type": "FileReference",
               "line": 2,
@@ -18,57 +18,7 @@
             },
             "line": 2,
             "filename": "include-with-text.tokens.json",
-            "block": {
-              "type": "Block",
-              "nodes": [
-                {
-                  "type": "Tag",
-                  "name": "script",
-                  "selfClosing": false,
-                  "block": {
-                    "type": "Block",
-                    "nodes": [],
-                    "line": 3,
-                    "filename": "include-with-text.tokens.json"
-                  },
-                  "attrs": [
-                    {
-                      "name": "src",
-                      "val": "'/caustic.js'",
-                      "mustEscape": true
-                    }
-                  ],
-                  "attributeBlocks": [],
-                  "isInline": false,
-                  "line": 3,
-                  "filename": "include-with-text.tokens.json"
-                },
-                {
-                  "type": "Tag",
-                  "name": "script",
-                  "selfClosing": false,
-                  "block": {
-                    "type": "Block",
-                    "nodes": [],
-                    "line": 4,
-                    "filename": "include-with-text.tokens.json"
-                  },
-                  "attrs": [
-                    {
-                      "name": "src",
-                      "val": "'/app.js'",
-                      "mustEscape": true
-                    }
-                  ],
-                  "attributeBlocks": [],
-                  "isInline": false,
-                  "line": 4,
-                  "filename": "include-with-text.tokens.json"
-                }
-              ],
-              "line": 3,
-              "filename": "include-with-text.tokens.json"
-            }
+            "filters": []
           }
         ],
         "line": 1,

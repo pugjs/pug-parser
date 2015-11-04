@@ -2,7 +2,7 @@
   "type": "Block",
   "nodes": [
     {
-      "type": "Include",
+      "type": "RawInclude",
       "file": {
         "type": "FileReference",
         "line": 2,
@@ -11,12 +11,7 @@
       },
       "line": 2,
       "filename": "includes.tokens.json",
-      "block": {
-        "type": "Block",
-        "nodes": [],
-        "line": 2,
-        "filename": "includes.tokens.json"
-      }
+      "filters": []
     },
     {
       "type": "Mixin",
@@ -36,7 +31,7 @@
         "type": "Block",
         "nodes": [
           {
-            "type": "Include",
+            "type": "RawInclude",
             "file": {
               "type": "FileReference",
               "line": 7,
@@ -45,15 +40,10 @@
             },
             "line": 7,
             "filename": "includes.tokens.json",
-            "block": {
-              "type": "Block",
-              "nodes": [],
-              "line": 7,
-              "filename": "includes.tokens.json"
-            }
+            "filters": []
           },
           {
-            "type": "Include",
+            "type": "RawInclude",
             "file": {
               "type": "FileReference",
               "line": 8,
@@ -62,12 +52,7 @@
             },
             "line": 8,
             "filename": "includes.tokens.json",
-            "block": {
-              "type": "Block",
-              "nodes": [],
-              "line": 8,
-              "filename": "includes.tokens.json"
-            }
+            "filters": []
           },
           {
             "type": "Tag",
@@ -77,35 +62,24 @@
               "type": "Block",
               "nodes": [
                 {
-                  "type": "Filter",
-                  "name": "verbatim",
-                  "block": {
-                    "type": "Block",
-                    "nodes": [
-                      {
-                        "type": "Include",
-                        "file": {
-                          "type": "FileReference",
-                          "line": 10,
-                          "filename": "includes.tokens.json",
-                          "path": "auxiliary/includable.js"
-                        },
-                        "line": 10,
-                        "filename": "includes.tokens.json",
-                        "block": {
-                          "type": "Block",
-                          "nodes": [],
-                          "line": 10,
-                          "filename": "includes.tokens.json"
-                        }
-                      }
-                    ],
+                  "type": "RawInclude",
+                  "file": {
+                    "type": "FileReference",
                     "line": 10,
-                    "filename": "includes.tokens.json"
+                    "filename": "includes.tokens.json",
+                    "path": "auxiliary/includable.js"
                   },
-                  "attrs": [],
                   "line": 10,
-                  "filename": "includes.tokens.json"
+                  "filename": "includes.tokens.json",
+                  "filters": [
+                    {
+                      "type": "IncludeFilter",
+                      "name": "verbatim",
+                      "attrs": [],
+                      "line": 10,
+                      "filename": "includes.tokens.json"
+                    }
+                  ]
                 }
               ],
               "line": 9,

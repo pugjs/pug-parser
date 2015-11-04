@@ -16,7 +16,7 @@
               "type": "Block",
               "nodes": [
                 {
-                  "type": "Include",
+                  "type": "RawInclude",
                   "file": {
                     "type": "FileReference",
                     "line": 3,
@@ -25,57 +25,7 @@
                   },
                   "line": 3,
                   "filename": "yield-before-conditional.tokens.json",
-                  "block": {
-                    "type": "Block",
-                    "nodes": [
-                      {
-                        "type": "Tag",
-                        "name": "script",
-                        "selfClosing": false,
-                        "block": {
-                          "type": "Block",
-                          "nodes": [],
-                          "line": 4,
-                          "filename": "yield-before-conditional.tokens.json"
-                        },
-                        "attrs": [
-                          {
-                            "name": "src",
-                            "val": "'/caustic.js'",
-                            "mustEscape": true
-                          }
-                        ],
-                        "attributeBlocks": [],
-                        "isInline": false,
-                        "line": 4,
-                        "filename": "yield-before-conditional.tokens.json"
-                      },
-                      {
-                        "type": "Tag",
-                        "name": "script",
-                        "selfClosing": false,
-                        "block": {
-                          "type": "Block",
-                          "nodes": [],
-                          "line": 5,
-                          "filename": "yield-before-conditional.tokens.json"
-                        },
-                        "attrs": [
-                          {
-                            "name": "src",
-                            "val": "'/app.js'",
-                            "mustEscape": true
-                          }
-                        ],
-                        "attributeBlocks": [],
-                        "isInline": false,
-                        "line": 5,
-                        "filename": "yield-before-conditional.tokens.json"
-                      }
-                    ],
-                    "line": 4,
-                    "filename": "yield-before-conditional.tokens.json"
-                  }
+                  "filters": []
                 }
               ],
               "line": 2,

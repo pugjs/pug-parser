@@ -16,7 +16,7 @@
               "type": "Block",
               "nodes": [
                 {
-                  "type": "Include",
+                  "type": "RawInclude",
                   "file": {
                     "type": "FileReference",
                     "line": 3,
@@ -25,12 +25,7 @@
                   },
                   "line": 3,
                   "filename": "includes-with-ext-js.tokens.json",
-                  "block": {
-                    "type": "Block",
-                    "nodes": [],
-                    "line": 3,
-                    "filename": "includes-with-ext-js.tokens.json"
-                  }
+                  "filters": []
                 }
               ],
               "line": 2,

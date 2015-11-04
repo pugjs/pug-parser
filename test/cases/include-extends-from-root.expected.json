@@ -2,7 +2,7 @@
   "type": "Block",
   "nodes": [
     {
-      "type": "Include",
+      "type": "RawInclude",
       "file": {
         "type": "FileReference",
         "line": 1,
@@ -11,12 +11,7 @@
       },
       "line": 1,
       "filename": "include-extends-from-root.tokens.json",
-      "block": {
-        "type": "Block",
-        "nodes": [],
-        "line": 1,
-        "filename": "include-extends-from-root.tokens.json"
-      }
+      "filters": []
     }
   ],
   "line": 0,
