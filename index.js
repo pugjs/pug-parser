@@ -601,11 +601,17 @@ Parser.prototype = {
     };
   },
 
+  parseIncludeFilter: function() {
+    var filter = this.parseFilter(true);
+    filter.type = 'IncludeFilter';
+    return filter;
+  },
+
   /**
    * filter attrs? text-block
    */
 
-  parseFilter: function(childBlock){
+  parseFilter: function(noBlock){
     var tok = this.expect('filter');
     var block, attrs = [];
 
@@ -613,9 +619,17 @@ Parser.prototype = {
       attrs = this.attrs();
     }
 
-    if (this.peek().type === 'filter') {
-      block = this.initBlock(tok.line, [this.parseFilter(childBlock)]);
-    } else if (!childBlock && this.peek().type === 'text') {
+    if (noBlock) {
+      return {
+        type: 'Filter',
+        name: tok.val,
+        attrs: attrs,
+        line: tok.line,
+        filename: this.filename
+      };
+    }
+
+    if (this.peek().type === 'text') {
       var textToken = this.advance();
       block = this.initBlock(textToken.line, [
         {
@@ -625,8 +639,10 @@ Parser.prototype = {
           filename: this.filename
         }
       ]);
+    } else if (this.peek().type === 'filter') {
+      block = this.initBlock(tok.line, [this.parseFilter()]);
     } else {
-      block = childBlock || this.parseTextBlock() || this.emptyBlock(tok.line);
+      block = this.parseTextBlock() || this.emptyBlock(tok.line);
     }
 
     return {
@@ -726,15 +742,31 @@ Parser.prototype = {
       line: tok.line,
       filename: this.filename
     };
-    var outNode = node;
-    if (this.peek().type === 'filter') {
-      outNode = this.parseFilter(this.initBlock(tok.line, [node]));
+    var filters = [];
+    while (this.peek().type === 'filter') {
+      filters.push(this.parseIncludeFilter());
     }
     var path = this.expect('path');
 
     node.file.path = path.val.trim();
-    node.block = 'indent' == this.peek().type ? this.block() : this.emptyBlock(tok.line);
-    return outNode;
+
+    if (/\.jade$/.test(node.file.path)) {
+      node.block = 'indent' == this.peek().type ? this.block() : this.emptyBlock(tok.line);
+      if (filters.length) {
+        // TODO: make this a warning
+        // this.error('Jade inclusion cannot be filtered; filters ignored', 'JADE_INCLUDE_FILTER', path);
+      }
+    } else {
+      node.type = 'RawInclude';
+      node.filters = filters;
+      if (this.peek().type === 'indent') {
+        // If there is a block, just ignore it.
+        this.block();
+        // TODO: make this a warning
+        // this.error('Raw inclusion cannot contain a block; block ignored', 'RAW_INCLUDE_BLOCK', this.peek());
+      }
+    }
+    return node;
   },
 
   /**
