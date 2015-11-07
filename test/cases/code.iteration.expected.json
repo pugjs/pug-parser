@@ -220,6 +220,7 @@
             "type": "Each",
             "obj": "items",
             "val": "$item",
+            "key": null,
             "block": {
               "type": "Block",
               "nodes": [
@@ -295,6 +296,7 @@
             "type": "Each",
             "obj": "letters",
             "val": "l",
+            "key": null,
             "block": {
               "type": "Block",
               "nodes": [
@@ -302,6 +304,7 @@
                   "type": "Each",
                   "obj": "nums",
                   "val": "n",
+                  "key": null,
                   "block": {
                     "type": "Block",
                     "nodes": [
@@ -399,6 +402,7 @@
             "type": "Each",
             "obj": "counter()",
             "val": "n",
+            "key": null,
             "block": {
               "type": "Block",
               "nodes": [

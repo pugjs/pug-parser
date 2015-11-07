@@ -23,16 +23,45 @@
                     "type": "Block",
                     "nodes": [
                       {
-                        "type": "RawInclude",
+                        "type": "Include",
                         "file": {
                           "type": "FileReference",
                           "line": 4,
                           "filename": "include-only-text.tokens.json",
-                          "path": "include-only-text-body"
+                          "path": "include-only-text-body.jade"
                         },
                         "line": 4,
                         "filename": "include-only-text.tokens.json",
-                        "filters": []
+                        "block": {
+                          "type": "Block",
+                          "nodes": [
+                            {
+                              "type": "Tag",
+                              "name": "em",
+                              "selfClosing": false,
+                              "block": {
+                                "type": "Block",
+                                "nodes": [
+                                  {
+                                    "type": "Text",
+                                    "val": "hello world",
+                                    "line": 5,
+                                    "filename": "include-only-text.tokens.json"
+                                  }
+                                ],
+                                "line": 5,
+                                "filename": "include-only-text.tokens.json"
+                              },
+                              "attrs": [],
+                              "attributeBlocks": [],
+                              "isInline": true,
+                              "line": 5,
+                              "filename": "include-only-text.tokens.json"
+                            }
+                          ],
+                          "line": 5,
+                          "filename": "include-only-text.tokens.json"
+                        }
                       }
                     ],
                     "line": 3,

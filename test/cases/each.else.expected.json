@@ -21,6 +21,7 @@
             "type": "Each",
             "obj": "users",
             "val": "user",
+            "key": null,
             "block": {
               "type": "Block",
               "nodes": [
@@ -123,6 +124,7 @@
                   "type": "Each",
                   "obj": "users",
                   "val": "user",
+                  "key": null,
                   "block": {
                     "type": "Block",
                     "nodes": [

@@ -154,6 +154,7 @@
           {
             "type": "Mixin",
             "name": "foo",
+            "args": null,
             "block": null,
             "call": true,
             "attrs": [
@@ -170,6 +171,7 @@
           {
             "type": "Mixin",
             "name": "foo",
+            "args": null,
             "block": null,
             "call": true,
             "attrs": [
@@ -186,6 +188,7 @@
           {
             "type": "Mixin",
             "name": "foo",
+            "args": null,
             "block": null,
             "call": true,
             "attrs": [
@@ -207,6 +210,7 @@
           {
             "type": "Mixin",
             "name": "foo",
+            "args": null,
             "block": null,
             "call": true,
             "attrs": [
@@ -228,6 +232,7 @@
           {
             "type": "Mixin",
             "name": "foo",
+            "args": null,
             "block": null,
             "call": true,
             "attrs": [
@@ -244,6 +249,7 @@
           {
             "type": "Mixin",
             "name": "foo",
+            "args": null,
             "block": null,
             "call": true,
             "attrs": [
@@ -265,6 +271,7 @@
           {
             "type": "Mixin",
             "name": "foo",
+            "args": null,
             "block": null,
             "call": true,
             "attrs": [],
@@ -275,6 +282,7 @@
           {
             "type": "Mixin",
             "name": "foo",
+            "args": null,
             "block": null,
             "call": true,
             "attrs": [],

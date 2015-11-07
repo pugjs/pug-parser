@@ -789,6 +789,60 @@
       "isInline": false,
       "line": 40,
       "filename": "attrs.tokens.json"
+    },
+    {
+      "type": "Tag",
+      "name": "a",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": [],
+        "line": 42,
+        "filename": "attrs.tokens.json"
+      },
+      "attrs": [
+        {
+          "name": "foo",
+          "val": "'foo'",
+          "mustEscape": true
+        },
+        {
+          "name": "bar",
+          "val": "\"bar\"",
+          "mustEscape": true
+        }
+      ],
+      "attributeBlocks": [],
+      "isInline": true,
+      "line": 42,
+      "filename": "attrs.tokens.json"
+    },
+    {
+      "type": "Tag",
+      "name": "a",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": [],
+        "line": 43,
+        "filename": "attrs.tokens.json"
+      },
+      "attrs": [
+        {
+          "name": "foo",
+          "val": "'foo'",
+          "mustEscape": true
+        },
+        {
+          "name": "bar",
+          "val": "'bar'",
+          "mustEscape": true
+        }
+      ],
+      "attributeBlocks": [],
+      "isInline": true,
+      "line": 43,
+      "filename": "attrs.tokens.json"
     }
   ],
   "line": 0,

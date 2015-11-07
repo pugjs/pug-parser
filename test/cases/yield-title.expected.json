@@ -16,16 +16,28 @@
               "type": "Block",
               "nodes": [
                 {
-                  "type": "RawInclude",
+                  "type": "Include",
                   "file": {
                     "type": "FileReference",
                     "line": 3,
                     "filename": "yield-title.tokens.json",
-                    "path": "yield-title-head"
+                    "path": "yield-title-head.jade"
                   },
                   "line": 3,
                   "filename": "yield-title.tokens.json",
-                  "filters": []
+                  "block": {
+                    "type": "Block",
+                    "nodes": [
+                      {
+                        "type": "Text",
+                        "val": "My Title",
+                        "line": 4,
+                        "filename": "yield-title.tokens.json"
+                      }
+                    ],
+                    "line": 4,
+                    "filename": "yield-title.tokens.json"
+                  }
                 }
               ],
               "line": 2,

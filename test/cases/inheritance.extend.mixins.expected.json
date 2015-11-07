@@ -5,7 +5,7 @@
       "type": "Extends",
       "file": {
         "type": "FileReference",
-        "path": "auxiliary/layout",
+        "path": "auxiliary/layout.jade",
         "line": 2,
         "filename": "inheritance.extend.mixins.tokens.json"
       },

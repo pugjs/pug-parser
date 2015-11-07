@@ -288,6 +288,7 @@
           {
             "type": "Mixin",
             "name": "centered",
+            "args": null,
             "block": {
               "type": "Block",
               "nodes": [
@@ -469,6 +470,7 @@
           {
             "type": "Mixin",
             "name": "bottom",
+            "args": null,
             "block": {
               "type": "Block",
               "nodes": [
@@ -534,6 +536,7 @@
           {
             "type": "Mixin",
             "name": "bottom",
+            "args": null,
             "block": null,
             "call": true,
             "attrs": [
@@ -627,6 +630,7 @@
     {
       "type": "Mixin",
       "name": "foo",
+      "args": null,
       "block": null,
       "call": true,
       "attrs": [
@@ -735,6 +739,7 @@
     {
       "type": "Mixin",
       "name": "foo",
+      "args": null,
       "block": null,
       "call": true,
       "attrs": [
@@ -751,6 +756,17 @@
       ],
       "attributeBlocks": [],
       "line": 43,
+      "filename": "mixin.attrs.tokens.json"
+    },
+    {
+      "type": "Mixin",
+      "name": "my-mixin",
+      "args": "\narg1,\n      arg2,\n  arg3,\n      arg4\n",
+      "block": null,
+      "call": true,
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 48,
       "filename": "mixin.attrs.tokens.json"
     }
   ],

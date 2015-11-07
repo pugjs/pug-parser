@@ -191,6 +191,7 @@
                 {
                   "type": "Mixin",
                   "name": "div",
+                  "args": null,
                   "block": null,
                   "call": true,
                   "attrs": [
@@ -207,6 +208,7 @@
                 {
                   "type": "Mixin",
                   "name": "div",
+                  "args": null,
                   "block": null,
                   "call": true,
                   "attrs": [
@@ -272,6 +274,7 @@
                 {
                   "type": "Mixin",
                   "name": "div",
+                  "args": null,
                   "block": null,
                   "call": true,
                   "attrs": [

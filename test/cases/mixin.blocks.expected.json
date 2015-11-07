@@ -415,6 +415,7 @@
                 {
                   "type": "Mixin",
                   "name": "bar",
+                  "args": null,
                   "block": {
                     "type": "Block",
                     "nodes": [
@@ -460,6 +461,7 @@
     {
       "type": "Mixin",
       "name": "foo",
+      "args": null,
       "block": {
         "type": "Block",
         "nodes": [

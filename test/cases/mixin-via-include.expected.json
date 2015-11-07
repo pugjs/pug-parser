@@ -28,6 +28,7 @@
     {
       "type": "Mixin",
       "name": "bang",
+      "args": null,
       "block": null,
       "call": true,
       "attrs": [],

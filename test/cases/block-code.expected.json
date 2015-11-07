@@ -30,6 +30,7 @@
       "type": "Each",
       "obj": "list",
       "val": "item",
+      "key": null,
       "block": {
         "type": "Block",
         "nodes": [

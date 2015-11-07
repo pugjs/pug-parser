@@ -5,7 +5,7 @@
       "type": "Extends",
       "file": {
         "type": "FileReference",
-        "path": "../fixtures/prepend/app-layout",
+        "path": "../fixtures/prepend/app-layout.jade",
         "line": 2,
         "filename": "layout.prepend.tokens.json"
       },

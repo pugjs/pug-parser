@@ -2,16 +2,21 @@
   "type": "Block",
   "nodes": [
     {
-      "type": "RawInclude",
+      "type": "Include",
       "file": {
         "type": "FileReference",
         "line": 1,
         "filename": "include-extends-from-root.tokens.json",
-        "path": "/auxiliary/extends-from-root"
+        "path": "/auxiliary/extends-from-root.jade"
       },
       "line": 1,
       "filename": "include-extends-from-root.tokens.json",
-      "filters": []
+      "block": {
+        "type": "Block",
+        "nodes": [],
+        "line": 1,
+        "filename": "include-extends-from-root.tokens.json"
+      }
     }
   ],
   "line": 0,

@@ -2,20 +2,26 @@
   "type": "Block",
   "nodes": [
     {
-      "type": "RawInclude",
+      "type": "Include",
       "file": {
         "type": "FileReference",
         "line": 2,
         "filename": "includes.tokens.json",
-        "path": "auxiliary/mixins"
+        "path": "auxiliary/mixins.jade"
       },
       "line": 2,
       "filename": "includes.tokens.json",
-      "filters": []
+      "block": {
+        "type": "Block",
+        "nodes": [],
+        "line": 2,
+        "filename": "includes.tokens.json"
+      }
     },
     {
       "type": "Mixin",
       "name": "foo",
+      "args": null,
       "block": null,
       "call": true,
       "attrs": [],
