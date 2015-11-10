@@ -5,7 +5,7 @@
       "type": "Extends",
       "file": {
         "type": "FileReference",
-        "path": "auxiliary/layout",
+        "path": "auxiliary/layout.jade",
         "line": 2,
         "filename": "inheritance.tokens.json"
       },
@@ -29,7 +29,7 @@
             {
               "name": "src",
               "val": "'jquery.js'",
-              "escaped": true
+              "mustEscape": true
             }
           ],
           "attributeBlocks": [],

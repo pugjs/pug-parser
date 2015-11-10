@@ -1,5 +1,6 @@
 'use strict';
 
+var assert = require('assert');
 var path = require('path');
 var TokenStream = require('token-stream');
 var inlineTags = require('./lib/inline-tags');
@@ -217,14 +218,7 @@ Parser.prototype = {
       case 'interpolation':
         return this.parseInterpolation();
       case 'yield':
-        var block = {
-          type: 'Block',
-          nodes: [],
-          line: this.expect('yield').line,
-          filename: this.filename
-        };
-        block.yield = true;
-        return block;
+        return this.parseYield();
       case 'id':
       case 'class':
         this.tokens.defer({
@@ -270,7 +264,7 @@ Parser.prototype = {
               type: 'Code',
               val: tok.val,
               buffer: tok.buffer,
-              escape: tok.escape,
+              mustEscape: tok.mustEscape !== false,
               isInline: true,
               line: tok.line,
               filename: this.filename
@@ -437,11 +431,12 @@ Parser.prototype = {
 
   parseCode: function(noBlock){
     var tok = this.expect('code');
+    assert(typeof tok.mustEscape === 'boolean', 'Please update to the newest version of jade-lexer.');
     var node = {
       type: 'Code',
       val: tok.val,
       buffer: tok.buffer,
-      escape: tok.escape,
+      mustEscape: tok.mustEscape !== false,
       isInline: !!noBlock,
       line: tok.line,
       filename: this.filename
@@ -561,7 +556,7 @@ Parser.prototype = {
       type: 'Code',
       val: text,
       buffer: false,
-      escape: false,
+      mustEscape: false,
       isInline: false,
       line: line,
       filename: this.filename
@@ -608,14 +603,34 @@ Parser.prototype = {
     };
   },
 
+  parseIncludeFilter: function() {
+    var tok = this.expect('filter');
+    var attrs = [];
+
+    if (this.peek().type === 'start-attributes') {
+      attrs = this.attrs();
+    }
+
+    return {
+      type: 'IncludeFilter',
+      name: tok.val,
+      attrs: attrs,
+      line: tok.line,
+      filename: this.filename
+    };
+  },
+
   /**
    * filter attrs? text-block
    */
 
   parseFilter: function(){
     var tok = this.expect('filter');
-    var attrs = this.accept('attrs');
-    var block;
+    var block, attrs = [];
+
+    if (this.peek().type === 'start-attributes') {
+      attrs = this.attrs();
+    }
 
     if (this.peek().type === 'text') {
       var textToken = this.advance();
@@ -637,7 +652,7 @@ Parser.prototype = {
       type: 'Filter',
       name: tok.val,
       block: block,
-      attrs: attrs ? attrs.attrs : [],
+      attrs: attrs,
       line: tok.line,
       filename: this.filename
     };
@@ -660,7 +675,7 @@ Parser.prototype = {
     };
     if (this.peek().type == 'else') {
       this.advance();
-      node.alternative = this.block();
+      node.alternate = this.block();
     }
     return node;
   },
@@ -671,11 +686,12 @@ Parser.prototype = {
 
   parseExtends: function(){
     var tok = this.expect('extends');
+    var path = this.expect('path');
     return {
       type: 'Extends',
       file: {
         type: 'FileReference',
-        path: tok.val.trim(),
+        path: path.val.trim(),
         line: tok.line,
         filename: this.filename
       },
@@ -708,27 +724,45 @@ Parser.prototype = {
     return {type: 'MixinBlock', line: tok.line, filename: this.filename};
   },
 
+  parseYield: function() {
+    var tok = this.expect('yield');
+    return {type: 'YieldBlock', line: tok.line, filename: this.filename};
+  },
+
   /**
    * include block?
    */
 
   parseInclude: function(){
     var tok = this.expect('include');
-
-    return {
+    var node = {
       type: 'Include',
       file: {
         type: 'FileReference',
-        path: tok.val.trim(),
         line: tok.line,
         filename: this.filename
       },
-      filter: tok.filter,
-      attrs: tok.attrs ? tok.attrs.attrs : [],
-      block: 'indent' == this.peek().type ? this.block() : this.emptyBlock(tok.line),
       line: tok.line,
       filename: this.filename
     };
+    var filters = [];
+    while (this.peek().type === 'filter') {
+      filters.push(this.parseIncludeFilter());
+    }
+    var path = this.expect('path');
+
+    node.file.path = path.val.trim();
+
+    if (/\.jade$/.test(node.file.path) && !filters.length) {
+      node.block = 'indent' == this.peek().type ? this.block() : this.emptyBlock(tok.line);
+    } else {
+      node.type = 'RawInclude';
+      node.filters = filters;
+      if (this.peek().type === 'indent') {
+        this.error('Raw inclusion cannot contain a block', 'RAW_INCLUDE_BLOCK', this.peek());
+      }
+    }
+    return node;
   },
 
   /**
@@ -827,7 +861,7 @@ Parser.prototype = {
             type: 'Code',
             val: tok.val,
             buffer: tok.buffer,
-            escape: tok.escape,
+            mustEscape: tok.mustEscape !== false,
             isInline: true,
             line: tok.line,
             filename: this.filename
@@ -869,19 +903,18 @@ Parser.prototype = {
   parseInterpolation: function(){
     var tok = this.advance();
     var tag = {
-      type: 'Tag',
-      name: tok.val,
-      selfClosing: tok.selfClosing,
+      type: 'InterpolatedTag',
+      expr: tok.val,
+      selfClosing: false,
       block: this.emptyBlock(tok.line),
       attrs: [],
       attributeBlocks: [],
-      buffer: true, // indicates that this is an "interpolated" tag i.e. #{'tag-name'}
       isInline: false,
       line: tok.line,
       filename: this.filename
     };
 
-    return this.tag(tag);
+    return this.tag(tag, {selfClosingAllowed: true});
   },
 
   /**
@@ -893,7 +926,7 @@ Parser.prototype = {
     var tag = {
       type: 'Tag',
       name: tok.val,
-      selfClosing: tok.selfClosing,
+      selfClosing: false,
       block: this.emptyBlock(tok.line),
       attrs: [],
       attributeBlocks: [],
@@ -902,16 +935,17 @@ Parser.prototype = {
       filename: this.filename
     };
 
-    return this.tag(tag);
+    return this.tag(tag, {selfClosingAllowed: true});
   },
 
   /**
    * Parse tag.
    */
 
-  tag: function(tag){
+  tag: function(tag, options) {
     var seenAttrs = false;
     var attributeNames = [];
+    var selfClosingAllowed = options && options.selfClosingAllowed;
     // (attrs | class | id)*
     out:
       while (true) {
@@ -928,32 +962,15 @@ Parser.prototype = {
             tag.attrs.push({
               name: tok.type,
               val: "'" + tok.val + "'",
-              escaped: false
+              mustEscape: false
             });
             continue;
-          case 'attrs':
+          case 'start-attributes':
             if (seenAttrs) {
               console.warn(this.filename + ', line ' + this.peek().line + ':\nYou should not have jade tags with multiple attributes.');
             }
             seenAttrs = true;
-            var tok = this.advance();
-            var attrs = tok.attrs;
-
-            if (tok.selfClosing) tag.selfClosing = true;
-
-            for (var i = 0; i < attrs.length; i++) {
-              if (attrs[i].name !== 'class') {
-                if (attributeNames.indexOf(attrs[i].name) !== -1) {
-                  this.error('Duplicate attribute "' + attrs[i].name + '" is not allowed.', 'DUPLICATE_ATTRIBUTE', tok);
-                }
-                attributeNames.push(attrs[i].name);
-              }
-              tag.attrs.push({
-                name: attrs[i].name,
-                val: attrs[i].val,
-                escaped: attrs[i].escaped
-              });
-            }
+            tag.attrs = tag.attrs.concat(this.attrs(attributeNames));
             continue;
           case '&attributes':
             var tok = this.advance();
@@ -995,8 +1012,14 @@ Parser.prototype = {
       case 'start-pipeless-text':
       case 'end-jade-interpolation':
         break;
+      case 'slash':
+        if (selfClosingAllowed) {
+          this.advance();
+          tag.selfClosing = true;
+          break;
+        }
       default:
-        this.error('Unexpected token `' + this.peek().type + '` expected `text`, `interpolated-code`, `code`, `:`, `newline` or `eos`', 'INVALID_TOKEN', this.peek())
+        this.error('Unexpected token `' + this.peek().type + '` expected `text`, `interpolated-code`, `code`, `:`' + (selfClosingAllowed ? ', `slash`' : '') + ', `newline` or `eos`', 'INVALID_TOKEN', this.peek())
     }
 
     // newline*
@@ -1013,5 +1036,29 @@ Parser.prototype = {
     }
 
     return tag;
+  },
+
+  attrs: function(attributeNames) {
+    this.expect('start-attributes');
+
+    var attrs = [];
+    var tok = this.advance();
+    while (tok.type === 'attribute') {
+      if (tok.name !== 'class' && attributeNames) {
+        if (attributeNames.indexOf(tok.name) !== -1) {
+          this.error('Duplicate attribute "' + tok.name + '" is not allowed.', 'DUPLICATE_ATTRIBUTE', tok);
+        }
+        attributeNames.push(tok.name);
+      }
+      attrs.push({
+        name: tok.name,
+        val: tok.val,
+        mustEscape: tok.mustEscape !== false
+      });
+      tok = this.advance();
+    }
+    this.tokens.defer(tok);
+    this.expect('end-attributes');
+    return attrs;
   }
 };

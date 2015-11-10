@@ -19,11 +19,12 @@
                   "type": "Include",
                   "file": {
                     "type": "FileReference",
-                    "path": "yield-before-conditional-head",
                     "line": 3,
-                    "filename": "yield-before-conditional.tokens.json"
+                    "filename": "yield-before-conditional.tokens.json",
+                    "path": "yield-before-conditional-head.jade"
                   },
-                  "attrs": [],
+                  "line": 3,
+                  "filename": "yield-before-conditional.tokens.json",
                   "block": {
                     "type": "Block",
                     "nodes": [
@@ -41,7 +42,7 @@
                           {
                             "name": "src",
                             "val": "'/caustic.js'",
-                            "escaped": true
+                            "mustEscape": true
                           }
                         ],
                         "attributeBlocks": [],
@@ -63,7 +64,7 @@
                           {
                             "name": "src",
                             "val": "'/app.js'",
-                            "escaped": true
+                            "mustEscape": true
                           }
                         ],
                         "attributeBlocks": [],
@@ -74,9 +75,7 @@
                     ],
                     "line": 4,
                     "filename": "yield-before-conditional.tokens.json"
-                  },
-                  "line": 3,
-                  "filename": "yield-before-conditional.tokens.json"
+                  }
                 }
               ],
               "line": 2,

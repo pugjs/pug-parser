@@ -5,7 +5,7 @@
       "type": "Code",
       "val": "var tag = 'p'",
       "buffer": false,
-      "escape": false,
+      "mustEscape": false,
       "isInline": false,
       "line": 2,
       "filename": "tag.interpolation.tokens.json"
@@ -14,14 +14,15 @@
       "type": "Code",
       "val": "var foo = 'bar'",
       "buffer": false,
-      "escape": false,
+      "mustEscape": false,
       "isInline": false,
       "line": 3,
       "filename": "tag.interpolation.tokens.json"
     },
     {
-      "type": "Tag",
-      "name": "tag",
+      "type": "InterpolatedTag",
+      "expr": "tag",
+      "selfClosing": false,
       "block": {
         "type": "Block",
         "nodes": [
@@ -37,14 +38,14 @@
       },
       "attrs": [],
       "attributeBlocks": [],
-      "buffer": true,
       "isInline": false,
       "line": 5,
       "filename": "tag.interpolation.tokens.json"
     },
     {
-      "type": "Tag",
-      "name": "tag",
+      "type": "InterpolatedTag",
+      "expr": "tag",
+      "selfClosing": false,
       "block": {
         "type": "Block",
         "nodes": [
@@ -62,18 +63,18 @@
         {
           "name": "foo",
           "val": "'bar'",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],
-      "buffer": true,
       "isInline": false,
       "line": 6,
       "filename": "tag.interpolation.tokens.json"
     },
     {
-      "type": "Tag",
-      "name": "foo ? 'a' : 'li'",
+      "type": "InterpolatedTag",
+      "expr": "foo ? 'a' : 'li'",
+      "selfClosing": false,
       "block": {
         "type": "Block",
         "nodes": [
@@ -91,11 +92,10 @@
         {
           "name": "something",
           "val": true,
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],
-      "buffer": true,
       "isInline": false,
       "line": 7,
       "filename": "tag.interpolation.tokens.json"
@@ -141,12 +141,12 @@
                                 {
                                   "name": "class",
                                   "val": "'icon'",
-                                  "escaped": false
+                                  "mustEscape": false
                                 },
                                 {
                                   "name": "src",
                                   "val": "icon",
-                                  "escaped": true
+                                  "mustEscape": true
                                 }
                               ],
                               "attributeBlocks": [],
@@ -199,12 +199,12 @@
                                 {
                                   "name": "class",
                                   "val": "'icon'",
-                                  "escaped": false
+                                  "mustEscape": false
                                 },
                                 {
                                   "name": "src",
                                   "val": "icon",
-                                  "escaped": true
+                                  "mustEscape": true
                                 }
                               ],
                               "attributeBlocks": [],
@@ -287,6 +287,7 @@
           {
             "type": "Mixin",
             "name": "item",
+            "args": null,
             "block": {
               "type": "Block",
               "nodes": [
@@ -305,7 +306,7 @@
               {
                 "name": "href",
                 "val": "'/contact'",
-                "escaped": true
+                "mustEscape": true
               }
             ],
             "attributeBlocks": [],

@@ -72,7 +72,7 @@
                         "type": "Code",
                         "val": "var txt = '<param name=\"flashvars\" value=\"a=&quot;value_a&quot;&b=&quot;value_b&quot;&c=3\"/>'",
                         "buffer": false,
-                        "escape": false,
+                        "mustEscape": false,
                         "isInline": false,
                         "line": 7,
                         "filename": "escape-test.tokens.json"
@@ -81,7 +81,7 @@
                         "type": "Code",
                         "val": "txt",
                         "buffer": true,
-                        "escape": true,
+                        "mustEscape": true,
                         "isInline": true,
                         "line": 8,
                         "filename": "escape-test.tokens.json"

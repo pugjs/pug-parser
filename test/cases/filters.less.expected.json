@@ -79,7 +79,7 @@
                     {
                       "name": "type",
                       "val": "\"text/css\"",
-                      "escaped": true
+                      "mustEscape": true
                     }
                   ],
                   "attributeBlocks": [],

@@ -9,23 +9,24 @@
         "type": "Block",
         "nodes": [
           {
-            "type": "Include",
+            "type": "RawInclude",
             "file": {
               "type": "FileReference",
-              "path": "some.styl",
               "line": 2,
-              "filename": "include-filter-stylus.tokens.json"
-            },
-            "filter": "stylus",
-            "attrs": [],
-            "block": {
-              "type": "Block",
-              "nodes": [],
-              "line": 2,
-              "filename": "include-filter-stylus.tokens.json"
+              "filename": "include-filter-stylus.tokens.json",
+              "path": "some.styl"
             },
             "line": 2,
-            "filename": "include-filter-stylus.tokens.json"
+            "filename": "include-filter-stylus.tokens.json",
+            "filters": [
+              {
+                "type": "IncludeFilter",
+                "name": "stylus",
+                "attrs": [],
+                "line": 2,
+                "filename": "include-filter-stylus.tokens.json"
+              }
+            ]
           }
         ],
         "line": 1,
@@ -35,7 +36,7 @@
         {
           "name": "type",
           "val": "\"text/css\"",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],

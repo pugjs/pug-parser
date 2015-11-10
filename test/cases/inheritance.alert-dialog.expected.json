@@ -5,7 +5,7 @@
       "type": "Extends",
       "file": {
         "type": "FileReference",
-        "path": "auxiliary/dialog",
+        "path": "auxiliary/dialog.jade",
         "line": 2,
         "filename": "inheritance.alert-dialog.tokens.json"
       },

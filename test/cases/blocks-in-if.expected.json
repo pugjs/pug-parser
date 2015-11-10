@@ -12,7 +12,7 @@
       "type": "Code",
       "val": "var ajax = true",
       "buffer": false,
-      "escape": false,
+      "mustEscape": false,
       "isInline": false,
       "line": 3,
       "filename": "blocks-in-if.tokens.json"
@@ -21,7 +21,7 @@
       "type": "Code",
       "val": "if( ajax )",
       "buffer": false,
-      "escape": false,
+      "mustEscape": false,
       "isInline": false,
       "line": 5,
       "filename": "blocks-in-if.tokens.json",
@@ -76,7 +76,7 @@
       "type": "Code",
       "val": "else",
       "buffer": false,
-      "escape": false,
+      "mustEscape": false,
       "isInline": false,
       "line": 10,
       "filename": "blocks-in-if.tokens.json",
@@ -125,7 +125,7 @@
                           {
                             "name": "charset",
                             "val": "'utf8'",
-                            "escaped": true
+                            "mustEscape": true
                           }
                         ],
                         "attributeBlocks": [],

@@ -26,7 +26,7 @@
                         "type": "Code",
                         "val": "name",
                         "buffer": true,
-                        "escape": true,
+                        "mustEscape": true,
                         "isInline": true,
                         "line": 4,
                         "filename": "mixin.block-tag-behaviour.tokens.json"
@@ -54,7 +54,7 @@
               {
                 "name": "class",
                 "val": "'article'",
-                "escaped": false
+                "mustEscape": false
               }
             ],
             "attributeBlocks": [],
@@ -169,7 +169,7 @@
                         "type": "Code",
                         "val": "name",
                         "buffer": true,
-                        "escape": true,
+                        "mustEscape": true,
                         "isInline": true,
                         "line": 13,
                         "filename": "mixin.block-tag-behaviour.tokens.json"
@@ -214,7 +214,7 @@
               {
                 "name": "class",
                 "val": "'article'",
-                "escaped": false
+                "mustEscape": false
               }
             ],
             "attributeBlocks": [],

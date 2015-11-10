@@ -5,7 +5,7 @@
       "type": "Code",
       "val": "list = [\"uno\", \"dos\", \"tres\",\n        \"cuatro\", \"cinco\", \"seis\"];",
       "buffer": false,
-      "escape": false,
+      "mustEscape": false,
       "isInline": false,
       "line": 1,
       "filename": "block-code.tokens.json"
@@ -21,7 +21,7 @@
       "type": "Code",
       "val": "",
       "buffer": false,
-      "escape": false,
+      "mustEscape": false,
       "isInline": false,
       "line": 5,
       "filename": "block-code.tokens.json"
@@ -30,6 +30,7 @@
       "type": "Each",
       "obj": "list",
       "val": "item",
+      "key": null,
       "block": {
         "type": "Block",
         "nodes": [
@@ -37,7 +38,7 @@
             "type": "Code",
             "val": "string = item.charAt(0)\n\n  .toUpperCase() +\nitem.slice(1);",
             "buffer": false,
-            "escape": false,
+            "mustEscape": false,
             "isInline": false,
             "line": 7,
             "filename": "block-code.tokens.json"
@@ -53,7 +54,7 @@
                   "type": "Code",
                   "val": "string",
                   "buffer": true,
-                  "escape": true,
+                  "mustEscape": true,
                   "isInline": true,
                   "line": 12,
                   "filename": "block-code.tokens.json"

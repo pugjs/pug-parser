@@ -38,7 +38,7 @@
         {
           "name": "fb:foo",
           "val": "'bar'",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],

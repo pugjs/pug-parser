@@ -5,11 +5,12 @@
       "type": "Include",
       "file": {
         "type": "FileReference",
-        "path": "auxiliary/yield-nested",
         "line": 2,
-        "filename": "include.yield.nested.tokens.json"
+        "filename": "include.yield.nested.tokens.json",
+        "path": "auxiliary/yield-nested.jade"
       },
-      "attrs": [],
+      "line": 2,
+      "filename": "include.yield.nested.tokens.json",
       "block": {
         "type": "Block",
         "nodes": [
@@ -62,9 +63,7 @@
         ],
         "line": 3,
         "filename": "include.yield.nested.tokens.json"
-      },
-      "line": 2,
-      "filename": "include.yield.nested.tokens.json"
+      }
     }
   ],
   "line": 0,

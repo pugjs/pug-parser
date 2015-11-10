@@ -25,7 +25,7 @@
                   "type": "Code",
                   "val": "var s = 'this'",
                   "buffer": false,
-                  "escape": false,
+                  "mustEscape": false,
                   "isInline": false,
                   "line": 4,
                   "filename": "comments-in-case.tokens.json"

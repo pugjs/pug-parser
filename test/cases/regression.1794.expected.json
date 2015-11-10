@@ -19,19 +19,18 @@
           "type": "Include",
           "file": {
             "type": "FileReference",
-            "path": "./auxiliary/1794-include.jade",
             "line": 4,
-            "filename": "regression.1794.tokens.json"
+            "filename": "regression.1794.tokens.json",
+            "path": "./auxiliary/1794-include.jade"
           },
-          "attrs": [],
+          "line": 4,
+          "filename": "regression.1794.tokens.json",
           "block": {
             "type": "Block",
             "nodes": [],
             "line": 4,
             "filename": "regression.1794.tokens.json"
-          },
-          "line": 4,
-          "filename": "regression.1794.tokens.json"
+          }
         }
       ],
       "line": 3,

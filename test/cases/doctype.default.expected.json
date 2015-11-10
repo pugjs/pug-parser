@@ -3,6 +3,7 @@
   "nodes": [
     {
       "type": "Doctype",
+      "val": "",
       "line": 1,
       "filename": "doctype.default.tokens.json"
     },

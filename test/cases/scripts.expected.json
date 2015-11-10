@@ -55,7 +55,7 @@
             "type": "Code",
             "val": "'foo()'",
             "buffer": true,
-            "escape": false,
+            "mustEscape": false,
             "isInline": true,
             "line": 5,
             "filename": "scripts.tokens.json"

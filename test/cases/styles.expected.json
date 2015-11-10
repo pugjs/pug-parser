@@ -89,7 +89,7 @@
                     {
                       "name": "style",
                       "val": "'color:red;background:green'",
-                      "escaped": true
+                      "mustEscape": true
                     }
                   ],
                   "attributeBlocks": [],
@@ -111,7 +111,7 @@
                     {
                       "name": "style",
                       "val": "{color: 'red', background: 'green'}",
-                      "escaped": true
+                      "mustEscape": true
                     }
                   ],
                   "attributeBlocks": [],
@@ -191,13 +191,14 @@
                 {
                   "type": "Mixin",
                   "name": "div",
+                  "args": null,
                   "block": null,
                   "call": true,
                   "attrs": [
                     {
                       "name": "style",
                       "val": "'color:red;background:green'",
-                      "escaped": true
+                      "mustEscape": true
                     }
                   ],
                   "attributeBlocks": [],
@@ -207,13 +208,14 @@
                 {
                   "type": "Mixin",
                   "name": "div",
+                  "args": null,
                   "block": null,
                   "call": true,
                   "attrs": [
                     {
                       "name": "style",
                       "val": "{color: 'red', background: 'green'}",
-                      "escaped": true
+                      "mustEscape": true
                     }
                   ],
                   "attributeBlocks": [],
@@ -224,7 +226,7 @@
                   "type": "Code",
                   "val": "var bg = 'green';",
                   "buffer": false,
-                  "escape": false,
+                  "mustEscape": false,
                   "isInline": false,
                   "line": 16,
                   "filename": "styles.tokens.json"
@@ -243,7 +245,7 @@
                     {
                       "name": "style",
                       "val": "{color: 'red', background: bg}",
-                      "escaped": true
+                      "mustEscape": true
                     }
                   ],
                   "attributeBlocks": [],
@@ -272,13 +274,14 @@
                 {
                   "type": "Mixin",
                   "name": "div",
+                  "args": null,
                   "block": null,
                   "call": true,
                   "attrs": [
                     {
                       "name": "style",
                       "val": "{color: 'red', background: bg}",
-                      "escaped": true
+                      "mustEscape": true
                     }
                   ],
                   "attributeBlocks": [],

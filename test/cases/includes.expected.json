@@ -5,23 +5,23 @@
       "type": "Include",
       "file": {
         "type": "FileReference",
-        "path": "auxiliary/mixins",
         "line": 2,
-        "filename": "includes.tokens.json"
+        "filename": "includes.tokens.json",
+        "path": "auxiliary/mixins.jade"
       },
-      "attrs": [],
+      "line": 2,
+      "filename": "includes.tokens.json",
       "block": {
         "type": "Block",
         "nodes": [],
         "line": 2,
         "filename": "includes.tokens.json"
-      },
-      "line": 2,
-      "filename": "includes.tokens.json"
+      }
     },
     {
       "type": "Mixin",
       "name": "foo",
+      "args": null,
       "block": null,
       "call": true,
       "attrs": [],
@@ -37,40 +37,28 @@
         "type": "Block",
         "nodes": [
           {
-            "type": "Include",
+            "type": "RawInclude",
             "file": {
               "type": "FileReference",
-              "path": "auxiliary/smile.html",
               "line": 7,
-              "filename": "includes.tokens.json"
-            },
-            "attrs": [],
-            "block": {
-              "type": "Block",
-              "nodes": [],
-              "line": 7,
-              "filename": "includes.tokens.json"
+              "filename": "includes.tokens.json",
+              "path": "auxiliary/smile.html"
             },
             "line": 7,
-            "filename": "includes.tokens.json"
+            "filename": "includes.tokens.json",
+            "filters": []
           },
           {
-            "type": "Include",
+            "type": "RawInclude",
             "file": {
               "type": "FileReference",
-              "path": "auxiliary/escapes.html",
               "line": 8,
-              "filename": "includes.tokens.json"
-            },
-            "attrs": [],
-            "block": {
-              "type": "Block",
-              "nodes": [],
-              "line": 8,
-              "filename": "includes.tokens.json"
+              "filename": "includes.tokens.json",
+              "path": "auxiliary/escapes.html"
             },
             "line": 8,
-            "filename": "includes.tokens.json"
+            "filename": "includes.tokens.json",
+            "filters": []
           },
           {
             "type": "Tag",
@@ -80,23 +68,24 @@
               "type": "Block",
               "nodes": [
                 {
-                  "type": "Include",
+                  "type": "RawInclude",
                   "file": {
                     "type": "FileReference",
-                    "path": "auxiliary/includable.js",
                     "line": 10,
-                    "filename": "includes.tokens.json"
-                  },
-                  "filter": "verbatim",
-                  "attrs": [],
-                  "block": {
-                    "type": "Block",
-                    "nodes": [],
-                    "line": 10,
-                    "filename": "includes.tokens.json"
+                    "filename": "includes.tokens.json",
+                    "path": "auxiliary/includable.js"
                   },
                   "line": 10,
-                  "filename": "includes.tokens.json"
+                  "filename": "includes.tokens.json",
+                  "filters": [
+                    {
+                      "type": "IncludeFilter",
+                      "name": "verbatim",
+                      "attrs": [],
+                      "line": 10,
+                      "filename": "includes.tokens.json"
+                    }
+                  ]
                 }
               ],
               "line": 9,
@@ -106,7 +95,7 @@
               {
                 "name": "type",
                 "val": "\"text/javascript\"",
-                "escaped": true
+                "mustEscape": true
               }
             ],
             "attributeBlocks": [],

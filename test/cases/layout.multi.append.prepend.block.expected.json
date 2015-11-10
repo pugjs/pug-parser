@@ -5,7 +5,7 @@
       "type": "Extends",
       "file": {
         "type": "FileReference",
-        "path": "../fixtures/multi-append-prepend-block/redefine",
+        "path": "../fixtures/multi-append-prepend-block/redefine.jade",
         "line": 1,
         "filename": "layout.multi.append.prepend.block.tokens.json"
       },
@@ -36,12 +36,12 @@
             {
               "name": "class",
               "val": "'first'",
-              "escaped": false
+              "mustEscape": false
             },
             {
               "name": "class",
               "val": "'append'",
-              "escaped": false
+              "mustEscape": false
             }
           ],
           "attributeBlocks": [],
@@ -79,12 +79,12 @@
             {
               "name": "class",
               "val": "'first'",
-              "escaped": false
+              "mustEscape": false
             },
             {
               "name": "class",
               "val": "'prepend'",
-              "escaped": false
+              "mustEscape": false
             }
           ],
           "attributeBlocks": [],
@@ -122,12 +122,12 @@
             {
               "name": "class",
               "val": "'last'",
-              "escaped": false
+              "mustEscape": false
             },
             {
               "name": "class",
               "val": "'append'",
-              "escaped": false
+              "mustEscape": false
             }
           ],
           "attributeBlocks": [],
@@ -165,12 +165,12 @@
             {
               "name": "class",
               "val": "'last'",
-              "escaped": false
+              "mustEscape": false
             },
             {
               "name": "class",
               "val": "'prepend'",
-              "escaped": false
+              "mustEscape": false
             }
           ],
           "attributeBlocks": [],
@@ -201,7 +201,7 @@
             {
               "name": "src",
               "val": "'jquery.js'",
-              "escaped": true
+              "mustEscape": true
             }
           ],
           "attributeBlocks": [],
@@ -232,7 +232,7 @@
             {
               "name": "src",
               "val": "'foo.js'",
-              "escaped": true
+              "mustEscape": true
             }
           ],
           "attributeBlocks": [],

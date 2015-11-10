@@ -19,7 +19,7 @@
                   "type": "Code",
                   "val": "if (title)",
                   "buffer": false,
-                  "escape": false,
+                  "mustEscape": false,
                   "isInline": false,
                   "line": 3,
                   "filename": "mixin.attrs.tokens.json",
@@ -37,7 +37,7 @@
                               "type": "Code",
                               "val": "title",
                               "buffer": true,
-                              "escape": true,
+                              "mustEscape": true,
                               "isInline": true,
                               "line": 4,
                               "filename": "mixin.attrs.tokens.json"
@@ -50,7 +50,7 @@
                           {
                             "name": "class",
                             "val": "attributes.class",
-                            "escaped": true
+                            "mustEscape": true
                           }
                         ],
                         "attributeBlocks": [],
@@ -72,7 +72,7 @@
                   "type": "Code",
                   "val": "if (attributes.href)",
                   "buffer": false,
-                  "escape": false,
+                  "mustEscape": false,
                   "isInline": false,
                   "line": 6,
                   "filename": "mixin.attrs.tokens.json",
@@ -82,6 +82,7 @@
                       {
                         "type": "Tag",
                         "name": "div",
+                        "selfClosing": false,
                         "block": {
                           "type": "Block",
                           "nodes": [
@@ -106,7 +107,7 @@
                                 {
                                   "name": "href",
                                   "val": "attributes.href",
-                                  "escaped": true
+                                  "mustEscape": true
                                 }
                               ],
                               "attributeBlocks": [],
@@ -122,7 +123,7 @@
                           {
                             "name": "class",
                             "val": "'footer'",
-                            "escaped": false
+                            "mustEscape": false
                           }
                         ],
                         "attributeBlocks": [],
@@ -143,12 +144,12 @@
               {
                 "name": "class",
                 "val": "'centered'",
-                "escaped": false
+                "mustEscape": false
               },
               {
                 "name": "id",
                 "val": "attributes.id",
-                "escaped": true
+                "mustEscape": true
               }
             ],
             "attributeBlocks": [],
@@ -199,7 +200,7 @@
                     {
                       "name": "class",
                       "val": "'highlight'",
-                      "escaped": false
+                      "mustEscape": false
                     }
                   ],
                   "attributeBlocks": [
@@ -216,7 +217,7 @@
               {
                 "name": "class",
                 "val": "'stretch'",
-                "escaped": false
+                "mustEscape": false
               }
             ],
             "attributeBlocks": [],
@@ -259,7 +260,7 @@
               {
                 "name": "class",
                 "val": "'bottom'",
-                "escaped": false
+                "mustEscape": false
               }
             ],
             "attributeBlocks": [
@@ -287,6 +288,7 @@
           {
             "type": "Mixin",
             "name": "centered",
+            "args": null,
             "block": {
               "type": "Block",
               "nodes": [
@@ -305,7 +307,7 @@
               {
                 "name": "id",
                 "val": "'First'",
-                "escaped": false
+                "mustEscape": false
               }
             ],
             "attributeBlocks": [],
@@ -351,7 +353,7 @@
               {
                 "name": "id",
                 "val": "'Second'",
-                "escaped": false
+                "mustEscape": false
               }
             ],
             "attributeBlocks": [],
@@ -397,22 +399,22 @@
               {
                 "name": "id",
                 "val": "'Third'",
-                "escaped": false
+                "mustEscape": false
               },
               {
                 "name": "class",
                 "val": "'foo'",
-                "escaped": false
+                "mustEscape": false
               },
               {
                 "name": "href",
                 "val": "'menu.html'",
-                "escaped": true
+                "mustEscape": true
               },
               {
                 "name": "class",
                 "val": "'bar'",
-                "escaped": true
+                "mustEscape": true
               }
             ],
             "attributeBlocks": [],
@@ -458,7 +460,7 @@
               {
                 "name": "href",
                 "val": "'#'",
-                "escaped": true
+                "mustEscape": true
               }
             ],
             "attributeBlocks": [],
@@ -468,6 +470,7 @@
           {
             "type": "Mixin",
             "name": "bottom",
+            "args": null,
             "block": {
               "type": "Block",
               "nodes": [
@@ -503,27 +506,27 @@
               {
                 "name": "class",
                 "val": "'foo'",
-                "escaped": false
+                "mustEscape": false
               },
               {
                 "name": "class",
                 "val": "'bar'",
-                "escaped": true
+                "mustEscape": true
               },
               {
                 "name": "name",
                 "val": "'end'",
-                "escaped": true
+                "mustEscape": true
               },
               {
                 "name": "id",
                 "val": "'Last'",
-                "escaped": true
+                "mustEscape": true
               },
               {
                 "name": "data-attr",
                 "val": "'baz'",
-                "escaped": true
+                "mustEscape": true
               }
             ],
             "attributeBlocks": [],
@@ -533,13 +536,14 @@
           {
             "type": "Mixin",
             "name": "bottom",
+            "args": null,
             "block": null,
             "call": true,
             "attrs": [
               {
                 "name": "class",
                 "val": "['class1', 'class2']",
-                "escaped": true
+                "mustEscape": true
               }
             ],
             "attributeBlocks": [],
@@ -577,17 +581,17 @@
               {
                 "name": "class",
                 "val": "'thing'",
-                "escaped": false
+                "mustEscape": false
               },
               {
                 "name": "attr1",
                 "val": "'foo'",
-                "escaped": true
+                "mustEscape": true
               },
               {
                 "name": "attr2",
                 "val": "'bar'",
-                "escaped": true
+                "mustEscape": true
               }
             ],
             "attributeBlocks": [
@@ -609,7 +613,7 @@
       "type": "Code",
       "val": "var val = '<biz>'",
       "buffer": false,
-      "escape": false,
+      "mustEscape": false,
       "isInline": false,
       "line": 34,
       "filename": "mixin.attrs.tokens.json"
@@ -618,7 +622,7 @@
       "type": "Code",
       "val": "var classes = ['foo', 'bar']",
       "buffer": false,
-      "escape": false,
+      "mustEscape": false,
       "isInline": false,
       "line": 35,
       "filename": "mixin.attrs.tokens.json"
@@ -626,33 +630,34 @@
     {
       "type": "Mixin",
       "name": "foo",
+      "args": null,
       "block": null,
       "call": true,
       "attrs": [
         {
           "name": "attr3",
           "val": "'baz'",
-          "escaped": true
+          "mustEscape": true
         },
         {
           "name": "data-foo",
           "val": "val",
-          "escaped": true
+          "mustEscape": true
         },
         {
           "name": "data-bar",
           "val": "val",
-          "escaped": false
+          "mustEscape": false
         },
         {
           "name": "class",
           "val": "classes",
-          "escaped": true
+          "mustEscape": true
         },
         {
           "name": "class",
           "val": "'thunk'",
-          "escaped": false
+          "mustEscape": false
         }
       ],
       "attributeBlocks": [],
@@ -684,7 +689,7 @@
                   "type": "Code",
                   "val": "work",
                   "buffer": true,
-                  "escape": true,
+                  "mustEscape": true,
                   "isInline": true,
                   "line": 40,
                   "filename": "mixin.attrs.tokens.json"
@@ -719,12 +724,12 @@
         {
           "name": "data-profile",
           "val": "'profile'",
-          "escaped": true
+          "mustEscape": true
         },
         {
           "name": "data-creator-name",
           "val": "'name'",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],
@@ -734,22 +739,34 @@
     {
       "type": "Mixin",
       "name": "foo",
+      "args": null,
       "block": null,
       "call": true,
       "attrs": [
         {
           "name": "attr3",
           "val": "\"qux\"",
-          "escaped": true
+          "mustEscape": true
         },
         {
           "name": "class",
           "val": "\"baz\"",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],
       "line": 43,
+      "filename": "mixin.attrs.tokens.json"
+    },
+    {
+      "type": "Mixin",
+      "name": "my-mixin",
+      "args": "\narg1,\n      arg2,\n  arg3,\n      arg4\n",
+      "block": null,
+      "call": true,
+      "attrs": [],
+      "attributeBlocks": [],
+      "line": 48,
       "filename": "mixin.attrs.tokens.json"
     }
   ],

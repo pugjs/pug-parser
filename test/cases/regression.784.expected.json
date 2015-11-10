@@ -5,7 +5,7 @@
       "type": "Code",
       "val": "var url = 'http://www.google.com'",
       "buffer": false,
-      "escape": false,
+      "mustEscape": false,
       "isInline": false,
       "line": 1,
       "filename": "regression.784.tokens.json"
@@ -13,6 +13,7 @@
     {
       "type": "Tag",
       "name": "div",
+      "selfClosing": false,
       "block": {
         "type": "Block",
         "nodes": [
@@ -20,7 +21,7 @@
             "type": "Code",
             "val": "url.replace('http://', '').replace(/^www\\./, '')",
             "buffer": true,
-            "escape": true,
+            "mustEscape": true,
             "isInline": true,
             "line": 2,
             "filename": "regression.784.tokens.json"
@@ -33,7 +34,7 @@
         {
           "name": "class",
           "val": "'url'",
-          "escaped": false
+          "mustEscape": false
         }
       ],
       "attributeBlocks": [],

@@ -38,7 +38,7 @@
               {
                 "name": "bar",
                 "val": "'baz'",
-                "escaped": true
+                "mustEscape": true
               }
             ],
             "attributeBlocks": [],
@@ -76,7 +76,7 @@
               {
                 "name": "bar",
                 "val": "'baz'",
-                "escaped": true
+                "mustEscape": true
               }
             ],
             "attributeBlocks": [],
@@ -128,7 +128,7 @@
               {
                 "name": "bar",
                 "val": "'baz'",
-                "escaped": true
+                "mustEscape": true
               }
             ],
             "attributeBlocks": [],
@@ -137,8 +137,8 @@
             "filename": "tags.self-closing.tokens.json"
           },
           {
-            "type": "Tag",
-            "name": "'foo'",
+            "type": "InterpolatedTag",
+            "expr": "'foo'",
             "selfClosing": true,
             "block": {
               "type": "Block",
@@ -148,14 +148,13 @@
             },
             "attrs": [],
             "attributeBlocks": [],
-            "buffer": true,
             "isInline": false,
             "line": 9,
             "filename": "tags.self-closing.tokens.json"
           },
           {
-            "type": "Tag",
-            "name": "'foo'",
+            "type": "InterpolatedTag",
+            "expr": "'foo'",
             "selfClosing": true,
             "block": {
               "type": "Block",
@@ -167,18 +166,18 @@
               {
                 "name": "bar",
                 "val": "'baz'",
-                "escaped": true
+                "mustEscape": true
               }
             ],
             "attributeBlocks": [],
-            "buffer": true,
             "isInline": false,
             "line": 10,
             "filename": "tags.self-closing.tokens.json"
           },
           {
-            "type": "Tag",
-            "name": "'foo'",
+            "type": "InterpolatedTag",
+            "expr": "'foo'",
+            "selfClosing": false,
             "block": {
               "type": "Block",
               "nodes": [
@@ -194,14 +193,14 @@
             },
             "attrs": [],
             "attributeBlocks": [],
-            "buffer": true,
             "isInline": false,
             "line": 11,
             "filename": "tags.self-closing.tokens.json"
           },
           {
-            "type": "Tag",
-            "name": "'foo'",
+            "type": "InterpolatedTag",
+            "expr": "'foo'",
+            "selfClosing": false,
             "block": {
               "type": "Block",
               "nodes": [
@@ -219,11 +218,10 @@
               {
                 "name": "bar",
                 "val": "'baz'",
-                "escaped": true
+                "mustEscape": true
               }
             ],
             "attributeBlocks": [],
-            "buffer": true,
             "isInline": false,
             "line": 12,
             "filename": "tags.self-closing.tokens.json"

@@ -16,22 +16,16 @@
               "type": "Block",
               "nodes": [
                 {
-                  "type": "Include",
+                  "type": "RawInclude",
                   "file": {
                     "type": "FileReference",
-                    "path": "javascript-new-lines.js",
                     "line": 3,
-                    "filename": "includes-with-ext-js.tokens.json"
-                  },
-                  "attrs": [],
-                  "block": {
-                    "type": "Block",
-                    "nodes": [],
-                    "line": 3,
-                    "filename": "includes-with-ext-js.tokens.json"
+                    "filename": "includes-with-ext-js.tokens.json",
+                    "path": "javascript-new-lines.js"
                   },
                   "line": 3,
-                  "filename": "includes-with-ext-js.tokens.json"
+                  "filename": "includes-with-ext-js.tokens.json",
+                  "filters": []
                 }
               ],
               "line": 2,

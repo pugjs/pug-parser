@@ -29,7 +29,7 @@
               {
                 "name": "class",
                 "val": "'bar'",
-                "escaped": false
+                "mustEscape": false
               }
             ],
             "attributeBlocks": [
@@ -60,12 +60,12 @@
               {
                 "name": "class",
                 "val": "'baz'",
-                "escaped": false
+                "mustEscape": false
               },
               {
                 "name": "class",
                 "val": "'quux'",
-                "escaped": false
+                "mustEscape": false
               }
             ],
             "attributeBlocks": [
@@ -121,12 +121,12 @@
               {
                 "name": "class",
                 "val": "'bar'",
-                "escaped": false
+                "mustEscape": false
               },
               {
                 "name": "class",
                 "val": "\"baz\"",
-                "escaped": true
+                "mustEscape": true
               }
             ],
             "attributeBlocks": [
@@ -154,13 +154,14 @@
           {
             "type": "Mixin",
             "name": "foo",
+            "args": null,
             "block": null,
             "call": true,
             "attrs": [
               {
                 "name": "class",
                 "val": "'hello'",
-                "escaped": false
+                "mustEscape": false
               }
             ],
             "attributeBlocks": [],
@@ -170,13 +171,14 @@
           {
             "type": "Mixin",
             "name": "foo",
+            "args": null,
             "block": null,
             "call": true,
             "attrs": [
               {
                 "name": "id",
                 "val": "'world'",
-                "escaped": false
+                "mustEscape": false
               }
             ],
             "attributeBlocks": [],
@@ -186,18 +188,19 @@
           {
             "type": "Mixin",
             "name": "foo",
+            "args": null,
             "block": null,
             "call": true,
             "attrs": [
               {
                 "name": "class",
                 "val": "'hello'",
-                "escaped": false
+                "mustEscape": false
               },
               {
                 "name": "id",
                 "val": "'world'",
-                "escaped": false
+                "mustEscape": false
               }
             ],
             "attributeBlocks": [],
@@ -207,18 +210,19 @@
           {
             "type": "Mixin",
             "name": "foo",
+            "args": null,
             "block": null,
             "call": true,
             "attrs": [
               {
                 "name": "class",
                 "val": "'hello'",
-                "escaped": false
+                "mustEscape": false
               },
               {
                 "name": "class",
                 "val": "'world'",
-                "escaped": false
+                "mustEscape": false
               }
             ],
             "attributeBlocks": [],
@@ -228,13 +232,14 @@
           {
             "type": "Mixin",
             "name": "foo",
+            "args": null,
             "block": null,
             "call": true,
             "attrs": [
               {
                 "name": "class",
                 "val": "\"hello\"",
-                "escaped": true
+                "mustEscape": true
               }
             ],
             "attributeBlocks": [],
@@ -244,18 +249,19 @@
           {
             "type": "Mixin",
             "name": "foo",
+            "args": null,
             "block": null,
             "call": true,
             "attrs": [
               {
                 "name": "class",
                 "val": "'hello'",
-                "escaped": false
+                "mustEscape": false
               },
               {
                 "name": "class",
                 "val": "\"world\"",
-                "escaped": true
+                "mustEscape": true
               }
             ],
             "attributeBlocks": [],
@@ -265,6 +271,7 @@
           {
             "type": "Mixin",
             "name": "foo",
+            "args": null,
             "block": null,
             "call": true,
             "attrs": [],
@@ -275,6 +282,7 @@
           {
             "type": "Mixin",
             "name": "foo",
+            "args": null,
             "block": null,
             "call": true,
             "attrs": [],

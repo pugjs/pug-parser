@@ -46,7 +46,7 @@
               {
                 "name": "id",
                 "val": "'user-<%= user.id %>'",
-                "escaped": false
+                "mustEscape": false
               }
             ],
             "attributeBlocks": [],
@@ -62,7 +62,7 @@
         {
           "name": "type",
           "val": "'text/x-template'",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],

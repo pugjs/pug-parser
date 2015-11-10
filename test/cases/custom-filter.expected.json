@@ -20,7 +20,7 @@
         {
           "name": "foo",
           "val": "'bar'",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "line": 1,

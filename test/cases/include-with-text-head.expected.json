@@ -28,7 +28,7 @@
               {
                 "name": "type",
                 "val": "'text/javascript'",
-                "escaped": true
+                "mustEscape": true
               }
             ],
             "attributeBlocks": [],

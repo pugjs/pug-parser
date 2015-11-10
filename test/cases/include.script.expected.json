@@ -12,19 +12,18 @@
             "type": "Include",
             "file": {
               "type": "FileReference",
-              "path": "auxiliary/pet",
               "line": 2,
-              "filename": "include.script.tokens.json"
+              "filename": "include.script.tokens.json",
+              "path": "auxiliary/pet.jade"
             },
-            "attrs": [],
+            "line": 2,
+            "filename": "include.script.tokens.json",
             "block": {
               "type": "Block",
               "nodes": [],
               "line": 2,
               "filename": "include.script.tokens.json"
-            },
-            "line": 2,
-            "filename": "include.script.tokens.json"
+            }
           }
         ],
         "line": 1,
@@ -34,12 +33,12 @@
         {
           "name": "id",
           "val": "'pet-template'",
-          "escaped": false
+          "mustEscape": false
         },
         {
           "name": "type",
           "val": "'text/x-template'",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],

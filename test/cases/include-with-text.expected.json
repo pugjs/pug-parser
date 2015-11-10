@@ -12,11 +12,12 @@
             "type": "Include",
             "file": {
               "type": "FileReference",
-              "path": "include-with-text-head",
               "line": 2,
-              "filename": "include-with-text.tokens.json"
+              "filename": "include-with-text.tokens.json",
+              "path": "include-with-text-head.jade"
             },
-            "attrs": [],
+            "line": 2,
+            "filename": "include-with-text.tokens.json",
             "block": {
               "type": "Block",
               "nodes": [
@@ -34,7 +35,7 @@
                     {
                       "name": "src",
                       "val": "'/caustic.js'",
-                      "escaped": true
+                      "mustEscape": true
                     }
                   ],
                   "attributeBlocks": [],
@@ -56,7 +57,7 @@
                     {
                       "name": "src",
                       "val": "'/app.js'",
-                      "escaped": true
+                      "mustEscape": true
                     }
                   ],
                   "attributeBlocks": [],
@@ -67,9 +68,7 @@
               ],
               "line": 3,
               "filename": "include-with-text.tokens.json"
-            },
-            "line": 2,
-            "filename": "include-with-text.tokens.json"
+            }
           }
         ],
         "line": 1,

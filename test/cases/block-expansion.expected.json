@@ -36,7 +36,7 @@
                     {
                       "name": "href",
                       "val": "'#'",
-                      "escaped": true
+                      "mustEscape": true
                     }
                   ],
                   "attributeBlocks": [],
@@ -82,7 +82,7 @@
                     {
                       "name": "href",
                       "val": "'#'",
-                      "escaped": true
+                      "mustEscape": true
                     }
                   ],
                   "attributeBlocks": [],

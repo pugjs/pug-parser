@@ -5,7 +5,7 @@
       "type": "Code",
       "val": "var foo = 'bar'",
       "buffer": false,
-      "escape": false,
+      "mustEscape": false,
       "isInline": false,
       "line": 1,
       "filename": "vars.tokens.json"
@@ -14,7 +14,7 @@
       "type": "Code",
       "val": "var list = [1,2,3]",
       "buffer": false,
-      "escape": false,
+      "mustEscape": false,
       "isInline": false,
       "line": 2,
       "filename": "vars.tokens.json"
@@ -33,12 +33,12 @@
         {
           "name": "class",
           "val": "list",
-          "escaped": true
+          "mustEscape": true
         },
         {
           "name": "id",
           "val": "foo",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],

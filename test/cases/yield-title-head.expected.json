@@ -16,11 +16,9 @@
               "type": "Block",
               "nodes": [
                 {
-                  "type": "Block",
-                  "nodes": [],
+                  "type": "YieldBlock",
                   "line": 3,
-                  "filename": "yield-title-head.tokens.json",
-                  "yield": true
+                  "filename": "yield-title-head.tokens.json"
                 }
               ],
               "line": 2,
@@ -46,7 +44,7 @@
               {
                 "name": "src",
                 "val": "'/jquery.js'",
-                "escaped": true
+                "mustEscape": true
               }
             ],
             "attributeBlocks": [],
@@ -68,7 +66,7 @@
               {
                 "name": "src",
                 "val": "'/jquery.ui.js'",
-                "escaped": true
+                "mustEscape": true
               }
             ],
             "attributeBlocks": [],

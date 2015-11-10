@@ -5,7 +5,7 @@
       "type": "Extends",
       "file": {
         "type": "FileReference",
-        "path": "auxiliary/layout",
+        "path": "auxiliary/layout.jade",
         "line": 2,
         "filename": "inheritance.extend.mixins.tokens.json"
       },
@@ -36,7 +36,7 @@
                         "type": "Code",
                         "val": "title",
                         "buffer": true,
-                        "escape": true,
+                        "mustEscape": true,
                         "isInline": true,
                         "line": 6,
                         "filename": "inheritance.extend.mixins.tokens.json"

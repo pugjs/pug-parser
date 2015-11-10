@@ -3,12 +3,12 @@
   "nodes": [
     {
       "type": "Code",
-      "val": "var users = [{ name: 'tobi', age: 2 }]",
+      "val": "users = [{ name: 'tobi', age: 2 }]",
       "buffer": false,
       "mustEscape": false,
       "isInline": false,
-      "line": 1,
-      "filename": "filters-empty.tokens.json"
+      "line": 2,
+      "filename": "filters.cdata.tokens.json"
     },
     {
       "type": "Tag",
@@ -21,7 +21,6 @@
             "type": "Each",
             "obj": "users",
             "val": "user",
-            "key": null,
             "block": {
               "type": "Block",
               "nodes": [
@@ -37,17 +36,19 @@
                         "name": "cdata",
                         "block": {
                           "type": "Block",
-                          "nodes": [],
-                          "line": 6,
-                          "filename": "filters-empty.tokens.json"
+                          "nodes": [
+                            {
+                              "type": "Text",
+                              "val": "#{user.name}",
+                              "line": 8
+                            }
+                          ]
                         },
                         "attrs": [],
-                        "line": 6,
-                        "filename": "filters-empty.tokens.json"
+                        "line": 7,
+                        "filename": "filters.cdata.tokens.json"
                       }
-                    ],
-                    "line": 5,
-                    "filename": "filters-empty.tokens.json"
+                    ]
                   },
                   "attrs": [
                     {
@@ -58,27 +59,25 @@
                   ],
                   "attributeBlocks": [],
                   "isInline": false,
-                  "line": 5,
-                  "filename": "filters-empty.tokens.json"
+                  "line": 6,
+                  "filename": "filters.cdata.tokens.json"
                 }
               ],
-              "line": 5,
-              "filename": "filters-empty.tokens.json"
+              "line": 6,
+              "filename": "filters.cdata.tokens.json"
             },
-            "line": 4,
-            "filename": "filters-empty.tokens.json"
+            "line": 5,
+            "filename": "filters.cdata.tokens.json"
           }
-        ],
-        "line": 3,
-        "filename": "filters-empty.tokens.json"
+        ]
       },
       "attrs": [],
       "attributeBlocks": [],
       "isInline": false,
-      "line": 3,
-      "filename": "filters-empty.tokens.json"
+      "line": 4,
+      "filename": "filters.cdata.tokens.json"
     }
   ],
   "line": 0,
-  "filename": "filters-empty.tokens.json"
+  "filename": "filters.cdata.tokens.json"
 }

@@ -5,7 +5,7 @@
       "type": "Code",
       "val": "var id = 5",
       "buffer": false,
-      "escape": false,
+      "mustEscape": false,
       "isInline": false,
       "line": 1,
       "filename": "attrs.js.tokens.json"
@@ -14,7 +14,7 @@
       "type": "Code",
       "val": "function answer() { return 42; }",
       "buffer": false,
-      "escape": false,
+      "mustEscape": false,
       "isInline": false,
       "line": 2,
       "filename": "attrs.js.tokens.json"
@@ -33,12 +33,12 @@
         {
           "name": "href",
           "val": "'/user/' + id",
-          "escaped": true
+          "mustEscape": true
         },
         {
           "name": "class",
           "val": "'button'",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],
@@ -60,12 +60,12 @@
         {
           "name": "href",
           "val": "'/user/' + id",
-          "escaped": true
+          "mustEscape": true
         },
         {
           "name": "class",
           "val": "'button'",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],
@@ -87,12 +87,12 @@
         {
           "name": "key",
           "val": "'answer'",
-          "escaped": true
+          "mustEscape": true
         },
         {
           "name": "value",
           "val": "answer()",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],
@@ -114,7 +114,7 @@
         {
           "name": "class",
           "val": "['class1', 'class2']",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],
@@ -136,12 +136,12 @@
         {
           "name": "class",
           "val": "'tag-class'",
-          "escaped": false
+          "mustEscape": false
         },
         {
           "name": "class",
           "val": "['class1', 'class2']",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],
@@ -163,12 +163,12 @@
         {
           "name": "href",
           "val": "'/user/' + id",
-          "escaped": true
+          "mustEscape": true
         },
         {
           "name": "class",
           "val": "'button'",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],
@@ -190,12 +190,12 @@
         {
           "name": "href",
           "val": "'/user/' + id",
-          "escaped": true
+          "mustEscape": true
         },
         {
           "name": "class",
           "val": "'button'",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],
@@ -217,12 +217,12 @@
         {
           "name": "key",
           "val": "'answer'",
-          "escaped": true
+          "mustEscape": true
         },
         {
           "name": "value",
           "val": "answer()",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],
@@ -244,7 +244,7 @@
         {
           "name": "class",
           "val": "['class1', 'class2']",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],
@@ -266,12 +266,12 @@
         {
           "name": "class",
           "val": "'tag-class'",
-          "escaped": false
+          "mustEscape": false
         },
         {
           "name": "class",
           "val": "['class1', 'class2']",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],
@@ -293,7 +293,7 @@
         {
           "name": "id",
           "val": "id",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [
@@ -307,7 +307,7 @@
       "type": "Code",
       "val": "var bar = null",
       "buffer": false,
-      "escape": false,
+      "mustEscape": false,
       "isInline": false,
       "line": 16,
       "filename": "attrs.js.tokens.json"
@@ -326,12 +326,12 @@
         {
           "name": "foo",
           "val": "null",
-          "escaped": true
+          "mustEscape": true
         },
         {
           "name": "bar",
           "val": "bar",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [

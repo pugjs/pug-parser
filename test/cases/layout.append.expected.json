@@ -5,7 +5,7 @@
       "type": "Extends",
       "file": {
         "type": "FileReference",
-        "path": "../fixtures/append/app-layout",
+        "path": "../fixtures/append/app-layout.jade",
         "line": 2,
         "filename": "layout.append.tokens.json"
       },
@@ -29,7 +29,7 @@
             {
               "name": "src",
               "val": "'foo.js'",
-              "escaped": true
+              "mustEscape": true
             }
           ],
           "attributeBlocks": [],
@@ -51,7 +51,7 @@
             {
               "name": "src",
               "val": "'bar.js'",
-              "escaped": true
+              "mustEscape": true
             }
           ],
           "attributeBlocks": [],

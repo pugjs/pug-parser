@@ -22,7 +22,7 @@
               {
                 "name": "src",
                 "val": "'/jquery.js'",
-                "escaped": true
+                "mustEscape": true
               }
             ],
             "attributeBlocks": [],
@@ -31,11 +31,9 @@
             "filename": "yield-before-conditional-head.tokens.json"
           },
           {
-            "type": "Block",
-            "nodes": [],
+            "type": "YieldBlock",
             "line": 3,
-            "filename": "yield-before-conditional-head.tokens.json",
-            "yield": true
+            "filename": "yield-before-conditional-head.tokens.json"
           },
           {
             "type": "Conditional",
@@ -57,7 +55,7 @@
                     {
                       "name": "src",
                       "val": "'/jquery.ui.js'",
-                      "escaped": true
+                      "mustEscape": true
                     }
                   ],
                   "attributeBlocks": [],

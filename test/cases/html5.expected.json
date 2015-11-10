@@ -21,12 +21,12 @@
         {
           "name": "type",
           "val": "'checkbox'",
-          "escaped": true
+          "mustEscape": true
         },
         {
           "name": "checked",
           "val": true,
-          "escaped": false
+          "mustEscape": false
         }
       ],
       "attributeBlocks": [],
@@ -48,12 +48,12 @@
         {
           "name": "type",
           "val": "'checkbox'",
-          "escaped": true
+          "mustEscape": true
         },
         {
           "name": "checked",
           "val": "true",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],
@@ -75,12 +75,12 @@
         {
           "name": "type",
           "val": "'checkbox'",
-          "escaped": true
+          "mustEscape": true
         },
         {
           "name": "checked",
           "val": "false",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],

@@ -5,19 +5,18 @@
       "type": "Include",
       "file": {
         "type": "FileReference",
-        "path": "/auxiliary/extends-from-root",
         "line": 1,
-        "filename": "include-extends-from-root.tokens.json"
+        "filename": "include-extends-from-root.tokens.json",
+        "path": "/auxiliary/extends-from-root.jade"
       },
-      "attrs": [],
+      "line": 1,
+      "filename": "include-extends-from-root.tokens.json",
       "block": {
         "type": "Block",
         "nodes": [],
         "line": 1,
         "filename": "include-extends-from-root.tokens.json"
-      },
-      "line": 1,
-      "filename": "include-extends-from-root.tokens.json"
+      }
     }
   ],
   "line": 0,

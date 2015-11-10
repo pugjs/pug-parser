@@ -19,7 +19,7 @@
                   "type": "Code",
                   "val": "var friends = 1",
                   "buffer": false,
-                  "escape": false,
+                  "mustEscape": false,
                   "isInline": false,
                   "line": 3,
                   "filename": "case-blocks.tokens.json"
@@ -129,7 +129,7 @@
                                     "type": "Code",
                                     "val": "friends",
                                     "buffer": true,
-                                    "escape": true,
+                                    "mustEscape": true,
                                     "isInline": true,
                                     "line": 10,
                                     "filename": "case-blocks.tokens.json"

@@ -8,11 +8,9 @@
       "filename": "include-only-text-body.tokens.json"
     },
     {
-      "type": "Block",
-      "nodes": [],
+      "type": "YieldBlock",
       "line": 2,
-      "filename": "include-only-text-body.tokens.json",
-      "yield": true
+      "filename": "include-only-text-body.tokens.json"
     },
     {
       "type": "Text",

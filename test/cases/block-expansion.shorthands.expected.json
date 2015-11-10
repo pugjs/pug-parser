@@ -18,12 +18,14 @@
                 {
                   "type": "Tag",
                   "name": "div",
+                  "selfClosing": false,
                   "block": {
                     "type": "Block",
                     "nodes": [
                       {
                         "type": "Tag",
                         "name": "div",
+                        "selfClosing": false,
                         "block": {
                           "type": "Block",
                           "nodes": [
@@ -41,7 +43,7 @@
                           {
                             "name": "id",
                             "val": "'bar'",
-                            "escaped": false
+                            "mustEscape": false
                           }
                         ],
                         "attributeBlocks": [],
@@ -57,7 +59,7 @@
                     {
                       "name": "class",
                       "val": "'foo'",
-                      "escaped": false
+                      "mustEscape": false
                     }
                   ],
                   "attributeBlocks": [],
@@ -73,7 +75,7 @@
               {
                 "name": "class",
                 "val": "'list-item'",
-                "escaped": false
+                "mustEscape": false
               }
             ],
             "attributeBlocks": [],

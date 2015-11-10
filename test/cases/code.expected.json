@@ -12,7 +12,7 @@
             "type": "Code",
             "val": "null",
             "buffer": true,
-            "escape": true,
+            "mustEscape": true,
             "isInline": true,
             "line": 1,
             "filename": "code.tokens.json"
@@ -38,7 +38,7 @@
             "type": "Code",
             "val": "undefined",
             "buffer": true,
-            "escape": true,
+            "mustEscape": true,
             "isInline": true,
             "line": 2,
             "filename": "code.tokens.json"
@@ -64,7 +64,7 @@
             "type": "Code",
             "val": "''",
             "buffer": true,
-            "escape": true,
+            "mustEscape": true,
             "isInline": true,
             "line": 3,
             "filename": "code.tokens.json"
@@ -90,7 +90,7 @@
             "type": "Code",
             "val": "0",
             "buffer": true,
-            "escape": true,
+            "mustEscape": true,
             "isInline": true,
             "line": 4,
             "filename": "code.tokens.json"
@@ -116,7 +116,7 @@
             "type": "Code",
             "val": "false",
             "buffer": true,
-            "escape": true,
+            "mustEscape": true,
             "isInline": true,
             "line": 5,
             "filename": "code.tokens.json"
@@ -145,7 +145,7 @@
         {
           "name": "foo",
           "val": "null",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],
@@ -167,7 +167,7 @@
         {
           "name": "foo",
           "val": "undefined",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],
@@ -189,7 +189,7 @@
         {
           "name": "foo",
           "val": "''",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],
@@ -211,7 +211,7 @@
         {
           "name": "foo",
           "val": "0",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],
@@ -233,7 +233,7 @@
         {
           "name": "foo",
           "val": "false",
-          "escaped": true
+          "mustEscape": true
         }
       ],
       "attributeBlocks": [],

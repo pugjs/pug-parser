@@ -5,7 +5,7 @@
       "type": "Code",
       "val": "var users = []",
       "buffer": false,
-      "escape": false,
+      "mustEscape": false,
       "isInline": false,
       "line": 2,
       "filename": "each.else.tokens.json"
@@ -21,6 +21,7 @@
             "type": "Each",
             "obj": "users",
             "val": "user",
+            "key": null,
             "block": {
               "type": "Block",
               "nodes": [
@@ -35,7 +36,7 @@
                         "type": "Code",
                         "val": "user.name",
                         "buffer": true,
-                        "escape": true,
+                        "mustEscape": true,
                         "isInline": true,
                         "line": 6,
                         "filename": "each.else.tokens.json"
@@ -56,7 +57,7 @@
             },
             "line": 5,
             "filename": "each.else.tokens.json",
-            "alternative": {
+            "alternate": {
               "type": "Block",
               "nodes": [
                 {
@@ -101,7 +102,7 @@
       "type": "Code",
       "val": "var users = [{ name: 'tobi', friends: ['loki'] }, { name: 'loki' }]",
       "buffer": false,
-      "escape": false,
+      "mustEscape": false,
       "isInline": false,
       "line": 11,
       "filename": "each.else.tokens.json"
@@ -123,6 +124,7 @@
                   "type": "Each",
                   "obj": "users",
                   "val": "user",
+                  "key": null,
                   "block": {
                     "type": "Block",
                     "nodes": [
@@ -137,7 +139,7 @@
                               "type": "Code",
                               "val": "user.name",
                               "buffer": true,
-                              "escape": true,
+                              "mustEscape": true,
                               "isInline": true,
                               "line": 16,
                               "filename": "each.else.tokens.json"
@@ -158,7 +160,7 @@
                   },
                   "line": 15,
                   "filename": "each.else.tokens.json",
-                  "alternative": {
+                  "alternate": {
                     "type": "Block",
                     "nodes": [
                       {
@@ -211,7 +213,7 @@
       "type": "Code",
       "val": "var user = { name: 'tobi', age: 10 }",
       "buffer": false,
-      "escape": false,
+      "mustEscape": false,
       "isInline": false,
       "line": 20,
       "filename": "each.else.tokens.json"
@@ -242,7 +244,7 @@
                         "type": "Code",
                         "val": "key",
                         "buffer": true,
-                        "escape": true,
+                        "mustEscape": true,
                         "isInline": true,
                         "line": 24,
                         "filename": "each.else.tokens.json"
@@ -257,7 +259,7 @@
                         "type": "Code",
                         "val": "val",
                         "buffer": true,
-                        "escape": true,
+                        "mustEscape": true,
                         "isInline": true,
                         "line": 24,
                         "filename": "each.else.tokens.json"
@@ -278,7 +280,7 @@
             },
             "line": 23,
             "filename": "each.else.tokens.json",
-            "alternative": {
+            "alternate": {
               "type": "Block",
               "nodes": [
                 {
@@ -323,7 +325,7 @@
       "type": "Code",
       "val": "var user = {}",
       "buffer": false,
-      "escape": false,
+      "mustEscape": false,
       "isInline": false,
       "line": 28,
       "filename": "each.else.tokens.json"
@@ -354,7 +356,7 @@
                         "type": "Code",
                         "val": "key",
                         "buffer": true,
-                        "escape": true,
+                        "mustEscape": true,
                         "isInline": true,
                         "line": 32,
                         "filename": "each.else.tokens.json"
@@ -369,7 +371,7 @@
                         "type": "Code",
                         "val": "val",
                         "buffer": true,
-                        "escape": true,
+                        "mustEscape": true,
                         "isInline": true,
                         "line": 32,
                         "filename": "each.else.tokens.json"
@@ -390,7 +392,7 @@
             },
             "line": 31,
             "filename": "each.else.tokens.json",
-            "alternative": {
+            "alternate": {
               "type": "Block",
               "nodes": [
                 {
@@ -435,7 +437,7 @@
       "type": "Code",
       "val": "var user = Object.create(null)",
       "buffer": false,
-      "escape": false,
+      "mustEscape": false,
       "isInline": false,
       "line": 36,
       "filename": "each.else.tokens.json"
@@ -444,7 +446,7 @@
       "type": "Code",
       "val": "user.name = 'tobi'",
       "buffer": false,
-      "escape": false,
+      "mustEscape": false,
       "isInline": false,
       "line": 37,
       "filename": "each.else.tokens.json"
@@ -475,7 +477,7 @@
                         "type": "Code",
                         "val": "key",
                         "buffer": true,
-                        "escape": true,
+                        "mustEscape": true,
                         "isInline": true,
                         "line": 41,
                         "filename": "each.else.tokens.json"
@@ -490,7 +492,7 @@
                         "type": "Code",
                         "val": "val",
                         "buffer": true,
-                        "escape": true,
+                        "mustEscape": true,
                         "isInline": true,
                         "line": 41,
                         "filename": "each.else.tokens.json"
@@ -511,7 +513,7 @@
             },
             "line": 40,
             "filename": "each.else.tokens.json",
-            "alternative": {
+            "alternate": {
               "type": "Block",
               "nodes": [
                 {
