@@ -1,5 +1,6 @@
 'use strict';
 
+var assert = require('assert');
 var path = require('path');
 var TokenStream = require('token-stream');
 var inlineTags = require('./lib/inline-tags');
@@ -263,7 +264,7 @@ Parser.prototype = {
               type: 'Code',
               val: tok.val,
               buffer: tok.buffer,
-              mustEscape: tok.mustEscape !== undefined ? tok.mustEscape : tok.escape,
+              mustEscape: tok.mustEscape !== false,
               isInline: true,
               line: tok.line,
               filename: this.filename
@@ -430,11 +431,12 @@ Parser.prototype = {
 
   parseCode: function(noBlock){
     var tok = this.expect('code');
+    assert(typeof tok.mustEscape === 'boolean', 'Please update to the newest version of jade-lexer.');
     var node = {
       type: 'Code',
       val: tok.val,
       buffer: tok.buffer,
-      mustEscape: tok.mustEscape !== undefined ? tok.mustEscape : tok.escape,
+      mustEscape: tok.mustEscape !== false,
       isInline: !!noBlock,
       line: tok.line,
       filename: this.filename
@@ -865,7 +867,7 @@ Parser.prototype = {
             type: 'Code',
             val: tok.val,
             buffer: tok.buffer,
-            mustEscape: tok.mustEscape !== undefined ? tok.mustEscape : tok.escape,
+            mustEscape: tok.mustEscape !== false,
             isInline: true,
             line: tok.line,
             filename: this.filename
@@ -1057,7 +1059,7 @@ Parser.prototype = {
       attrs.push({
         name: tok.name,
         val: tok.val,
-        mustEscape: tok.mustEscape !== undefined ? tok.mustEscape : tok.escaped
+        mustEscape: tok.mustEscape !== false
       });
       tok = this.advance();
     }
