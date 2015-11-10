@@ -759,10 +759,7 @@ Parser.prototype = {
       node.type = 'RawInclude';
       node.filters = filters;
       if (this.peek().type === 'indent') {
-        // If there is a block, just ignore it.
-        this.block();
-        // TODO: make this a warning
-        // this.error('Raw inclusion cannot contain a block; block ignored', 'RAW_INCLUDE_BLOCK', this.peek());
+        this.error('Raw inclusion cannot contain a block', 'RAW_INCLUDE_BLOCK', this.peek());
       }
     }
     return node;
