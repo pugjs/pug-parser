@@ -604,31 +604,32 @@ Parser.prototype = {
   },
 
   parseIncludeFilter: function() {
-    var filter = this.parseFilter(true);
-    filter.type = 'IncludeFilter';
-    return filter;
+    var tok = this.expect('filter');
+    var attrs = [];
+
+    if (this.peek().type === 'start-attributes') {
+      attrs = this.attrs();
+    }
+
+    return {
+      type: 'IncludeFilter',
+      name: tok.val,
+      attrs: attrs,
+      line: tok.line,
+      filename: this.filename
+    };
   },
 
   /**
    * filter attrs? text-block
    */
 
-  parseFilter: function(noBlock){
+  parseFilter: function(){
     var tok = this.expect('filter');
     var block, attrs = [];
 
     if (this.peek().type === 'start-attributes') {
       attrs = this.attrs();
-    }
-
-    if (noBlock) {
-      return {
-        type: 'Filter',
-        name: tok.val,
-        attrs: attrs,
-        line: tok.line,
-        filename: this.filename
-      };
     }
 
     if (this.peek().type === 'text') {
