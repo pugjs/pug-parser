@@ -753,12 +753,8 @@ Parser.prototype = {
 
     node.file.path = path.val.trim();
 
-    if (/\.jade$/.test(node.file.path)) {
+    if (/\.jade$/.test(node.file.path) && !filters.length) {
       node.block = 'indent' == this.peek().type ? this.block() : this.emptyBlock(tok.line);
-      if (filters.length) {
-        // TODO: make this a warning
-        // this.error('Jade inclusion cannot be filtered; filters ignored', 'JADE_INCLUDE_FILTER', path);
-      }
     } else {
       node.type = 'RawInclude';
       node.filters = filters;
