@@ -7,8 +7,8 @@ var inlineTags = require('./lib/inline-tags');
 
 module.exports = parse;
 module.exports.Parser = Parser;
-function parse(tokens, filename) {
-  var parser = new Parser(tokens, filename);
+function parse(tokens, filename, options) {
+  var parser = new Parser(tokens, filename, options);
   var ast = parser.parse();
   return JSON.parse(JSON.stringify(ast));
 };
@@ -22,10 +22,11 @@ function parse(tokens, filename) {
  * @api public
  */
 
-function Parser(tokens, filename){
+function Parser(tokens, filename, options) {
   this.tokens = new TokenStream(tokens);
   this.filename = filename;
   this.inMixin = 0;
+  this.plugins = options && options.plugins || [];
 };
 
 /**
@@ -152,6 +153,22 @@ Parser.prototype = {
     return this.initBlock(line, []);
   },
 
+  runPlugin: function(context, tok) {
+    var rest = [this];
+    for (var i = 2; i < arguments.length; i++) {
+      rest.push(arguments[i]);
+    }
+    var pluginContext;
+    for (var i = 0; i < this.plugins.length; i++) {
+      var plugin = this.plugins[i];
+      if (plugin[context] && plugin[context][tok.type]) {
+        if (pluginContext) throw new Error('Multiple plugin handlers found for context ' + JSON.stringify(context) + ', token type ' + JSON.stringify(tok.type));
+        pluginContext = plugin[context];
+      }
+    }
+    if (pluginContext) return pluginContext[tok.type].apply(pluginContext, rest);
+  },
+
   /**
    *   tag
    * | doctype
@@ -226,6 +243,8 @@ Parser.prototype = {
         });
         return this.parseExpr();
       default:
+        var pluginResult = this.runPlugin('expressionTokens', this.peek());
+        if (pluginResult) return pluginResult;
         this.error('INVALID_TOKEN', 'unexpected token "' + this.peek().type + '"', this.peek());
     }
   },
@@ -242,10 +261,10 @@ Parser.prototype = {
   parseText: function(options){
     var tags = [];
     var lineno = this.peek().line;
-    var tokType = this.peek().type;
+    var nextTok = this.peek();
     loop:
       while (true) {
-        switch (tokType) {
+        switch (nextTok.type) {
           case 'text':
             var tok = this.advance();
             tags.push({
@@ -285,9 +304,11 @@ Parser.prototype = {
             this.expect('end-jade-interpolation');
             break;
           default:
+            var pluginResult = this.runPlugin('textTokens', nextTok, tags);
+            if (pluginResult) break;
             break loop;
         }
-        tokType = this.peek().type;
+        nextTok = this.peek();
       }
     if (tags.length === 1) return tags[0];
     else return this.initBlock(lineno, tags);
@@ -369,6 +390,8 @@ Parser.prototype = {
           block.nodes.push(this.parseDefault());
           break;
         default:
+          var pluginResult = this.runPlugin('caseTokens', this.peek(), block);
+          if (pluginResult) break;
           this.error('INVALID_TOKEN', 'Unexpected token "' + this.peek().type
                           + '", expected "when", "default" or "newline"', this.peek());
       }
@@ -543,6 +566,11 @@ Parser.prototype = {
             text += '\n';
             break;
           default:
+            var pluginResult = this.runPlugin('blockCodeTokens', tok, tok);
+            if (pluginResult) {
+              text += pluginResult;
+              break;
+            }
             this.error('INVALID_TOKEN', 'Unexpected token type: ' + tok.type, tok);
         }
       }
@@ -864,6 +892,8 @@ Parser.prototype = {
           });
           break;
         default:
+          var pluginResult = this.runPlugin('textBlockTokens', tok, block, tok);
+          if (pluginResult) break;
           this.error('INVALID_TOKEN', 'Unexpected token type: ' + tok.type, tok);
       }
     }
@@ -973,6 +1003,8 @@ Parser.prototype = {
             tag.attributeBlocks.push(tok.val);
             break;
           default:
+            var pluginResult = this.runPlugin('tagAttributeTokens', this.peek(), tag, attributeNames);
+            if (pluginResult) break;
             break out;
         }
       }
@@ -1015,6 +1047,8 @@ Parser.prototype = {
           break;
         }
       default:
+        var pluginResult = this.runPlugin('tagTokens', this.peek(), tag, options);
+        if (pluginResult) break;
         this.error('INVALID_TOKEN', 'Unexpected token `' + this.peek().type + '` expected `text`, `interpolated-code`, `code`, `:`' + (selfClosingAllowed ? ', `slash`' : '') + ', `newline` or `eos`', this.peek())
     }
 
