@@ -1,12 +1,9 @@
 'use strict';
 
 var assert = require('assert');
-var path = require('path');
 var TokenStream = require('token-stream');
 var error = require('jade-error');
 var inlineTags = require('./lib/inline-tags');
-
-var extname = path.extname;
 
 module.exports = parse;
 module.exports.Parser = Parser;
@@ -102,7 +99,6 @@ Parser.prototype = {
       } else if ('text-html' == this.peek().type) {
         block.nodes = block.nodes.concat(this.parseTextHtml());
       } else {
-        var next = this.peek();
         var expr = this.parseExpr();
         if (expr) block.nodes.push(expr);
       }
@@ -533,7 +529,6 @@ Parser.prototype = {
 
   parseBlockCode: function(){
     var line = this.expect('blockcode').line;
-    var node;
     var body = this.peek();
     var text = '';
     if (body.type === 'start-pipeless-text') {
