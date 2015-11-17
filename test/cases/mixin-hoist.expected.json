@@ -60,12 +60,7 @@
                   "type": "Mixin",
                   "name": "foo",
                   "args": null,
-                  "block": {
-                    "type": "Block",
-                    "nodes": [],
-                    "line": 7,
-                    "filename": "mixin-hoist.tokens.json"
-                  },
+                  "block": null,
                   "call": true,
                   "attrs": [],
                   "attributeBlocks": [],
