@@ -384,13 +384,8 @@
           {
             "type": "Mixin",
             "name": "list",
-            "args": null,
-            "block": {
-              "type": "Block",
-              "nodes": [],
-              "line": 25,
-              "filename": "mixins.tokens.json"
-            },
+            "args": "",
+            "block": null,
             "call": true,
             "attrs": [],
             "attributeBlocks": [],
@@ -406,17 +401,6 @@
             "attrs": [],
             "attributeBlocks": [],
             "line": 26,
-            "filename": "mixins.tokens.json"
-          },
-          {
-            "type": "Mixin",
-            "name": "list",
-            "args": "",
-            "block": null,
-            "call": true,
-            "attrs": [],
-            "attributeBlocks": [],
-            "line": 27,
             "filename": "mixins.tokens.json"
           }
         ],
@@ -449,11 +433,11 @@
                   "buffer": true,
                   "mustEscape": true,
                   "isInline": true,
-                  "line": 30,
+                  "line": 29,
                   "filename": "mixins.tokens.json"
                 }
               ],
-              "line": 30,
+              "line": 29,
               "filename": "mixins.tokens.json"
             },
             "attrs": [
@@ -465,15 +449,15 @@
             ],
             "attributeBlocks": [],
             "isInline": false,
-            "line": 30,
+            "line": 29,
             "filename": "mixins.tokens.json"
           }
         ],
-        "line": 30,
+        "line": 29,
         "filename": "mixins.tokens.json"
       },
       "call": false,
-      "line": 29,
+      "line": 28,
       "filename": "mixins.tokens.json"
     },
     {
@@ -482,7 +466,7 @@
       "buffer": false,
       "mustEscape": false,
       "isInline": false,
-      "line": 32,
+      "line": 31,
       "filename": "mixins.tokens.json"
     },
     {
@@ -493,7 +477,7 @@
       "call": true,
       "attrs": [],
       "attributeBlocks": [],
-      "line": 33,
+      "line": 32,
       "filename": "mixins.tokens.json"
     }
   ],

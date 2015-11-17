@@ -285,6 +285,22 @@
             "isInline": true,
             "line": 16,
             "filename": "tags.self-closing.tokens.json"
+          },
+          {
+            "type": "InterpolatedTag",
+            "expr": "\n    'foo'\n  ",
+            "selfClosing": true,
+            "block": {
+              "type": "Block",
+              "nodes": [],
+              "line": 17,
+              "filename": "tags.self-closing.tokens.json"
+            },
+            "attrs": [],
+            "attributeBlocks": [],
+            "isInline": false,
+            "line": 17,
+            "filename": "tags.self-closing.tokens.json"
           }
         ],
         "line": 2,

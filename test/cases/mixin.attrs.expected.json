@@ -738,6 +738,125 @@
     },
     {
       "type": "Mixin",
+      "name": "my-mixin",
+      "args": "arg1, arg2, arg3, arg4",
+      "block": {
+        "type": "Block",
+        "nodes": [
+          {
+            "type": "Tag",
+            "name": "p",
+            "selfClosing": false,
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Code",
+                  "val": "arg1",
+                  "buffer": true,
+                  "mustEscape": true,
+                  "isInline": true,
+                  "line": 44,
+                  "filename": "mixin.attrs.tokens.json"
+                }
+              ],
+              "line": 44,
+              "filename": "mixin.attrs.tokens.json"
+            },
+            "attrs": [],
+            "attributeBlocks": [],
+            "isInline": false,
+            "line": 44,
+            "filename": "mixin.attrs.tokens.json"
+          },
+          {
+            "type": "Tag",
+            "name": "p",
+            "selfClosing": false,
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Code",
+                  "val": "arg2",
+                  "buffer": true,
+                  "mustEscape": true,
+                  "isInline": true,
+                  "line": 45,
+                  "filename": "mixin.attrs.tokens.json"
+                }
+              ],
+              "line": 45,
+              "filename": "mixin.attrs.tokens.json"
+            },
+            "attrs": [],
+            "attributeBlocks": [],
+            "isInline": false,
+            "line": 45,
+            "filename": "mixin.attrs.tokens.json"
+          },
+          {
+            "type": "Tag",
+            "name": "p",
+            "selfClosing": false,
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Code",
+                  "val": "arg3",
+                  "buffer": true,
+                  "mustEscape": true,
+                  "isInline": true,
+                  "line": 46,
+                  "filename": "mixin.attrs.tokens.json"
+                }
+              ],
+              "line": 46,
+              "filename": "mixin.attrs.tokens.json"
+            },
+            "attrs": [],
+            "attributeBlocks": [],
+            "isInline": false,
+            "line": 46,
+            "filename": "mixin.attrs.tokens.json"
+          },
+          {
+            "type": "Tag",
+            "name": "p",
+            "selfClosing": false,
+            "block": {
+              "type": "Block",
+              "nodes": [
+                {
+                  "type": "Code",
+                  "val": "arg4",
+                  "buffer": true,
+                  "mustEscape": true,
+                  "isInline": true,
+                  "line": 47,
+                  "filename": "mixin.attrs.tokens.json"
+                }
+              ],
+              "line": 47,
+              "filename": "mixin.attrs.tokens.json"
+            },
+            "attrs": [],
+            "attributeBlocks": [],
+            "isInline": false,
+            "line": 47,
+            "filename": "mixin.attrs.tokens.json"
+          }
+        ],
+        "line": 44,
+        "filename": "mixin.attrs.tokens.json"
+      },
+      "call": false,
+      "line": 43,
+      "filename": "mixin.attrs.tokens.json"
+    },
+    {
+      "type": "Mixin",
       "name": "foo",
       "args": null,
       "block": null,
@@ -755,18 +874,18 @@
         }
       ],
       "attributeBlocks": [],
-      "line": 43,
+      "line": 49,
       "filename": "mixin.attrs.tokens.json"
     },
     {
       "type": "Mixin",
       "name": "my-mixin",
-      "args": "\narg1,\n      arg2,\n  arg3,\n      arg4\n",
+      "args": "\n'1',\n      '2',\n  '3',\n      '4'\n",
       "block": null,
       "call": true,
       "attrs": [],
       "attributeBlocks": [],
-      "line": 48,
+      "line": 54,
       "filename": "mixin.attrs.tokens.json"
     }
   ],

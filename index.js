@@ -827,7 +827,6 @@ Parser.prototype = {
     var name = tok.val;
     var args = tok.args;
 
-    // definition
     if ('indent' == this.peek().type) {
       this.inMixin++;
       var mixin = {
@@ -841,21 +840,8 @@ Parser.prototype = {
       };
       this.inMixin--;
       return mixin;
-    // call
     } else {
-      console.warn('Deprecated method of calling mixins, use `+name` syntax (' +
-                   this.filename + ' line ' + tok.line + ')');
-      return {
-        type: 'Mixin',
-        name: name,
-        args: args,
-        block: this.emptyBlock(tok.line),
-        call: true,
-        attrs: [],
-        attributeBlocks: [],
-        line: tok.line,
-        filename: this.filename
-      };
+      this.error('MIXIN_WITHOUT_BODY', 'Mixin ' + name + ' declared without body', tok);
     }
   },
 

@@ -28,7 +28,7 @@
                   "filters": [
                     {
                       "type": "IncludeFilter",
-                      "name": "marked",
+                      "name": "markdown-it",
                       "attrs": [],
                       "line": 3,
                       "filename": "include-filter.tokens.json"
