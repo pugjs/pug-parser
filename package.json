@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "get-repo": "^1.0.0",
-    "istanbul": "^0.3.4"
+    "istanbul": "*"
   },
   "scripts": {
     "update-test-cases": "node test/update-test-cases",
