@@ -351,6 +351,10 @@ loop:
             }
           });
           break;
+        case 'code':
+          currentNode = null;
+          nodes.push(this.parseCode(true));
+          break;
         case 'newline':
           this.advance();
           break;
