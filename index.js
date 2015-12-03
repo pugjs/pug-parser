@@ -317,37 +317,45 @@ Parser.prototype = {
   parseTextHtml: function () {
     var nodes = [];
     var currentNode = null;
-    while (this.peek().type === 'text-html') {
-      var text = this.advance();
-      if (!currentNode) {
-        currentNode = {
-          type: 'Text',
-          val: text.val,
-          filename: this.filename,
-          line: text.line,
-          isHtml: true
-        };
-        nodes.push(currentNode);
-      } else {
-        currentNode.val += '\n' + text.val;
-      }
-      if (this.peek().type === 'indent') {
-        var block = this.block();
-        block.nodes.forEach(function (node) {
-          if (node.isHtml) {
-            if (!currentNode) {
-              currentNode = node;
-              nodes.push(currentNode);
-            } else {
-              currentNode.val += '\n' + node.val;
-            }
+loop:
+    while (true) {
+      switch (this.peek().type) {
+        case 'text-html':
+          var text = this.advance();
+          if (!currentNode) {
+            currentNode = {
+              type: 'Text',
+              val: text.val,
+              filename: this.filename,
+              line: text.line,
+              isHtml: true
+            };
+            nodes.push(currentNode);
           } else {
-            currentNode = null;
-            nodes.push(node);
+            currentNode.val += '\n' + text.val;
           }
-        });
-      } else if (this.peek().type === 'newline') {
-        this.advance();
+          break;
+        case 'indent':
+          var block = this.block();
+          block.nodes.forEach(function (node) {
+            if (node.isHtml) {
+              if (!currentNode) {
+                currentNode = node;
+                nodes.push(currentNode);
+              } else {
+                currentNode.val += '\n' + node.val;
+              }
+            } else {
+              currentNode = null;
+              nodes.push(node);
+            }
+          });
+          break;
+        case 'newline':
+          this.advance();
+          break;
+        default:
+          break loop;
       }
     }
     return nodes;
