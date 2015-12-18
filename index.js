@@ -181,7 +181,6 @@ Parser.prototype = {
    * | dot
    * | each
    * | code
-   * | yield
    * | id
    * | class
    * | interpolation
@@ -231,8 +230,6 @@ Parser.prototype = {
         return this.parseCall();
       case 'interpolation':
         return this.parseInterpolation();
-      case 'yield':
-        return this.parseYield();
       case 'id':
       case 'class':
         this.tokens.defer({
@@ -760,10 +757,6 @@ loop:
     return {type: 'MixinBlock', line: tok.line, filename: this.filename};
   },
 
-  parseYield: function() {
-    var tok = this.expect('yield');
-    return {type: 'YieldBlock', line: tok.line, filename: this.filename};
-  },
 
   /**
    * include block?
