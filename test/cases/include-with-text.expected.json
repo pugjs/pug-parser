@@ -14,7 +14,7 @@
               "type": "FileReference",
               "line": 2,
               "filename": "include-with-text.tokens.json",
-              "path": "include-with-text-head.jade"
+              "path": "include-with-text-head.pug"
             },
             "line": 2,
             "filename": "include-with-text.tokens.json",

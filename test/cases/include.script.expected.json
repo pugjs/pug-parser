@@ -14,7 +14,7 @@
               "type": "FileReference",
               "line": 2,
               "filename": "include.script.tokens.json",
-              "path": "auxiliary/pet.jade"
+              "path": "auxiliary/pet.pug"
             },
             "line": 2,
             "filename": "include.script.tokens.json",

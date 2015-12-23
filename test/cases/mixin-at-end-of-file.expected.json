@@ -7,7 +7,7 @@
         "type": "FileReference",
         "line": 1,
         "filename": "mixin-at-end-of-file.tokens.json",
-        "path": "./auxiliary/mixin-at-end-of-file.jade"
+        "path": "./auxiliary/mixin-at-end-of-file.pug"
       },
       "line": 1,
       "filename": "mixin-at-end-of-file.tokens.json",

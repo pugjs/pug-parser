@@ -5,7 +5,7 @@
       "type": "Extends",
       "file": {
         "type": "FileReference",
-        "path": "/auxiliary/inheritance.extend.recursive-parent.jade",
+        "path": "/auxiliary/inheritance.extend.recursive-parent.pug",
         "line": 1,
         "filename": "inheritance.extend.recursive.tokens.json"
       },

@@ -5,7 +5,7 @@
       "type": "Extends",
       "file": {
         "type": "FileReference",
-        "path": "./auxiliary/1794-extends.jade",
+        "path": "./auxiliary/1794-extends.pug",
         "line": 1,
         "filename": "regression.1794.tokens.json"
       },
@@ -21,7 +21,7 @@
             "type": "FileReference",
             "line": 4,
             "filename": "regression.1794.tokens.json",
-            "path": "./auxiliary/1794-include.jade"
+            "path": "./auxiliary/1794-include.pug"
           },
           "line": 4,
           "filename": "regression.1794.tokens.json",

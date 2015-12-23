@@ -2,7 +2,7 @@
 
 var assert = require('assert');
 var TokenStream = require('token-stream');
-var error = require('jade-error');
+var error = require('pug-error');
 var inlineTags = require('./lib/inline-tags');
 
 module.exports = parse;
@@ -211,7 +211,7 @@ Parser.prototype = {
         return this.parseComment();
       case 'text':
       case 'interpolated-code':
-      case 'start-jade-interpolation':
+      case 'start-pug-interpolation':
         return this.parseText({block: true});
       case 'text-html':
         return this.initBlock(this.peek().line, this.parseTextHtml());
@@ -298,10 +298,10 @@ Parser.prototype = {
               });
             }
             break;
-          case 'start-jade-interpolation':
+          case 'start-pug-interpolation':
             this.advance();
             tags.push(this.parseExpr());
-            this.expect('end-jade-interpolation');
+            this.expect('end-pug-interpolation');
             break;
           default:
             var pluginResult = this.runPlugin('textTokens', nextTok, tags);
@@ -463,7 +463,7 @@ loop:
 
   parseCode: function(noBlock){
     var tok = this.expect('code');
-    assert(typeof tok.mustEscape === 'boolean', 'Please update to the newest version of jade-lexer.');
+    assert(typeof tok.mustEscape === 'boolean', 'Please update to the newest version of pug-lexer.');
     var node = {
       type: 'Code',
       val: tok.val,
@@ -789,7 +789,7 @@ loop:
 
     node.file.path = path.val.trim();
 
-    if (/\.jade$/.test(node.file.path) && !filters.length) {
+    if (/\.pug$/.test(node.file.path) && !filters.length) {
       node.block = 'indent' == this.peek().type ? this.block() : this.emptyBlock(tok.line);
     } else {
       node.type = 'RawInclude';
@@ -874,9 +874,9 @@ loop:
         case 'newline':
           block.nodes.push({type: 'Text', val: '\n', line: tok.line});
           break;
-        case 'start-jade-interpolation':
+        case 'start-pug-interpolation':
           block.nodes.push(this.parseExpr());
-          this.expect('end-jade-interpolation');
+          this.expect('end-pug-interpolation');
           break;
         case 'interpolated-code':
           block.nodes.push({
@@ -991,7 +991,7 @@ loop:
             continue;
           case 'start-attributes':
             if (seenAttrs) {
-              console.warn(this.filename + ', line ' + this.peek().line + ':\nYou should not have jade tags with multiple attributes.');
+              console.warn(this.filename + ', line ' + this.peek().line + ':\nYou should not have pug tags with multiple attributes.');
             }
             seenAttrs = true;
             tag.attrs = tag.attrs.concat(this.attrs(attributeNames));
@@ -1036,7 +1036,7 @@ loop:
       case 'outdent':
       case 'eos':
       case 'start-pipeless-text':
-      case 'end-jade-interpolation':
+      case 'end-pug-interpolation':
         break;
       case 'slash':
         if (selfClosingAllowed) {

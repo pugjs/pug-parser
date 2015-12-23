@@ -5,7 +5,7 @@
       "type": "Extends",
       "file": {
         "type": "FileReference",
-        "path": "auxiliary/layout.jade",
+        "path": "auxiliary/layout.pug",
         "line": 2,
         "filename": "inheritance.tokens.json"
       },

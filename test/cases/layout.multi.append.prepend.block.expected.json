@@ -5,7 +5,7 @@
       "type": "Extends",
       "file": {
         "type": "FileReference",
-        "path": "../fixtures/multi-append-prepend-block/redefine.jade",
+        "path": "../fixtures/multi-append-prepend-block/redefine.pug",
         "line": 1,
         "filename": "layout.multi.append.prepend.block.tokens.json"
       },

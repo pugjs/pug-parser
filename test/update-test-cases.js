@@ -13,7 +13,7 @@ function parseNewlineJson(str) {
   return str.split('\n').filter(Boolean).map(JSON.parse)
 }
 
-getRepo('jadejs', 'jade-lexer').on('data', function (entry) {
+getRepo('pugjs', 'pug-lexer').on('data', function (entry) {
   var match;
   if (entry.type === 'File' && (match = /^\/test\/cases\/(.*)\.expected\.json$/.exec(entry.path))) {
     var name = match[1];
