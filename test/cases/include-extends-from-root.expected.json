@@ -7,7 +7,7 @@
         "type": "FileReference",
         "line": 1,
         "filename": "include-extends-from-root.tokens.json",
-        "path": "/auxiliary/extends-from-root.jade"
+        "path": "/auxiliary/extends-from-root.pug"
       },
       "line": 1,
       "filename": "include-extends-from-root.tokens.json",

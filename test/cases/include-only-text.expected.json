@@ -28,7 +28,7 @@
                           "type": "FileReference",
                           "line": 4,
                           "filename": "include-only-text.tokens.json",
-                          "path": "include-only-text-body.jade"
+                          "path": "include-only-text-body.pug"
                         },
                         "line": 4,
                         "filename": "include-only-text.tokens.json",

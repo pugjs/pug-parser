@@ -7,7 +7,7 @@
         "type": "FileReference",
         "line": 2,
         "filename": "includes.tokens.json",
-        "path": "auxiliary/mixins.jade"
+        "path": "auxiliary/mixins.pug"
       },
       "line": 2,
       "filename": "includes.tokens.json",

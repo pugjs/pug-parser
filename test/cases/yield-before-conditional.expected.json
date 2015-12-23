@@ -21,7 +21,7 @@
                     "type": "FileReference",
                     "line": 3,
                     "filename": "yield-before-conditional.tokens.json",
-                    "path": "yield-before-conditional-head.jade"
+                    "path": "yield-before-conditional-head.pug"
                   },
                   "line": 3,
                   "filename": "yield-before-conditional.tokens.json",

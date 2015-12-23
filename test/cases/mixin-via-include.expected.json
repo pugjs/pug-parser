@@ -3,7 +3,7 @@
   "nodes": [
     {
       "type": "Comment",
-      "val": " regression test for https://github.com/jadejs/jade/issues/1435",
+      "val": " regression test for https://github.com/pugjs/pug/issues/1435",
       "buffer": false,
       "line": 1,
       "filename": "mixin-via-include.tokens.json"
@@ -14,7 +14,7 @@
         "type": "FileReference",
         "line": 3,
         "filename": "mixin-via-include.tokens.json",
-        "path": "../fixtures/mixin-include.jade"
+        "path": "../fixtures/mixin-include.pug"
       },
       "line": 3,
       "filename": "mixin-via-include.tokens.json",

@@ -3,7 +3,7 @@
   "nodes": [
     {
       "type": "Comment",
-      "val": " see https://github.com/jadejs/jade/issues/1589",
+      "val": " see https://github.com/pugjs/pug/issues/1589",
       "buffer": false,
       "line": 1,
       "filename": "blocks-in-if.tokens.json"

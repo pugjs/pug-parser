@@ -7,7 +7,7 @@
         "type": "FileReference",
         "line": 2,
         "filename": "include.yield.nested.tokens.json",
-        "path": "auxiliary/yield-nested.jade"
+        "path": "auxiliary/yield-nested.pug"
       },
       "line": 2,
       "filename": "include.yield.nested.tokens.json",

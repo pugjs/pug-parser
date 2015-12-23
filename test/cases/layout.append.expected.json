@@ -5,7 +5,7 @@
       "type": "Extends",
       "file": {
         "type": "FileReference",
-        "path": "../fixtures/append/app-layout.jade",
+        "path": "../fixtures/append/app-layout.pug",
         "line": 2,
         "filename": "layout.append.tokens.json"
       },

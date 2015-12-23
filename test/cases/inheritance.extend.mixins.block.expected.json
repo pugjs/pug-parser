@@ -5,7 +5,7 @@
       "type": "Extends",
       "file": {
         "type": "FileReference",
-        "path": "auxiliary/inheritance.extend.mixin.block.jade",
+        "path": "auxiliary/inheritance.extend.mixin.block.pug",
         "line": 1,
         "filename": "inheritance.extend.mixins.block.tokens.json"
       },

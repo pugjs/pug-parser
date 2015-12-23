@@ -32,7 +32,7 @@
     },
     {
       "type": "Comment",
-      "val": " test/cases/comments.source.jade",
+      "val": " test/cases/comments.source.pug",
       "buffer": false,
       "line": 4,
       "filename": "comments.source.tokens.json"
@@ -45,7 +45,7 @@
         "nodes": [
           {
             "type": "Text",
-            "val": "test/cases/comments.source.jade",
+            "val": "test/cases/comments.source.pug",
             "line": 7
           },
           {
