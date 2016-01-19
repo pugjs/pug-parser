@@ -340,6 +340,28 @@
       "isInline": false,
       "line": 17,
       "filename": "attrs.js.tokens.json"
+    },
+    {
+      "type": "Tag",
+      "name": "a",
+      "selfClosing": false,
+      "block": {
+        "type": "Block",
+        "nodes": [],
+        "line": 19,
+        "filename": "attrs.js.tokens.json"
+      },
+      "attrs": [
+        {
+          "name": "href",
+          "val": "`${42}/${42}`",
+          "mustEscape": true
+        }
+      ],
+      "attributeBlocks": [],
+      "isInline": true,
+      "line": 19,
+      "filename": "attrs.js.tokens.json"
     }
   ],
   "line": 0,
