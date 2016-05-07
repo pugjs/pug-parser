@@ -7,7 +7,8 @@ var inlineTags = require('./lib/inline-tags');
 
 module.exports = parse;
 module.exports.Parser = Parser;
-function parse(tokens, filename, options) {
+function parse(tokens, filename, options, inlineAsBlock) {
+  inlineTags = (inlineAsBlock === true) ? [] : inlineTags;
   var parser = new Parser(tokens, filename, options);
   var ast = parser.parse();
   return JSON.parse(JSON.stringify(ast));
