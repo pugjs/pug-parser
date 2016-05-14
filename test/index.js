@@ -23,7 +23,7 @@ function write(path, body) {
 testCases.forEach(function (filename) {
   console.dir(filename);
   var expectedAst = JSON.parse(read(filename.replace(/\.tokens\.json$/, '.expected.json')));
-  var actualAst = parse(parseNewlineJson(read(filename)), filename);
+  var actualAst = parse(parseNewlineJson(read(filename)), {filename: filename});
   write(filename.replace(/\.tokens\.json$/, '.actual.json'), JSON.stringify(actualAst, null, '  '));
   assert.deepEqual(actualAst, expectedAst);
 });

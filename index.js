@@ -7,8 +7,8 @@ var inlineTags = require('./lib/inline-tags');
 
 module.exports = parse;
 module.exports.Parser = Parser;
-function parse(tokens, filename, options) {
-  var parser = new Parser(tokens, filename, options);
+function parse(tokens, options) {
+  var parser = new Parser(tokens, options);
   var ast = parser.parse();
   return JSON.parse(JSON.stringify(ast));
 };
@@ -22,11 +22,19 @@ function parse(tokens, filename, options) {
  * @api public
  */
 
-function Parser(tokens, filename, options) {
+function Parser(tokens, options) {
+  options = options || {};
+  if (!Array.isArray(tokens)) {
+    throw new Error('Expected tokens to be an Array but got "' + (typeof tokens) + '"');
+  }
+  if (typeof options !== 'object') {
+    throw new Error('Expected "options" to be an object but got "' + (typeof options) + '"');
+  }
   this.tokens = new TokenStream(tokens);
-  this.filename = filename;
+  this.filename = options.filename;
+  this.src = options.src;
   this.inMixin = 0;
-  this.plugins = options && options.plugins || [];
+  this.plugins = options.plugins || [];
 };
 
 /**
@@ -45,7 +53,8 @@ Parser.prototype = {
     var err = error(code, message, {
       line: token.line,
       column: token.col,
-      filename: this.filename
+      filename: this.filename,
+      src: this.src
     });
     throw err;
   },

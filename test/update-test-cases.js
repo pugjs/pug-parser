@@ -35,7 +35,7 @@ getRepo('pugjs', 'pug-lexer').on('data', function (entry) {
         console.log('update: ' + filename);
         fs.writeFileSync(__dirname + '/cases/' + filename, entry.body);
       }
-      var actualAst = parse(parseNewlineJson(entry.body.toString('utf8')), filename);
+      var actualAst = parse(parseNewlineJson(entry.body.toString('utf8')), {filename: filename});
       try {
         var expectedAst = JSON.parse(fs.readFileSync(__dirname + '/cases/' + name + '.expected.json', 'utf8'));
         assert.deepEqual(actualAst, expectedAst);
@@ -47,7 +47,7 @@ getRepo('pugjs', 'pug-lexer').on('data', function (entry) {
       console.log('create: ' + filename);
       fs.writeFileSync(__dirname + '/cases/' + filename, entry.body);
       console.log('create: ' + name + '.expected.json');
-      var ast = parse(parseNewlineJson(entry.body.toString('utf8')), filename);
+      var ast = parse(parseNewlineJson(entry.body.toString('utf8')), {filename: filename});
       fs.writeFileSync(__dirname + '/cases/' + name + '.expected.json', JSON.stringify(ast, null, '  '));
     }
   }
