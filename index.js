@@ -789,8 +789,14 @@ loop:
 
     node.file.path = path.val.trim();
 
-    if (/\.pug$/.test(node.file.path) && !filters.length) {
+    if ((/\.jade$/.test(node.file.path) || /\.pug$/.test(node.file.path)) && !filters.length) {
       node.block = 'indent' == this.peek().type ? this.block() : this.emptyBlock(tok.line);
+      if (/\.jade$/.test(node.file.path)) {
+        console.warn(
+          this.filename + ', line ' + tok.line +
+          ':\nThe .jade extension is deprecated, use .pug for "' + node.file.path +'".'
+        );
+      }
     } else {
       node.type = 'RawInclude';
       node.filters = filters;
