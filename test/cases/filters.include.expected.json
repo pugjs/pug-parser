@@ -20,18 +20,18 @@
                   "file": {
                     "type": "FileReference",
                     "line": 3,
-                    "filename": "include-filter.tokens.json",
+                    "filename": "filters.include.tokens.json",
                     "path": "some.md"
                   },
                   "line": 3,
-                  "filename": "include-filter.tokens.json",
+                  "filename": "filters.include.tokens.json",
                   "filters": [
                     {
                       "type": "IncludeFilter",
                       "name": "markdown-it",
                       "attrs": [],
                       "line": 3,
-                      "filename": "include-filter.tokens.json"
+                      "filename": "filters.include.tokens.json"
                     }
                   ]
                 },
@@ -47,11 +47,11 @@
                         "file": {
                           "type": "FileReference",
                           "line": 5,
-                          "filename": "include-filter.tokens.json",
+                          "filename": "filters.include.tokens.json",
                           "path": "include-filter-coffee.coffee"
                         },
                         "line": 5,
-                        "filename": "include-filter.tokens.json",
+                        "filename": "filters.include.tokens.json",
                         "filters": [
                           {
                             "type": "IncludeFilter",
@@ -64,19 +64,19 @@
                               }
                             ],
                             "line": 5,
-                            "filename": "include-filter.tokens.json"
+                            "filename": "filters.include.tokens.json"
                           }
                         ]
                       }
                     ],
                     "line": 4,
-                    "filename": "include-filter.tokens.json"
+                    "filename": "filters.include.tokens.json"
                   },
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
                   "line": 4,
-                  "filename": "include-filter.tokens.json"
+                  "filename": "filters.include.tokens.json"
                 },
                 {
                   "type": "Tag",
@@ -90,11 +90,11 @@
                         "file": {
                           "type": "FileReference",
                           "line": 7,
-                          "filename": "include-filter.tokens.json",
+                          "filename": "filters.include.tokens.json",
                           "path": "include-filter-coffee.coffee"
                         },
                         "line": 7,
-                        "filename": "include-filter.tokens.json",
+                        "filename": "filters.include.tokens.json",
                         "filters": [
                           {
                             "type": "IncludeFilter",
@@ -107,41 +107,41 @@
                               }
                             ],
                             "line": 7,
-                            "filename": "include-filter.tokens.json"
+                            "filename": "filters.include.tokens.json"
                           }
                         ]
                       }
                     ],
                     "line": 6,
-                    "filename": "include-filter.tokens.json"
+                    "filename": "filters.include.tokens.json"
                   },
                   "attrs": [],
                   "attributeBlocks": [],
                   "isInline": false,
                   "line": 6,
-                  "filename": "include-filter.tokens.json"
+                  "filename": "filters.include.tokens.json"
                 }
               ],
               "line": 2,
-              "filename": "include-filter.tokens.json"
+              "filename": "filters.include.tokens.json"
             },
             "attrs": [],
             "attributeBlocks": [],
             "isInline": false,
             "line": 2,
-            "filename": "include-filter.tokens.json"
+            "filename": "filters.include.tokens.json"
           }
         ],
         "line": 1,
-        "filename": "include-filter.tokens.json"
+        "filename": "filters.include.tokens.json"
       },
       "attrs": [],
       "attributeBlocks": [],
       "isInline": false,
       "line": 1,
-      "filename": "include-filter.tokens.json"
+      "filename": "filters.include.tokens.json"
     }
   ],
   "line": 0,
-  "filename": "include-filter.tokens.json"
+  "filename": "filters.include.tokens.json"
 }
